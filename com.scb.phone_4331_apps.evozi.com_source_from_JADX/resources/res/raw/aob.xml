@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="13dp">
+    <TextView id="@+id/switch_text_view" layout_width="wrap_content" layout_height="wrap_content" text="@string/quick_top_up_turn_off" layout_alignParentLeft="true" layout_marginStart="12dp" layout_toStartOf="@+id/quick_top_up_switch" layout_alignParentStart="true" style="@style/2131821020"/>
+    <TextView id="@+id/switch_description_text_view" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="13dp" text="@string/switch_on_description" layout_below="@+id/switch_text_view" layout_alignParentLeft="true" layout_marginStart="12dp" layout_toStartOf="@+id/quick_top_up_switch" layout_alignParentStart="true" style="@style/2131821062"/>
+    <androidx.appcompat.widget.SwitchCompat theme="@style/2131820776" id="@+id/quick_top_up_switch" focusable="false" focusableInTouchMode="false" clickable="false" layout_width="wrap_content" layout_height="wrap_content" checked="true" layout_alignParentRight="true" layout_marginEnd="12dp" layout_alignParentEnd="true"/>
+    <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp" layout_alignParentBottom="true"/>
+</RelativeLayout>

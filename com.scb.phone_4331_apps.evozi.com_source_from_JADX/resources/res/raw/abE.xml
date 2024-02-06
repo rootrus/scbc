@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/root_view" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <include layout="@layout/2131493731"/>
+        <LinearLayout orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+            <ImageView id="@+id/iv_friends_header" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" scaleType="centerCrop" adjustViewBounds="true"/>
+            <TextView layout_gravity="center_horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" text="@string/invite_friends_referral_code_header" style="@style/2131820985"/>
+            <TextView layout_gravity="center_horizontal" id="@+id/tv_ref_code" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" textAlignment="center" style="@style/2131821099"/>
+            <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="wrap_content">
+                <Button id="@+id/btn_copy" layout_width="0dp" layout_height="wrap_content" layout_marginBottom="24dp" text="@string/invite_friends_copy" layout_marginStart="16dp" layout_marginEnd="8dp" NOT_FOUND_0x10="0" NOT_FOUND_0x12="@+id/btn_share" NOT_FOUND_0x14="0" style="@style/2131820806"/>
+                <Button id="@+id/btn_share" layout_width="0dp" layout_height="wrap_content" text="@string/invite_friends_share" layout_marginStart="8dp" layout_marginEnd="16dp" NOT_FOUND_0x10="@+id/btn_copy" NOT_FOUND_0x11="0" NOT_FOUND_0x13="@+id/btn_copy" NOT_FOUND_0x15="@+id/btn_copy" style="@style/2131820837"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+        <TextView layout_gravity="center_horizontal" id="@+id/tv_terms_and_conditions" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/invite_friends_terms_and_cons" style="@style/2131821094"/>
+    </LinearLayout>
+</ScrollView>

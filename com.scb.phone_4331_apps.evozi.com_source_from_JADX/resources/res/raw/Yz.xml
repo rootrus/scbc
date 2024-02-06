@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" id="@+id/layout_overdraft_status" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+        <View style="@style/2131821259"/>
+        <RelativeLayout background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+            <com.scb.phone.view.custom.common.CustomHorizontalProgressBar id="@+id/custom_progress_bar_overdraft_status" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="@string/deposit_detail_overdraft_status_available_balance" NOT_FOUND_0x1a="@drawable/card_red_yellow_progress_bar" NOT_FOUND_0x1b="@string/deposit_detail_overdraft_status_total_limit" NOT_FOUND_0x1c="@color/2131099773" NOT_FOUND_0x1d="@color/2131099773" NOT_FOUND_0x1e="@string/deposit_detail_overdraft_status_limit_used"/>
+        </RelativeLayout>
+        <View style="@style/2131821259"/>
+        <View layout_width="match_parent" layout_height="16dp"/>
+    </LinearLayout>
+    <View style="@style/2131821259"/>
+    <LinearLayout orientation="vertical" background="#ffffff" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@+id/layout_collapsed" layout_width="match_parent" layout_height="wrap_content">
+            <Button id="@+id/export_statement_button" layout_width="wrap_content" layout_height="30dp" text="@string/account_summary_more_services" drawablePadding="8dp" drawableEnd="@drawable/ic_more_three_dots" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x18="@color/2131099905" NOT_FOUND_0x1f="0" style="@style/2131820806"/>
+            <ImageView id="@+id/expand_icon_image_view" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" src="@drawable/ic_expand_more_black_24dp" tint="#959199" layout_centerVertical="true" contentDescription="@null" layout_marginEnd="5dp" layout_alignParentEnd="true" NOT_FOUND_0x1f="0" NOT_FOUND_0x21="@+id/export_statement_button"/>
+            <TextView gravity="bottom" id="@+id/tv_account_type" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/deposit_detail_account_type" NOT_FOUND_0x22="0" style="@style/2131821062"/>
+            <TextView id="@+id/text_product_type" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" text="@string/deposit_longTerm" NOT_FOUND_0x20="0" NOT_FOUND_0x21="@+id/tv_account_type" style="@style/2131821015"/>
+            <TextView id="@+id/text_product_name" layout_width="wrap_content" layout_height="wrap_content" text="@string/account_summary_my_salary" NOT_FOUND_0x20="0" NOT_FOUND_0x21="@+id/text_product_type" style="@style/2131821060"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout orientation="vertical" id="@+id/layout_expanded" visibility="visible" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+            <View style="@style/2131821259"/>
+            <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/deposit_detail_account_name" style="@style/2131821060"/>
+            <TextView id="@+id/text_account_name" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" style="@style/2131821015"/>
+            <LinearLayout orientation="vertical" id="@+id/view_group_tenor_and_deposit_amount" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView id="@+id/text_tenor_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_tenor" style="@style/2131821060"/>
+                    <Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+                    <TextView layout_gravity="end" id="@+id/view_deposit_amount_key" layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_deposit_amount" style="@style/2131821060"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp">
+                    <TextView id="@+id/text_tenor" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+                    <Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+                    <TextView layout_gravity="end" id="@+id/text_deposit_amount" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/view_group_balance_and_available_balance" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_account_balance" style="@style/2131821060"/>
+                    <Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+                    <TextView layout_gravity="end" layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_available_balance" style="@style/2131821060"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp">
+                    <TextView id="@+id/text_account_balance" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+                    <Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+                    <TextView layout_gravity="end" id="@+id/text_available_balance" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/view_group_overdraft_limit" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_overdraft_limit" style="@style/2131821060"/>
+                    <Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+                    <TextView layout_gravity="end" layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_overdraft_limit_used" style="@style/2131821060"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp">
+                    <TextView id="@+id/text_overdraft_limit" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+                    <Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+                    <TextView id="@+id/text_overdraft_limit_used" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/view_group_interest_accrued" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+                <TextView id="@+id/text_overdraft_interest_accrued_title" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_overdraft_interest_accrued" style="@style/2131821060"/>
+                <TextView id="@+id/text_interest_accrued_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_interest_accrued" style="@style/2131821060"/>
+                <TextView id="@+id/text_interest_accrued" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/view_group_transfer_limits" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+                <View style="@style/2131821259"/>
+                <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/deposit_detail_transfer_limits" style="@style/2131820998"/>
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+                    <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_own_scb_accounts" style="@style/2131821060"/>
+                    <Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+                    <TextView layout_gravity="end" layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_other_scb_accounts" style="@style/2131821060"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp">
+                    <TextView id="@+id/text_transfer_own_scb_accounts" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+                    <Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+                    <TextView layout_gravity="end" id="@+id/text_transfer_other_scb_accounts" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+                    <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_other_bank_accounts" style="@style/2131821060"/>
+                    <Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+                    <TextView layout_gravity="end" layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_prompt_pay" style="@style/2131821060"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp">
+                    <TextView id="@+id/text_transfer_other_bank_accounts" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+                    <Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+                    <TextView layout_gravity="end" id="@+id/text_transfer_prompt_pay" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View style="@style/2131821259"/>
+</LinearLayout>

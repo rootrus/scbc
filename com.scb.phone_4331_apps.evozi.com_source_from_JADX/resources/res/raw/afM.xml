@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <include layout="@layout/2131494334"/>
+    <FrameLayout id="@+id/container" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+</LinearLayout>

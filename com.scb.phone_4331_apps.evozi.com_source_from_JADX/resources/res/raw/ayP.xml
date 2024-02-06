@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+                <View background="#c9c6cd" visibility="gone" layout_width="match_parent" layout_height="1dp" layout_above="@+id/button_confirm"/>
+                <include layout="@layout/2131493300"/>
+                <com.scb.phone.view.custom.transferandpay.CustomPhotoLeftDetails id="@+id/movie_details" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1a="true"/>
+                <com.scb.phone.view.custom.transferandpay.CustomNoteItem id="@+id/message_note" visibility="gone" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821010"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/layout_fixed_transfer_deposit_list" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+                <LinearLayout gravity="center_vertical" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp">
+                    <TextView gravity="left" id="@+id/tv_fixed_transfer_deposit_detail_title" layout_width="match_parent" layout_height="wrap_content" text="@string/fixed_transfer_total_deposit_detail" textAllCaps="true" style="@style/2131820996"/>
+                </LinearLayout>
+                <View id="@+id/view_separator1" style="@style/2131821259"/>
+                <RelativeLayout gravity="center_vertical" id="@+id/layout_deposit_view_detail" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView gravity="left" id="@+id/tv_view_details" layout_width="match_parent" layout_height="wrap_content" text="@string/fixed_transfer_total_view_details" layout_centerVertical="true" style="@style/2131821015"/>
+                    <ImageView gravity="right" id="@+id/expand_icon_image_view" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" tint="#959199" layout_alignParentRight="true" layout_centerVertical="true" contentDescription="@null" paddingEnd="8dp"/>
+                </RelativeLayout>
+                <View id="@+id/view_separator2" style="@style/2131821259"/>
+                <androidx.recyclerview.widget.RecyclerView id="@+id/deposit_list_recycler_view" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+            </LinearLayout>
+            <TextView gravity="center" id="@+id/next_day_reminder" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" text="@string/next_day_transcation_reminder" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820998"/>
+            <androidx.legacy.widget.Space layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+            <com.scb.phone.view.custom.common.DefaultButton id="@+id/button_confirm" background="@drawable/bg_button" layout_width="match_parent" layout_height="50dp" layout_marginTop="18dp" layout_marginBottom="18dp" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0x1b="@drawable/ripple_rounded_dark_purple" NOT_FOUND_0x1c="@string/confirm" NOT_FOUND_0x1d="@color/2131100257" style="@style/2131821118"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

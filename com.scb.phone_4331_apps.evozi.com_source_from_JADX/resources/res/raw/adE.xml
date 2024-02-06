@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="wrap_content">
+        <View background="#ffffff" layout_width="0dp" layout_height="0dp" NOT_FOUND_0xf="@+id/sp_bottom" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0"/>
+        <ImageView id="@+id/iv_icon" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" src="@drawable/ic_check_circle_black_48dp" tint="#06bf59" contentDescription="@null" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0"/>
+        <TextView id="@+id/tv_title" layout_width="0dp" layout_height="wrap_content" layout_marginTop="8dp" text="@string/ndid_share_successful_header" textAlignment="center" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/iv_icon" style="@style/2131821072"/>
+        <TextView id="@+id/tv_date_time" layout_width="0dp" layout_height="wrap_content" layout_marginTop="4dp" textAlignment="center" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/tv_title" style="@style/2131820880"/>
+        <View id="@+id/vw_separator" layout_width="0dp" layout_height="1dp" layout_marginTop="16dp" NOT_FOUND_0x13="@+id/tv_date_time" style="@style/2131821259"/>
+        <TextView id="@+id/tv_description_one" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" textAlignment="center" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/vw_separator" style="@style/2131820985"/>
+        <TextView gravity="center" id="@+id/tv_description_two" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/tv_description_one" style="@style/2131820985"/>
+        <androidx.legacy.widget.Space id="@+id/sp_bottom" layout_width="wrap_content" layout_height="16dp" NOT_FOUND_0x13="@+id/tv_description_two"/>
+        <androidx.legacy.widget.Space layout_width="wrap_content" layout_height="0dp" layout_marginTop="16dp" NOT_FOUND_0x10="@+id/bt_return_home" NOT_FOUND_0x13="@+id/sp_bottom"/>
+        <Button gravity="center" id="@+id/bt_return_home" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/ntb_fillinformation_review_info_return_home" NOT_FOUND_0xf="0" style="@style/2131820987"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

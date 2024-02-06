@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_checked="true">
+        <layer-list>
+            <item>
+                <shape shape="rectangle">
+                    <solid color="#f3f2f2"/>
+                </shape>
+            </item>
+            <item left="0dp" top="46dp" right="0dp">
+                <shape shape="rectangle">
+                    <solid color="#1589ee"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item drawable="@color/2131100152"/>
+</selector>

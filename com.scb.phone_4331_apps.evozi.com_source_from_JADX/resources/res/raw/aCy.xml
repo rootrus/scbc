@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" gravity="center" orientation="vertical" background="#f3f1f3" layout_width="match_parent" layout_height="match_parent" paddingStart="16dp" paddingEnd="16dp">
+    <ImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/phone"/>
+    <TextView gravity="center_horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp" text="@string/notification_no_message_info_title" style="@style/2131821015"/>
+    <TextView gravity="center_horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" text="@string/notification_no_message_info_message" style="@style/2131821082"/>
+</LinearLayout>

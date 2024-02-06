@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <com.thunderhead.android.infrastructure.p057ui.views.TTFAppCompatTextView textSize="36sp" textColor="?attr/thIconSuccess" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="38dp" text="@string/th_icon_check" style="@style/2131821243"/>
+    <androidx.appcompat.widget.AppCompatTextView textSize="24sp" gravity="center" id="@+id/title_text" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="38dp" style="@style/2131821245"/>
+    <androidx.appcompat.widget.AppCompatTextView gravity="center" id="@+id/message_text" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="60dp" layout_marginTop="22dp" layout_marginRight="60dp" lineSpacingExtra="5dp"/>
+    <androidx.appcompat.widget.AppCompatButton id="@+id/close_button" layout_width="100dp" layout_height="wrap_content" layout_marginTop="22dp" text="@string/th_done_label" textAllCaps="true" style="@style/2131821208"/>
+</merge>

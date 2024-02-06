@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" theme="@style/2131821249" gravity="center_vertical" orientation="horizontal" id="@+id/defaultTrack" background="@drawable/th_popover_point_list_point_background_statelist" layout_width="match_parent" layout_height="60dp">
+    <com.thunderhead.android.infrastructure.p057ui.views.TTFAppCompatTextView layout_marginLeft="16dp" layout_marginRight="32dp" text="@string/th_icon_capture_point" layout_marginStart="16dp" layout_marginEnd="32dp" style="@style/2131821215"/>
+    <TextView gravity="center_vertical" layout_width="match_parent" layout_height="60dp" text="@string/th_add_capture_point" textAllCaps="true" style="@style/2131821219"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <ImageView id="@+id/bg_money_movement" layout_width="match_parent" layout_height="match_parent" src="?attr/moneyMovementBackground" scaleType="centerCrop"/>
+    <ImageView id="@+id/money_action_image_view" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent" alpha="0.8"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/money_action_recycler_view" scrollbars="none" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="10dp" layout_alignParentBottom="true" overScrollMode="never" NOT_FOUND_0xb="androidx.recyclerview.widget.GridLayoutManager" NOT_FOUND_0xc="@string/appbar_scrolling_view_behavior" NOT_FOUND_0xd="3"/>
+</RelativeLayout>

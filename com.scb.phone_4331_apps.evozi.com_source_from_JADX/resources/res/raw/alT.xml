@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" padding="24dp" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" id="@+id/view_group_transfer_from" layout_width="match_parent" layout_height="wrap_content">
+        <TextView id="@+id/text_transfer_from_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/wallet_detail_transfer_from" style="@style/2131821256"/>
+        <TextView id="@+id/text_transfer_from_value" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821257"/>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/view_group_buyer_name" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+        <TextView id="@+id/text_buyer_name_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/wallet_detail_buyer_name" style="@style/2131821256"/>
+        <TextView id="@+id/text_buyer_name_value" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821257"/>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/view_group_payment_channel" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+        <TextView id="@+id/text_payment_channel_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/wallet_detail_payment_channel" style="@style/2131821256"/>
+        <TextView id="@+id/text_payment_channel_value" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821257"/>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/view_group_shop_reference" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+        <TextView id="@+id/text_shop_reference_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/wallet_detail_shop_reference" style="@style/2131821256"/>
+        <TextView id="@+id/text_shop_reference_value" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821257"/>
+    </LinearLayout>
+</LinearLayout>

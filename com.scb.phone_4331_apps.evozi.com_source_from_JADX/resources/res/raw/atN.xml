@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/root_view" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout id="@+id/bill_payment_layout" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" id="@+id/group_success_header" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_alignParentLeft="true" layout_alignParentTop="true" layout_alignParentStart="true">
+            <androidx.appcompat.widget.AppCompatImageView layout_gravity="center" id="@+id/iv_success_icon" layout_width="48dp" layout_height="48dp" layout_marginTop="16dp" src="@drawable/ic_check_circle_black_48dp" contentDescription="@null" NOT_FOUND_0x25="@color/2131099798"/>
+            <TextView gravity="center" id="@+id/tv_successful_transfer" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" style="@style/2131821073"/>
+            <TextView gravity="center" id="@+id/tv_unsuccessful_transfer" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821111"/>
+            <TextView gravity="center" id="@+id/tv_transaction_date" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" style="@style/2131821058"/>
+            <TextView gravity="center" id="@+id/tv_ref_id" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" style="@style/2131821058"/>
+            <View style="@style/2131821260"/>
+            <com.scb.phone.view.custom.transferandpay.CustomTransferAndPaySource id="@+id/ctp_source" layout_width="match_parent" layout_height="wrap_content"/>
+            <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayTarget id="@+id/ctp_target" layout_width="match_parent" layout_height="wrap_content"/>
+            <TextView id="@+id/tv_note_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/note" textAllCaps="true" layout_marginStart="16dp" style="@style/2131821012"/>
+            <TextView id="@+id/tv_note_value" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820873"/>
+            <View style="@style/2131821259"/>
+        </LinearLayout>
+        <TextView id="@+id/tv_list_detail_title" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/fixed_transfer_success_title" layout_below="@+id/group_success_header" textAllCaps="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821060"/>
+        <LinearLayout orientation="vertical" id="@+id/detail_layout" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_below="@+id/tv_list_detail_title">
+            <View style="@style/2131821259"/>
+            <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayItem id="@+id/ctp_net_amount" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x24="@string/fixed_transfer_success_total_net_amount"/>
+            <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayItem id="@+id/ctp_interest" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x24="@string/fixed_transfer_success_total_interest"/>
+            <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayItem id="@+id/ctp_withholding_tax" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x24="@string/fixed_transfer_success_total_withholding_tax"/>
+            <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayItem id="@+id/ctp_fee" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x23="false" NOT_FOUND_0x24="@string/fixed_transfer_success_total_fee"/>
+            <View style="@style/2131821259"/>
+        </LinearLayout>
+        <View id="@+id/line_black" background="@drawable/shape_review_black_bg" layout_width="match_parent" layout_height="8dp" layout_marginTop="-30dp" layout_below="@+id/detail_layout" layout_marginStart="4dp" layout_marginEnd="4dp"/>
+        <RelativeLayout id="@+id/layout_slip" background="#ffffff" descendantFocusability="blocksDescendants" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="-4dp" layout_below="@+id/line_black" layout_marginStart="8dp" layout_marginEnd="8dp">
+            <androidx.recyclerview.widget.RecyclerView id="@+id/recycler_view" background="@drawable/slip_bg" paddingBottom="7dp" layout_width="match_parent" layout_height="wrap_content"/>
+        </RelativeLayout>
+        <ImageView id="@+id/end_slip" layout_width="match_parent" layout_height="wrap_content" src="@drawable/slip_curly" scaleType="fitXY" tint="#f5f3f6" layout_alignLeft="@+id/layout_slip" layout_alignRight="@+id/layout_slip" layout_alignBottom="@+id/layout_slip" contentDescription="@null" layout_alignStart="@+id/layout_slip" layout_alignEnd="@+id/layout_slip"/>
+        <TextView gravity="center" id="@+id/tv_remaining_balance" background="@drawable/bg_white_with_border" padding="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_below="@+id/buttons_container" style="@style/2131821015"/>
+        <TextView gravity="center" id="@+id/tv_disclaimer" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="24dp" text="@string/fixed_transfer_success_disclaimer_message" layout_below="@+id/tv_remaining_balance" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820863"/>
+        <Button id="@+id/bt_continue_to_transfer" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" text="@string/fixed_transfer_success_continue_to_transfer" layout_below="@+id/tv_disclaimer" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820806"/>
+        <TextView id="@+id/bt_return" background="@drawable/ripple_rounded_dark_purple" padding="4dp" focusable="true" clickable="true" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" text="@string/return_to_accounts" layout_below="@+id/bt_continue_to_transfer" layout_centerHorizontal="true" style="@style/2131821098"/>
+        <LinearLayout orientation="horizontal" id="@+id/buttons_container" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="24dp" layout_below="@+id/layout_slip" paddingStart="16dp" paddingEnd="16dp">
+            <Button id="@+id/bt_share_slip" layout_width="match_parent" layout_height="wrap_content" text="@string/share_slip" layout_weight="1" style="@style/2131820806"/>
+            <View id="@+id/divider_buttons" layout_width="16dp" layout_height="match_parent"/>
+            <Button id="@+id/bt_save_slip" layout_width="match_parent" layout_height="wrap_content" text="@string/save_slip" layout_weight="1" style="@style/2131820837"/>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

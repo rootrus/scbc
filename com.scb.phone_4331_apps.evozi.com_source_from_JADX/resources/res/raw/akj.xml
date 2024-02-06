@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_gravity="center_horizontal" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content" foreground="@drawable/ripple_rounded_4_purple" layout_marginStart="5dp" layout_marginEnd="5dp">
+        <ImageView id="@+id/credit_card_image_view" layout_width="match_parent" layout_height="wrap_content" layout_margin="5dp" src="@drawable/default_card" scaleType="fitXY" adjustViewBounds="true" layout_centerInParent="true" layout_centerHorizontal="true" contentDescription="@null"/>
+        <TextView ellipsize="end" id="@+id/card_name_text_view" paddingTop="50dp" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" shadowColor="#4d000000" shadowDx="2" shadowDy="2" shadowRadius="4" layout_alignLeft="@+id/credit_card_image_view" layout_alignTop="@+id/credit_card_image_view" paddingStart="18dp" paddingEnd="18dp" style="@style/2131821040"/>
+        <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/linearLayout3" padding="16dp" layout_width="match_parent" layout_height="wrap_content" layout_above="@+id/available_amount_container_relative_layout" layout_alignLeft="@+id/credit_card_image_view" layout_alignRight="@+id/credit_card_image_view">
+            <TextView id="@+id/card_number_front_text_view" layout_width="wrap_content" layout_height="wrap_content" shadowColor="#4d000000" shadowDx="2" shadowDy="2" shadowRadius="4" layout_marginEnd="12dp" style="@style/2131821044"/>
+            <TextView id="@+id/card_number_2nd_front_text_view" layout_width="wrap_content" layout_height="wrap_content" shadowColor="#4d000000" shadowDx="2" shadowDy="2" shadowRadius="4" layout_marginEnd="3dp" style="@style/2131821044"/>
+            <View background="@drawable/shape_credit_card_dot" layout_width="8dp" layout_height="8dp" layout_marginEnd="3dp"/>
+            <View background="@drawable/shape_credit_card_dot" layout_width="8dp" layout_height="8dp" layout_marginEnd="12dp"/>
+            <include layout_width="wrap_content" layout_height="wrap_content" layout="@layout/2131493384"/>
+            <TextView id="@+id/card_number_text_view" layout_width="wrap_content" layout_height="wrap_content" shadowColor="#4d000000" shadowDx="2" shadowDy="2" shadowRadius="4" style="@style/2131821044"/>
+        </LinearLayout>
+        <RelativeLayout id="@+id/available_amount_container_relative_layout" layout_width="wrap_content" layout_height="wrap_content" layout_above="@+id/v_bottom_space" layout_alignLeft="@+id/credit_card_image_view" layout_alignRight="@+id/credit_card_image_view" layout_alignStart="@+id/credit_card_image_view" layout_alignEnd="@+id/credit_card_image_view">
+            <RelativeLayout layout_width="wrap_content" layout_height="wrap_content">
+                <TextView gravity="left" id="@+id/available_label_text_view" paddingTop="1dp" layout_width="match_parent" layout_height="wrap_content" text="@string/account_summary_credit_card_available" shadowColor="#4d000000" shadowRadius="2" paddingStart="16dp" style="@style/2131821033"/>
+                <TextView id="@+id/available_value_text_view" layout_width="wrap_content" layout_height="wrap_content" text="0.00" shadowColor="#4d000000" shadowRadius="3" layout_below="@+id/available_label_text_view" paddingStart="16dp" layout_marginEnd="15dp" style="@style/2131821040"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <View id="@+id/v_bottom_space" layout_width="20dp" layout_height="10dp" layout_alignBottom="@+id/credit_card_image_view"/>
+    </RelativeLayout>
+</FrameLayout>

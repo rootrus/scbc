@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" paddingStart="20dp" paddingEnd="10dp">
+        <TextView id="@+id/description_text_view" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="26dp" text="@string/bill_description" style="@style/2131820990"/>
+        <TextView id="@+id/unbilled_description_value" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="14dp" style="@style/2131821077"/>
+        <LinearLayout orientation="horizontal" visibility="visible" layout_width="match_parent" layout_height="wrap_content">
+            <TextView gravity="start" id="@+id/post_date_text_view" layout_width="wrap_content" layout_height="wrap_content" text="@string/bill_post_date" layout_weight="1" style="@style/2131820990"/>
+            <TextView gravity="end" id="@+id/original_currency_text_view" layout_width="wrap_content" layout_height="wrap_content" text="@string/bill_foreign_currency" layout_weight="1" style="@style/2131820990"/>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" visibility="visible" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp">
+            <TextView gravity="start" id="@+id/unbilled_post_date_value" layout_width="match_parent" layout_height="wrap_content" layout_weight="1" style="@style/2131821077"/>
+            <TextView gravity="end" id="@+id/unbilled_foreign_currency_value" layout_width="match_parent" layout_height="wrap_content" layout_weight="1" style="@style/2131821077"/>
+        </LinearLayout>
+        <TextView id="@+id/categories_text_view" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="14dp" text="@string/bill_categories" textAllCaps="true" style="@style/2131820990"/>
+        <TextView id="@+id/unbilled_category_value" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="22dp" style="@style/2131821077"/>
+    </LinearLayout>
+</LinearLayout>

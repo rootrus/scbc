@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="4331" versionName="3.40.1" android:installLocation="auto" NOT_FOUND_0x2a="29" NOT_FOUND_0x2b="10" package="com.scb.phone" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk minSdkVersion="23" targetSdkVersion="29"/>
+    <uses-feature name="android.hardware.fingerprint" required="false"/>
+    <uses-feature name="android.hardware.camera" required="false"/>
+    <uses-feature name="android.hardware.camera.autofocus" required="false"/>
+    <uses-feature name="android.hardware.nfc" required="false"/>
+    <uses-feature name="android.hardware.camera.front" required="false"/>
+    <uses-feature name="android.hardware.camera.flash" required="false"/>
+    <uses-permission name="android.hardware.camera.autofocus"/>
+    <uses-permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission name="android.permission.INTERNET"/>
+    <uses-permission name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission name="android.permission.READ_CONTACTS"/>
+    <uses-permission name="android.permission.CAMERA"/>
+    <uses-permission name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-feature glEsVersion="20000" required="true"/>
+    <uses-feature name="android.hardware.screen.landscape" required="false"/>
+    <uses-feature name="android.hardware.wifi" required="false"/>
+    <uses-permission name="android.permission.WAKE_LOCK"/>
+    <uses-permission name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission name="android.permission.NFC"/>
+    <uses-permission name="android.permission.FLASHLIGHT"/>
+    <uses-permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission name="android.permission.ACCESS_WIFI_STATE"/>
+    <application theme="@style/2131820555" label="SCB EASY" android:icon="@mipmap/ic_launcher" name=".AndroidApplication" allowBackup="false" largeHeap="true" supportsRtl="true" android:extractNativeLibs="false" NOT_FOUND_0x28="@xml/2131951619" NOT_FOUND_0x29="@mipmap/ic_launcher_round" NOT_FOUND_0x2c="androidx.core.app.CoreComponentFactory" NOT_FOUND_0x2d="true">
+        <activity theme="@style/2131820561" label="SCB EASY" android:name=".view.activity.splash.SplashActivity" screenOrientation="portrait" noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" resource="@xml/2131951620"/>
+        </activity>
+        <activity theme="@style/2131820562" android:name=".view.activity.registration.RegistrationOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.forgotpin.ForgotPinOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.forgotpin.ForgotPinPersonalInfoActivity" screenOrientation="portrait" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity theme="@style/2131820562" android:name="com.scb.phone.view.activity.p038tc.EasyAppTermsAndConditionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name="com.scb.phone.view.activity.p038tc.JuristicEasyAppTermsAndConditionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.theme.ThemesActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.HomeActivity" launchMode="singleTask" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.ccrredemption.categories.RewardsHomeActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ccrredemption.product.ProductListActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ccrredemption.product.ProductDetailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ccrredemption.review.ReviewRedemptionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ccrredemption.confirm.ConfirmRedemptionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ccrredemption.product.QuantitySelectionActivity" screenOrientation="portrait" windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ccrredemption.mileage.MileageAirlineMembershipDetailsActivity" screenOrientation="portrait" windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ccrredemption.mileage.MileageReviewRedemptionActivity" screenOrientation="portrait" windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ccrredemption.mileage.MileageConfirmRedemptionActivity" screenOrientation="portrait" windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.CardActivationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.ActivationSuccessfulActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ccrredemption.mileage.MileageQuantitySelectionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.TempLimitHomeActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.TempLimitReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.TempLimitConfirmationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.DeejungLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.SelectPurchasesActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.DeejungPlansActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.cardmanagement.AmortizationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.cardmanagement.AmortizationMerchantsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.DeejungInstallmentsReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.DeejungInstallmentsConfirmationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.common.ThirdPartySlipActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.common.ThirdPartyWebActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.BaseChangePinActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.forgotpin.SetupNewPinActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlSetNTBPinActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlSetNTBPinSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.debitcard.DebitCardConfirmPinActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.debitcard.DebitCardOtpActivationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.forgotpin.ReviewDeviceActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.closeaccount.CloseAccountSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.CCAboutActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.deejungtransfer.DeejungTransferLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.deejungtransfer.DeejungTransferMinFullReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.deejungtransfer.DeejungTransferMinFullConfirmationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.deejungtransfer.DeejungTransferInstallmentsReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.CCTermsAndConditionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.cardmanagement.deejungtransfer.DeejungTransferInstallmentsConfirmationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ccrredemption.product.OPRRegistrationLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ccrredemption.product.OPRStatusRewardsLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.prelogin.PreLoginActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.transferandpay.transfer.TransferReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.transferandpay.topup.TopUpReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.transferandpay.billpayment.BillPaymentReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.transferandpay.billpayment.BillPaymentSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.transferandpay.billpayment.RtpEBillPaymentDetailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.transferandpay.billpayment.RtpEBillPaymentReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.transferandpay.SuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.transferandpay.FixedTransferSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.creditcard.CreditCardDetailActivity" screenOrientation="portrait" configChanges="locale|keyboardHidden|orientation|screenLayout|screenSize|fontScale"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.cardmanagement.ExportCardStatementActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.deposit.DepositDetailActivity" screenOrientation="portrait" windowSoftInputMode="adjustUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|adjustResize"/>
+        <activity android:name=".view.activity.deposit.exportstatement.ExportStatementSuccessfulActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.InvestmentDetailsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.discover.DiscoverDisclaimerActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.discover.NtbDiscoverDisclaimerActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.discover.NtbDiscoverSearchActivity" screenOrientation="portrait" windowSoftInputMode="adjustUnspecified|stateVisible|adjustResize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.discover.DiscoverSearchActivity" screenOrientation="portrait" windowSoftInputMode="adjustUnspecified|stateVisible|adjustResize"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.funddetails.InvestmentFundDetailsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.purchase.FundPurchaseLandingActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.FundActionsSearchActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.purchase.FundPurchaseReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.FundActionsSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.redeem.FundRedeemLandingActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.schedule.SetupScheduleActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.fundswitch.FundSwitchLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.redeem.FundRedeemReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.redeem.FundRedeemOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.discover.DiscoverActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.discover.NtbDiscoverActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.discover.DiscoverFundFilterActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.discover.NtbDiscoverFundFilterActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.discover.DiscoverFundFilterListActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.discover.NtbDiscoverFundFilterListActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.fundswitch.FundSwitchReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.discover.DiscoverFundPerformanceActivity" screenOrientation="landscape"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.FundFactSheetActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.loan.LoanDetailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.speedycash.LoanTermsConditionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.loan.SmeLoanDetailActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.creditcard.CreditCardBilledDetailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.findus.FindUsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.findus.SelectProvinceOrDistrictActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.device.DeviceSettingsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.personallimit.PersonalLimitActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.customizeyourpages.CustomizeYourPageActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.transferandpay.NewTransactionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.transferandpay.billpayment.BillPaymentActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.transferandpay.topup.TopUpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.transferandpay.transfer.TransferActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820567" android:name=".view.activity.transferandpay.cardlessatm.CardlessATMCoachMarkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.transferandpay.cardlessatm.CardlessATMTutorialActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.transferandpay.cardlessatm.CardlessAtmInfoActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.requesttopay.RequestToPayInfoActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.transferandpay.CardlessATMActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.transferandpay.CardlessATMTermsConditionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.transferandpay.cardlessatm.CardlessATMReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.transferandpay.cardlessatm.CardlessATMSuccessfulRequestActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.transferandpay.ScanPaymentActivity" screenOrientation="portrait" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.transferandpay.FavouriteSelectedActivity" screenOrientation="portrait" configChanges="keyboardHidden|orientation|screenSize" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.transferandpay.CardPaySelectedActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820768" android:name=".view.activity.scheduledtransaction.CalendarDialogActivity"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.scheduledtransaction.ScheduleLandingActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.help.HelpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.contactus.ContactUsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.calendar.CalendarLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.scheduledtransaction.ScheduleBulkTransferActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.scheduledtransaction.ScheduleTransactionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.prelogin.PinLoginActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prelogin.quickbalance.SetupQuickBalanceActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prelogin.quicktopup.HowToAddFavouriteTopUpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prelogin.quicktopup.SetupQuickTopUpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prelogin.quicktopup.ModifyQuickTopUpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prelogin.quicktopup.SetupQuickTopUpReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prelogin.quicktopup.ModifyQuickTopUpReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prelogin.quicktopup.QuickTopUpReviewActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.mediaimage.MediaImagePreviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prelogin.quickbalance.ModifyQuickBalanceActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prelogin.quickbalance.HowToAddAccountActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prelogin.quickpromptpay.SetupQuickPromptPayActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prelogin.quickpromptpay.QuickPromptPayActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prelogin.quickpromptpay.ModifyQuickPromptPayActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prelogin.HowToAddAccountStep2Activity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prelogin.QuickOperationSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prelogin.quickpromptpay.QuickPromptPayReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.OnBoardingTutorialActivity" screenOrientation="portrait" noHistory="true"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.transferandpay.EditFavouriteActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.wifisettings.WifiSettingsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name="com.akexorcist.localizationactivity.BlankDummyActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name="com.akexorcist.localizationactivity.LocalizationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.moneyout.MoneyOutActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.requesttopay.RequestToPayActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ebillsubscription.EBillSubscriptionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ebillsubscription.RtpEBillSubscriptionDetailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ebillsubscription.EBillSubscriptionSearchActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ebillsubscription.EBillSubscriptionInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ebillsubscription.EBillSubscriptionReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ebillsubscription.EBillSubscriptionSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.requesttopay.GoManagePromptPayActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.requesttopay.EnterProxyActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.requesttopay.InputDetailsActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.requesttopay.RequesterReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.requesttopay.PayerReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.requesttopay.SummaryDetailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.bankingaccount.BankingActionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.landingpage.PartnerWebViewActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.donations.DonationsLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.donations.DonationsFoundationDetailsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.landingpage.GroupFavoriteActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.landingpage.GroupBillerActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.donations.SharingMomentsPreviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.personalize.PersonalizeActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.landingpage.PredictiveTilesLearnMoreActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820564" android:name=".view.activity.personalize.ShortcutRouterActivity"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.maintenance.MaintenanceActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.promptpay.PromptPayQRActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820858" android:name=".view.activity.sme.SMELandingPageActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.sme.gifting.GiftingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.sme.gifting.GiftingAboutActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.sme.gifting.GiftSelectionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.sme.gifting.GiftRecipientActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.sme.gifting.GiftingTransferLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.transferandpay.transfer.TransferGiftingInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.sme.gifting.GiftingSelectRecipientActivity" screenOrientation="portrait" windowSoftInputMode="adjustNothing"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.sme.gifting.GiftingOpenedActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.sme.gifting.GiftPreviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.sme.gifting.GiftOpenSharingMomentActivity" screenOrientation="portrait" windowSoftInputMode="adjustNothing"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bulktransfer.CreateRecipientGroupActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.transferandpay.transfer.AddFavoriteTransferActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.bulktransfer.BulkTransferActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.chequemanagement.chequestatus.ChequeStatusActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.chequemanagement.ManageChequeActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.chequemanagement.stopcheque.StopChequeLandingActivity" launchMode="singleTask" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.chequemanagement.ChequeSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.chequemanagement.stopcheque.StopChequeReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.chequemanagement.activatecheque.ActivateChequeLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.chequemanagement.activatecheque.ActivateChequeReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.chequemanagement.ordercheque.OrderChequeLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.chequemanagement.ordercheque.OrderChequeHelpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.chequemanagement.ordercheque.OrderChequeReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.chequemanagement.ChequeAnnouncementActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.bulktransfer.BulkTransferInfoActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bulktransfer.SelectRecipientFromFavouriteActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bulktransfer.AddNewRecipientActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bulktransfer.EditRecipientActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bulktransfer.BulkTransferInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bulktransfer.ManageRecipientGroupActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bulktransfer.BulkTransferReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bulktransfer.BulkTransferOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bulktransfer.BulkTransferSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.sme.gifting.GiftingMoneyReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.sme.gifting.GiftingPresentReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.SCBDeepLinkActivity" launchMode="singleTask" autoRemoveFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="scbeasy"/>
+            </intent-filter>
+        </activity>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.FacebookDeepLinkActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="scbeasyembedded"/>
+            </intent-filter>
+        </activity>
+        <activity theme="@style/2131820555" android:name=".view.activity.thirdparty.FacebookConsentDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.FacebookBillPaymentDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.loan.LoanPaymentReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.loan.LoanInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.pinchange.PinChangeActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.pinchange.PinChangeSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.emailverification.ManageEmailLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.emailverification.ManageEmailInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.emailverification.ManageEmailVerificationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBManageEmailVerificationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.emailverification.ManageEmailVerificationSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.deposit.exportstatement.DepositExportStatementActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.purchase.PurchaseInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.purchase.PurchaseReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.demo.ntb.NTBLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.demo.ntb.WelcomeAboardActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.demo.ntb.NtbUserInfoActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.demo.ntb.RegistrationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.ntb.NtbOpenAccountLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBVerificationMethodsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.ekyc.HmlNTBEkycPassportLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.ekyc.HmlNdidSelectIdpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ntb.NTBActivity" screenOrientation="portrait" configChanges="orientation|screenSize"/>
+        <activity theme="@style/2131820567" android:name=".view.activity.ndid.NationalIdCameraActivity" screenOrientation="landscape" configChanges="orientation|screenSize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ndid.NdidLandingActivity" screenOrientation="portrait" configChanges="orientation|screenSize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.ekyc.HmlNTBEkycNdidLandingActivity" screenOrientation="portrait" configChanges="orientation|screenSize"/>
+        <activity theme="@style/2131820567" android:name=".view.activity.ndid.RpLivenessCheckActivity" screenOrientation="portrait" configChanges="orientation"/>
+        <activity theme="@style/2131820567" android:name=".view.activity.ndid.IdpLivenessCheckActivity" screenOrientation="portrait" configChanges="orientation"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ndid.NdidIdpShareSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ndid.NdidIdpVerificationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ntb.ReviewInfoResultActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ntb.EkycSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ndid.NdidSelectIdpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ndid.IdpShareInformationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.ntb.NTBPartnerWebViewActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.easycash.EasycashLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.easycash.NTBEasycashLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.profilemanagement.ProfileManagementActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.easycash.introduction.EasycashMCMCIntroductionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.easycash.introduction.EasycashCreditCardIntroductionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.easycash.introduction.EasycashSpeedyCashIntroductionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.easycash.introduction.EasycashSpeedyLoanIntroductionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.easycash.introduction.EasycashSpeedyLoanTopupIntroductionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.easycash.introduction.EasycashPurposefulLoanIntroductionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.easycash.introduction.EasycashCommercialLoanIntroductionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.easycash.introduction.EasycashMortgageIntroductionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.EasycashCollateralInformationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.EasycashLoanTrackActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.search.EasycashSequentialSearchActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.EasycashCarInformationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ntb.fatca.FatcaHelpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ntb.fatca.FatcaErrorActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.AddressSearchActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.EasycashReferralSendDfwActivity" screenOrientation="portrait" windowSoftInputMode="stateHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.EasycashSalesheetIndexActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.EasycashReferralSendProductActivity" screenOrientation="portrait" windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.NTBEasycashReferralSendProductActivity" screenOrientation="portrait" windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ntb.ekyc.NationalIdActivity" screenOrientation="portrait" configChanges="orientation|screenSize" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ndid.NdidNationalIdInputActivity" screenOrientation="portrait" configChanges="orientation|screenSize" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.ekyc.HmlNdidNationalIdInputActivity" screenOrientation="portrait" configChanges="orientation|screenSize" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.SummaryActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.landingpage.LifestyleCustomizationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820564" android:name=".view.activity.demo.ntb.IntroductionActivity"/>
+        <activity theme="@style/2131820565" android:name=".view.activity.FullScreenLoadingActivity"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.demo.ntb.NTBBankingServiceActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ntb.fillinformation.OccupationSearchActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.EasycashSubDistrictSearchActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.easycash.EasycashOccupationSearchActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.creditpower.EasycashCreditPowerInformationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.LoanRequestorActivity" screenOrientation="portrait" windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ntb.ekyc.NationalIdHelpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.onboarding.FundOnboardingLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.onboarding.FundAppFormActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.etb.EtbActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.etb.EtbOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.etb.EtbSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.etb.ETBSaleSheetAccountTypeActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.etb.ETBSaleSheetProductListActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.etb.PdfViewerActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.etb.ETBSetDetailNoteActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.ETBProductDetailDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.etb.ETBWelcomeAboardActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.onboarding.CheckEligibilityActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.onboarding.FatcaActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.ntb.EkycOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.transferandpay.EDonationConsentActivity" screenOrientation="portrait" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.assessment.AssessmentPopupActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.assessment.RiskLevelAssessmentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.assessment.RiskAssessmentSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.onboarding.FundOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.bond.BondLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bond.BondSelectionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.ErrorGenericActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.investment.onboarding.FundOnboardingSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.etb.ETBCheckEligibilityActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bond.BondTermsAndConditionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bond.BondErrorNoAccountsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ReviewSuccessfulActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.sme.deals.DealsSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bond.BondPurchaseReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.sme.deals.DealsBuyReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.NotificationDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.HmlCalculatorDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.HmlBusinessOwnerCalculatorDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBMonthlyIncomeAboutActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBLaserIdAboutActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBWorkAddressActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.HmlSuccessfulDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.HmlBusinessOwnerSuccessfulDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.HmlBusinessOwnerSummaryDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.HmlBusinessOwnerGenericDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.HmlNTBExternalAuthenticationDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.hml.fatca.HmlNTBAccountSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.HmlLoanOfferStatusDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.HmlLatestLoanOfferStatusDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.HmlBusinessOwnerLoanOfferStatusDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.HmlBusinessOwnerLatestLoanOfferStatusDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlVerifyIdentifyActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBAccountConsentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.HmlPersonalInformationDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.HmlLatestPersonalInformationDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.ActivateChequeDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.ECouponRedemptionDeeplinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.CreditCardDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.LifestyleDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.AccountSummaryDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.RtpInputDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.LoanDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.EmailVerificationDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.CardActivationDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.ChequeInquiryDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.ScanCameraDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.MoreOptionsPromptPayDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.GiftBoxDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.MutualFundsDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820558" android:name=".view.activity.deeplink.MutualFundsDiscoverDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name="com.scb.phone.view.activity.p038tc.MutualFundTermsAndConditionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.OpenAccountDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.OpenAccountEtbNoActiveCasaDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.BondDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.ExternalDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.OprRenewDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.RoboAdvisorDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.SCBBillPaymentDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.CreditCardServiceTabDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.CreditCardServiceDefaultCardDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.NdidIdpDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.WebViewDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.TopUpDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.BillerDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.BScanCNotificationDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.AddAccountConsentDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.EasycashDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820558" android:name=".view.activity.deeplink.PartnerInAppLoginDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.PartnerSuccessRedirectActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.thirdparty.ThirdPartyConsentDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.EasycashLoanTrackDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.ScbsOnboardDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.easycash.EasycashReferralSendDfwDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.etb.ETBOtp9100ErrorActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.profilemanagement.manageaccounts.AccountManagementActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.profilemanagement.manageaccounts.AccountManagementSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.profilemanagement.accounts.AddAccountsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.profilemanagement.accounts.ReviewAccountsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.profilemanagement.accounts.VerifyIdentityTipsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.profilemanagement.promptpay.PromptPayTermsAndConditionsLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.profilemanagement.promptpay.PromptPayTermsAndConditionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.profile_management.manageaccountinbound.ManageAccountInboundActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.fastpay.FastPayInputActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.fastpay.FastPayBillPaymentReviewActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.fastpay.FastPaySuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.fastpay.FastPayTransferReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.fastpay.ManageFastPayQrScanActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.fastpay.FastPaySettingActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.fastpay.FastPayOtpActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.cardmanagement.deejungtransfer.DeejungTransferMinFullOtpActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.cardmanagement.deejungtransfer.DeejungTransferInstallmentOtpActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820558" android:name=".view.activity.partner.PartnerConsentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.thirdparty.ThirdPartyConsentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.partner.PartnerLoginActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.deeplink.PartnerLoginDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.EasycashActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.EasycashIssuerSearchActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.EasycashInputIncomeActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.EasycashAdditionalDocumentTypeActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.EasycashCreditPowerInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.forgotpin.PinLockActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.profilemanagement.promptpay.ManagePromptpayLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820557" android:name=".view.activity.profilemanagement.promptpay.ManagePromptpaySuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.profilemanagement.promptpay.LinkAndUnlinkPromptPayActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.profilemanagement.promptpay.PromptPayOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.profilemanagement.ManageNotificationsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.registration.RegistrationCardDetailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.registration.RegistrationDeadCardActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.registration.RegistrationSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.registration.RegistrationCountrySearchActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.debitcard.DebitCardLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.debitcard.DebitCardProductCatalogActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.debitcard.DebitCardSaleSheetActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.registration.RegistrationNoDataActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.debitcard.DebitCardRequestTermsConditionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820563" android:name=".view.activity.debitcard.DebitCardMarketConductActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.debitcard.DebitCardRequestInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.debitcard.DebitCardRequestReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.debitcard.DebitCardRequestPayOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.debitcard.DebitCardActivationActivity" screenOrientation="portrait" windowSoftInputMode="adjustUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|adjustResize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.debitcard.DebitCardSuccessfulActivationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.debitcard.DebitCardRequestSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.registration.onboarding.RegistrationOnboardingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.registration.RegistrationManageDevicesActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.registration.RegistrationPersonalInformationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.fragment.registration.RegistrationFacialVerificationLockedActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.registration.RegistrationNewPinActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.closeaccount.CloseAccountEligibilityActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.partner.PartnerLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.partner.SCBUniversalWebViewActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820558" android:name=".view.activity.partner.PartnerDiscoverWebViewActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.csent.MarketingCSentWebViewActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.csent.PrivacyCSentWebViewActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.EasycashSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.EasycashNCBConsentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.EasycashCommonNCBConsentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.CommercialReferralNCBConsentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.partner.PartnerBillPaymentInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.chubb.review.ChubbReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.chubb.ChubbPaySuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.registration.preregistration.PreregistrationLandingActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.registration.preregistration.PreregistrationPinActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.registration.preregistration.PreregistrationInformationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.profilemanagement.accounts.VerifyIdentityActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.investment.select.SelectInvestmentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.scbs.ScbsAccountDetailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.scbs.SCBSProductDetailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.closeaccount.CloseAccountAmountDetailsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.closeaccount.CloseAccountConfirmationOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.closeaccount.CloseAccountSelectionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.closeaccount.CloseAccountReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.closeaccount.CloseAccountSelectMainAccountActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.merchant.MerchantWalletDetailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.scbs.AddAccountInfoActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.scbs.open.CheckSCBSEligibilityActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.mwpartner.MwOnboardInfoActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.mwpartner.MwCurrentUserEwalletActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mwpartner.MwSubDistrictSearchActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mwpartner.MwSearchMarketMallActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.mwpartner.MwPartnerCropPhotoActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.mwpartner.MwTermsAndConditionsActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.mwpartner.MwLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mwpartner.MwManageWalletActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mwpartner.MwBankAccountActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.mwpartner.MwOnBoardSuccessActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.mwpartner.MwCoachMarkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mwpartner.MwShopAddressActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mwpartner.MwShopTypeActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mwpartner.MwBusinessDetailsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mwpartner.MwReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mwpartner.MwCreateQrActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.mwpartner.MwEditCreateQrActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mwpartner.MwManageReceivingAccountActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mwpartner.MwChangeCasaSuccessActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.prepaid.PrepaidDetailsActivity" launchMode="singleTask" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.prepaid.PrepaidTravelCoachMarkActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.prepaid.PrepaidTravelTopupLandingActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.prepaid.PrepaidTravelGettingStartedActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlETBLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBRepaymentAboutActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBSimulatorTutorialActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlVerifyEmailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBVerifyEmailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlMailingAddressActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlETBReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.businessowner.HmlBusinessOwnerReviewSubmissionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlETBAccountSetupActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.businessowner.HmlBusinessOwnerAccountSetupActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.ekyc.HmlNTBEkycBranchInstructionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.ekyc.HmlNTBEkycVerifyIdentifyBranchActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBAccountSetupActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820563" android:name=".view.activity.hml.promptpay.HmlNTBPromptPayNotFoundActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.prepaid.PrepaidInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.scbs.AddAccountConsentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.scbs.ScbsLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.scbs.OffshoreCurrencyActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.debitcard.DebitCardCoachMarkActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.debitatm.DebitCardDetailActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.debitatm.AddAccountOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.debitatm.DebitWithdrawalLimitActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.debitatm.DebitLimitOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.scbs.open.OnboardingFatcaQuestionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlSimulatorAboutActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlWorkAddressActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlRepaymentAboutActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlRepaymentMethodAboutActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBRepaymentMethodAboutActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlETBSummaryActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBSummaryActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlOTAinfoActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlOccupationInfoActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlETBPersonalInfoActivity" screenOrientation="portrait" windowSoftInputMode="stateHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlBusinessETBPersonalInfoActivity" screenOrientation="portrait" windowSoftInputMode="stateHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBPersonalInfoActivity" screenOrientation="portrait" windowSoftInputMode="stateHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlConsentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlSensitiveConsentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBConsentActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.hml.HmlPinActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlMonthlyIncomeAboutActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlSimulatorTutorialActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlAdditionalDocumentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBAdditionalDocumentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlSelectedOfferReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBSelectedOfferReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlETBLoanSetupActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBLoanSetupActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.businessowner.HmlBusinessOwnerLoanSetupActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlETBLoanReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBLoanReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlETBSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlApplicationOutcomeActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBApplicationOutcomeActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlUserInfoActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlLaserIdAboutActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlVerifyEmailSuccessfulActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBVerifyEmailSuccessfulActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.fatca.HmlNTBOnboardingFatcaQuestionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBOccupationInfoActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlHomeAddressActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBBusinessAddressActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.businessowner.HmlETBOperatingBankActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.businessowner.HmlNTBOperatingBankActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.businessowner.HmlBusinessHelpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlBusinessAddressActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlConsumerEmailAboutActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlBusinessEmailAboutActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.fatca.HmlNTBSelectAccountActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.promptpay.HmlPromptpayEnterCodeActivity" screenOrientation="portrait" windowSoftInputMode="adjustPan"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.promptpay.HmlPromptPayAboutActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.promptpay.HmlPromptPayVerificationActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.investment.scbs.open.ScbsOnboardingProductCatalogActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.scbs.open.SCBSFormActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.scbs.open.ScbsOnboardingLaserIdActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.scbs.open.ScbsOnboardingConsentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.scbs.open.ScbsOnboardingTcActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.scbs.open.OnboardingTcScbsOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.scbs.open.SourceOfFundsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.scbs.ScbsInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.investment.scbs.open.OnboardingSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.additionaldocument.DocumentInstructionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.additionaldocument.CaptureDocumentActivity" screenOrientation="landscape"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.additionaldocument.ReviewDocumentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.additionaldocument.CropDocumentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.hml.HmlNTBReviewDocumentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlVerifyPhoneActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNoDepositAccountActivity"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlVerifyPhoneTermsConditionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bscanc.ManageQrToPayActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bscanc.QrToPayOtpActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.bscanc.MyQRCoachMarkActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.bscanc.MyQRMenuActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.bscanc.QRPaymentCoachMarkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.bscanc.BScanCEntryPointActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bscanc.QRPaymentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.hml.HmlNTBCaptureDocumentActivity" screenOrientation="landscape"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.submission.HmlDocumentSubmissionTutorialsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.submission.HmlNTBDocumentSubmissionTutorialsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.submission.HmlCropDocumentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.submission.HmlNTBCropDocumentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBDocumentInstructionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ccrredemption.search.RewardSearchActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ccrredemption.search.RewardSearchResultActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mwpartner.MwPinShopLocationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.easycash.creditpower.EasycashCreditPowerSummaryActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlVerifyPhoneReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlVerifyPhoneLoanReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.ekyc.HmlNationalIdActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mwpartner.MwCasaOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBExternalAuthenticationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.submission.HmlDocumentSubmissionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.submission.HmlNTBDocumentSubmissionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.businessowner.HmlBusinessOwnerDocumentSubmissionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlVerifyPhoneValidateOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlReviewDocumentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlEtbSubmissionOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlEtbConfirmationOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.mwpartner.MwPinnedSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.additionaldocument.ZoomDocumentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.ErrorPageActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBExternalInstructionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlCaptureDocumentActivity" screenOrientation="landscape"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bankingagent.BankingEnterAmountActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.hml.HmlDocumentUploadGuidelineActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.hml.HmlNTBDocumentUploadGuidelineActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.PartnerConsentUuidDeepLinkActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.debitprepaid.DebitPrepaidMenuActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.DebitCardMarketConductDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.PrepaidMenuActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.request.PrepaidRequestMarketConductActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.request.PrepaidRequestProductCatalogActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.request.PrepaidRequestLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.request.PrepaidRequestTermConditionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.request.PrepaidRequestReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.activation.PrepaidActivationLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.activation.PrepaidActivationSuccessfulActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.PrepaidConfirmPinActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.PrepaidOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.AddNewCurrencyActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.request.PrepaidRequestSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.reset.PrepaidResetOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.prepaid.reset.PrepaidResetPinSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.PrepaidTravelForeignCurrencyWalletDetailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.cashout.PrepaidCashOutLandingAndInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.cashout.PrepaidCashOutReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.cashout.PrepaidCashOutSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.PrepaidTravelConversionReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.detail.PrepaidTravelConversionLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.PrepaidTravelConversionSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.PrepaidTravelCardDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlDocumentListActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.juristic.JuristicRequestFormActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.juristic.JuristicResetPinLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.juristic.JuristicOnboardingLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.juristic.JuristicOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.juristic.JuristicResetPinOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.juristic.JuristicRequestFormSuccessfulActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.juristic.JuristicSetupNewPinActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.juristic.JuristicSetupResetPinActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.juristic.JuristicBusinessPinActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.juristic.JuristicVerifyResetPinActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.JuristicStartingPinDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.EmailVerificationAndOtpVerificationDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.ekyc.HmlNTBeKYCLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.ekyc.HmlNationalIdHelpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820558" android:name=".view.activity.deeplink.PartnerAuthorizationDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820558" android:name=".view.activity.partner.PartnerAuthorizationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bankingagent.GenerateQRActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.bankingagent.BankingAgentReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.bankingagent.ServiceAtBankingAgentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820567" android:name=".view.activity.bankingagent.ServiceAtBankingAgentCoachMarkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.BankingAgentTransactionsDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.bankingagent.BankingAgentTCActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.bankingagent.BankingAgentSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.hml.NTBPinLoginActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.hml.HmlNTBPinDisabledActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBDocumentListActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBPinConsentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlETBManageEmailVerificationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.ManageEmailDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.BankingServicesDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.registration.friends.FriendsRegistrationActivity" screenOrientation="portrait" windowSoftInputMode="stateHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.friends.FriendsLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.registration.RegistrationTermsAndConsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.registration.preregistration.PreregistrationTCActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.cardmanagement.deejungtransfer.DeejungTermsAndConditionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.remittance.RemittanceLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.remittance.RemittanceCoachmarkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.remittance.RemittanceTermsAndConsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.remittance.RemittanceFaqActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.RemittanceRetryDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.RemittanceTransactionsDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.remittance.RemittanceReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.remittance.RemittanceOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.remittance.RemittanceSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.remittance.RemittanceRecipientDetailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.remittance.RemittanceInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.remittance.RemittanceSenderAddressActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.remittance.RemittanceAddFavouriteInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.remittance.RemittanceAddFavouriteRecipientDetailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.remittance.RemittanceSenderAddressReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.RemittanceGetStartDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.CardlessDeeplinkActivity" launchMode="singleTask" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.ThirdPartySlipDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBApplyLoanEntryActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.frictionlessmoa.HmlMoaActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.fragment.registration.RegistrationFacialRecognitionLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlETBOperatingAccountActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBOperatingAccountActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlBusinessOccupationInfoActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBBusinessOccupationInfoActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820567" android:name=".view.activity.registration.RegistrationLivenessCheckActivity" screenOrientation="portrait" configChanges="orientation"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.privacymanagement.PrivacyManagementLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.cardmanagement.CreditCardTermsAndConditionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.cardmanagement.StatementChannelLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.cardmanagement.StatementChannelCommonActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.cardmanagement.TermAndConditionStatementChannelActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.cardmanagement.StatementChannelChooseAddressActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.cardmanagement.StatementChannelSuccessfulActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.RiskFormSheetActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlCompanyNameActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlNTBCompanyNameActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.privacymanagement.PrivacyConsentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.transferandpay.PullSlipActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.businessowner.HmlBusinessIndustrySelectionActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.businessowner.HmlNTBBusinessIndustrySelectionActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlBusinessInformationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlETBBusinessInformationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.hml.businessowner.HmlBusinessOwnerGuidelinesActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.hml.businessowner.HmlNTBBusinessOwnerGuidelinesActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.hml.HmlConsumerGuidelinesDeepLinkPushActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.hml.HmlConsumerReviewSubmissionDeepLinkPushActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.hml.HmlConsumerReviewSubmissionDeepLinkSMSLineActivity" screenOrientation="portrait"/>
+        <activity android:name=".view.activity.hml.HmlConsumerGuidelinesSMSLineDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.additionaldocument.HmlApiBasedDocumentInstructionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.additionaldocument.NtbHmlApiBasedDocumentInstructionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.businessowner.HmlBusinessURLInformationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.businessowner.HmlNTBBusinessURLInformationActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.businessowner.HmlBusinessOwnerSubmissionReviewStepTwoActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.cardmanagement.EStatementsSuccessfulActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.remittance.RemittanceAddressSearchActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.NsipPartnerPaymentDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.partner.nsip.NsipPaymentLandingActivity" screenOrientation="portrait" windowSoftInputMode="stateAlwaysHidden"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.partner.nsip.NsipPartnerPaymentReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.partner.nsip.NsipPartnerPaymentOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.partner.nsip.NsipPartnerPaymentSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.InvestmentDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.CardlessAtmDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.TransferDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.BulkTransferDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.ChequeManagementDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.BankingAgentDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.PlanetScbCardDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.RtpDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.DebitCardDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.ccsof.CcSofHybridActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.ccsof.CcSofCreditCardOnlyActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ccsof.CcSofReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ccsof.CcSofSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ccsof.CcSofReviewTermsAndConditionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.PurchasesPaymentDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlIssuerInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.hml.HmlIssuerLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.investment.assessment.QuestionnaireActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820567" android:name=".view.activity.VideoPlaybackActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mailingaddress.MailingAddressInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mailingaddress.GoodToKnowActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.transferandpay.billpayment.BillPaymentSearchCoachMarkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.transferandpay.billpayment.BillPaymentSearchActivity" screenOrientation="portrait" windowSoftInputMode="adjustUnspecified|stateVisible|adjustResize"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.DirectDebitDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.directdebit.DirectDebitTermsAndConditionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mailingaddress.MailingAddressSuccessfulActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.directdebit.DirectDebitReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mailingaddress.MailingAddressDetailsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.directdebit.DirectDebitSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mailingaddress.MailingAddressReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.directdebit.DirectDebitInputActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mailingaddress.MailingAddressReviewOTPActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.mailingaddress.MailingAddressLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.directdebit.DirectDebitBillerSearchActivity" screenOrientation="portrait" windowSoftInputMode="adjustUnspecified|stateVisible|adjustResize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.directdebit.DirectDebitOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ccrredemption.ecoupon.ECouponSuccessfulActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ccrredemption.ecoupon.ECouponCommonActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ccrredemption.ecoupon.MyECouponActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ccrredemption.ecoupon.ECouponDetailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820566" android:name=".view.activity.ccrredemption.ecoupon.ECouponRedemptionDetailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.debitcard.reset.DebitCardResetPinActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.debitcard.reset.BaseChangePinWithMaxActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.debitcard.reset.DebitCardResetOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.debitcard.reset.DebitCardResetPinSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ntb.touchpoint.TouchPointWifiSettingsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ntb.touchpoint.TouchPointInstructionActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ntb.touchpoint.TouchPointWebViewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820567" android:name=".view.activity.ntb.touchpoint.TouchPointLivenessCheckActivity" screenOrientation="portrait" configChanges="orientation"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ntb.touchpoint.TouchPointSelectAccountActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ntb.touchpoint.TouchPointPinActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ntb.touchpoint.TouchPointAccountDetailActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ntb.touchpoint.TouchPointInputCidActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ntb.touchpoint.TouchPointFatcaActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ntb.touchpoint.TouchPointTermsAndConditionsActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.ntb.touchpoint.TouchPointFillInfoActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deposit.DepositOpenAccountActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.deposit.DepositProductCatalogActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.investment.roboadvisor.RoboAdvisorLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.prepaid.request.PrepaidRequestMailingAddressActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.registration.UserUnderAgeErrorActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.DataPrivacyManagementDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.csent.SensitiveCSentActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.privacypolicy.ScbPrivacyPolicyActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.MyInsuranceDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.insurance.InsurancePortfolioActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.registration.preregistration.PreregistrationOtpActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.demo.ntb.PreregisteredMobileActivity" screenOrientation="portrait" windowSoftInputMode="adjustUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|adjustResize"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.justforyou.JustForYouLandingActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.JustForYouDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.JustForYouEntryPointDeepLinkActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.paynow.PayNowReviewActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820562" android:name=".view.activity.paynow.PayNowSuccessActivity" screenOrientation="portrait"/>
+        <activity theme="@style/2131820555" android:name=".view.activity.deeplink.PayNowTransactionsDeepLinkActivity" screenOrientation="portrait"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_map_key"/>
+        <provider name="o.AppCompatTextView" exported="false" authorities="com.scb.phone.fileprovider" grantUriPermissions="true">
+            <meta-data name="android.support.FILE_PROVIDER_PATHS" resource="@xml/2131951618"/>
+        </provider>
+        <provider name="o.CheckExtractor" exported="false" authorities="com.scb.phone.ExternalStorageFileProvider" grantUriPermissions="true">
+            <meta-data name="android.support.FILE_PROVIDER_PATHS" resource="@xml/2131951617"/>
+        </provider>
+        <service name=".service.SCBClearAppFromRecentService" stopWithTask="false"/>
+        <service name=".service.SCBFcmMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity theme="@style/2131821251" android:name="com.thunderhead.android.infrastructure.login.LoginActivity" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity theme="@style/2131821250" label="@string/th_title_activity_admin_container" android:name="com.thunderhead.adminscreens.AdminContainerActivity"/>
+        <activity theme="@style/2131821250" android:name="com.thunderhead.trackoption.ListOfDataAttributesActivity"/>
+        <activity theme="@style/2131821250" android:name="com.thunderhead.trackoption.TrackOptionActivity"/>
+        <activity theme="@style/2131821250" android:name="com.thunderhead.trackoption.NewDataAttributeActivity"/>
+        <provider name="o.FragmentBuilder_DocumentUploadFragment" exported="false" authorities="com.scb.phone.contentProviders"/>
+        <activity theme="@style/Theme.Holo.Light" android:name="com.thunderhead.WebViewActivity"/>
+        <activity theme="@style/2131821389" android:name="com.thunderhead.FullScreenNotificationScreen"/>
+        <activity theme="@style/2131821246" android:name="com.thunderhead.android.infrastructure.configuration.InvalidConfigurationAlertDialogActivity"/>
+        <activity theme="@style/2131821246" android:name="com.thunderhead.android.infrastructure.features.pokerchip.RequestDrawOverPermissionsActivity"/>
+        <service name="com.thunderhead.android.infrastructure.features.messaging.FirebaseService">
+            <intent-filter priority="-1">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver name="com.thunderhead.messaging.CloudMessagingManager$UserNotificationInteractionReceiver" exported="true">
+            <intent-filter>
+                <action android:name="com.thunderhead.sdk.ONE_PUSH_NOTIFICATION_INTENT_ACTION"/>
+            </intent-filter>
+        </receiver>
+        <uses-library name="org.apache.http.legacy" required="false"/>
+        <activity theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" exported="false" excludeFromRecents="true"/>
+        <service name="com.google.android.gms.auth.api.signin.RevocationBoundService" permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" exported="true"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="12451000"/>
+        <service name="com.google.firebase.messaging.FirebaseMessagingService" exported="false" NOT_FOUND_0x27="true">
+            <intent-filter priority="-4">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service name="com.google.firebase.components.ComponentDiscoveryService" exported="false" NOT_FOUND_0x27="true">
+            <meta-data name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.iid.Registrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <service name="com.google.android.gms.tagmanager.TagManagerService" enabled="true" exported="false"/>
+        <activity android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity" exported="true" noHistory="true">
+            <intent-filter>
+                <data android:scheme="tagmanager.c.com.scb.phone"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <provider name="o.FragmentBuilder_BindFixedTransferTargetTabFragment" exported="false" authorities="com.scb.phone.com.squareup.picasso"/>
+        <activity theme="@style/2131821403" android:name="com.journeyapps.barcodescanner.CaptureActivity" clearTaskOnLaunch="true" stateNotNeeded="true" screenOrientation="sensorLandscape" windowSoftInputMode="stateAlwaysHidden"/>
+        <receiver name="com.google.firebase.iid.FirebaseInstanceIdReceiver" permission="com.google.android.c2dm.permission.SEND" exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <activity theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" exported="false"/>
+        <provider name="com.google.firebase.provider.FirebaseInitProvider" exported="false" authorities="com.scb.phone.firebaseinitprovider" initOrder="100"/>
+        <receiver name="com.google.android.gms.measurement.AppMeasurementReceiver" enabled="true" exported="false"/>
+        <service name="com.google.android.gms.measurement.AppMeasurementService" enabled="true" exported="false"/>
+        <service name="com.google.android.gms.measurement.AppMeasurementJobService" permission="android.permission.BIND_JOB_SERVICE" enabled="true" exported="false"/>
+        <service name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery" exported="false">
+            <meta-data name="backend:com.google.android.datatransport.cct.CctBackendFactory" value="cct"/>
+        </service>
+        <service name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+        <receiver name="o.nAllocationCreateTyped" exported="false"/>
+        <activity theme="@style/2131820557" label="@string/title_activity_scan_passport" android:name="p039io.beid.beidk.activity.ScanPassportActivity" process=":ScanPassportActivity"/>
+        <activity theme="@style/2131820557" label="@string/title_activity_face_capture" android:name="p039io.beid.beidk.activity.FaceCaptureActivity" process=":FaceCaptureActivity"/>
+        <service name="o.CloseAccountSuccessActivity" process=":BitmapProcessing"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.check.CheckExtractActivity" screenOrientation="landscape" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.check.CheckCaptureActivity" screenOrientation="landscape" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.check.CheckWorkflowActivity" screenOrientation="landscape" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.ImageReviewActivity" screenOrientation="portrait" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.ProcessActivity" screenOrientation="landscape" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.bill.BillExtractActivity" screenOrientation="landscape" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.bill.BillCaptureActivity" screenOrientation="landscape" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.bill.BillWorkflowActivity" screenOrientation="landscape" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.p017id.IdExtractActivity" screenOrientation="landscape" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.p017id.IdCaptureActivity" screenOrientation="landscape" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.p017id.IdCaptureBackActivity" screenOrientation="landscape" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.p017id.IdWorkflowActivity" screenOrientation="landscape" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.passport.PassportExtractActivity" screenOrientation="landscape" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.passport.PassportCaptureActivity" screenOrientation="landscape" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.passport.PassportWorkflowActivity" screenOrientation="landscape" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.creditcard.CreditCardWorkflowActivity" configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kofax.mobile.sdk.capture.creditcard.CardIoWrapperActivity"/>
+        <activity android:name="io.card.payment.CardIOActivity" configChanges="keyboardHidden|orientation"/>
+        <activity android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity" enabled="false" exported="false" process=":playcore_missing_splits_activity" stateNotNeeded="true" launchMode="singleInstance"/>
+        <activity theme="@style/2131821173" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" enabled="false" exported="false" process=":playcore_dialog_wrapper_activity" stateNotNeeded="true"/>
+        <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_STANDALONE_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:value="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+    </application>
+</manifest>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/success_view_container" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/toolbar" layout="@layout/2131493731"/>
+    <ScrollView orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent" fillViewport="true" layout_below="@+id/toolbar">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <TextView id="@+id/tv_title_text" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/idp_share_information_header" style="@style/2131821014"/>
+            <LinearLayout orientation="vertical" id="@+id/ll_personal_info_section" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/tv_title_personal_info_text" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="8dp" text="@string/idp_share_information_personal_info_title" textAllCaps="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820996"/>
+                <View style="@style/2131821259"/>
+                <LinearLayout orientation="vertical" id="@+id/ll_personal_info_fields_container" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" divider="@drawable/divider_line" showDividers="middle" dividerPadding="1dp" paddingStart="16dp">
+                    <com.scb.phone.view.custom.ndid.CustomIdpTitleWithLabelView orientation="vertical" id="@+id/ll_thai_name_container" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="@string/idp_share_information_thai_name_label"/>
+                    <com.scb.phone.view.custom.ndid.CustomIdpTitleWithLabelView orientation="vertical" id="@+id/ll_english_name_container" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="@string/idp_share_information_english_name_label"/>
+                    <com.scb.phone.view.custom.ndid.CustomIdpTitleWithLabelView orientation="vertical" id="@+id/ll_nationality_container" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="@string/idp_share_information_nationality_label"/>
+                    <com.scb.phone.view.custom.ndid.CustomIdpTitleWithLabelView orientation="vertical" id="@+id/ll_citizen_id_container" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="@string/idp_share_information_citizen_id_label"/>
+                    <com.scb.phone.view.custom.ndid.CustomIdpTitleWithLabelView orientation="vertical" id="@+id/ll_date_of_birth_container" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="@string/idp_share_information_date_of_birth_label"/>
+                    <com.scb.phone.view.custom.ndid.CustomIdpTitleWithLabelView orientation="vertical" id="@+id/ll_marital_status_container" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="@string/idp_share_information_marital_status_label"/>
+                    <com.scb.phone.view.custom.ndid.CustomIdpTitleWithLabelView orientation="vertical" id="@+id/ll_gender_container" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="@string/idp_share_information_gender_label"/>
+                </LinearLayout>
+                <View style="@style/2131821259"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/ll_contact_info_section" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/tv_title_contact_info_text" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="8dp" text="@string/idp_share_information_contact_info_title" textAllCaps="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820996"/>
+                <View style="@style/2131821259"/>
+                <LinearLayout orientation="vertical" id="@+id/ll_contact_info_fields_container" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" divider="@drawable/divider_line" showDividers="middle" dividerPadding="1dp" paddingStart="16dp">
+                    <LinearLayout orientation="vertical" id="@+id/ll_all_contact_number_container" layout_width="match_parent" layout_height="wrap_content">
+                        <com.scb.phone.view.custom.ndid.CustomIdpTitleWithLabelView orientation="vertical" id="@+id/ll_single_contact_number_container" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="@string/idp_share_information_contact_number_label"/>
+                        <LinearLayout orientation="vertical" id="@+id/ll_multi_contact_number_container" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+                            <TextView id="@+id/tv_multi_contact_number_title" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="8dp" text="@string/idp_share_information_contact_number_label" style="@style/2131821015"/>
+                            <androidx.appcompat.widget.AppCompatSpinner id="@+id/spn_multi_contact_number_value" background="@drawable/bg_spinner_with_icon" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" minHeight="40dp" layout_marginEnd="16dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <com.scb.phone.view.custom.ndid.CustomIdpTitleWithLabelView orientation="vertical" id="@+id/ll_home_address_container" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="@string/idp_share_information_home_address_label"/>
+                    <com.scb.phone.view.custom.ndid.CustomIdpTitleWithLabelView orientation="vertical" id="@+id/ll_current_address_container" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="@string/idp_share_information_current_address_label"/>
+                </LinearLayout>
+                <View style="@style/2131821259"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/ll_occupation_info_section" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/tv_title_occupation_info_text" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="8dp" text="@string/idp_share_information_occupation_info_title" textAllCaps="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820996"/>
+                <View style="@style/2131821259"/>
+                <LinearLayout orientation="vertical" id="@+id/ll_occupation_info_fields_container" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" divider="@drawable/divider_line" showDividers="middle" dividerPadding="1dp" paddingStart="16dp">
+                    <com.scb.phone.view.custom.ndid.CustomIdpTitleWithLabelView orientation="vertical" id="@+id/ll_company_name_container" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="@string/idp_share_information_company_name_label"/>
+                    <com.scb.phone.view.custom.ndid.CustomIdpTitleWithLabelView orientation="vertical" id="@+id/ll_job_title_container" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="@string/idp_share_information_job_title_label"/>
+                    <com.scb.phone.view.custom.ndid.CustomIdpTitleWithLabelView orientation="vertical" id="@+id/ll_income_container" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="@string/idp_share_information_income_label"/>
+                    <com.scb.phone.view.custom.ndid.CustomIdpTitleWithLabelView orientation="vertical" id="@+id/ll_work_address_container" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="@string/idp_share_information_work_address_label"/>
+                </LinearLayout>
+                <View style="@style/2131821259"/>
+            </LinearLayout>
+            <TextView id="@+id/tv_title_consent_text" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="8dp" text="@string/idp_share_information_consent_label" textAllCaps="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820996"/>
+            <View style="@style/2131821259"/>
+            <LinearLayout orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatCheckBox gravity="top" id="@+id/cb_consent" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" button="@drawable/terms_checkbox_selector_with_padding" text="@string/idp_share_information_consent_message" paddingStart="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820869"/>
+            </LinearLayout>
+            <View style="@style/2131821259"/>
+            <TextView gravity="center" id="@+id/tv_customer_created_text" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="8dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820873"/>
+            <TextView gravity="center" id="@+id/tv_title_warning_cancellation_text" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="8dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820873"/>
+            <Button enabled="false" layout_gravity="bottom" id="@+id/button_next" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="24dp" text="@string/confirm" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820837"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

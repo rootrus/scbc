@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" id="@+id/direct_debit_review_items_container" background="#ffffff" layout_width="match_parent" layout_height="wrap_content"/>
+        <View style="@style/2131821259"/>
+        <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="8dp" text="@string/auto_direct_debit_subject_fee_remark" includeFontPadding="false" textAlignment="center" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820869"/>
+        <androidx.legacy.widget.Space layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+        <Button id="@+id/direct_debit_review_continue_btn" background="@drawable/bg_button_primary" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="18dp" layout_marginBottom="18dp" text="@string/confirm" layout_marginStart="20dp" layout_marginEnd="20dp" style="@style/2131820837"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

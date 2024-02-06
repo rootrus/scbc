@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#ffffff" layout_width="match_parent" layout_height="100dp" layout_marginTop="16dp">
+    <View layout_alignParentTop="true" style="@style/2131821259"/>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" layout_centerVertical="true" layout_toStartOf="@+id/reload_button" layout_alignParentStart="true">
+        <TextView id="@+id/error_title_text_view" layout_width="match_parent" layout_height="wrap_content" text="@string/auto_change_mailing_address_accounts_error_not_available" style="@style/2131820996"/>
+        <TextView id="@+id/error_description_text_view" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="3dp" text="@string/auto_change_mailing_address_accounts_error_try_again" style="@style/2131821058"/>
+    </LinearLayout>
+    <ImageView id="@+id/reload_button" padding="10dp" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_reload_empty_item" layout_centerVertical="true" contentDescription="@null" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+    <View layout_alignParentBottom="true" style="@style/2131821259"/>
+</RelativeLayout>

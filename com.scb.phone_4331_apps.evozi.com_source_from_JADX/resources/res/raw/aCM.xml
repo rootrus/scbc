@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" minHeight="261dp">
+    <include id="@+id/search_header" layout="@layout/2131493289"/>
+    <include layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/search_header" layout="@layout/2131493252"/>
+    <View layout_below="@+id/search_header" style="@style/2131821259"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/occupation_title_search_list_recycler_view" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/search_header"/>
+    <include background="#ffffff" layout_width="match_parent" layout_height="72dp" layout="@layout/2131493674"/>
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+    <RelativeLayout background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+        <ImageView id="@+id/iv_outcome_approve_header" layout_width="match_parent" layout_height="wrap_content" src="@drawable/outcome_placeholder" scaleType="fitStart" adjustViewBounds="true" layout_alignParentTop="true"/>
+        <LinearLayout gravity="center_horizontal" orientation="vertical" id="@+id/top_layout" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/iv_outcome_approve_header">
+            <TextView gravity="center_horizontal" id="@+id/tv_accept_subtitle" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" text="@string/hml_outcome_accept_subtitle" paddingStart="16dp" paddingEnd="16dp" style="@style/2131821054"/>
+            <TextView gravity="center_horizontal" id="@+id/tv_date" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" paddingStart="16dp" paddingEnd="16dp" style="@style/2131821054"/>
+        </LinearLayout>
+        <androidx.cardview.widget.CardView id="@+id/cv_offer" layout_width="match_parent" layout_height="wrap_content" layout_margin="24dp" layout_below="@+id/top_layout">
+            <androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp">
+                <ImageView id="@+id/iv_amount_icon" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" src="@drawable/outcome_icon_placeholder" NOT_FOUND_0x1d="0" NOT_FOUND_0x25="0" NOT_FOUND_0x27="0"/>
+                <TextView id="@+id/tv_amount_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20dp" text="@string/hml_offer_review_loan_amount_title" textAlignment="center" NOT_FOUND_0x1d="0" NOT_FOUND_0x25="0" NOT_FOUND_0x26="@+id/iv_amount_icon" style="@style/2131820994"/>
+                <TextView textSize="48sp" textColor="#353239" id="@+id/tv_amount" layout_width="wrap_content" layout_height="wrap_content" textAlignment="center" NOT_FOUND_0x1e="@+id/tv_currency" NOT_FOUND_0x1f="2" NOT_FOUND_0x25="0" NOT_FOUND_0x26="@+id/tv_amount_title"/>
+                <TextView id="@+id/tv_currency" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="8dp" text="@string/hml_baht_curreny" layout_marginStart="4dp" NOT_FOUND_0x1c="@+id/tv_amount" NOT_FOUND_0x1d="0" NOT_FOUND_0x24="@+id/tv_amount" style="@style/2131820983"/>
+                <TextView id="@+id/tv_repayment_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="18dp" text="@string/hml_offer_review_repayment_amount_title" textAlignment="center" NOT_FOUND_0x1d="0" NOT_FOUND_0x25="0" NOT_FOUND_0x26="@+id/tv_amount" style="@style/2131820994"/>
+                <TextView id="@+id/tv_repayment_amount" layout_width="wrap_content" layout_height="wrap_content" textAlignment="center" NOT_FOUND_0x1d="0" NOT_FOUND_0x25="0" NOT_FOUND_0x26="@+id/tv_repayment_title" style="@style/2131821019"/>
+                <LinearLayout orientation="vertical" id="@+id/ll_layout_details_container" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" NOT_FOUND_0x26="@+id/tv_repayment_amount"/>
+                <Button enabled="true" id="@+id/bt_button_decline" layout_width="0dp" layout_height="50dp" layout_marginTop="26dp" layout_marginBottom="8dp" text="@string/hml_outcome_decline_dialog_decline" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1c="0" NOT_FOUND_0x20="0" NOT_FOUND_0x22="@+id/bt_button_accept" NOT_FOUND_0x26="@+id/ll_layout_details_container" style="@style/2131820806"/>
+                <Button enabled="true" id="@+id/bt_button_accept" layout_width="0dp" layout_height="50dp" layout_marginTop="26dp" layout_marginBottom="8dp" text="@string/hml_outcome_counter_item_accept" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1c="0" NOT_FOUND_0x21="@+id/bt_button_decline" NOT_FOUND_0x23="0" NOT_FOUND_0x26="@+id/ll_layout_details_container" style="@style/2131820837"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+        <LinearLayout orientation="vertical" id="@+id/bottom_layout" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/cv_offer">
+            <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="8dp" text="@string/hml_outcome_counter_attention_title" textAllCaps="true" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+            <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+            <TextView background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/hml_outcome_counter_attention_text" style="@style/2131820992"/>
+            <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+            <Button enabled="true" id="@+id/bt_hml_contact_call_center" layout_width="match_parent" layout_height="50dp" layout_margin="16dp" text="@string/hml_contact_call_center" style="@style/2131820806"/>
+            <TextView layout_gravity="center_horizontal" id="@+id/bt_return_home" background="@drawable/ripple_rounded_dark_purple" padding="4dp" layout_width="wrap_content" layout_height="wrap_content" layout_margin="16dp" text="@string/hml_return_to_home" style="@style/2131821098"/>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

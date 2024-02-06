@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493427"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/rv_banking_actions" paddingBottom="16dp" visibility="visible" scrollbars="none" clipToPadding="false" layout_width="match_parent" layout_height="match_parent" layout_marginTop="16dp" overScrollMode="never" NOT_FOUND_0x10="androidx.recyclerview.widget.GridLayoutManager" NOT_FOUND_0x11="@string/appbar_scrolling_view_behavior" NOT_FOUND_0x12="3" style="@style/2131821386"/>
+    <LinearLayout orientation="vertical" id="@+id/ll_layout_banking_actions_internet_error" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="18dp">
+        <TextView gravity="center_horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="5dp" text="@string/banking_actions_information_not_available" layout_marginStart="26dp" layout_marginEnd="26dp" style="@style/2131821020"/>
+        <TextView gravity="center_horizontal" layout_width="match_parent" layout_height="wrap_content" text="@string/banking_actions_please_try_again" layout_marginStart="26dp" layout_marginEnd="26dp" style="@style/2131820996"/>
+        <TextView layout_gravity="center_horizontal" id="@+id/banking_actions_try_again" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/banking_actions_try_again" style="@style/2131821098"/>
+    </LinearLayout>
+</LinearLayout>

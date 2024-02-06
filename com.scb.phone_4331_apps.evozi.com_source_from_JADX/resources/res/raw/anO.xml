@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" gravity="center_horizontal" orientation="horizontal" padding="@dimen/2131165828" layout_width="match_parent" layout_height="wrap_content">
+    <TextView textSize="50sp" textColor="#736e78" id="@+id/text_input1" layout_width="wrap_content" layout_height="wrap_content" text="@string/pin_underscore" layout_marginEnd="8dp"/>
+    <TextView textSize="50sp" textColor="#736e78" id="@+id/text_input2" layout_width="wrap_content" layout_height="wrap_content" text="@string/pin_underscore" layout_marginEnd="8dp"/>
+    <TextView textSize="50sp" textColor="#736e78" id="@+id/text_input3" layout_width="wrap_content" layout_height="wrap_content" text="@string/pin_underscore" layout_marginEnd="8dp"/>
+    <TextView textSize="50sp" textColor="#736e78" id="@+id/text_input4" layout_width="wrap_content" layout_height="wrap_content" text="@string/pin_underscore" layout_marginEnd="8dp"/>
+    <TextView textSize="50sp" textColor="#736e78" id="@+id/text_input5" layout_width="wrap_content" layout_height="wrap_content" text="@string/pin_underscore" layout_marginEnd="8dp"/>
+    <TextView textSize="50sp" textColor="#736e78" id="@+id/text_input6" layout_width="wrap_content" layout_height="wrap_content" text="@string/pin_underscore"/>
+</LinearLayout>

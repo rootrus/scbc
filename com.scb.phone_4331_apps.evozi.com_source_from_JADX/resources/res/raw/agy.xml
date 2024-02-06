@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" gravity="center" orientation="vertical" id="@+id/root_layout" layout_width="match_parent" layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView layout_gravity="center" id="@+id/success_icon" layout_width="45dp" layout_height="45dp" layout_marginTop="14dp" src="@drawable/ic_check_circle_black_48dp" contentDescription="@null" NOT_FOUND_0x10="@color/2131099798"/>
+    <TextView gravity="center_horizontal" id="@+id/text_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/easycash_card_success_title" textAlignment="center" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821072"/>
+    <TextView gravity="center" layout_gravity="center_horizontal" id="@+id/text_desc" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" text="@string/easycash_card_success_desc" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820880"/>
+    <TextView layout_gravity="center" id="@+id/text_date_time" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" style="@style/2131820880"/>
+    <TextView layout_gravity="center" id="@+id/text_reference_id" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" style="@style/2131820880"/>
+    <View id="@+id/divider" background="#c9c6cd" layout_width="match_parent" layout_height="1dp"/>
+    <FrameLayout id="@+id/common_success_view" layout_width="match_parent" layout_height="wrap_content"/>
+</LinearLayout>

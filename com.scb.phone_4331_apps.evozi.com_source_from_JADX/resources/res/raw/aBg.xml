@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/view_group_root" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout gravity="center_vertical" orientation="vertical" layout_width="match_parent" layout_height="match_parent" layout_weight="1">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <TextView textSize="16sp" gravity="center" id="@+id/enter_otp_label" layout_width="match_parent" layout_height="wrap_content" text="@string/email_otp_input_message" layout_marginStart="@dimen/2131165810" layout_marginEnd="@dimen/2131165810" style="@style/2131821015"/>
+            <TextView textSize="16sp" gravity="center" id="@+id/ref_code" layout_width="match_parent" layout_height="wrap_content" style="@style/2131820998"/>
+            <com.scb.phone.view.custom.login.CustomPinTextInput id="@+id/custom_pin_input" layout_width="match_parent" layout_height="wrap_content"/>
+            <TextView textSize="14sp" textColor="#f15353" ellipsize="end" gravity="center_horizontal" id="@+id/text_error_message" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="-12dp" lines="2" style="@style/2131821112"/>
+            <LinearLayout gravity="center" orientation="vertical" id="@+id/text_re_send_sms_linear_layout" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="@dimen/2131165810" layout_marginEnd="@dimen/2131165810">
+                <TextView textSize="16sp" textColor="#959199" gravity="center" id="@+id/text_did_not_receive_otp" layout_width="wrap_content" layout_height="wrap_content" text="@string/manage_email_verification_didnt_receive_message" style="@style/2131821062"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

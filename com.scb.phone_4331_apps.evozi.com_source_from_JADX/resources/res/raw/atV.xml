@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <RelativeLayout layout_width="match_parent" layout_height="match_parent">
+            <ImageView id="@+id/gift_transfer_image" layout_width="match_parent" layout_height="224dp" layout_alignParentTop="true"/>
+            <LinearLayout orientation="vertical" id="@+id/gift_transfer_info_layout" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/gift_transfer_image">
+                <TextView id="@+id/gift_transfer_title" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820985"/>
+                <TextView id="@+id/gift_transfer_description" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820994"/>
+            </LinearLayout>
+            <FrameLayout id="@+id/fragment_account_source_select" tag="@string/fragment_gift_tag" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/gift_transfer_info_layout"/>
+            <LinearLayout orientation="vertical" id="@+id/recipient_layout" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/fragment_account_source_select">
+                <com.scb.phone.view.custom.common.CustomSelectAccountGift id="@+id/custom_select_account_gift" background="#ffffff" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="0dp"/>
+                <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayBiller id="@+id/custom_recipient_gift" background="#ffffff" paddingTop="16dp" paddingBottom="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="0dp"/>
+            </LinearLayout>
+            <TextView id="@+id/amount_text_view" background="@drawable/border_gray_bg_lighter_gray" paddingTop="12dp" paddingBottom="4dp" layout_width="match_parent" layout_height="wrap_content" text="@string/amount" layout_below="@+id/recipient_layout" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+            <RelativeLayout id="@+id/amount_layout" layout_width="wrap_content" layout_height="wrap_content" layout_below="@+id/amount_text_view">
+                <com.google.android.material.textfield.TextInputLayout theme="@style/2131820780" id="@+id/gift_amount_text_input" background="#ffffff" paddingTop="8dp" paddingBottom="24dp" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <com.scb.phone.view.custom.common.AmountEditText gravity="end" id="@+id/gift_amount_value_edit_text" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content" inputType="numberDecimal" imeOptions="actionDone" style="@style/2131821029"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </RelativeLayout>
+            <View id="@+id/amount_bottom_separator" background="#c9c6cd" layout_width="match_parent" layout_height="1dp" layout_below="@+id/amount_layout"/>
+            <LinearLayout orientation="vertical" id="@+id/limit_layout" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/amount_bottom_separator">
+                <TextView gravity="end" id="@+id/remaining_limit_text_view" padding="12dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" style="@style/2131820994"/>
+                <include id="@+id/limit_view_group_progress" layout_width="match_parent" layout_height="26dp" layout_marginTop="16dp" layout_marginEnd="16dp" layout="@layout/2131493668"/>
+            </LinearLayout>
+            <TextView id="@+id/more_options_text_view" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/note_more_options" layout_below="@+id/limit_layout" textAllCaps="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820996"/>
+            <View id="@+id/more_options_divider_view" layout_marginTop="8dp" layout_below="@+id/more_options_text_view" style="@style/2131821259"/>
+            <LinearLayout orientation="vertical" id="@+id/note_layout" background="#ffffff" paddingTop="8dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/more_options_divider_view" layout_alignParentLeft="true" layout_alignParentStart="true">
+                <com.scb.phone.view.custom.common.NoteEditText id="@+id/note_edit_text" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x20="@string/gifting_optional_text_hint" NOT_FOUND_0x21="160" NOT_FOUND_0x22="140"/>
+            </LinearLayout>
+            <com.scb.phone.view.custom.common.DefaultButton id="@+id/gift_input_preview_button" background="@drawable/bg_button_transparent" layout_width="match_parent" layout_height="50dp" layout_marginTop="24dp" layout_below="@+id/note_layout" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0x23="@drawable/ripple_rounded_purple" NOT_FOUND_0x24="@string/preview_gift_button_text" NOT_FOUND_0x25="@color/2131099881"/>
+            <com.scb.phone.view.custom.common.DefaultButton id="@+id/button_send_gift" background="@drawable/bg_button" layout_width="match_parent" layout_height="50dp" layout_marginTop="18dp" layout_marginBottom="18dp" layout_below="@+id/gift_input_preview_button" layout_alignLeft="@+id/gift_input_preview_button" layout_alignRight="@+id/gift_input_preview_button" layout_alignStart="@+id/gift_input_preview_button" layout_alignEnd="@+id/gift_input_preview_button" NOT_FOUND_0x23="@drawable/ripple_rounded_dark_purple" NOT_FOUND_0x24="@string/send_gift_money_button_text" NOT_FOUND_0x25="@color/2131100257"/>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

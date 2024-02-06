@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#ffffff" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <ImageView id="@+id/iv_arrow_back" layout_width="wrap_content" layout_height="wrap_content" layout_margin="16dp" src="@drawable/ic_arrow_back_white_24dp" tint="#7631c1"/>
+        <ImageView id="@+id/image" layout_width="match_parent" layout_height="@dimen/2131165731" src="@drawable/welcome_aboard" layout_marginStart="32dp" layout_marginEnd="32dp"/>
+        <TextView gravity="center" layout_width="match_parent" layout_height="wrap_content" text="@string/welcome_aboard_msg" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820998"/>
+        <TextView gravity="center" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" text="@string/welcome_aboard_which_service" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820998"/>
+        <Button id="@+id/bt_open_account" layout_width="match_parent" layout_height="50dp" layout_marginTop="16dp" layout_marginBottom="16dp" text="@string/open_account_button" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820837"/>
+        <Button id="@+id/bt_loan" layout_width="match_parent" layout_height="50dp" layout_marginBottom="16dp" text="@string/apply_for_loan_button" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820806"/>
+        <TextView textStyle="bold" gravity="center_horizontal" id="@+id/tv_explore_demo" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" text="@string/explore_demo_button" style="@style/2131821100"/>
+    </LinearLayout>
+</ScrollView>

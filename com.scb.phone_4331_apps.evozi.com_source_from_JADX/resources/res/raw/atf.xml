@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout layout_gravity="center" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <ImageView layout_gravity="center_horizontal" id="@+id/image_info" layout_width="48dp" layout_height="48dp" layout_marginTop="60dp" src="@drawable/box_empty" scaleType="fitXY"/>
+        <TextView textColor="#736e78" gravity="center_horizontal" layout_gravity="center_horizontal" id="@+id/tv_error_page_msg" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/edit_address_remark" layout_marginStart="40dp" layout_marginEnd="40dp" style="@style/2131820859"/>
+    </LinearLayout>
+</RelativeLayout>

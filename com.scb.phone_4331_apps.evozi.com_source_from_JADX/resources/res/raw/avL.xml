@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+            <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/mw_shop_address_title" textAllCaps="true" style="@style/2131820998"/>
+        </LinearLayout>
+        <View style="@style/2131821259"/>
+        <LinearLayout orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/mw_shop_address_shop_type" style="@style/2131821015"/>
+                <TextView id="@+id/shop_type_description" layout_width="wrap_content" layout_height="wrap_content" text="แผงลอย/ในห้างสรรพสินค้า" style="@style/2131821062"/>
+            </LinearLayout>
+            <View layout_marginStart="16dp" style="@style/2131821259"/>
+            <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" weightSum="1">
+                <com.scb.phone.view.custom.common.CustomAddressInput id="@+id/address_no_input" layout_width="0dp" layout_height="wrap_content" layout_weight="0.5" NOT_FOUND_0xf="@string/mw_shop_address_address_hint" NOT_FOUND_0x10="20" NOT_FOUND_0x11="@string/mw_shop_address_address_no"/>
+                <com.scb.phone.view.custom.common.CustomAddressInput id="@+id/moo_input" layout_width="0dp" layout_height="wrap_content" layout_weight="0.5" NOT_FOUND_0xf="@string/mw_shop_address_moo_hint" NOT_FOUND_0x10="20" NOT_FOUND_0x11="@string/mw_shop_address_moo"/>
+            </LinearLayout>
+            <com.scb.phone.view.custom.common.CustomAddressInput id="@+id/village_input" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="@string/mw_shop_address_village_hint" NOT_FOUND_0x10="200" NOT_FOUND_0x11="@string/mw_shop_address_village"/>
+            <com.scb.phone.view.custom.common.CustomAddressInput id="@+id/alley_input" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="@string/mw_shop_address_alley_hint" NOT_FOUND_0x10="40" NOT_FOUND_0x11="@string/mw_shop_address_alley"/>
+            <include layout="@layout/2131493331"/>
+        </LinearLayout>
+        <View style="@style/2131821259"/>
+        <LinearLayout paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+            <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/note_more_options" textAllCaps="true" style="@style/2131820998"/>
+        </LinearLayout>
+        <View style="@style/2131821259"/>
+        <com.scb.phone.view.custom.common.CustomAddressInput id="@+id/nearby_input" background="#ffffff" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="@string/mw_shop_address_places_nearby_hint" NOT_FOUND_0x10="50" NOT_FOUND_0x11="@string/mw_shop_address_places_nearby"/>
+        <View style="@style/2131821259"/>
+        <FrameLayout paddingTop="24dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+            <Button id="@+id/button_done" layout_width="match_parent" layout_height="wrap_content" text="@string/done" style="@style/2131820837"/>
+        </FrameLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <View layout_width="match_parent" style="@style/2131821259"/>
+        <LinearLayout orientation="horizontal" background="#ffffff" paddingTop="16dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+            <com.scb.phone.view.custom.common.ScheduleDate id="@+id/start_date" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginEnd="16dp"/>
+            <com.scb.phone.view.custom.common.ScheduleDate id="@+id/end_date" layout_width="0dp" layout_height="wrap_content" layout_weight="1"/>
+        </LinearLayout>
+        <View layout_width="match_parent" style="@style/2131821259"/>
+        <LinearLayout orientation="horizontal" background="#ffffff" paddingTop="16dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+            <com.scb.phone.view.custom.common.ScheduleDate id="@+id/every_date" layout_width="match_parent" layout_height="wrap_content"/>
+        </LinearLayout>
+        <View layout_width="match_parent" style="@style/2131821259"/>
+        <TextView gravity="center_horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" text="@string/schedule_setup_remarks" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820873"/>
+    </LinearLayout>
+</ScrollView>

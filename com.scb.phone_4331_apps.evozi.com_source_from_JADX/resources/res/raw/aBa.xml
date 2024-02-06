@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/layout_deejung_top_view" background="#00000000" layout_width="match_parent" layout_height="wrap_content">
+    <include id="@+id/layout_card_info" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0" layout="@layout/2131494341"/>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/deejung_monthly_payment_detail_label" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x13="@+id/layout_card_info">
+        <TextView id="@+id/deejung_purchase_payment_details_title" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/purchase_payment_details" textAllCaps="true" layout_marginStart="16dp" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" NOT_FOUND_0x14="0" style="@style/2131820996"/>
+        <View id="@+id/deejung_purchase_payment_details_divider" visibility="gone" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" NOT_FOUND_0x13="@+id/deejung_purchase_payment_details_title" style="@style/2131821260"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView textColor="#353239" id="@+id/purchase_amount_label" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" text="@string/total_requested_amount" layout_marginStart="16dp" layout_marginEnd="24dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/purchase_amount" NOT_FOUND_0x13="@+id/deejung_monthly_payment_detail_label" style="@style/2131821012"/>
+    <TextView textColor="#353239" id="@+id/purchase_amount" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" layout_marginEnd="16dp" NOT_FOUND_0x11="0" NOT_FOUND_0x13="@+id/deejung_monthly_payment_detail_label" style="@style/2131821020"/>
+    <View id="@+id/dividerPurchaseAmount" background="#eae7ec" layout_width="0dp" layout_height="1dp" layout_marginTop="16dp" layout_marginStart="16dp" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" NOT_FOUND_0x13="@+id/purchase_amount_label"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

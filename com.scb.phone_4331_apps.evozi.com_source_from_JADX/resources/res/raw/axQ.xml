@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+    <LinearLayout orientation="vertical" id="@+id/layout_container" layout_width="match_parent" layout_height="wrap_content">
+        <TextView id="@+id/tv_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp" text="@string/scbs_risk_level_title" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821014"/>
+        <TextView id="@+id/tv_subtitle" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" text="@string/scbs_risk_level_subtitle" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821060"/>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/rv_risk_level" background="#ffffff" padding="8dp" visibility="visible" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" NOT_FOUND_0xe="androidx.recyclerview.widget.GridLayoutManager" NOT_FOUND_0xf="1"/>
+        <Space layout_width="wrap_content" layout_height="0dp" layout_weight="1"/>
+        <TextView id="@+id/tv_instruction_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp" text="@string/scbs_risk_level_instructions_title" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821012"/>
+        <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_instruction_subtitle" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" text="@string/scbs_risk_level_instruction_subtitle" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821013"/>
+        <Button id="@+id/button_next" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="24dp" text="@string/next" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820837"/>
+    </LinearLayout>
+</ScrollView>

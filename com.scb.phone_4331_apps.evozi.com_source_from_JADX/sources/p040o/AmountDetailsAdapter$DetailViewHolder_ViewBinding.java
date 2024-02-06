@@ -1,0 +1,10 @@
+package p040o;
+
+import org.apache.http.ParseException;
+
+/* renamed from: o.AmountDetailsAdapter$DetailViewHolder_ViewBinding */
+public interface AmountDetailsAdapter$DetailViewHolder_ViewBinding {
+    PrepaidTravelConversionLandingActivity_ViewBinding[] IconCompatParcelizer(DepositTransactionAdapter$ChildViewHolder_ViewBinding depositTransactionAdapter$ChildViewHolder_ViewBinding, RadioButtonGroupAdapter$RadioButtonViewGroup radioButtonGroupAdapter$RadioButtonViewGroup) throws ParseException;
+
+    PrepaidTravelConversionLandingActivity_ViewBinding read(DepositTransactionAdapter$ChildViewHolder_ViewBinding depositTransactionAdapter$ChildViewHolder_ViewBinding, RadioButtonGroupAdapter$RadioButtonViewGroup radioButtonGroupAdapter$RadioButtonViewGroup) throws ParseException;
+}

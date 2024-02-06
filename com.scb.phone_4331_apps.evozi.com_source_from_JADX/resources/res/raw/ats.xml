@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" id="@+id/fields_container" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+        <TextView id="@+id/label_personal_information" background="#66c9c6cd" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/etb_check_identity_national_id_info" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+        <RelativeLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+            <TextView layout_gravity="center_vertical" id="@+id/laser_id_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/laser_id_number_title" layout_centerVertical="true" layout_marginEnd="28dp" style="@style/2131821013"/>
+            <ImageView layout_gravity="center_vertical" id="@+id/help_button" layout_width="20dp" layout_height="20dp" src="@drawable/icon_id_questions" layout_centerVertical="true" layout_marginStart="-20dp" layout_toEndOf="@+id/laser_id_title"/>
+        </RelativeLayout>
+        <LinearLayout layout_gravity="center_vertical" orientation="horizontal" layout_width="wrap_content" layout_height="match_parent" layout_marginTop="8dp" layout_marginBottom="16dp" layout_marginStart="16dp">
+            <EditText id="@+id/laser_id_first" nextFocusRight="@+id/laser_id_second" layout_width="wrap_content" layout_height="wrap_content" hint="JC0" maxLength="3" inputType="textVisiblePassword" imeOptions="actionNext" style="@style/2131820792"/>
+            <TextView layout_width="wrap_content" layout_height="wrap_content" text="-" layout_marginStart="8dp" layout_marginEnd="8dp" style="@style/2131821015"/>
+            <EditText id="@+id/laser_id_second" nextFocusRight="@+id/laser_id_third" layout_width="wrap_content" layout_height="wrap_content" hint="1234567" maxLength="7" inputType="textVisiblePassword" imeOptions="actionNext" style="@style/2131820792"/>
+            <TextView layout_width="wrap_content" layout_height="wrap_content" text="-" layout_marginStart="8dp" layout_marginEnd="8dp" style="@style/2131821015"/>
+            <EditText id="@+id/laser_id_third" layout_width="wrap_content" layout_height="wrap_content" hint="89" maxLength="2" inputType="textVisiblePassword" imeOptions="actionDone" style="@style/2131820792"/>
+            <View layout_width="match_parent" layout_height="1dp"/>
+        </LinearLayout>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+    </LinearLayout>
+    <LinearLayout gravity="bottom" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <Button enabled="false" layout_gravity="bottom" id="@+id/button_next" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="24dp" text="@string/national_id_next_title" layout_alignParentBottom="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820837"/>
+    </LinearLayout>
+</LinearLayout>

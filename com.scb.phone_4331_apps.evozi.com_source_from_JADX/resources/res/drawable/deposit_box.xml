@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_selected="true" drawable="@drawable/shape_red_reounded_reactangle_border"/>
+    <item state_pressed="true" drawable="@drawable/shape_gray_rounded_rectangle"/>
+    <item drawable="@drawable/shape_gray_rounded_rectangle"/>
+</selector>

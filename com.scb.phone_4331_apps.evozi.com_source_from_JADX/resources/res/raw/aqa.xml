@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/parent_relative_layout" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="horizontal" id="@+id/my_shop_header_linear_layout" layout_width="match_parent" layout_height="wrap_content">
+        <TextView gravity="top|left|center_vertical|center_horizontal|center|start" layout_width="wrap_content" layout_height="wrap_content" text="@string/wallet_summary_page_title" layout_weight="1" textAllCaps="true" paddingStart="20dp" paddingEnd="20dp" style="@style/2131820996"/>
+        <TextView gravity="top|right|center_vertical|center_horizontal|center|end" id="@+id/my_shop_total_amount_text_view" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1" textAllCaps="true" paddingStart="20dp" paddingEnd="20dp" style="@style/2131820996"/>
+    </LinearLayout>
+    <com.asksira.loopingviewpager.LoopingViewPager id="@+id/card_view_pager" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="6dp" layout_below="@+id/my_shop_header_linear_layout" NOT_FOUND_0xf="true"/>
+    <p059me.relex.circleindicator.CircleIndicator id="@+id/indicator" layout_width="match_parent" layout_height="12dp" layout_below="@+id/card_view_pager" NOT_FOUND_0xd="@drawable/dark_gray_radius" NOT_FOUND_0xe="@drawable/gray_radius"/>
+</RelativeLayout>

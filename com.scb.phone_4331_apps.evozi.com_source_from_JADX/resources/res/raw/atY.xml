@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout background="#ffffff" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content">
+        <ImageView id="@+id/image_icon" layout_width="50dp" layout_height="50dp" contentDescription="@null" layout_marginStart="16dp"/>
+        <TextView gravity="center_vertical" id="@+id/text_title" layout_width="match_parent" layout_height="wrap_content" text="@string/landing_page_scb" layout_alignTop="@+id/image_icon" layout_alignBottom="@+id/image_icon" layout_marginStart="16dp" layout_toEndOf="@+id/image_icon" style="@style/2131821015"/>
+        <View id="@+id/separator_view" layout_width="match_parent" layout_height="1dp" layout_marginTop="16dp" layout_below="@+id/text_title" style="@style/2131821259"/>
+        <TextView id="@+id/title_account" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/gifting_account_number" layout_below="@+id/separator_view" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+        <EditText textColorHint="#959199" id="@+id/edit_account_number" background="@drawable/shape_gray_rounded_rectangle" layout_width="match_parent" layout_height="40dp" layout_marginTop="8dp" hint="@string/transfer_to_account_number_hint" layout_below="@+id/title_account" inputType="number" imeOptions="actionNext" paddingStart="16dp" paddingEnd="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+        <View layout_width="match_parent" layout_height="1dp" layout_marginTop="24dp" layout_below="@+id/edit_account_number" style="@style/2131821259"/>
+    </RelativeLayout>
+    <com.scb.phone.view.custom.common.DefaultButton layout_gravity="bottom" id="@+id/button_confirm" background="@drawable/bg_button" layout_width="match_parent" layout_height="48dp" layout_marginTop="24dp" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x17="@drawable/ripple_rounded_dark_purple" NOT_FOUND_0x18="@string/confirm" NOT_FOUND_0x19="@color/2131100257"/>
+</FrameLayout>

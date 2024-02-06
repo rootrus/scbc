@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <ImageView id="@+id/ntb_apply_loan_entry_iv" layout_width="match_parent" layout_height="0dp" layout_margin="40dp" src="@drawable/introduction_placeholder" NOT_FOUND_0xb="@+id/ntb_apply_loan_entry_description_tv" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0"/>
+    <TextView id="@+id/ntb_apply_loan_entry_description_tv" layout_width="wrap_content" layout_height="wrap_content" layout_margin="20dp" text="@string/hml_ntb_your_loan_entry_description" NOT_FOUND_0xb="@+id/ntb_apply_loan_entry_personal_button_ll_layout" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/ntb_apply_loan_entry_iv" style="@style/2131821060"/>
+    <LinearLayout orientation="vertical" id="@+id/ntb_apply_loan_entry_personal_button_ll_layout" layout_width="0dp" layout_height="wrap_content" layout_margin="20dp" divider="@drawable/linear_divider" showDividers="middle" dividerPadding="4dp" NOT_FOUND_0xa="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/ntb_apply_loan_entry_description_tv"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

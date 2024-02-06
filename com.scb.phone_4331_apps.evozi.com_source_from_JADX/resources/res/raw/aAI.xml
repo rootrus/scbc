@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="wrap_content">
+    <TextView id="@+id/txv_card_label" layout_width="wrap_content" layout_height="wrap_content" text="@string/card" layout_marginStart="16dp" NOT_FOUND_0xa="0" NOT_FOUND_0xe="@+id/layout_card_type" style="@style/2131821012"/>
+    <LinearLayout gravity="end" id="@+id/layout_card_type" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" NOT_FOUND_0x9="1" NOT_FOUND_0xb="@+id/txv_card_label" NOT_FOUND_0xc="0" NOT_FOUND_0xe="0">
+        <com.scb.phone.view.custom.ImageTextView gravity="end" id="@+id/txv_card_type" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="16dp" NOT_FOUND_0x8="@drawable/logo_scb_new" style="@style/2131821020"/>
+    </LinearLayout>
+    <TextView gravity="end" id="@+id/txv_card_number" layout_width="0dp" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x9="1" NOT_FOUND_0xa="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/layout_card_type" style="@style/2131820816"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

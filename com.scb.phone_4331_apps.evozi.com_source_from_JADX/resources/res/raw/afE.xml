@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar id="@+id/toolbar" background="?attr/colorPrimary" layout_width="match_parent" layout_height="?attr/actionBarSize" elevation="2dp" NOT_FOUND_0xb="0dp">
+        <TextView ellipsize="end" id="@+id/title_text_view" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" style="@style/2131821118"/>
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <fragment name="com.scb.phone.view.fragment.cardmanagement.TempLimitHomeFragment" tag="TempLimitHomeFragment" layout_width="match_parent" layout_height="wrap_content"/>
+            <FrameLayout id="@+id/temp_limit_bottom_part_container" layout_width="match_parent" layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

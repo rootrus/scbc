@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#ffffff" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+        <TextView textColor="#7631c1" layout_width="match_parent" layout_height="wrap_content" text="@string/auto_kofax_camera_tutorial_step_1_title" style="@style/2131821028"/>
+        <TextView layout_width="match_parent" layout_height="wrap_content" text="@string/auto_kofax_camera_tutorial_step_1_desc" style="@style/2131821013"/>
+        <TextView textColor="#7631c1" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="8dp" text="@string/auto_kofax_camera_tutorial_do" style="@style/2131821014"/>
+        <ImageView id="@+id/iv_document_do" layout_width="match_parent" layout_height="wrap_content" src="@drawable/document_tutorial_placeholder_big" adjustViewBounds="true"/>
+        <TextView textColor="#7631c1" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="32dp" layout_marginBottom="8dp" text="@string/auto_kofax_camera_tutorial_dont" style="@style/2131821014"/>
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="24dp" weightSum="2">
+            <com.scb.phone.view.custom.hml.CustomTutorialImageAndText id="@+id/cv_dont_image_1" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginEnd="4dp" NOT_FOUND_0x10="@string/auto_kofax_camera_tutorial_dont_hold" NOT_FOUND_0x11="@drawable/document_tutorial_placeholder_small"/>
+            <com.scb.phone.view.custom.hml.CustomTutorialImageAndText id="@+id/cv_dont_image_2" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginStart="4dp" NOT_FOUND_0x10="@string/auto_kofax_camera_tutorial_no_black" NOT_FOUND_0x11="@drawable/document_tutorial_placeholder_small"/>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="24dp" weightSum="2">
+            <com.scb.phone.view.custom.hml.CustomTutorialImageAndText id="@+id/cv_dont_image_3" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginEnd="4dp" NOT_FOUND_0x10="@string/auto_kofax_camera_tutorial_no_blurry" NOT_FOUND_0x11="@drawable/document_tutorial_placeholder_small"/>
+            <com.scb.phone.view.custom.hml.CustomTutorialImageAndText id="@+id/cv_dont_image_4" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginStart="4dp" NOT_FOUND_0x10="@string/auto_kofax_camera_tutorial_no_crumple" NOT_FOUND_0x11="@drawable/document_tutorial_placeholder_small"/>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="24dp" weightSum="2">
+            <com.scb.phone.view.custom.hml.CustomTutorialImageAndText id="@+id/cv_dont_image_5" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginEnd="4dp" NOT_FOUND_0x10="@string/auto_kofax_camera_tutorial_no_fold" NOT_FOUND_0x11="@drawable/document_tutorial_placeholder_small"/>
+            <com.scb.phone.view.custom.hml.CustomTutorialImageAndText id="@+id/cv_dont_image_6" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginStart="4dp" NOT_FOUND_0x10="@string/auto_kofax_camera_tutorial_no_bank_statement" NOT_FOUND_0x11="@drawable/document_tutorial_placeholder_small"/>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="24dp" weightSum="2">
+            <com.scb.phone.view.custom.hml.CustomTutorialImageAndText id="@+id/cv_dont_image_7" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginEnd="4dp" NOT_FOUND_0x10="@string/auto_kofax_camera_tutorial_no_bank_book" NOT_FOUND_0x11="@drawable/document_tutorial_placeholder_small"/>
+            <com.scb.phone.view.custom.hml.CustomTutorialImageAndText id="@+id/cv_dont_image_8" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginStart="4dp" NOT_FOUND_0x10="@string/auto_kofax_camera_tutorial_no_certificate" NOT_FOUND_0x11="@drawable/document_tutorial_placeholder_small"/>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="24dp" weightSum="2">
+            <com.scb.phone.view.custom.hml.CustomTutorialImageAndText id="@+id/cv_dont_image_9" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginEnd="4dp" NOT_FOUND_0x10="@string/auto_kofax_camera_tutorial_no_shadow" NOT_FOUND_0x11="@drawable/document_tutorial_placeholder_small"/>
+            <com.scb.phone.view.custom.hml.CustomTutorialImageAndText id="@+id/cv_dont_image_10" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginStart="4dp" NOT_FOUND_0x10="@string/auto_kofax_camera_tutorial_no_distorted" NOT_FOUND_0x11="@drawable/document_tutorial_placeholder_small"/>
+        </LinearLayout>
+        <ImageView id="@+id/iv_perfect_example" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="8dp" src="@drawable/document_tutorial_placeholder_big" adjustViewBounds="true"/>
+        <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="24dp" text="@string/auto_kofax_camera_tutorial_perfect_example" style="@style/2131821013"/>
+        <Button id="@+id/button_next" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="6dp" text="@string/auto_kofax_camera_tutorial_got_it" style="@style/2131820837"/>
+    </LinearLayout>
+</ScrollView>

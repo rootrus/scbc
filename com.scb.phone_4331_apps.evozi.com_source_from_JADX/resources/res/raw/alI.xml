@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent" foreground="@drawable/ripple_rounded_4_purple">
+    <RelativeLayout id="@+id/card" background="@drawable/bg_white_rounded" focusable="true" clickable="true" layout_width="match_parent" layout_height="126dp" foreground="@drawable/ripple_rounded_4_purple" paddingStart="1dp" layout_marginStart="4dp" layout_marginEnd="4dp" elevation="2dp">
+        <RelativeLayout id="@+id/image_card_layout" layout_width="wrap_content" layout_height="match_parent">
+            <ImageView id="@+id/image_card_full" visibility="gone" layout_width="94dp" layout_height="94dp" scaleType="fitXY" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true"/>
+            <com.scb.phone.view.custom.common.ImageViewCropStart id="@+id/image_card_art" layout_width="50dp" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" scaleType="matrix" layout_alignParentLeft="true" layout_centerVertical="true" layout_marginStart="30dp" layout_alignParentStart="true"/>
+        </RelativeLayout>
+        <LinearLayout orientation="horizontal" id="@+id/credit_card_dots_linear_layout" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" layout_alignParentLeft="true" layout_alignParentBottom="true" layout_marginStart="1dp" layout_alignParentStart="true">
+            <View background="@drawable/shape_credit_card_dot" layout_width="5dp" layout_height="5dp" layout_marginBottom="30dp" layout_marginEnd="1dp"/>
+            <View background="@drawable/shape_credit_card_dot" layout_width="5dp" layout_height="5dp" layout_marginBottom="30dp" layout_marginEnd="4dp"/>
+            <View background="@drawable/shape_credit_card_dot" layout_width="5dp" layout_height="5dp" layout_marginEnd="1dp"/>
+            <View background="@drawable/shape_credit_card_dot" layout_width="5dp" layout_height="5dp" layout_marginEnd="1dp"/>
+            <View background="@drawable/shape_credit_card_dot" layout_width="5dp" layout_height="5dp" layout_marginEnd="1dp"/>
+            <View background="@drawable/shape_credit_card_dot" layout_width="5dp" layout_height="5dp" layout_marginBottom="30dp" layout_marginEnd="4dp"/>
+            <View background="@drawable/shape_credit_card_dot" layout_width="5dp" layout_height="5dp" layout_marginEnd="1dp"/>
+            <View background="@drawable/shape_credit_card_dot" layout_width="5dp" layout_height="5dp" layout_marginEnd="1dp"/>
+            <View background="@drawable/shape_credit_card_dot" layout_width="5dp" layout_height="5dp" layout_marginEnd="1dp"/>
+            <View background="@drawable/shape_credit_card_dot" layout_width="5dp" layout_height="5dp"/>
+        </LinearLayout>
+        <TextView gravity="end" id="@+id/card_name_text_view" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_alignParentTop="true" layout_alignParentRight="true" layout_marginStart="8dp" layout_marginEnd="8dp" layout_toEndOf="@+id/image_card_layout" layout_alignParentEnd="true" style="@style/2131821013"/>
+        <com.scb.phone.view.custom.common.ThaiTextView gravity="end" id="@+id/card_description_text_view" layout_width="wrap_content" layout_height="wrap_content" lines="3" layout_below="@+id/card_name_text_view" layout_alignRight="@+id/card_name_text_view" textAlignment="textEnd" layout_marginStart="40dp" layout_toEndOf="@+id/image_card_layout" layout_alignEnd="@+id/card_name_text_view" style="@style/2131821060"/>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/root_view_successful" background="#f5f3f6" descendantFocusability="blocksDescendants" layout_width="match_parent" layout_height="match_parent">
+    <ImageView id="@+id/overlay_qr_code_tutorial_image_view" visibility="gone" layout_width="match_parent" layout_height="match_parent" scaleType="fitXY" contentDescription="@null" elevation="9dp"/>
+    <RelativeLayout orientation="vertical" id="@+id/qr_code_section_relative_layout" paddingBottom="108dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true" elevation="9dp">
+        <TextView id="@+id/qr_code_section_coachmark_description" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/successful_qr_code_coachmark_transfer_description" layout_alignParentRight="true" layout_marginEnd="56dp" layout_alignParentEnd="true" style="@style/2131821039"/>
+        <ImageView id="@+id/ic_arrow_right_coachmark" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="8dp" src="@drawable/ic_arrow_right_coachmark" layout_below="@+id/qr_code_section_coachmark_description" layout_alignParentRight="true" contentDescription="@null" scaleY="-1" layout_marginEnd="48dp" layout_alignParentEnd="true"/>
+        <LinearLayout orientation="horizontal" id="@+id/root_chubb_additional" background="#ffffff" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/ic_arrow_right_coachmark" paddingStart="16dp" paddingEnd="22dp">
+            <ImageView layout_gravity="center_vertical" id="@+id/iv_qr_code_icon" layout_width="24dp" layout_height="24dp" src="@drawable/qr_code_icon" contentDescription="@null"/>
+            <TextView id="@+id/qr_code_section_coachmark_header" layout_width="0dp" layout_height="wrap_content" text="@string/successful_qr_code_transfer_header" layout_weight="1" layout_marginStart="16dp" style="@style/2131820864"/>
+            <ImageView layout_gravity="center_vertical" id="@+id/expand_icon_image_view" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" contentDescription="@null"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="match_parent">
+        <RelativeLayout id="@+id/bill_payment_layout" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+            <View id="@+id/line_black" background="@drawable/shape_review_black_bg" layout_width="match_parent" layout_height="8dp" layout_marginTop="4dp" layout_alignParentTop="true" layout_marginStart="4dp" layout_marginEnd="4dp"/>
+            <RelativeLayout id="@+id/layout_slip" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginStart="8dp" layout_marginEnd="8dp">
+                <LinearLayout orientation="vertical" background="@drawable/slip_bg" layout_width="match_parent" layout_height="wrap_content">
+                    <include id="@+id/slip_chubb_common_payment" layout="@layout/2131493301"/>
+                    <LinearLayout orientation="vertical" id="@+id/slip_chubb_layout" layout_width="match_parent" layout_height="wrap_content">
+                        <View style="@style/2131821259"/>
+                        <androidx.recyclerview.widget.RecyclerView id="@+id/recycler_view_chubb" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="8dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <View id="@+id/line_view" background="@drawable/shape_shadow" layout_width="match_parent" layout_height="4dp" layout_marginTop="8dp" layout_marginStart="8dp" layout_marginEnd="8dp"/>
+            <ImageView id="@+id/end_slip" layout_width="match_parent" layout_height="wrap_content" src="@drawable/slip_curly" scaleType="fitXY" tint="#f5f3f6" layout_alignLeft="@+id/layout_slip" layout_alignRight="@+id/layout_slip" layout_alignBottom="@+id/layout_slip" contentDescription="@null" layout_alignStart="@+id/layout_slip" layout_alignEnd="@+id/layout_slip"/>
+            <TextView gravity="center" id="@+id/remaining_balance_text_view" background="@drawable/bg_white_with_border" padding="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="24dp" layout_below="@+id/buttons_container" style="@style/2131821015"/>
+            <LinearLayout orientation="vertical" id="@+id/deepLink_callback_button_layout" background="#00000000" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12dp" layout_marginBottom="16dp" layout_below="@+id/remaining_balance_text_view" layout_marginStart="20dp" layout_marginEnd="20dp"/>
+            <TextView id="@+id/return_button" background="@drawable/ripple_rounded_dark_purple" padding="4dp" clickable="true" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="14dp" text="@string/return_to_accounts" layout_below="@+id/deepLink_callback_button_layout" layout_centerHorizontal="true" style="@style/2131821098"/>
+            <LinearLayout orientation="vertical" id="@+id/buttons_container" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/layout_slip" layout_marginStart="20dp" layout_marginEnd="20dp">
+                <Button id="@+id/auto_save_off_donations_save_button" visibility="gone" layout_width="match_parent" layout_height="50dp" layout_marginTop="24dp" text="@string/save_slip" style="@style/2131820837"/>
+                <LinearLayout orientation="horizontal" id="@+id/root_chub_share" background="#00000000" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="16dp">
+                    <Button id="@+id/share_button" visibility="gone" layout_width="match_parent" layout_height="50dp" text="@string/share_slip" style="@style/2131820806"/>
+                    <Button id="@+id/auto_save_off_share_button" visibility="gone" layout_width="0dp" layout_height="50dp" text="@string/share_slip" layout_weight="1" style="@style/2131820806"/>
+                    <Button id="@+id/share_moment_button" visibility="gone" layout_width="0dp" layout_height="50dp" text="@string/share_moment" layout_weight="1" layout_marginStart="16dp" style="@style/2131820806"/>
+                    <Button id="@+id/auto_save_off_save_button" visibility="gone" layout_width="0dp" layout_height="50dp" text="@string/save_slip" layout_weight="1" layout_marginStart="20dp" style="@style/2131820837"/>
+                </LinearLayout>
+            </LinearLayout>
+            <include id="@+id/qr_code_layout" visibility="gone" layout="@layout/2131493293"/>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_store_url_description" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/hml_business_url_info_marketplace_description" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820998"/>
+    <LinearLayout orientation="vertical" id="@+id/ll_layout_store_urls_list" layout_width="match_parent" layout_height="wrap_content"/>
+    <TextView gravity="right|center_vertical|center_horizontal|center|end" id="@+id/bt_store_url_add_more" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" text="@string/hml_business_url_info_add_more_btn" paddingEnd="16dp" style="@style/2131820987"/>
+</LinearLayout>

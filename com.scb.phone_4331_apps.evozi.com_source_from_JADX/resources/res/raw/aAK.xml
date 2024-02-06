@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout orientation="vertical" id="@+id/layout_withdraw_amount" layout_width="match_parent" layout_height="wrap_content">
+        <com.scb.phone.view.custom.common.FragmentWrapContentViewPager id="@+id/view_pager_source_of_fund" background="#ffffff" layout_width="match_parent" layout_height="wrap_content"/>
+        <TextView gravity="start" id="@+id/footnote_text_view" visibility="visible" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/account_selector_cardless_footnote" lineSpacingMultiplier="0.8" style="@style/2131820863"/>
+        <TextView id="@+id/to_text_view" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="8dp" text="@string/amount" layout_marginStart="16dp" style="@style/2131820995"/>
+        <View style="@style/2131821259"/>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/amount_recycler_view" background="#ffffff" visibility="visible" layout_width="match_parent" layout_height="wrap_content"/>
+        <View style="@style/2131821259"/>
+        <LinearLayout orientation="vertical" id="@+id/layout_amount" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+            <com.scb.phone.view.custom.ScbTextInputLayout theme="@style/2131820780" id="@+id/amount_input_layout" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x16="@style/2131821003" NOT_FOUND_0x17="false">
+                <com.scb.phone.view.custom.common.AmountEditText textColorHint="#959199" gravity="end" id="@+id/et_amount" layout_width="match_parent" layout_height="wrap_content" inputType="numberDecimal" imeOptions="actionDone" textAlignment="textEnd" NOT_FOUND_0x15="@string/cardless_amount_hint" style="@style/2131821029"/>
+            </com.scb.phone.view.custom.ScbTextInputLayout>
+        </LinearLayout>
+        <View style="@style/2131821259"/>
+        <TextView gravity="end" id="@+id/remaining_limit_text_view" paddingTop="12dp" paddingBottom="6dp" visibility="visible" layout_width="match_parent" layout_height="wrap_content" paddingEnd="12dp" style="@style/2131820996"/>
+        <TextView gravity="end" id="@+id/amount_divisible_text_view" paddingBottom="12dp" layout_width="match_parent" layout_height="wrap_content" text="@string/cardless_atm_custom_amount_disclaimer" paddingEnd="12dp" style="@style/2131820996"/>
+        <View style="@style/2131821259"/>
+        <TextView gravity="center" id="@+id/cardless_withdraw_note" background="#ffffff" padding="12dp" visibility="visible" layout_width="match_parent" layout_height="wrap_content" text="@string/cardless_withdraw_note" lineSpacingMultiplier="0.8" style="@style/2131820996"/>
+        <View style="@style/2131821259"/>
+    </LinearLayout>
+</merge>

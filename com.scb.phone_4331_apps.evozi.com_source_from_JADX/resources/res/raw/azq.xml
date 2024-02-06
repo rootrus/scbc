@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="wrap_content">
+    <TextView gravity="start" id="@+id/tv_interestrate_title" layout_width="0dp" layout_height="wrap_content" layout_marginEnd="4dp" NOT_FOUND_0xa="@+id/tv_interestrate_value" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" style="@style/2131821014"/>
+    <TextView gravity="end" id="@+id/tv_interestrate_value" layout_width="wrap_content" layout_height="wrap_content" textAlignment="textEnd" NOT_FOUND_0x7="true" NOT_FOUND_0x8="@+id/tv_interestrate_title" NOT_FOUND_0x9="0" NOT_FOUND_0xc="1" NOT_FOUND_0xd="@+id/guideline" style="@style/2131821015"/>
+    <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@+id/guideline" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xb="0.5"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

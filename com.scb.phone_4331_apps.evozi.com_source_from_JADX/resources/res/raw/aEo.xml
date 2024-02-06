@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item icon="@drawable/ic_filter_list_black_24dp" id="@+id/menu_filter" title="@string/deposit_detail_transactions_filter" NOT_FOUND_0x3="2"/>
+</menu>

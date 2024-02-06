@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar id="@+id/toolbarTxnHeader" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+        <RelativeLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+            <TextView id="@+id/tvTxnHeader" layout_width="wrap_content" layout_height="wrap_content" layout_centerVertical="true" textAllCaps="true" style="@style/2131820996"/>
+            <TextView id="@+id/tvMonthHeader" layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_filter_this_month" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true" style="@style/2131821012"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content">
+        <include id="@+id/viewCustomProgress" layout_width="match_parent" layout_height="wrap_content" layout_centerInParent="true" layout="@layout/2131493668"/>
+        <include id="@+id/viewCustomError" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout="@layout/2131493408"/>
+        <include id="@+id/custom_error" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout="@layout/2131493408"/>
+        <TextView gravity="center" id="@+id/tvErrorMessage" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/deposit_detail_no_transactions" style="@style/2131821015"/>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/rvTransactions" background="#f5f3f6" descendantFocusability="beforeDescendants" layout_width="match_parent" layout_height="wrap_content"/>
+    </RelativeLayout>
+</LinearLayout>

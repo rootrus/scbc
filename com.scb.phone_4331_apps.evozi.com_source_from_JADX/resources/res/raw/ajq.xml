@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout layout_width="match_parent" layout_height="140dp">
+        <ImageView id="@+id/iv_bg_bank_service" layout_width="match_parent" layout_height="match_parent" src="?attr/headerBackground" scaleType="centerCrop" contentDescription="@null"/>
+        <View background="#6621262c" layout_width="match_parent" layout_height="match_parent"/>
+        <TextView textColor="#ffffff" gravity="center_horizontal" id="@+id/tv_home_welcome_headline" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="36dp" text="@string/account_summary_hello" style="@style/2131820887"/>
+        <TextView textColor="#ffffff" ellipsize="end" gravity="center_horizontal" id="@+id/tv_home_welcome" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="13dp" lines="1" layout_below="@+id/tv_home_welcome_headline" layout_marginStart="24dp" layout_marginEnd="24dp" style="@style/2131820804"/>
+    </RelativeLayout>
+    <com.scb.phone.view.custom.CustomProfileImageView id="@+id/cus_iv_profile" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="100dp" layout_centerHorizontal="true" NOT_FOUND_0x12="@integer/2131361795" NOT_FOUND_0x13="@dimen/2131166001" NOT_FOUND_0x14="@dimen/2131166000" NOT_FOUND_0x15="@color/2131100257" NOT_FOUND_0x16="@array/2130903056" NOT_FOUND_0x17="@array/2130903057"/>
+    <include layout="@layout/2131493362"/>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/relative_layout" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <TextView id="@+id/name_text_view" layout_width="match_parent" layout_height="39dp" layout_marginTop="20dp" layout_marginStart="20dp" style="@style/2131821062"/>
+    <View background="#eae7ec" visibility="visible" layout_width="match_parent" layout_height="1dp" layout_below="@+id/name_text_view" layout_marginStart="16dp"/>
+    <View id="@+id/footer_divider_view" background="#eae7ec" visibility="gone" layout_width="match_parent" layout_height="1dp" layout_below="@+id/name_text_view"/>
+    <View id="@+id/footer_view" background="#f5f3f6" visibility="gone" layout_width="match_parent" layout_height="24dp" layout_below="@+id/footer_divider_view" layout_alignParentBottom="true"/>
+    <View background="@drawable/ripple_purple" layout_width="match_parent" layout_height="60dp" layout_alignParentTop="true"/>
+</RelativeLayout>

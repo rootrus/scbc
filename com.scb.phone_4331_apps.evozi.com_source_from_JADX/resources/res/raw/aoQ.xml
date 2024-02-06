@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#ffffff" paddingTop="4dp" paddingBottom="20dp" clickable="true" layout_width="match_parent" layout_height="wrap_content" paddingStart="4dp" paddingEnd="4dp">
+    <RelativeLayout id="@+id/search_close_btn_relative_layout" clickable="true" layout_width="40dp" layout_height="40dp" layout_alignParentRight="true" layout_alignParentEnd="true">
+        <ImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_close_24dp" layout_centerInParent="true" contentDescription="@null"/>
+        <View background="@drawable/ripple_rounded_purple" layout_width="match_parent" layout_height="match_parent" layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="-16dp" layout_below="@+id/search_close_btn_relative_layout">
+        <TextView layout_width="match_parent" layout_height="wrap_content" text="@string/province" paddingStart="12dp" paddingEnd="12dp" style="@style/2131821014"/>
+        <RelativeLayout id="@+id/province_relative_layout" layout_width="wrap_content" layout_height="36dp">
+            <TextView id="@+id/province_text_view" layout_width="match_parent" layout_height="wrap_content" text="@string/province_place_holder" layout_centerInParent="true" paddingStart="12dp" paddingEnd="12dp" style="@style/2131821062"/>
+            <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp" layout_below="@+id/province_text_view" layout_marginStart="12dp" layout_marginEnd="12dp"/>
+            <View background="@drawable/ripple_rounded_purple" layout_width="match_parent" layout_height="match_parent" layout_centerVertical="true"/>
+        </RelativeLayout>
+        <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" text="@string/district" paddingStart="12dp" paddingEnd="12dp" style="@style/2131821014"/>
+        <RelativeLayout id="@+id/district_relative_layout" layout_width="wrap_content" layout_height="36dp">
+            <TextView id="@+id/district_text_view" layout_width="match_parent" layout_height="wrap_content" text="@string/district_place_holder" layout_centerInParent="true" paddingStart="12dp" paddingEnd="12dp" style="@style/2131821062"/>
+            <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp" layout_below="@+id/district_text_view" layout_marginStart="12dp" layout_marginEnd="12dp"/>
+            <View background="@drawable/ripple_rounded_purple" layout_width="match_parent" layout_height="match_parent" layout_centerVertical="true"/>
+        </RelativeLayout>
+        <com.scb.phone.view.custom.common.DefaultButton id="@+id/search_button" background="@drawable/bg_button" layout_width="match_parent" layout_height="50dp" layout_marginTop="8dp" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0x15="@drawable/ripple_rounded_dark_purple" NOT_FOUND_0x16="@string/search" NOT_FOUND_0x17="@color/2131100257"/>
+    </LinearLayout>
+</RelativeLayout>

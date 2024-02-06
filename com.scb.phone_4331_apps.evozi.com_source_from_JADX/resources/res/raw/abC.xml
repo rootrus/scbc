@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/root_activity" layout_width="match_parent" layout_height="match_parent">
+    <com.scb.phone.view.custom.common.ProgressStateBar orientation="horizontal" id="@+id/breadcrumbs_ntb" background="#ffffff" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+    <FrameLayout id="@+id/container" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/breadcrumbs_ntb"/>
+    <include layout="@layout/2131493731"/>
+</RelativeLayout>

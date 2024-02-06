@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#000000" layout_width="match_parent" layout_height="match_parent">
+    <com.kofax.kmc.kui.uicontrols.ImageCaptureView id="@+id/cv_capture_view" layout_width="match_parent" layout_height="match_parent"/>
+    <TextView textColor="#ffffff" id="@+id/tv_back" padding="8dp" layout_width="wrap_content" layout_height="wrap_content" layout_margin="16dp" text="@string/additional_document_back_button" style="@style/2131821015"/>
+    <TextView textColor="#ffffff" gravity="center_horizontal" id="@+id/tv_see_instructions" padding="8dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/additional_document_capture_instructions" layout_alignParentBottom="true" layout_centerHorizontal="true" style="@style/2131821014"/>
+    <ImageView id="@+id/iv_flashlight" layout_width="48dp" layout_height="48dp" layout_margin="16dp" src="@drawable/ic_flash_off_white_48dp" scaleType="centerInside" layout_alignParentRight="true" contentDescription="@null" layout_alignParentEnd="true"/>
+    <ImageView id="@+id/iv_capture_button" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="16dp" src="@drawable/ic_capture_document" scaleType="centerInside" layout_alignParentRight="true" layout_centerVertical="true" contentDescription="@null" layout_alignParentEnd="true"/>
+    <ImageView id="@+id/iv_coachmark" visibility="gone" layout_width="match_parent" layout_height="match_parent" src="@drawable/capture_ocr_coachmark" scaleType="fitXY"/>
+</RelativeLayout>

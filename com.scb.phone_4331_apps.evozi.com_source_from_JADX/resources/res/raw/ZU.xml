@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="wrap_content" fillViewport="true">
+        <LinearLayout orientation="vertical" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+            <TextView id="@+id/tv_cheque_order_heading1" layout_width="wrap_content" layout_height="wrap_content" text="@string/order_cheque_heading1" style="@style/2131821067"/>
+            <TextView id="@+id/tv_cheque_order_heading2" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="15dp" text="@string/order_cheque_heading2" style="@style/2131820865"/>
+            <TextView textColor="#959199" id="@+id/tv_cheque_order_heading3" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="15dp" text="@string/order_cheque_heading3" style="@style/2131820865"/>
+            <TextView textColor="#959199" id="@+id/tv_cheque_order_header3_detail" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="15dp" text="@string/order_cheque_detailof3" style="@style/2131820865"/>
+            <TextView textColor="#959199" id="@+id/tv_cheque_order_header3_detail1" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="15dp" text="@string/order_cheque_detailof3_1" style="@style/2131820865"/>
+            <TextView textColor="#959199" id="@+id/tv_cheque_order_heading4" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="15dp" text="@string/order_cheque_heading4" style="@style/2131820865"/>
+            <TextView textColor="#959199" id="@+id/tv_cheque_order_header4_detail" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="15dp" text="@string/order_cheque_detailof4" style="@style/2131820865"/>
+            <TextView textColor="#959199" id="@+id/tv_cheque_order_header4_detail1" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="15dp" text="@string/order_cheque_detailof4_1" style="@style/2131820865"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

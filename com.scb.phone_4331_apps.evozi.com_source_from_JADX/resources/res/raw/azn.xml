@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <ProgressBar layout_gravity="center_horizontal" id="@+id/progressBar" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="190dp" indeterminate="true"/>
+    <LinearLayout gravity="center" orientation="vertical" layout_width="match_parent" layout_height="match_parent" layout_marginLeft="60dp" layout_marginRight="60dp">
+        <EditText textSize="18dp" gravity="center" id="@+id/idTxt" layout_width="match_parent" layout_height="wrap_content" hint="@string/enterID" inputType="textCapCharacters"/>
+        <Button id="@+id/submitBtn" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" text="@string/submit"/>
+    </LinearLayout>
+</FrameLayout>

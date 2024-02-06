@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/flContainer" padding="6dp" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" minHeight="150dp">
+    <androidx.cardview.widget.CardView id="@+id/cardView" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x13="@dimen/2131165427">
+        <LinearLayout orientation="vertical" id="@+id/llContentHolder" layout_width="match_parent" layout_height="wrap_content">
+            <ImageView id="@+id/ivRecommendIpo" layout_width="match_parent" layout_height="84dp"/>
+            <LinearLayout orientation="vertical" id="@+id/llTextContainer" padding="8dp" layout_width="match_parent" layout_height="wrap_content">
+                <LinearLayout orientation="horizontal" id="@+id/llFirstLine" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView textSize="16sp" textColor="#7631c1" ellipsize="end" layout_gravity="start" id="@+id/tvNameIpo" layout_width="0dp" layout_height="wrap_content" singleLine="true" layout_weight="1" layout_marginEnd="4dp" NOT_FOUND_0x14="@+id/tvDate" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0" style="@style/2131821112"/>
+                </LinearLayout>
+                <TextView textSize="16sp" ellipsize="end" id="@+id/tvDescriptionIpo" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" NOT_FOUND_0x15="0" NOT_FOUND_0x16="@+id/tvName" style="@style/2131820990"/>
+                <TextView textSize="16sp" textColor="#06bf59" ellipsize="end" id="@+id/tvDateIpo" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" style="@style/2131821112"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView textSize="20sp" textColor="#000000" id="@+id/tvRecommendCaptionIpo" paddingTop="4dp" paddingBottom="16dp" layout_width="wrap_content" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp" elevation="2dp" style="@style/2131821112"/>
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#ffffff" descendantFocusability="blocksDescendants" layout_width="match_parent" layout_height="wrap_content">
+    <include layout="@layout/2131493731"/>
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <LinearLayout orientation="vertical" background="#ffffff" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <LinearLayout gravity="bottom|center_vertical|center_horizontal|center" orientation="horizontal" paddingTop="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView gravity="bottom" id="@+id/tvprepaidTravelThbEquivalentAmount" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" style="@style/2131821106"/>
+                    <TextView gravity="bottom" id="@+id/prepaid_travel_topup_currency_code" layout_width="wrap_content" layout_height="wrap_content" text="THB" maxLines="1" layout_marginStart="4dp" style="@style/2131821098"/>
+                </LinearLayout>
+                <TextView gravity="center" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="24dp" text="@string/prepaid_travel_topup_total_balance_lbl" maxLines="1" style="@style/2131821060"/>
+                <Button enabled="false" id="@+id/btPrepaidWalletTopup" layout_width="match_parent" layout_height="wrap_content" text="@string/prepaid_travel_topup_button" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820837"/>
+                <TextView gravity="center" id="@+id/tvPrepaidWalletDetailRemainingConversionLimit" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" text="@string/prepaid_travel_topup_limit_available" maxLines="1" layout_weight="0.5" style="@style/2131820863"/>
+            </LinearLayout>
+            <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+            <LinearLayout orientation="vertical" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="48dp" paddingStart="16dp" paddingEnd="16dp">
+                <TextView layout_width="match_parent" layout_height="wrap_content" text="@string/prepaid_travel_topup_wallet_detail_lbl" maxLines="1" style="@style/2131820995"/>
+            </LinearLayout>
+            <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+            <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+            <androidx.recyclerview.widget.RecyclerView id="@+id/rvPrepaidTopupTravelWallet" layout_width="match_parent" layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

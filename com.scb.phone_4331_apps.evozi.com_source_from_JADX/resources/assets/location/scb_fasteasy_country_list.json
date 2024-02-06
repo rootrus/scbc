@@ -1,0 +1,1254 @@
+{
+  "countryList": [
+    {
+      "code": "GR",
+      "countryEN": "Greece",
+      "countryTH": "กรีซ"
+    },
+    {
+      "code": "GL",
+      "countryEN": "Greenland",
+      "countryTH": "กรีนแลนด์ (เดนมาร์ก)"
+    },
+    {
+      "code": "GU",
+      "countryEN": "Guam",
+      "countryTH": "กวม"
+    },
+    {
+      "code": "GP",
+      "countryEN": "Guadeloupe",
+      "countryTH": "กวาเดอลูป"
+    },
+    {
+      "code": "KH",
+      "countryEN": "Cambodia",
+      "countryTH": "กัมพูชา"
+    },
+    {
+      "code": "GT",
+      "countryEN": "Guatemala",
+      "countryTH": "กัวเตมาลา"
+    },
+    {
+      "code": "QA",
+      "countryEN": "Qatar",
+      "countryTH": "กาตาร์"
+    },
+    {
+      "code": "GH",
+      "countryEN": "Ghana",
+      "countryTH": "กานา"
+    },
+    {
+      "code": "GA",
+      "countryEN": "Gabon",
+      "countryTH": "กาบอง"
+    },
+    {
+      "code": "GY",
+      "countryEN": "Guyana",
+      "countryTH": "กายอานา"
+    },
+    {
+      "code": "GN",
+      "countryEN": "Guinea",
+      "countryTH": "กินี"
+    },
+    {
+      "code": "GD",
+      "countryEN": "Grenada",
+      "countryTH": "เกรนาดา"
+    },
+    {
+      "code": "KP",
+      "countryEN": "North Korea",
+      "countryTH": "เกาหลีเหนือ"
+    },
+    {
+      "code": "GG",
+      "countryEN": "Guernsey",
+      "countryTH": "เกาะเกอร์นซี"
+    },
+    {
+      "code": "CX",
+      "countryEN": "Christmas Island",
+      "countryTH": "เกาะคริสต์มาส"
+    },
+    {
+      "code": "KY",
+      "countryEN": "Cayman Islands",
+      "countryTH": "เกาะเคย์แมน"
+    },
+    {
+      "code": "VC",
+      "countryEN": "Saint Vincent and Grenadines",
+      "countryTH": "เกาะเซนต์วินเซนต์"
+    },
+    {
+      "code": "SH",
+      "countryEN": "Saint Helena",
+      "countryTH": "เกาะเซนต์เฮเลนา"
+    },
+    {
+      "code": "NF",
+      "countryEN": "Norfolk Island",
+      "countryTH": "เกาะนอร์โฟล์ค"
+    },
+    {
+      "code": "MP",
+      "countryEN": "Northern Mariana Islands",
+      "countryTH": "เกาะมาริอานาส"
+    },
+    {
+      "code": "IM",
+      "countryEN": "Isle of Man",
+      "countryTH": "เกาะแมน"
+    },
+    {
+      "code": "RE",
+      "countryEN": "Reunion",
+      "countryTH": "เกาะเรอูนียง(ฝรั่งเศส)"
+    },
+    {
+      "code": "GM",
+      "countryEN": "Gambia",
+      "countryTH": "แกมเบีย"
+    },
+    {
+      "code": "CI",
+      "countryEN": "Côte d'Ivoire",
+      "countryTH": "โกตดิวัวร์"
+    },
+    {
+      "code": "CG",
+      "countryEN": "Congo",
+      "countryTH": "คองโก"
+    },
+    {
+      "code": "KM",
+      "countryEN": "Comoros",
+      "countryTH": "คอโมโรส"
+    },
+    {
+      "code": "CR",
+      "countryEN": "Costa Rica",
+      "countryTH": "คอสตาริกา"
+    },
+    {
+      "code": "KZ",
+      "countryEN": "Kazakhstan",
+      "countryTH": "คาซัคสถาน"
+    },
+    {
+      "code": "KI",
+      "countryEN": "Kiribati",
+      "countryTH": "คิริบาส"
+    },
+    {
+      "code": "CU",
+      "countryEN": "Cuba",
+      "countryTH": "คิวบา"
+    },
+    {
+      "code": "KG",
+      "countryEN": "Kyrgyzstan",
+      "countryTH": "คีร์กิชสถาน"
+    },
+    {
+      "code": "CW",
+      "countryEN": "Curacao",
+      "countryTH": "คูราเซา"
+    },
+    {
+      "code": "KW",
+      "countryEN": "Kuwait",
+      "countryTH": "คูเวต"
+    },
+    {
+      "code": "KE",
+      "countryEN": "Kenya",
+      "countryTH": "เคนยา"
+    },
+    {
+      "code": "CA",
+      "countryEN": "Canada",
+      "countryTH": "แคนาดา"
+    },
+    {
+      "code": "CM",
+      "countryEN": "Cameroon",
+      "countryTH": "แคเมอรูน"
+    },
+    {
+      "code": "CC",
+      "countryEN": "Cocos Islands",
+      "countryTH": "โคคอสส์"
+    },
+    {
+      "code": "HR",
+      "countryEN": "Croatia",
+      "countryTH": "โครเอเชีย"
+    },
+    {
+      "code": "CO",
+      "countryEN": "Colombia",
+      "countryTH": "โคลัมเบีย"
+    },
+    {
+      "code": "GE",
+      "countryEN": "Georgia",
+      "countryTH": "จอร์เจีย"
+    },
+    {
+      "code": "JO",
+      "countryEN": "Jordan",
+      "countryTH": "จอร์แดน"
+    },
+    {
+      "code": "JM",
+      "countryEN": "Jamaica",
+      "countryTH": "จาเมกา"
+    },
+    {
+      "code": "DJ",
+      "countryEN": "Djibouti",
+      "countryTH": "จิบูตี"
+    },
+    {
+      "code": "JE",
+      "countryEN": "Jersey",
+      "countryTH": "เจอซี่"
+    },
+    {
+      "code": "TD",
+      "countryEN": "Chad",
+      "countryTH": "ชาด"
+    },
+    {
+      "code": "CL",
+      "countryEN": "Chile",
+      "countryTH": "ชิลี"
+    },
+    {
+      "code": "SM",
+      "countryEN": "San Marino",
+      "countryTH": "ซานมารีโน"
+    },
+    {
+      "code": "WS",
+      "countryEN": "Samoa",
+      "countryTH": "ซามัว"
+    },
+    {
+      "code": "SA",
+      "countryEN": "Saudi Arabia",
+      "countryTH": "ซาอุดีอาระเบีย"
+    },
+    {
+      "code": "SX",
+      "countryEN": "Sint Maarten",
+      "countryTH": "ซินท์มาร์เทิน"
+    },
+    {
+      "code": "ZW",
+      "countryEN": "Zimbabwe",
+      "countryTH": "ซิมบับเว"
+    },
+    {
+      "code": "SY",
+      "countryEN": "Syria",
+      "countryTH": "ซีเรีย"
+    },
+    {
+      "code": "SD",
+      "countryEN": "Sudan",
+      "countryTH": "ซูดาน"
+    },
+    {
+      "code": "SR",
+      "countryEN": "Suriname",
+      "countryTH": "ซูรินาเม"
+    },
+    {
+      "code": "SC",
+      "countryEN": "Seychelles",
+      "countryTH": "เซเชลส์"
+    },
+    {
+      "code": "KN",
+      "countryEN": "Saint Kitts and Nevis",
+      "countryTH": "เซนต์คิดแอนด์เนวิส"
+    },
+    {
+      "code": "MF",
+      "countryEN": "Saint Martin",
+      "countryTH": "เซนต์มาร์ติน"
+    },
+    {
+      "code": "LC",
+      "countryEN": "Saint Lucia",
+      "countryTH": "เซนต์ลูเซีย"
+    },
+    {
+      "code": "SN",
+      "countryEN": "Senegal",
+      "countryTH": "เซเนกัล"
+    },
+    {
+      "code": "ST",
+      "countryEN": "Sao Tome and Principe",
+      "countryTH": "เซาโตเมและปรินซิเป"
+    },
+    {
+      "code": "SS",
+      "countryEN": "South Sudan",
+      "countryTH": "เซาท์ซูดาน"
+    },
+    {
+      "code": "SL",
+      "countryEN": "Sierra Leone",
+      "countryTH": "เซียร์ราลีโอน"
+    },
+    {
+      "code": "BL",
+      "countryEN": "Saint Barthelemy",
+      "countryTH": "แซ็งบาร์เตเลอมี"
+    },
+    {
+      "code": "PM",
+      "countryEN": "Saint Pierre and Miquelon",
+      "countryTH": "แซงปิแอร์และมีเกอลง"
+    },
+    {
+      "code": "ZM",
+      "countryEN": "Zambia",
+      "countryTH": "แซมเบีย"
+    },
+    {
+      "code": "SO",
+      "countryEN": "Somalia",
+      "countryTH": "โซมาเลีย"
+    },
+    {
+      "code": "CY",
+      "countryEN": "Cyprus",
+      "countryTH": "ไซปรัส"
+    },
+    {
+      "code": "JP",
+      "countryEN": "Japan",
+      "countryTH": "ญี่ปุ่น"
+    },
+    {
+      "code": "DK",
+      "countryEN": "Denmark",
+      "countryTH": "เดนมาร์ก"
+    },
+    {
+      "code": "DM",
+      "countryEN": "Dominica",
+      "countryTH": "โดมินิกา"
+    },
+    {
+      "code": "TT",
+      "countryEN": "Trinidad and Tobago",
+      "countryTH": "ตรินิแดดและโตเบโก"
+    },
+    {
+      "code": "TO",
+      "countryEN": "Tonga",
+      "countryTH": "ตองกา"
+    },
+    {
+      "code": "TL",
+      "countryEN": "Timor-Leste",
+      "countryTH": "ติมอร์ตะวันออก"
+    },
+    {
+      "code": "TR",
+      "countryEN": "Turkey",
+      "countryTH": "ตุรกี"
+    },
+    {
+      "code": "TN",
+      "countryEN": "Tunisia",
+      "countryTH": "ตูนิเซีย"
+    },
+    {
+      "code": "TV",
+      "countryEN": "Tuvalu",
+      "countryTH": "ตูวาลู"
+    },
+    {
+      "code": "TM",
+      "countryEN": "Turkmenistan",
+      "countryTH": "เติร์กเมนิสถาน"
+    },
+    {
+      "code": "TG",
+      "countryEN": "Togo",
+      "countryTH": "โตโก"
+    },
+    {
+      "code": "TW",
+      "countryEN": "Taiwan",
+      "countryTH": "ไต้หวัน"
+    },
+    {
+      "code": "TJ",
+      "countryEN": "Tajikistan",
+      "countryTH": "ทาจิกิสถาน"
+    },
+    {
+      "code": "TZ",
+      "countryEN": "Tanzania",
+      "countryTH": "แทนซาเนีย"
+    },
+    {
+      "code": "TK",
+      "countryEN": "Tokelau",
+      "countryTH": "โทเคเลา"
+    },
+    {
+      "code": "TH",
+      "countryEN": "Thailand",
+      "countryTH": "ไทย"
+    },
+    {
+      "code": "NO",
+      "countryEN": "Norway",
+      "countryTH": "นอร์เวย์"
+    },
+    {
+      "code": "NA",
+      "countryEN": "Namibia",
+      "countryTH": "นามิเบีย"
+    },
+    {
+      "code": "NR",
+      "countryEN": "Nauru",
+      "countryTH": "นาอูรู"
+    },
+    {
+      "code": "NI",
+      "countryEN": "Nicaragua",
+      "countryTH": "นิการากัว"
+    },
+    {
+      "code": "NZ",
+      "countryEN": "New Zealand",
+      "countryTH": "นิวซีแลนด์"
+    },
+    {
+      "code": "NU",
+      "countryEN": "Niue",
+      "countryTH": "นีอูเอ"
+    },
+    {
+      "code": "NL",
+      "countryEN": "Netherlands",
+      "countryTH": "เนเธอร์แลนด์"
+    },
+    {
+      "code": "NP",
+      "countryEN": "Nepal",
+      "countryTH": "เนปาล"
+    },
+    {
+      "code": "NG",
+      "countryEN": "Nigeria",
+      "countryTH": "ไนจีเรีย"
+    },
+    {
+      "code": "NE",
+      "countryEN": "Niger",
+      "countryTH": "ไนเจอร์"
+    },
+    {
+      "code": "BR",
+      "countryEN": "Brazil",
+      "countryTH": "บราซิล"
+    },
+    {
+      "code": "IO",
+      "countryEN": "British Indian Ocean Territory",
+      "countryTH": "บริติชอินเดียนโอเชียน"
+    },
+    {
+      "code": "BN",
+      "countryEN": "Brunei Darussalam",
+      "countryTH": "บรูไน"
+    },
+    {
+      "code": "BW",
+      "countryEN": "Botswana",
+      "countryTH": "บอตสวานา"
+    },
+    {
+      "code": "BA",
+      "countryEN": "Bosnia and Herzegovina",
+      "countryTH": "บอสเนีย"
+    },
+    {
+      "code": "BD",
+      "countryEN": "Bangladesh",
+      "countryTH": "บังกลาเทศ"
+    },
+    {
+      "code": "BG",
+      "countryEN": "Bulgaria",
+      "countryTH": "บัลแกเรีย"
+    },
+    {
+      "code": "BB",
+      "countryEN": "Barbados",
+      "countryTH": "บาร์เบโดส"
+    },
+    {
+      "code": "BH",
+      "countryEN": "Bahrain",
+      "countryTH": "บาห์เรน"
+    },
+    {
+      "code": "BS",
+      "countryEN": "Bahamas",
+      "countryTH": "บาฮามาส"
+    },
+    {
+      "code": "BI",
+      "countryEN": "Burundi",
+      "countryTH": "บุรุนดี"
+    },
+    {
+      "code": "BF",
+      "countryEN": "Burkina Faso",
+      "countryTH": "บูร์กินาฟาโซ"
+    },
+    {
+      "code": "BJ",
+      "countryEN": "Benin",
+      "countryTH": "เบนิน"
+    },
+    {
+      "code": "BE",
+      "countryEN": "Belgium",
+      "countryTH": "เบลเยียม"
+    },
+    {
+      "code": "BY",
+      "countryEN": "Belarus",
+      "countryTH": "เบลารุส"
+    },
+    {
+      "code": "BZ",
+      "countryEN": "Belize",
+      "countryTH": "เบลิซ"
+    },
+    {
+      "code": "BM",
+      "countryEN": "Bermuda",
+      "countryTH": "เบอร์มิวดา"
+    },
+    {
+      "code": "BQ",
+      "countryEN": "Caribbean Netherlands",
+      "countryTH": "โบแนร์, ซินท์เอิสทาทิอุส ซาบา"
+    },
+    {
+      "code": "BO",
+      "countryEN": "Bolivia",
+      "countryTH": "โบลิเวีย"
+    },
+    {
+      "code": "BV",
+      "countryEN": "Bouvet Island",
+      "countryTH": "โบเวทไอแลนด์"
+    },
+    {
+      "code": "PK",
+      "countryEN": "Pakistan",
+      "countryTH": "ปากีสถาน"
+    },
+    {
+      "code": "PA",
+      "countryEN": "Panama",
+      "countryTH": "ปานามา"
+    },
+    {
+      "code": "PG",
+      "countryEN": "Papua New Guinea",
+      "countryTH": "ปาปัวนิวกินี"
+    },
+    {
+      "code": "PY",
+      "countryEN": "Paraguay",
+      "countryTH": "ปารากวัย"
+    },
+    {
+      "code": "PS",
+      "countryEN": "Palestine",
+      "countryTH": "ปาเลสไตน์"
+    },
+    {
+      "code": "PW",
+      "countryEN": "Palau",
+      "countryTH": "ปาเลา"
+    },
+    {
+      "code": "PE",
+      "countryEN": "Peru",
+      "countryTH": "เปรู"
+    },
+    {
+      "code": "PR",
+      "countryEN": "Puerto Rico",
+      "countryTH": "เปอร์โตริโก"
+    },
+    {
+      "code": "PT",
+      "countryEN": "Portugal",
+      "countryTH": "โปรตุเกส"
+    },
+    {
+      "code": "PL",
+      "countryEN": "Poland",
+      "countryTH": "โปแลนด์"
+    },
+    {
+      "code": "FR",
+      "countryEN": "France",
+      "countryTH": "ฝรั่งเศส"
+    },
+    {
+      "code": "FJ",
+      "countryEN": "Fiji",
+      "countryTH": "ฟิจิ"
+    },
+    {
+      "code": "FI",
+      "countryEN": "Finland",
+      "countryTH": "ฟินแลนด์"
+    },
+    {
+      "code": "PH",
+      "countryEN": "Philippines",
+      "countryTH": "ฟิลิปปินส์"
+    },
+    {
+      "code": "GF",
+      "countryEN": "French Guiana",
+      "countryTH": "เฟรนช์เกียนา"
+    },
+    {
+      "code": "TF",
+      "countryEN": "French Southern Territories",
+      "countryTH": "เฟรนซ์เซาท์เทอร์นเทอร์ทอรี่"
+    },
+    {
+      "code": "PF",
+      "countryEN": "French Polynesia",
+      "countryTH": "เฟรนซ์โปลีนีเซีย"
+    },
+    {
+      "code": "BT",
+      "countryEN": "Bhutan",
+      "countryTH": "ภูฏาน"
+    },
+    {
+      "code": "MN",
+      "countryEN": "Mongolia",
+      "countryTH": "มองโกเลีย"
+    },
+    {
+      "code": "MS",
+      "countryEN": "Montserrat",
+      "countryTH": "มอนต์เซอร์รัต"
+    },
+    {
+      "code": "MU",
+      "countryEN": "Mauritius",
+      "countryTH": "มอริเชียส"
+    },
+    {
+      "code": "MR",
+      "countryEN": "Mauritania",
+      "countryTH": "มอริเตเนีย"
+    },
+    {
+      "code": "MD",
+      "countryEN": "Moldova",
+      "countryTH": "มอลโดวา"
+    },
+    {
+      "code": "MT",
+      "countryEN": "Malta",
+      "countryTH": "มอลตา"
+    },
+    {
+      "code": "MV",
+      "countryEN": "Maldives",
+      "countryTH": "มัลดีฟส์"
+    },
+    {
+      "code": "MO",
+      "countryEN": "Macau",
+      "countryTH": "มาเก๊า"
+    },
+    {
+      "code": "MK",
+      "countryEN": "Macedonia",
+      "countryTH": "มาซิโดเนีย"
+    },
+    {
+      "code": "MG",
+      "countryEN": "Madagascar",
+      "countryTH": "มาดากัสการ์"
+    },
+    {
+      "code": "MQ",
+      "countryEN": "Martinique",
+      "countryTH": "มาตินิก"
+    },
+    {
+      "code": "YT",
+      "countryEN": "Mayotte",
+      "countryTH": "มายอต"
+    },
+    {
+      "code": "MW",
+      "countryEN": "Malawi",
+      "countryTH": "มาลาวี"
+    },
+    {
+      "code": "ML",
+      "countryEN": "Mali",
+      "countryTH": "มาลี"
+    },
+    {
+      "code": "MY",
+      "countryEN": "Malaysia",
+      "countryTH": "มาเลเซีย"
+    },
+    {
+      "code": "MX",
+      "countryEN": "Mexico",
+      "countryTH": "เม็กซิโก"
+    },
+    {
+      "code": "MZ",
+      "countryEN": "Mozambique",
+      "countryTH": "โมซัมบิก"
+    },
+    {
+      "code": "MC",
+      "countryEN": "Monaco",
+      "countryTH": "โมนาโก"
+    },
+    {
+      "code": "MA",
+      "countryEN": "Morocco",
+      "countryTH": "โมร็อกโก"
+    },
+    {
+      "code": "FM",
+      "countryEN": "Micronesia",
+      "countryTH": "ไมโครนีเซีย"
+    },
+    {
+      "code": "GI",
+      "countryEN": "Gibraltar",
+      "countryTH": "ยิบรอลตา"
+    },
+    {
+      "code": "UG",
+      "countryEN": "Uganda",
+      "countryTH": "ยูกันดา"
+    },
+    {
+      "code": "UA",
+      "countryEN": "Ukraine",
+      "countryTH": "ยูเครน"
+    },
+    {
+      "code": "UM",
+      "countryEN": "United States Minor Outlying Islands",
+      "countryTH": "ยูเอส ไมเนอร์"
+    },
+    {
+      "code": "YE",
+      "countryEN": "Yemen",
+      "countryTH": "เยเมน"
+    },
+    {
+      "code": "DE",
+      "countryEN": "Germany",
+      "countryTH": "เยอรมนี"
+    },
+    {
+      "code": "RW",
+      "countryEN": "Rwanda",
+      "countryTH": "รวันดา"
+    },
+    {
+      "code": "RO",
+      "countryEN": "Romania",
+      "countryTH": "โรมาเนีย"
+    },
+    {
+      "code": "LU",
+      "countryEN": "Luxembourg",
+      "countryTH": "ลักเซมเบิร์ก"
+    },
+    {
+      "code": "LV",
+      "countryEN": "Latvia",
+      "countryTH": "ลัทเวีย"
+    },
+    {
+      "code": "LA",
+      "countryEN": "Lao",
+      "countryTH": "ลาว"
+    },
+    {
+      "code": "LI",
+      "countryEN": "Liechtenstein",
+      "countryTH": "ลิกเตนสไตน์"
+    },
+    {
+      "code": "LT",
+      "countryEN": "Lithuania",
+      "countryTH": "ลิธัวเนีย"
+    },
+    {
+      "code": "LY",
+      "countryEN": "Libya",
+      "countryTH": "ลิเบีย"
+    },
+    {
+      "code": "LS",
+      "countryEN": "Lesotho",
+      "countryTH": "เลโซโท"
+    },
+    {
+      "code": "LB",
+      "countryEN": "Lebanon",
+      "countryTH": "เลบานอน"
+    },
+    {
+      "code": "LR",
+      "countryEN": "Liberia",
+      "countryTH": "ไลบีเรีย"
+    },
+    {
+      "code": "VA",
+      "countryEN": "Vatican City",
+      "countryTH": "วาติกัน"
+    },
+    {
+      "code": "VU",
+      "countryEN": "Vanuatu",
+      "countryTH": "วานูอาตู"
+    },
+    {
+      "code": "VE",
+      "countryEN": "Venezuela",
+      "countryTH": "เวเนซุเอลา"
+    },
+    {
+      "code": "EH",
+      "countryEN": "Western Sahara",
+      "countryTH": "เวสเทิร์น ซาฮารา"
+    },
+    {
+      "code": "VN",
+      "countryEN": "Viet Nam",
+      "countryTH": "เวียดนาม"
+    },
+    {
+      "code": "LK",
+      "countryEN": "Sri Lanka",
+      "countryTH": "ศรีลังกา"
+    },
+    {
+      "code": "ES",
+      "countryEN": "Spain",
+      "countryTH": "สเปน"
+    },
+    {
+      "code": "SI",
+      "countryEN": "Slovenia",
+      "countryTH": "สโลวีเนีย"
+    },
+    {
+      "code": "SZ",
+      "countryEN": "Swaziland",
+      "countryTH": "สวาซิแลนด์"
+    },
+    {
+      "code": "CH",
+      "countryEN": "Switzerland",
+      "countryTH": "สวิตเซอร์แลนด์"
+    },
+    {
+      "code": "SE",
+      "countryEN": "Sweden",
+      "countryTH": "สวีเดน"
+    },
+    {
+      "code": "RU",
+      "countryEN": "Russia",
+      "countryTH": "สหพันธรัฐรัสเซีย"
+    },
+    {
+      "code": "MM",
+      "countryEN": "Myanmar",
+      "countryTH": "สหภาพพม่า"
+    },
+    {
+      "code": "US",
+      "countryEN": "United States",
+      "countryTH": "สหรัฐอเมริกา"
+    },
+    {
+      "code": "AE",
+      "countryEN": "United Arab Emirates",
+      "countryTH": "สหรัฐอาหรับเอมิเรตส์"
+    },
+    {
+      "code": "GB",
+      "countryEN": "United Kingdom",
+      "countryTH": "สหราชอาณาจักร"
+    },
+    {
+      "code": "GW",
+      "countryEN": "Guinea",
+      "countryTH": "สาธารณรัฐกินีบิสเซา"
+    },
+    {
+      "code": "KR",
+      "countryEN": "South Korea",
+      "countryTH": "สาธารณรัฐเกาหลีใต้"
+    },
+    {
+      "code": "CD",
+      "countryEN": "Democratic Republic of the Congo",
+      "countryTH": "สาธารณรัฐคองโก"
+    },
+    {
+      "code": "XK",
+      "countryEN": "Kosovo",
+      "countryTH": "สาธารณรัฐคอซอวอ"
+    },
+    {
+      "code": "CV",
+      "countryEN": "Cape Verde",
+      "countryTH": "สาธารณรัฐเคปเวิร์ด"
+    },
+    {
+      "code": "CZ",
+      "countryEN": "Czech Republic",
+      "countryTH": "สาธารณรัฐเชค"
+    },
+    {
+      "code": "RS",
+      "countryEN": "Serbia",
+      "countryTH": "สาธารณรัฐเซอร์เบีย"
+    },
+    {
+      "code": "DO",
+      "countryEN": "Dominican Republic",
+      "countryTH": "สาธารณรัฐโดมินิกัน"
+    },
+    {
+      "code": "CN",
+      "countryEN": "China",
+      "countryTH": "สาธารณรัฐประชาชนจีน"
+    },
+    {
+      "code": "ME",
+      "countryEN": "Montenegro",
+      "countryTH": "สาธารณรัฐมอนเตเนโกร"
+    },
+    {
+      "code": "SK",
+      "countryEN": "Slovakia",
+      "countryTH": "สาธารณรัฐสโลวัค"
+    },
+    {
+      "code": "CF",
+      "countryEN": "Central African Republic",
+      "countryTH": "สาธารณรัฐแอฟริกากลาง"
+    },
+    {
+      "code": "ZA",
+      "countryEN": "South Africa",
+      "countryTH": "สาธารณรัฐแอฟริกาใต้"
+    },
+    {
+      "code": "SG",
+      "countryEN": "Singapore",
+      "countryTH": "สิงคโปร์"
+    },
+    {
+      "code": "CK",
+      "countryEN": "Cook Islands",
+      "countryTH": "หมู่เกาะคุก"
+    },
+    {
+      "code": "GS",
+      "countryEN": "South Geogia and South Sanwich Islands",
+      "countryTH": "หมู่เกาะเซาท์ จอร์เจียและเซาท์แซนด์วิท"
+    },
+    {
+      "code": "SB",
+      "countryEN": "Solomon Islands",
+      "countryTH": "หมู่เกาะโซโลมอน"
+    },
+    {
+      "code": "TC",
+      "countryEN": "Turks and Caicos Islands",
+      "countryTH": "หมู่เกาะเติร์ก และไคโคส"
+    },
+    {
+      "code": "NC",
+      "countryEN": "New Caledonia",
+      "countryTH": "หมู่เกาะนิวแคลีโดเนีย"
+    },
+    {
+      "code": "VG",
+      "countryEN": "British Virgin Islands",
+      "countryTH": "หมู่เกาะบริติชเวอร์จิน"
+    },
+    {
+      "code": "PN",
+      "countryEN": "Pitcairn",
+      "countryTH": "หมู่เกาะพิตแคร์น"
+    },
+    {
+      "code": "FK",
+      "countryEN": "Falkland Islands",
+      "countryTH": "หมู่เกาะฟอล์กแลนด์"
+    },
+    {
+      "code": "FO",
+      "countryEN": "Faeroe Islands",
+      "countryTH": "หมู่เกาะแฟโร"
+    },
+    {
+      "code": "MH",
+      "countryEN": "Marshall Islands",
+      "countryTH": "หมู่เกาะมาร์แชล"
+    },
+    {
+      "code": "VI",
+      "countryEN": "United States Virgin Islands",
+      "countryTH": "หมู่เกาะเวอร์จินของสหรัฐอเมริกา"
+    },
+    {
+      "code": "WF",
+      "countryEN": "Wallis and Futuna",
+      "countryTH": "หมู่เกาะแวลลิสแอนด์ฟูตูมา"
+    },
+    {
+      "code": "SJ",
+      "countryEN": "Svalbard and Jan Mayen Islands",
+      "countryTH": "หมู่เกาะสวัลบาร์ และยานมายัน"
+    },
+    {
+      "code": "AX",
+      "countryEN": "Aland Islands",
+      "countryTH": "หมู่เกาะโอลันด์"
+    },
+    {
+      "code": "HM",
+      "countryEN": "Heard and Mcdonald Islands",
+      "countryTH": "หมู่เกาะเฮิร์ด และแมคโดนัลด์"
+    },
+    {
+      "code": "AS",
+      "countryEN": "American Samoa",
+      "countryTH": "อเมริกันซามัว"
+    },
+    {
+      "code": "AU",
+      "countryEN": "Australia",
+      "countryTH": "ออสเตรเลีย"
+    },
+    {
+      "code": "AT",
+      "countryEN": "Austria",
+      "countryTH": "ออสเตรีย"
+    },
+    {
+      "code": "AO",
+      "countryEN": "Angola",
+      "countryTH": "อังโกลา"
+    },
+    {
+      "code": "AD",
+      "countryEN": "Andorra",
+      "countryTH": "อันดอร์รา"
+    },
+    {
+      "code": "AG",
+      "countryEN": "Antigua and Barbuda",
+      "countryTH": "อันติกัวและบาร์บูดา"
+    },
+    {
+      "code": "AF",
+      "countryEN": "Afghanistan",
+      "countryTH": "อัฟกานิสถาน"
+    },
+    {
+      "code": "AZ",
+      "countryEN": "Azerbaijan",
+      "countryTH": "อาเซอร์ไบจัน"
+    },
+    {
+      "code": "AR",
+      "countryEN": "Argentina",
+      "countryTH": "อาร์เจนตินา"
+    },
+    {
+      "code": "AM",
+      "countryEN": "Armenia",
+      "countryTH": "อาร์มีเนีย"
+    },
+    {
+      "code": "AW",
+      "countryEN": "Aruba",
+      "countryTH": "อารูบา"
+    },
+    {
+      "code": "IT",
+      "countryEN": "Italy",
+      "countryTH": "อิตาลี"
+    },
+    {
+      "code": "IN",
+      "countryEN": "India",
+      "countryTH": "อินเดีย"
+    },
+    {
+      "code": "ID",
+      "countryEN": "Indonesia",
+      "countryTH": "อินโดนีเซีย"
+    },
+    {
+      "code": "IQ",
+      "countryEN": "Iraq",
+      "countryTH": "อิรัก"
+    },
+    {
+      "code": "IL",
+      "countryEN": "Israel",
+      "countryTH": "อิสราเอล"
+    },
+    {
+      "code": "IR",
+      "countryEN": "Iran",
+      "countryTH": "อิหร่าน"
+    },
+    {
+      "code": "GQ",
+      "countryEN": "Equatorial Guinea",
+      "countryTH": "อีควอทอเรียล จีนี"
+    },
+    {
+      "code": "EG",
+      "countryEN": "Egypt",
+      "countryTH": "อียิปต์"
+    },
+    {
+      "code": "UZ",
+      "countryEN": "Uzbekistan",
+      "countryTH": "อุชเบกิสถาน"
+    },
+    {
+      "code": "UY",
+      "countryEN": "Uruguay",
+      "countryTH": "อุรุกวัย"
+    },
+    {
+      "code": "EC",
+      "countryEN": "Ecuador",
+      "countryTH": "เอกวาดอร์"
+    },
+    {
+      "code": "ET",
+      "countryEN": "Ethiopia",
+      "countryTH": "เอธิโอเปีย"
+    },
+    {
+      "code": "ER",
+      "countryEN": "Eritrea",
+      "countryTH": "เอริเทรีย"
+    },
+    {
+      "code": "SV",
+      "countryEN": "El Salvador",
+      "countryTH": "เอลซัลวาดอร์"
+    },
+    {
+      "code": "EE",
+      "countryEN": "Estonia",
+      "countryTH": "เอสโธเนีย"
+    },
+    {
+      "code": "AI",
+      "countryEN": "Anguilla",
+      "countryTH": "แองกิวลา"
+    },
+    {
+      "code": "AQ",
+      "countryEN": "Antarctica",
+      "countryTH": "แอนตาร์กติกา"
+    },
+    {
+      "code": "DZ",
+      "countryEN": "Algeria",
+      "countryTH": "แอลจีเรีย"
+    },
+    {
+      "code": "AL",
+      "countryEN": "Albania",
+      "countryTH": "แอลเบเนีย"
+    },
+    {
+      "code": "OM",
+      "countryEN": "Oman",
+      "countryTH": "โอมาน"
+    },
+    {
+      "code": "IS",
+      "countryEN": "Iceland",
+      "countryTH": "ไอซ์แลนด์"
+    },
+    {
+      "code": "IE",
+      "countryEN": "Ireland",
+      "countryTH": "ไอร์แลนด์"
+    },
+    {
+      "code": "HK",
+      "countryEN": "Hong Kong",
+      "countryTH": "ฮ่องกง"
+    },
+    {
+      "code": "HN",
+      "countryEN": "Honduras",
+      "countryTH": "ฮอนดูรัส"
+    },
+    {
+      "code": "HU",
+      "countryEN": "Hungary",
+      "countryTH": "ฮังการี"
+    },
+    {
+      "code": "HT",
+      "countryEN": "Haiti",
+      "countryTH": "เฮติ"
+    }
+  ]
+}

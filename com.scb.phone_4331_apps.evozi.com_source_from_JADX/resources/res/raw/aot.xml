@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <ImageView id="@+id/select_account_gift_image" layout_width="54dp" layout_height="54dp" src="@drawable/ic_select_account_gift" contentDescription="@null"/>
+    <TextView layout_gravity="center_vertical" id="@+id/select_account_gift_text" layout_width="0dp" layout_height="wrap_content" text="@string/gift_input_select_recipient" layout_weight="1" layout_marginStart="8dp" style="@style/2131821010"/>
+    <RelativeLayout id="@+id/select_account_gift_layout" layout_width="50dp" layout_height="50dp">
+        <ImageView id="@+id/select_account_gift_icon" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_edit_account_gift" tint="#7631c1" layout_centerInParent="true" contentDescription="@null"/>
+        <View background="@drawable/ripple_rounded_purple" layout_width="match_parent" layout_height="match_parent" layout_centerVertical="true"/>
+    </RelativeLayout>
+</merge>

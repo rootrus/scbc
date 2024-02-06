@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/root" layout_width="match_parent" layout_height="match_parent">
+    <ScrollView id="@+id/root_view" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+        <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+            <include id="@+id/slip_view" visibility="invisible" layout="@layout/2131494353"/>
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+                    <ImageView id="@+id/bg_black" layout_width="0dp" layout_height="6dp" src="@drawable/bg_black_rounded" contentDescription="@null" layout_marginStart="4dp" layout_marginEnd="4dp" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0"/>
+                    <androidx.cardview.widget.CardView layout_width="0dp" layout_height="wrap_content" layout_marginTop="3dp" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x19="3dp" NOT_FOUND_0x1a="4dp" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="@+id/bg_black">
+                        <androidx.constraintlayout.widget.ConstraintLayout id="@+id/layout_save_slip_root" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+                            <androidx.constraintlayout.widget.ConstraintLayout id="@+id/layout_transfer_installments_data" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0">
+                                <ImageView id="@+id/imv_bg_slip" layout_width="0dp" layout_height="0dp" src="@drawable/slip_bg" scaleType="fitXY" contentDescription="@null" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0"/>
+                                <fragment name="com.scb.phone.view.fragment.cardmanagement.deejungtransfer.DeejungTransferConfirmationHeaderFragment" id="@+id/fragment_transfer_confirmation_header" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1f="0"/>
+                                <fragment name="com.scb.phone.view.fragment.cardmanagement.deejungtransfer.DeejungTransferInstallmentsSummaryFragment" id="@+id/fragment_transfer_installments_summary" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1e="@+id/fragment_transfer_confirmation_header"/>
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                            <ImageView id="@+id/imv_slip_curl" layout_width="0dp" layout_height="wrap_content" src="@drawable/slip_curly" scaleType="fitXY" NOT_FOUND_0x1b="@+id/layout_save_slip_root" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.cardview.widget.CardView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <Button id="@+id/save_slip" visibility="gone" layout_width="match_parent" layout_height="48dp" layout_marginTop="24dp" text="@string/save_slip" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="@+id/fragment_transfer_installments_summary" style="@style/2131820837"/>
+                <View id="@+id/space1" background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_marginBottom="24dp" NOT_FOUND_0x1e="@+id/save_slip"/>
+                <TextView gravity="center_horizontal" layout_gravity="center_horizontal" id="@+id/txv_deejung_installments_updation_text" background="#ffffff" paddingTop="16dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content" text="@string/txv_deejung_transfer_installments_updation_text" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x1e="@+id/space1" style="@style/2131820817"/>
+                <View id="@+id/space2" background="#eae7ec" layout_width="match_parent" layout_height="1dp" NOT_FOUND_0x1e="@+id/txv_deejung_installments_updation_text"/>
+                <Button textSize="22sp" textColor="#7631c1" layout_gravity="center_horizontal" id="@+id/btn_account_summary" background="@android:color/transparent" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="24dp" text="@string/return_to_account_summary" textAllCaps="false" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1e="@+id/space2" style="@style/2131821090"/>
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/fund_redeem_search_item_container" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_alignParentLeft="true" layout_alignParentTop="true" layout_alignParentStart="true">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" layout_marginBottom="10dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginEnd="5dp">
+                <TextView gravity="left" id="@+id/fund_code" layout_width="wrap_content" layout_height="wrap_content" text="SCBLT3" style="@style/2131821010"/>
+                <TextView ellipsize="end" gravity="left" id="@+id/fund_description" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_txn_description" lines="1" style="@style/2131821058"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+                <TextView layout_gravity="right" id="@+id/fund_available_amount" layout_width="wrap_content" layout_height="wrap_content" text="123,123.12" style="@style/2131821010"/>
+            </LinearLayout>
+            <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+                <LinearLayout gravity="left" layout_gravity="left" layout_width="0dp" layout_height="wrap_content" layout_weight="5">
+                    <TextView gravity="left" layout_gravity="left" id="@+id/fund_nav_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" text="@string/nav" style="@style/2131821058"/>
+                    <View id="@+id/fund_nav_title_space" layout_width="4dp" layout_height="match_parent"/>
+                    <TextView gravity="left" layout_gravity="left" id="@+id/fund_nav" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" text="12.2345" style="@style/2131821058"/>
+                </LinearLayout>
+                <LinearLayout gravity="right" layout_gravity="right" id="@+id/fund_available_units_container" layout_width="0dp" layout_height="wrap_content" layout_weight="5">
+                    <TextView gravity="right" layout_gravity="right" id="@+id/fund_available_units" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" text="123,123.1212" style="@style/2131821010"/>
+                    <View layout_width="4dp" layout_height="match_parent"/>
+                    <TextView gravity="right" layout_gravity="right" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" text="@string/investment_fund_detail_Units" style="@style/2131821010"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View style="@style/2131821259"/>
+    </LinearLayout>
+</RelativeLayout>

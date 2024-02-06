@@ -1,0 +1,12 @@
+package p040o;
+
+import org.apache.http.ParseException;
+
+/* renamed from: o.AmountDetailsAdapter$SuccessRow_ViewBinding */
+public interface AmountDetailsAdapter$SuccessRow_ViewBinding {
+    PrepaidRequestMarketConductActivity read(DepositTransactionAdapter$ChildViewHolder_ViewBinding depositTransactionAdapter$ChildViewHolder_ViewBinding) throws ParseException;
+
+    VerifyIdentityActivity read(DepositTransactionAdapter$ChildViewHolder_ViewBinding depositTransactionAdapter$ChildViewHolder_ViewBinding, RadioButtonGroupAdapter$RadioButtonViewGroup radioButtonGroupAdapter$RadioButtonViewGroup) throws ParseException;
+
+    boolean write(DepositTransactionAdapter$ChildViewHolder_ViewBinding depositTransactionAdapter$ChildViewHolder_ViewBinding, RadioButtonGroupAdapter$RadioButtonViewGroup radioButtonGroupAdapter$RadioButtonViewGroup);
+}

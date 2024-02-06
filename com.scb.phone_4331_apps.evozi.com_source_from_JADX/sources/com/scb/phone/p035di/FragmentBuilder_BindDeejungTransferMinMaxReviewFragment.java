@@ -1,0 +1,21 @@
+package com.scb.phone.p035di;
+
+import androidx.fragment.app.Fragment;
+import com.scb.phone.view.fragment.cardmanagement.deejungtransfer.DeejungTransferMinFullReviewFragment;
+import p040o.C1241xc75ead43;
+import p040o.MileageQuantitySelectionActivity_ViewBinding;
+
+/* renamed from: com.scb.phone.di.FragmentBuilder_BindDeejungTransferMinMaxReviewFragment */
+public abstract class FragmentBuilder_BindDeejungTransferMinMaxReviewFragment {
+
+    /* renamed from: com.scb.phone.di.FragmentBuilder_BindDeejungTransferMinMaxReviewFragment$write */
+    public interface write extends MileageQuantitySelectionActivity_ViewBinding<DeejungTransferMinFullReviewFragment> {
+
+        /* renamed from: com.scb.phone.di.FragmentBuilder_BindDeejungTransferMinMaxReviewFragment$write$write  reason: collision with other inner class name */
+        public static abstract class C10703write extends C1241xc75ead43<DeejungTransferMinFullReviewFragment> {
+        }
+    }
+
+    /* access modifiers changed from: package-private */
+    public abstract MileageQuantitySelectionActivity_ViewBinding.read<? extends Fragment> MediaBrowserCompat$CustomActionResultReceiver(write.C10703write write2);
+}

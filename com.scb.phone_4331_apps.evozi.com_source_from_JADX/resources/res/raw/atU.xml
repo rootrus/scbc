@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_gravity="center" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView scrollbarThumbVertical="@color/2131099711" id="@+id/rvFundDiscover" background="#ffffff" paddingBottom="16dp" scrollbars="vertical" layout_width="match_parent" layout_height="0dp" layout_weight="1" fadeScrollbars="false"/>
+    <View style="@style/2131821259"/>
+    <Button id="@+id/btSelect" layout_width="match_parent" layout_marginTop="24dp" layout_marginBottom="24dp" text="@string/investment_discover_filter_select_button" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820837"/>
+</LinearLayout>

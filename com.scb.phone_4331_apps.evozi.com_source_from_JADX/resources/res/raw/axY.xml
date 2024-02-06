@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" descendantFocusability="blocksDescendants" layout_width="match_parent" layout_height="wrap_content">
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+        <LinearLayout orientation="vertical" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+            <TextView gravity="center" id="@+id/bulk_transfer_group_name_text" layout_width="match_parent" layout_height="wrap_content" maxLines="2" style="@style/2131821019"/>
+            <TextView gravity="center" id="@+id/bulk_transfer_group_id_text" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821058"/>
+        </LinearLayout>
+        <View background="#eae7ec" layout_width="wrap_content" layout_height="1dp"/>
+        <LinearLayout orientation="vertical" background="#ffffff" paddingTop="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+            <TextView gravity="center" id="@+id/bulk_transfer_ref_id_text" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821060"/>
+        </LinearLayout>
+        <View background="#eae7ec" layout_width="wrap_content" layout_height="1dp"/>
+        <TextView gravity="center" id="@+id/bulk_transfer_top_warning" background="#f5f3f6" padding="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/bulk_transfer_schedule_disclaimer" style="@style/2131820996"/>
+        <View background="#eae7ec" layout_width="wrap_content" layout_height="1dp"/>
+        <com.scb.phone.view.custom.bulktransfer.CustomEffectiveDate id="@+id/bulk_transfer_effective_date" layout_width="match_parent" layout_height="wrap_content"/>
+        <View background="#eae7ec" layout_width="wrap_content" layout_height="1dp"/>
+        <View background="#f5f3f6" layout_width="wrap_content" layout_height="16dp"/>
+        <View background="#eae7ec" layout_width="wrap_content" layout_height="1dp"/>
+        <com.scb.phone.view.custom.transferandpay.CustomTransferAndPaySource id="@+id/transfer_and_pay_source" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x14="false"/>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+        <TextView id="@+id/target_label" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/recipients" textAllCaps="true" layout_marginStart="16dp" style="@style/2131820996"/>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/recipients_recycler_view" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" overScrollMode="never"/>
+        <TextView id="@+id/total_label" layout_width="wrap_content" layout_height="wrap_content" text="@string/bulk_transfer_total" textAllCaps="true" layout_marginStart="16dp" style="@style/2131820996"/>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+        <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayItem id="@+id/amount" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x15="@string/amount"/>
+        <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayItem id="@+id/total_fee" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x15="@string/bulk_transfer_total_fee"/>
+        <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayItem id="@+id/total_amount" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x15="@string/bulk_transfer_total_amount_collective"/>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+        <com.scb.phone.view.custom.common.DefaultButton id="@+id/delete_button" background="@drawable/bg_button" visibility="visible" layout_width="match_parent" layout_height="50dp" layout_margin="16dp" NOT_FOUND_0x16="@drawable/ripple_rounded_purple" NOT_FOUND_0x17="@string/schedule_details_012" NOT_FOUND_0x18="@color/2131100257"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+    <LinearLayout orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+        <include id="@+id/points_plus_money_layout" layout="@layout/2131494397"/>
+        <androidx.constraintlayout.widget.ConstraintLayout background="#ffffff" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+            <View id="@+id/view_total_points" background="#eae7ec" layout_width="0dp" layout_height="1dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x14="0" NOT_FOUND_0x17="0" NOT_FOUND_0x19="0"/>
+            <TextView textSize="20sp" textColor="#353239" id="@+id/txv_currency" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="19dp" layout_marginEnd="16dp" NOT_FOUND_0x17="0" NOT_FOUND_0x18="@+id/view_total_points" style="@style/2131821112"/>
+            <TextView textSize="24sp" textColor="#353239" gravity="end" id="@+id/txv_total_payable" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x13="1" NOT_FOUND_0x15="@+id/lbl_total_money" NOT_FOUND_0x16="@+id/txv_currency" NOT_FOUND_0x18="@+id/view_total_points" style="@style/2131821112"/>
+            <TextView textSize="20sp" textColor="#353239" id="@+id/lbl_total_money" layout_width="wrap_content" layout_height="wrap_content" text="@string/total_payable" textAllCaps="true" layout_marginStart="16dp" NOT_FOUND_0x12="@+id/txv_total_payable" NOT_FOUND_0x14="0" NOT_FOUND_0x19="@+id/txv_total_payable" style="@style/2131821090"/>
+            <TextView textSize="21sp" textColor="#837e87" id="@+id/txv_money_per_unit" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="16dp" NOT_FOUND_0x14="0" NOT_FOUND_0x18="@+id/lbl_total_money" style="@style/2131820820"/>
+            <TextView textSize="20sp" textColor="#959199" gravity="end" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" text="@string/credit_charge_info" lineSpacingMultiplier="1.38" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x14="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="@+id/txv_money_per_unit" style="@style/2131820820"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+        <androidx.legacy.widget.Space layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+        <com.scb.phone.view.custom.common.DefaultButton textSize="22sp" id="@+id/btn_continue_with_money" background="@drawable/bg_button" layout_width="match_parent" layout_height="48dp" layout_marginTop="22dp" layout_marginBottom="24dp" textAllCaps="false" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1a="@string/redeem" NOT_FOUND_0x1b="@color/2131100257" style="@style/2131821112"/>
+    </LinearLayout>
+</ScrollView>

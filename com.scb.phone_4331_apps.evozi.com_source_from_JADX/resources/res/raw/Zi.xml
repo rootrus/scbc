@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="match_parent" fillViewport="false">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout gravity="center_horizontal" orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="match_parent">
+                <ImageView id="@+id/iv_barcode" layout_width="match_parent" layout_height="128dp" layout_marginTop="16dp"/>
+                <TextView gravity="center_horizontal" id="@+id/tv_barcode_label" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821020"/>
+                <RelativeLayout background="@drawable/black_border" layout_width="210dp" layout_height="210dp" layout_marginTop="16dp">
+                    <ImageView id="@+id/iv_qr" layout_width="@dimen/2131165864" layout_height="@dimen/2131165864" layout_centerInParent="true"/>
+                </RelativeLayout>
+                <TextView gravity="center_horizontal" id="@+id/tv_qr_expire" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/banking_generate_qr_expire_message" style="@style/2131820996"/>
+                <TextView gravity="center_horizontal" layout_width="match_parent" layout_height="wrap_content" text="@string/banking_generate_qr_please_show_qr" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+                <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_marginTop="24dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/txv_card_number"/>
+                <RelativeLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+                    <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/banking_generate_qr_amount" layout_marginStart="16dp" style="@style/2131821011"/>
+                    <TextView id="@+id/tv_amount" layout_width="wrap_content" layout_height="wrap_content" text="@string/banking_generate_qr_amount" layout_alignParentRight="true" layout_marginEnd="16dp" style="@style/2131821011"/>
+                </RelativeLayout>
+                <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_marginTop="24dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/txv_card_number"/>
+            </LinearLayout>
+            <TextView textSize="24sp" textStyle="bold" gravity="center_horizontal" id="@+id/tv_return_to_account" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="24dp" text="@string/banking_generate_qr_return_to_account" style="@style/2131821095"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

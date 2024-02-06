@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout id="@+id/transfer_and_pay_item_layout" layout_width="match_parent" layout_height="wrap_content">
+        <Space id="@+id/transfer_and_pay_item_top_space" layout_width="match_parent" layout_height="16dp"/>
+        <LinearLayout orientation="horizontal" id="@+id/transfer_and_pay_item_linear_layout" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/transfer_and_pay_item_top_space" paddingStart="16dp" paddingEnd="16dp">
+            <TextView layout_gravity="center" id="@+id/transfer_and_pay_item_title_text_view" layout_width="wrap_content" layout_height="wrap_content" textAllCaps="true" style="@style/2131821012"/>
+            <TextView gravity="right" layout_gravity="end" id="@+id/transfer_and_pay_item_value_text_view" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="16dp" style="@style/2131821020"/>
+        </LinearLayout>
+        <TextView gravity="right" id="@+id/tv_date_time_rate_change" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" layout_below="@+id/transfer_and_pay_item_linear_layout" layout_marginEnd="16dp" style="@style/2131820863"/>
+        <com.scb.phone.view.custom.common.ThaiTextView id="@+id/schedule_fee_text" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/topup_review_006" layout_below="@+id/transfer_and_pay_item_linear_layout" layout_alignParentRight="true" lineSpacingMultiplier="0.8" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820865"/>
+        <com.scb.phone.view.custom.transferandpay.CustomAmountInfo id="@+id/amount_info" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_below="@+id/transfer_and_pay_item_linear_layout" layout_marginStart="16dp"/>
+    </RelativeLayout>
+    <androidx.legacy.widget.Space id="@+id/transfer_and_pay_item_bottom_space" layout_width="match_parent" layout_height="16dp" layout_below="@+id/transfer_and_pay_item_layout"/>
+    <LinearLayout orientation="horizontal" id="@+id/ll_lineDivider" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/transfer_and_pay_item_bottom_space">
+        <View id="@+id/transfer_and_pay_item_divider_full" layout_width="16dp" layout_height="1dp"/>
+        <View id="@+id/transfer_and_pay_item_divider" visibility="gone" style="@style/2131821259"/>
+    </LinearLayout>
+</merge>

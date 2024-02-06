@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_gravity="center_horizontal" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content" layout_marginStart="5dp" layout_marginEnd="5dp">
+        <com.scb.phone.view.custom.common.AdjustableImageView id="@+id/credit_card_image_view" layout_width="match_parent" layout_height="wrap_content" layout_margin="5dp" adjustViewBounds="true" layout_centerInParent="true" layout_centerHorizontal="true" contentDescription="@null"/>
+        <TextView ellipsize="end" id="@+id/card_name_text_view" paddingTop="50dp" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" shadowColor="#353239" shadowDx="2" shadowDy="2" shadowRadius="2" layout_alignLeft="@+id/credit_card_image_view" layout_alignTop="@+id/credit_card_image_view" paddingStart="18dp" paddingEnd="18dp" style="@style/2131821036"/>
+        <LinearLayout gravity="center_vertical" orientation="horizontal" padding="16dp" layout_width="match_parent" layout_height="wrap_content" layout_above="@+id/card_points_container_relative_layout" layout_alignLeft="@+id/credit_card_image_view" layout_alignRight="@+id/credit_card_image_view">
+            <TextView id="@+id/card_number_front_text_view" layout_width="wrap_content" layout_height="wrap_content" shadowColor="#353239" shadowDx="2" shadowDy="2" shadowRadius="2" layout_marginEnd="12dp" style="@style/2131821045"/>
+            <TextView id="@+id/card_number_2nd_front_text_view" layout_width="wrap_content" layout_height="wrap_content" shadowColor="#353239" shadowDx="2" shadowDy="2" shadowRadius="2" layout_marginEnd="3dp" style="@style/2131821045"/>
+            <View background="@drawable/shape_credit_card_dot" layout_width="8dp" layout_height="8dp" layout_marginEnd="3dp"/>
+            <View background="@drawable/shape_credit_card_dot" layout_width="8dp" layout_height="8dp" layout_marginEnd="12dp"/>
+            <include layout_width="wrap_content" layout_height="wrap_content" layout="@layout/2131493384"/>
+            <TextView id="@+id/card_number_text_view" layout_width="wrap_content" layout_height="wrap_content" shadowColor="#353239" shadowDx="2" shadowDy="2" shadowRadius="2" style="@style/2131821045"/>
+        </LinearLayout>
+        <RelativeLayout id="@+id/error_card_points_container_relative_layout" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_above="@+id/v_bottom_space">
+            <TextView background="@drawable/trapezoid_gray" layout_width="wrap_content" layout_height="wrap_content" text="@string/unable_to_load_points" paddingStart="24dp" paddingEnd="16dp" style="@style/2131821038"/>
+        </RelativeLayout>
+        <RelativeLayout id="@+id/card_points_container_relative_layout" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_above="@+id/v_bottom_space">
+            <LinearLayout orientation="horizontal" background="@drawable/trapezoid_purple" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" minWidth="@dimen/2131166016">
+                <ImageView layout_gravity="center" id="@+id/iv_gift" visibility="invisible" layout_width="18dp" layout_height="18dp" src="@drawable/ic_gift" layout_marginStart="10dp"/>
+                <LinearLayout gravity="right" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView textStyle="bold" id="@+id/card_points_text_view" layout_width="wrap_content" layout_height="wrap_content" shadowColor="#353239" shadowDx="2" shadowDy="2" shadowRadius="2" layout_marginStart="10dp" style="@style/2131821036"/>
+                    <TextView id="@+id/card_points_label" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" text="@string/points" shadowColor="#353239" shadowDx="2" shadowDy="2" shadowRadius="2" paddingStart="5dp" layout_marginEnd="8dp" style="@style/2131821036"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <View id="@+id/v_bottom_space" layout_width="10dp" layout_height="10dp" layout_alignBottom="@+id/credit_card_image_view"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/rl_block" background="#959199" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="5dp" layout_marginBottom="5dp" minHeight="@dimen/2131165261" alpha="0.9" layout_marginStart="10dp" layout_marginEnd="10dp">
+        <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true">
+            <ImageView layout_gravity="center_horizontal" id="@+id/image_block" layout_width="40dp" layout_height="wrap_content" layout_marginBottom="12dp" src="@drawable/ic_e_coupon" adjustViewBounds="true" contentDescription="@null"/>
+            <TextView gravity="center_horizontal" id="@+id/text_block" layout_width="wrap_content" layout_height="wrap_content" shadowColor="#353239" shadowDx="2" shadowDy="2" shadowRadius="2" layout_marginStart="8dp" layout_marginEnd="8dp" style="@style/2131821040"/>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

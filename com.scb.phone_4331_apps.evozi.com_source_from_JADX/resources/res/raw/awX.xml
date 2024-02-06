@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/view_group_root" background="#ffffff" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <ScrollView background="#ffffff" layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+                <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/from" layout_marginEnd="16dp" style="@style/2131821057"/>
+                <LinearLayout gravity="end" layout_gravity="end" id="@+id/target_info_layout" layout_width="match_parent" layout_height="wrap_content">
+                    <ImageView layout_gravity="center_vertical" id="@+id/account_image_view" layout_width="20dp" layout_height="20dp" src="@drawable/bankicon_scb" contentDescription="@null"/>
+                    <TextView layout_gravity="right" id="@+id/account_name_text_view" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="6dp" style="@style/2131821015"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView gravity="end" id="@+id/amount_value_text_view" layout_width="match_parent" layout_height="wrap_content" layout_marginEnd="16dp" style="@style/2131821057"/>
+            <View layout_marginTop="10dp" style="@style/2131821259"/>
+            <include layout="@layout/2131494257"/>
+            <View layout_marginTop="14dp" style="@style/2131821259"/>
+            <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/quick_prompt_pay_amount" textAllCaps="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821057"/>
+            <LinearLayout orientation="vertical" background="#ffffff" paddingTop="16dp" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content">
+                <com.scb.phone.view.custom.common.AmountEditText gravity="end" id="@+id/edit_amount" background="@android:color/transparent" layout_width="match_parent" layout_height="wrap_content" hint="@string/transfer_to_account_amount_hint" inputType="numberDecimal" imeOptions="actionDone" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821088"/>
+                <include layout_width="match_parent" layout_height="26dp" layout_marginTop="16dp" layout_marginEnd="16dp" layout="@layout/2131493668"/>
+                <View layout_marginTop="4dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821259"/>
+                <include layout="@layout/2131493633"/>
+            </LinearLayout>
+            <View layout_marginTop="16dp" style="@style/2131821259"/>
+            <LinearLayout gravity="center" layout_gravity="center" orientation="horizontal" id="@+id/modify_quick_prompt_pay" background="@drawable/ripple_purple_white_bg" padding="10dp" clickable="true" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp">
+                <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/modify_prompt_pay" style="@style/2131821094"/>
+                <ImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_chevron_right_white_18dp" tint="#7631c1" layout_marginStart="5dp" style="@style/2131821094"/>
+            </LinearLayout>
+            <com.scb.phone.view.custom.common.DefaultButton id="@+id/button_review" background="@drawable/bg_button" layout_width="match_parent" layout_height="48dp" layout_marginTop="24dp" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x17="@drawable/ripple_rounded_dark_purple" NOT_FOUND_0x18="@string/review" NOT_FOUND_0x19="@color/2131100257"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

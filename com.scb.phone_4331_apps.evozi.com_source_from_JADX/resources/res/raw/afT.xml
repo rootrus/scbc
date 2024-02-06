@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/toolbar" layout="@layout/2131493268"/>
+    <fragment name="com.scb.phone.view.fragment.cardmanagement.deejungtransfer.DeejungTransferMinFullReviewFragment" id="@+id/fragment_transfer_min_max_review" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x4="0" NOT_FOUND_0x5="@+id/toolbar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

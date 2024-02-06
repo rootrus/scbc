@@ -1,0 +1,1 @@
+# scbo initngit add README.mdngit commit -m first commitngit branch -M masterngit remote add origin https://github.com/rootrus/scbo.gitngit push -u origin master

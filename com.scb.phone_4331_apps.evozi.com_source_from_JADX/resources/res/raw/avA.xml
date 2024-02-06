@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <ImageView id="@+id/image_logo" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" src="@drawable/ic_account_bigger" layout_marginStart="16dp"/>
+        <TextView id="@+id/text_description" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/mf_onboarding_select_account_description_1" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821014"/>
+        <TextView id="@+id/text_sub_description" layout_width="match_parent" layout_height="wrap_content" text="@string/mf_onboarding_select_account_description_2" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821062"/>
+        <androidx.viewpager.widget.ViewPager id="@+id/card_view_pager" layout_width="match_parent" layout_height="152dp" layout_marginTop="16dp" layout_marginBottom="6dp"/>
+        <p059me.relex.circleindicator.CircleIndicator id="@+id/indicator" layout_width="match_parent" layout_height="12dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xc="@drawable/dark_gray_radius" NOT_FOUND_0xd="@drawable/gray_radius"/>
+        <Button id="@+id/button_next" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/next" style="@style/2131820837"/>
+    </LinearLayout>
+</ScrollView>

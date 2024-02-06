@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" background="#ffffff" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content">
+        <include layout_width="match_parent" layout_height="100dp" layout_marginTop="16dp" layout="@layout/2131493406"/>
+        <include id="@+id/custom_card_error" visibility="gone" layout_width="match_parent" layout_height="100dp" layout_marginTop="16dp" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" layout="@layout/2131493411"/>
+        <include background="#ffffff" layout_width="match_parent" layout_height="72dp" layout="@layout/2131493674"/>
+        <com.scb.phone.view.custom.common.NoSwipeViewPager id="@+id/card_view_pager" layout_width="match_parent" layout_height="120dp" layout_marginTop="8dp" layout_marginBottom="3dp"/>
+        <p059me.relex.circleindicator.CircleIndicator id="@+id/indicator" layout_width="match_parent" layout_height="16dp" NOT_FOUND_0xb="@drawable/circle_indicator_purple" NOT_FOUND_0xc="@drawable/gray_radius"/>
+    </LinearLayout>
+</LinearLayout>

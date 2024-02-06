@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <ScrollView layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <TextView id="@+id/header_info_referral" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/easycash_send_header_info" style="@style/2131820996"/>
+            <View style="@style/2131821259"/>
+            <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/easycash_loans_details" textAllCaps="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820996"/>
+            <View layout_marginTop="8dp" style="@style/2131821259"/>
+            <LinearLayout orientation="vertical" id="@+id/note_layout" background="#ffffff" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <com.scb.phone.view.custom.common.InputText id="@+id/loans_edit_text" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x16="@string/favorite_invalid_character" NOT_FOUND_0x19="@string/easycash_referral_dfw_hint" NOT_FOUND_0x1b="true" NOT_FOUND_0x1c="200" NOT_FOUND_0x20="@string/easycash_referral_dfw_note_title"/>
+            </LinearLayout>
+            <View style="@style/2131821259"/>
+            <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/easycash_send_product_estimated_amount" textAllCaps="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820996"/>
+            <View layout_marginTop="8dp" style="@style/2131821259"/>
+            <LinearLayout orientation="vertical" background="#ffffff" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputLayout id="@+id/text_error_input_layout" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x17="true" NOT_FOUND_0x18="@style/2131821003" NOT_FOUND_0x1a="false">
+                    <com.scb.phone.view.custom.common.AmountEditText gravity="end" id="@+id/edit_amount" layout_width="match_parent" layout_height="wrap_content" inputType="numberDecimal" imeOptions="actionNext" NOT_FOUND_0x12="@string/transfer_to_account_amount_hint_referral" NOT_FOUND_0x13="10" style="@style/2131821029"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <View layout_marginTop="16dp" style="@style/2131821259"/>
+            </LinearLayout>
+            <include layout_width="match_parent" layout_height="26dp" layout_marginTop="16dp" layout_marginEnd="16dp" layout="@layout/2131493668"/>
+            <include layout="@layout/2131493633"/>
+            <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/easycash_personal_details" textAllCaps="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820996"/>
+            <View layout_marginTop="8dp" style="@style/2131821259"/>
+            <LinearLayout orientation="vertical" id="@+id/v_privacy_notice" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/tv_privacy_notice" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821058"/>
+            </LinearLayout>
+            <View layout_marginStart="16dp" style="@style/2131821259"/>
+            <LinearLayout orientation="vertical" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/title_name_text" layout_width="match_parent" layout_height="wrap_content" text="@string/easycash_personal_details_name" style="@style/2131821015"/>
+                <TextView id="@+id/name_text" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821062"/>
+            </LinearLayout>
+            <View layout_marginStart="16dp" style="@style/2131821259"/>
+            <LinearLayout orientation="vertical" id="@+id/phone_layout" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+                <com.scb.phone.view.custom.easycash.CustomPhone id="@+id/phone_edit_text" layout_width="match_parent" layout_height="wrap_content" imeOptions="actionNext" NOT_FOUND_0x15="@string/easycash_referral_phone_number_hint" NOT_FOUND_0x22="@string/easycash_personal_details_phone_number"/>
+            </LinearLayout>
+            <View layout_marginStart="16dp" style="@style/2131821259"/>
+            <LinearLayout orientation="vertical" id="@+id/email_layout" background="#ffffff" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <com.scb.phone.view.custom.easycash.CustomEmail id="@+id/email_edit_text" layout_width="match_parent" layout_height="wrap_content" imeOptions="actionDone" NOT_FOUND_0x14="@string/easycash_personal_details_input_email" NOT_FOUND_0x21="@string/easycash_personal_details_email"/>
+            </LinearLayout>
+            <View style="@style/2131821259"/>
+            <com.scb.phone.view.custom.common.DefaultButton id="@+id/button_send" background="@drawable/bg_button" layout_width="match_parent" layout_height="48dp" layout_marginTop="24dp" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1d="@drawable/ripple_rounded_dark_purple" NOT_FOUND_0x1e="@string/easycash_send" NOT_FOUND_0x1f="@color/2131100257"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

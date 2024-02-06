@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <Button id="@+id/btn_stop_cheque" layout_width="match_parent" layout_margin="8dp" layout_marginBottom="24dp" text="@string/stop_cheque_title" layout_marginStart="24dp" layout_marginEnd="24dp" style="@style/2131820837"/>
+    </LinearLayout>
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" paddingStart="18dp" paddingEnd="18dp">
+        <TextView textStyle="bold" id="@+id/tv_down_account_lbl" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/stop_cheque_history" layout_centerVertical="true" textAllCaps="true" style="@style/2131820996"/>
+    </RelativeLayout>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" id="@+id/view_no_stop_cheque_history" background="@drawable/bg_white_rounded" padding="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+            <ImageView layout_gravity="center_horizontal" layout_width="48dp" layout_height="wrap_content" src="@drawable/icon_stop_cheque" adjustViewBounds="true"/>
+            <TextView gravity="center_horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/stop_cheque_error_title" layout_alignParentLeft="true" layout_alignParentStart="true" style="@style/2131820996"/>
+            <TextView gravity="center_horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" text="@string/stop_cheque_error_message" style="@style/2131821054"/>
+        </LinearLayout>
+        <LinearLayout orientation="vertical" id="@+id/error_message_container" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+            <View style="@style/2131821259"/>
+            <RelativeLayout gravity="center_vertical" background="@drawable/bg_white_rounded_with_border" paddingTop="20dp" paddingBottom="20dp" layout_width="match_parent" layout_height="match_parent" paddingStart="20dp" paddingEnd="20dp">
+                <TextView id="@+id/error_title" layout_width="match_parent" layout_height="wrap_content" text="@string/custom_error_title" layout_alignParentLeft="true" paddingStart="20dp" paddingEnd="20dp" layout_alignParentStart="true" style="@style/2131820996"/>
+                <TextView gravity="left" id="@+id/error_description" layout_width="match_parent" layout_height="wrap_content" text="@string/custom_error_description" layout_below="@+id/error_title" paddingStart="20dp" paddingEnd="20dp" style="@style/2131821054"/>
+                <ImageView id="@+id/button_reload_stop_cheque_history" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" src="@drawable/ic_reload_empty_item" layout_alignParentRight="true" contentDescription="@null" layout_alignParentEnd="true"/>
+            </RelativeLayout>
+            <View style="@style/2131821259"/>
+        </LinearLayout>
+        <include layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" layout="@layout/2131493668"/>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/recycler_view_stop_cheque_history" background="#ffffff" focusable="false" visibility="gone" layout_width="match_parent" layout_height="0dp" layout_weight="1" overScrollMode="never"/>
+    </LinearLayout>
+</LinearLayout>

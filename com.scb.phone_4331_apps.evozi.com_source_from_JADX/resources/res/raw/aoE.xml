@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" ellipsize="end" gravity="end" id="@android:id/text1" paddingTop="7dp" paddingBottom="7dp" layout_width="140dp" layout_height="45dp" maxLines="1" paddingEnd="16dp" NOT_FOUND_0x9="32sp" NOT_FOUND_0xa="6sp" NOT_FOUND_0xb="2sp" NOT_FOUND_0xc="1" style="@style/2131821028"/>

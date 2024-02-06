@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp"/>
+    <ScrollView layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="horizontal" background="#ffffff" paddingTop="16dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                <com.scb.phone.view.custom.common.ScheduleDate id="@+id/payment_date" layout_width="match_parent" layout_height="wrap_content"/>
+            </LinearLayout>
+            <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp"/>
+            <TextView id="@+id/disclaimer_text" background="#f5f3f6" paddingTop="24dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content" lineSpacingExtra="4sp" textAlignment="center" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820873"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

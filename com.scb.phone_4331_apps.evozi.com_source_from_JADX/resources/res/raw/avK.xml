@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+            <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/mw_shop_online_remark_title" style="@style/2131821062"/>
+        </LinearLayout>
+        <View style="@style/2131821259"/>
+        <LinearLayout paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+            <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/mw_shop_online_shop_detail" textAllCaps="true" style="@style/2131820998"/>
+        </LinearLayout>
+        <View style="@style/2131821259"/>
+        <LinearLayout orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/mw_shop_address_shop_type" style="@style/2131821015"/>
+                <TextView id="@+id/shop_type_description" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821062"/>
+            </LinearLayout>
+            <View layout_marginStart="16dp" style="@style/2131821259"/>
+            <com.scb.phone.view.custom.common.CustomAddressInput id="@+id/facebook_input" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xd="@string/mw_shop_online_facebook_hint" NOT_FOUND_0xe="50" NOT_FOUND_0xf="@string/mw_shop_online_facebook"/>
+            <com.scb.phone.view.custom.common.CustomAddressInput id="@+id/instagram_input" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xd="@string/mw_shop_online_instagram_hint" NOT_FOUND_0xe="50" NOT_FOUND_0xf="@string/mw_shop_online_instagram"/>
+            <com.scb.phone.view.custom.common.CustomAddressInput id="@+id/line_input" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xd="@string/mw_shop_online_line_hint" NOT_FOUND_0xe="50" NOT_FOUND_0xf="@string/mw_shop_online_line"/>
+            <com.scb.phone.view.custom.common.CustomAddressInput id="@+id/website_input" background="#ffffff" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xd="@string/mw_shop_online_website_hint" NOT_FOUND_0xe="200" NOT_FOUND_0xf="@string/mw_shop_online_website"/>
+        </LinearLayout>
+        <View style="@style/2131821259"/>
+        <FrameLayout paddingTop="24dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+            <Button id="@+id/button_done" layout_width="match_parent" layout_height="wrap_content" text="@string/done" style="@style/2131820837"/>
+        </FrameLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

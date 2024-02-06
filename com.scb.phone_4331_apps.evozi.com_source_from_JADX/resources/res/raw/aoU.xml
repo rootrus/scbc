@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="wrap_content" layout_margin="4dp" NOT_FOUND_0x10="@color/2131099880" NOT_FOUND_0x11="3dp" NOT_FOUND_0x12="0dp" NOT_FOUND_0x13="true" NOT_FOUND_0x14="true">
+    <LinearLayout orientation="vertical" background="#e4d6f3" clipToPadding="true" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="horizontal" background="#7631c1" padding="16dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0">
+            <TextView id="@+id/tv_tierpricing_promo" background="@drawable/green_promo" paddingTop="4dp" paddingBottom="4dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/hml_landing_promotion_promo" paddingStart="8dp" paddingEnd="8dp" style="@style/2131821036"/>
+            <TextView id="@+id/tv_tierpricing_valid_until" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="16dp" style="@style/2131821038"/>
+        </LinearLayout>
+        <com.scb.phone.view.custom.tierpricing.TierPricingSimplePromotionView id="@+id/tpspv_tierpricing_promo" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

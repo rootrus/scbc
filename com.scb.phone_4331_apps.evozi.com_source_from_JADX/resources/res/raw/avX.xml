@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/view_group_root_test" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/toolbar" layout="@layout/2131493731"/>
+    <com.scb.phone.view.custom.common.CustomTabLayout id="@+id/new_transaction_tab_layout" background="#ffffff" layout_width="match_parent" layout_height="40dp" layout_below="@+id/toolbar" elevation="2dp" NOT_FOUND_0x14="@color/2131099711" NOT_FOUND_0x15="2dp" NOT_FOUND_0x16="@color/2131099711" NOT_FOUND_0x17="@style/2131820554" NOT_FOUND_0x18="@color/2131099773"/>
+    <com.scb.phone.view.custom.common.NoSwipeViewPager id="@+id/new_transaction_view_pager" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/new_transaction_tab_layout"/>
+    <ImageView id="@+id/overlay_new_transfer_tutorial_image_view" visibility="gone" layout_width="match_parent" layout_height="match_parent" contentDescription="@null" elevation="9dp"/>
+    <LinearLayout orientation="vertical" id="@+id/new_transfer_pay_tutorial_linear_layout" background="#4d21262c" visibility="gone" clickable="true" layout_width="match_parent" layout_height="match_parent" layout_marginTop="?attr/actionBarSize" elevation="9dp">
+        <LinearLayout orientation="horizontal" background="#ffffff" layout_width="match_parent" layout_height="40dp">
+            <RelativeLayout layout_width="match_parent" layout_height="match_parent" layout_weight="1">
+                <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/transfer_tab" layout_centerInParent="true" textAllCaps="true" style="@style/2131821092"/>
+                <View background="#7631c1" layout_width="match_parent" layout_height="2dp" layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <TextView gravity="center" layout_width="match_parent" layout_height="match_parent" text="@string/top_up_tab" layout_weight="1" textAllCaps="true" style="@style/2131821053"/>
+            <TextView gravity="center" layout_width="match_parent" layout_height="match_parent" text="@string/bill_payment_tab" layout_weight="1" textAllCaps="true" style="@style/2131821053"/>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp">
+            <ImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_arrow_coachmark_curved" layout_weight="1" contentDescription="@null"/>
+            <ImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_arrow_coachmark" layout_weight="1" contentDescription="@null"/>
+            <ImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_arrow_right_coachmark" layout_weight="1" contentDescription="@null"/>
+        </LinearLayout>
+        <TextView gravity="center" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/new_transfer_pay_tutorial" layout_marginStart="70dp" layout_marginEnd="70dp" style="@style/2131821039"/>
+    </LinearLayout>
+</RelativeLayout>

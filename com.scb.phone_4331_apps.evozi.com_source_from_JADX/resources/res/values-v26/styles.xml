@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="2131820634">
+    </style>
+    <style name="2131820641">
+    </style>
+    <style name="2131820692">
+        <item name="colorError">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="2131820693">
+        <item name="colorError">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="2131820694">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+    <style name="2131820760">
+    </style>
+    <style name="2131821336">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:stateListAnimator">@animator/2130837504</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+</resources>

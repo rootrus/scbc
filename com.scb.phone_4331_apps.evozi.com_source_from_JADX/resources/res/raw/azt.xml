@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+        <TextView id="@+id/tv_account_no" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821020"/>
+        <TextView id="@+id/tv_account_type" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821020"/>
+        <TextView ellipsize="end" id="@+id/tv_account_nickname" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" style="@style/2131821102"/>
+    </LinearLayout>
+    <CheckBox id="@+id/toggle_view" layout_width="wrap_content" layout_height="wrap_content" checked="true" button="@drawable/toggle_checkbox_selector" layout_alignParentRight="true"/>
+</RelativeLayout>

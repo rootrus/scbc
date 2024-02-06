@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/layout_select_purchases" layout_width="match_parent" layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar id="@+id/toolbar" background="?attr/colorPrimary" layout_width="match_parent" layout_height="?attr/actionBarSize" elevation="2dp" NOT_FOUND_0xe="@dimen/2131165702" NOT_FOUND_0x11="0">
+        <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="match_parent">
+            <TextView textColor="#7631c1" ellipsize="end" id="@+id/title_text_view" layout_width="0dp" layout_height="wrap_content" text="@string/deejung_installment_plan" maxLines="1" layout_weight="1" style="@style/2131821118"/>
+            <ImageView id="@+id/imv_deejung_about" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_question_mark" layout_marginEnd="16dp"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout id="@+id/container" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/toolbar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

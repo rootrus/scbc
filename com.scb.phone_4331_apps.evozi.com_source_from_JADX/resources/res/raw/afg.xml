@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout orientation="vertical" id="@+id/layout_camera" background="#000000" layout_width="match_parent" layout_height="match_parent">
+        <include id="@+id/toolbar" layout="@layout/2131493731"/>
+        <com.scb.phone.view.camera.CameraSourcePreview id="@+id/preview" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/toolbar"/>
+        <ImageView id="@+id/button_flashlight" clickable="true" layout_width="48dp" layout_height="48dp" layout_marginTop="16dp" src="@drawable/ic_flash_off_white_48dp" scaleType="centerInside" layout_below="@+id/toolbar" layout_alignParentRight="true" contentDescription="@null" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+        <ImageView id="@+id/button_album" clickable="true" layout_width="48dp" layout_height="48dp" layout_marginBottom="16dp" src="@drawable/album_circle" scaleType="centerInside" layout_above="@+id/bottom_bar" layout_alignParentRight="true" contentDescription="@null" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+        <androidx.legacy.widget.Space id="@+id/space_reference" layout_width="250dp" layout_height="250dp" layout_centerInParent="true"/>
+        <View background="#ffffff" layout_width="24dp" layout_height="2dp" layout_alignLeft="@+id/space_reference" layout_alignTop="@+id/space_reference" layout_alignStart="@+id/space_reference"/>
+        <View background="#ffffff" layout_width="2dp" layout_height="24dp" layout_alignLeft="@+id/space_reference" layout_alignTop="@+id/space_reference" layout_alignStart="@+id/space_reference"/>
+        <View background="#ffffff" layout_width="24dp" layout_height="2dp" layout_alignTop="@+id/space_reference" layout_alignRight="@+id/space_reference" layout_alignEnd="@+id/space_reference"/>
+        <View background="#ffffff" layout_width="2dp" layout_height="24dp" layout_alignTop="@+id/space_reference" layout_alignRight="@+id/space_reference" layout_alignEnd="@+id/space_reference"/>
+        <View background="#ffffff" layout_width="24dp" layout_height="2dp" layout_alignLeft="@+id/space_reference" layout_alignBottom="@+id/space_reference" layout_alignStart="@+id/space_reference"/>
+        <View background="#ffffff" layout_width="2dp" layout_height="24dp" layout_alignLeft="@+id/space_reference" layout_alignBottom="@+id/space_reference" layout_alignStart="@+id/space_reference"/>
+        <View background="#ffffff" layout_width="24dp" layout_height="2dp" layout_alignRight="@+id/space_reference" layout_alignBottom="@+id/space_reference" layout_alignEnd="@+id/space_reference"/>
+        <View background="#ffffff" layout_width="2dp" layout_height="24dp" layout_alignRight="@+id/space_reference" layout_alignBottom="@+id/space_reference" layout_alignEnd="@+id/space_reference"/>
+        <View background="#da2e36" layout_width="1dp" layout_height="match_parent" layout_below="@+id/toolbar" layout_centerInParent="true"/>
+        <TextView gravity="center" id="@+id/bottom_bar" background="#80000000" layout_width="match_parent" layout_height="36dp" text="@string/bottom_scan_bar" layout_alignParentBottom="true" style="@style/2131821033"/>
+    </RelativeLayout>
+</FrameLayout>

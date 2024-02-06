@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/profile_management_layout" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" paddingStart="16dp" paddingEnd="16dp">
+        <TextView id="@+id/title_name" layout_width="wrap_content" layout_height="wrap_content" layout_centerVertical="true" style="@style/2131821020"/>
+        <ImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/black_arrow" layout_alignParentRight="true" layout_centerVertical="true" contentDescription="@null"/>
+    </RelativeLayout>
+    <TextView id="@+id/description" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820865"/>
+    <View id="@+id/footer_divider_view" background="#eae7ec" visibility="gone" layout_width="match_parent" layout_height="1dp"/>
+    <View id="@+id/divider_view" background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_marginTop="16dp" layout_marginStart="16dp"/>
+</LinearLayout>

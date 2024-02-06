@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <TextView id="@+id/tv_account_type" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="8dp" text="@string/etb_select_account_type_label" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820999"/>
+    <androidx.cardview.widget.CardView background="#ffffff" layout_width="match_parent" layout_height="match_parent" layout_marginTop="8dp" layout_marginBottom="8dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x10="@dimen/2131165427" NOT_FOUND_0x11="@dimen/2131165427">
+        <LinearLayout orientation="vertical" id="@+id/empty_container_relative_layout" layout_width="match_parent" layout_height="wrap_content">
+            <ImageView id="@+id/image_account_type" layout_width="match_parent" layout_height="match_parent" scaleType="centerCrop" adjustViewBounds="true" minHeight="100dp"/>
+            <LinearLayout orientation="vertical" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                <TextView id="@+id/text_account_type" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821101"/>
+                <TextView id="@+id/text_account_description" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821062"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

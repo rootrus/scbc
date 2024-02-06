@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/view_group_root" background="#ffffff" padding="24dp" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xc="true" NOT_FOUND_0xd="56dp" NOT_FOUND_0xe="com.google.android.material.bottomsheet.BottomSheetBehavior">
+    <LinearLayout orientation="horizontal" id="@+id/ll_layout_select_close_account" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp">
+        <androidx.appcompat.widget.AppCompatImageView layout_width="25dp" layout_height="25dp" src="@drawable/ic_close_account_entry" layout_marginEnd="16dp"/>
+        <TextView gravity="center_vertical" layout_width="match_parent" layout_height="wrap_content" text="@string/account_closed_selection_entry" style="@style/2131820998"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" id="@+id/ll_layout_select_export_statement" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView layout_width="25dp" layout_height="25dp" src="@drawable/ic_export_statement" layout_marginEnd="16dp" NOT_FOUND_0xf="@color/2131099773"/>
+        <TextView gravity="center_vertical" layout_width="match_parent" layout_height="wrap_content" text="@string/account_summary_export_statement_request" style="@style/2131820998"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+    <LinearLayout orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+        <RelativeLayout id="@+id/header" background="#f5f3f6" focusable="true" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+            <ImageView id="@+id/iv_image_logo" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" src="@drawable/ic_sof" layout_alignParentTop="true" contentDescription="@null" layout_marginStart="16dp"/>
+            <TextView id="@+id/tv_text_description" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="8dp" text="@string/investment_information_header" layout_below="@+id/iv_image_logo" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821014"/>
+        </RelativeLayout>
+        <LinearLayout orientation="vertical" id="@+id/ll_selectors" background="#ffffff" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+            <com.scb.phone.view.custom.investment.onboarding.CustomSpinnerWithTitle id="@+id/swt_income_spinner" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" NOT_FOUND_0x1a="@string/investment_information_fund_selector_hint" NOT_FOUND_0x1b="@string/investment_information_income_title"/>
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+                <TextView ellipsize="end" id="@+id/tv_fund_title" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" lines="1" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+                <RelativeLayout layout_gravity="center_horizontal" id="@+id/rl_fund_selector" background="@drawable/bg_spinner" layout_width="match_parent" layout_height="50dp" layout_marginTop="4dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+                    <TextView id="@+id/tv_fund_text" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_centerVertical="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+                    <ImageView layout_gravity="center" id="@+id/iv_fund_arrow" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_centerVertical="true" contentDescription="@null" rotation="-90" layout_marginEnd="8dp" layout_alignParentEnd="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <com.scb.phone.view.custom.investment.onboarding.CustomSpinnerWithTitle id="@+id/swt_objectives_spinner" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="8dp" NOT_FOUND_0x1a="@string/investment_information_objective_selector_hint" NOT_FOUND_0x1b="@string/investment_information_objective_title"/>
+        </LinearLayout>
+        <com.scb.phone.view.custom.common.ThaiTextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" text="@string/investment_information_footer" textAlignment="center" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821065"/>
+        <Space id="@+id/space" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+        <Button id="@+id/bt_next" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" text="@string/next" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820837"/>
+    </LinearLayout>
+</ScrollView>

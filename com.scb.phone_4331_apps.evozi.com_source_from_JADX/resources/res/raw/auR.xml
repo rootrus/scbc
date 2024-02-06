@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <LinearLayout gravity="center" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <ImageView layout_gravity="center" id="@+id/qb_empty_icon_image_view" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_account_summary" tint="#353239"/>
+        <TextView gravity="center" id="@+id/qb_empty_title_text_view_1" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="28dp" text="@string/quick_balance_no_deposit" layout_marginStart="40dp" layout_marginEnd="40dp" style="@style/2131821015"/>
+        <TextView gravity="center" id="@+id/qb_empty_title_text_view_2" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" text="@string/quick_balance_no_deposit_description" layout_marginStart="40dp" layout_marginEnd="40dp" style="@style/2131821054"/>
+        <LinearLayout gravity="center" orientation="horizontal" id="@+id/add_new_account" background="@drawable/ripple_purple_white_bg" padding="20dp" clickable="true" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp">
+            <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/quick_balance_add_new_account" style="@style/2131821094"/>
+            <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/modify_quick_balance_next" layout_marginStart="5dp" style="@style/2131821094"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

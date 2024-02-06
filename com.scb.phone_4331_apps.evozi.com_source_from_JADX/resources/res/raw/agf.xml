@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <androidx.appcompat.widget.AppCompatImageView layout_gravity="top|center_vertical|center_horizontal|center" id="@+id/bb_bottom_bar_icon" layout_width="wrap_content" layout_height="wrap_content"/>
+    <TextView textAppearance="@style/2131820573" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/bb_bottom_bar_title" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131820576"/>
+</merge>

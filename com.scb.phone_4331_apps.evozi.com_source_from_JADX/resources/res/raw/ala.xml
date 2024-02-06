@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/ll_ssf_child_item" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content" paddingStart="20dp" paddingEnd="10dp">
+    <TextView id="@+id/tv_investment_year_title" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp" text="@string/ssf_investment_year" style="@style/2131821009"/>
+    <RelativeLayout orientation="horizontal" visibility="visible" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp">
+        <TextView id="@+id/tv_ssf_investment_year" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentStart="true" style="@style/2131820990"/>
+        <TextView id="@+id/tv_ssf_current_year" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131820990"/>
+        <TextView id="@+id/tv_ssf_maturity_year" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentEnd="true" style="@style/2131820990"/>
+    </RelativeLayout>
+    <ProgressBar id="@+id/pb_ssf_maturity" layout_width="match_parent" layout_height="5dp" layout_marginTop="5dp" progressDrawable="@drawable/bar_progress" style="@style/Widget.ProgressBar.Horizontal"/>
+    <TextView id="@+id/tv_total_investment_title" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp" text="@string/ssf_total_investment" style="@style/2131821009"/>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp">
+        <TextView gravity="start" id="@+id/tv_investment_value_title" layout_width="0dp" layout_height="wrap_content" text="@string/ssf_investment_value" layout_weight="1" style="@style/2131820990"/>
+        <TextView gravity="end" id="@+id/tv_investment_unit_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/ssf_investment_unit" style="@style/2131820990"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+        <TextView gravity="start" id="@+id/tv_ssf_investment_value" layout_width="0dp" layout_height="wrap_content" layout_weight="1" style="@style/2131821013"/>
+        <TextView gravity="end" id="@+id/tv_ssf_investment_unit" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821013"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp">
+        <TextView gravity="start" id="@+id/tv_available_value_title" layout_width="0dp" layout_height="wrap_content" text="@string/ssf_available_value" layout_weight="1" style="@style/2131820990"/>
+        <TextView gravity="end" id="@+id/tv_gain_loss_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/ltf_gain" style="@style/2131820990"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+        <TextView gravity="start" id="@+id/tv_ssf_current_value" layout_width="0dp" layout_height="wrap_content" layout_weight="1" style="@style/2131821013"/>
+        <TextView gravity="end" id="@+id/tv_ssf_gain_loss" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821013"/>
+    </LinearLayout>
+    <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp" text="@string/ssf_maturity_investment" style="@style/2131821009"/>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp">
+        <TextView gravity="start" id="@+id/tv_investment_at_maturity_title" layout_width="0dp" layout_height="wrap_content" text="@string/ssf_investment_value_at_maturity" layout_weight="1" style="@style/2131820990"/>
+        <TextView gravity="end" id="@+id/tv_units_at_maturity_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/ssf_unit_at_maturity" style="@style/2131820990"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+        <TextView gravity="start" id="@+id/tv_ssf_matured_cost" layout_width="0dp" layout_height="wrap_content" layout_weight="1" style="@style/2131821013"/>
+        <TextView gravity="end" id="@+id/tv_ssf_matured_unit" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821013"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp">
+        <TextView gravity="start" id="@+id/tv_available_value_at_maturity_title" layout_width="0dp" layout_height="wrap_content" text="@string/ssf_available_value_at_maturity" layout_weight="1" style="@style/2131820990"/>
+        <TextView gravity="end" id="@+id/tv_maturity_gain_loss_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/ltf_gain" style="@style/2131820990"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="20dp">
+        <TextView gravity="start" id="@+id/tv_ssf_matured_amount" layout_width="0dp" layout_height="wrap_content" layout_weight="1" style="@style/2131821013"/>
+        <TextView gravity="end" id="@+id/tv_ssf_matured_percent" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821013"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#ffffff" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+    <TextView id="@+id/text_label" layout_width="match_parent" layout_height="wrap_content" text="@string/easycash_personal_details_phone_number" style="@style/2131821015"/>
+    <com.scb.phone.view.custom.common.ScbEditText textColorHint="#959199" ellipsize="end" gravity="center_vertical" id="@+id/edit_input_field" background="@drawable/shape_gray_rounded_rectangle" clickable="true" layout_width="match_parent" layout_height="40dp" layout_marginTop="8dp" lines="1" layout_below="@+id/text_label" inputType="number" paddingStart="16dp" paddingEnd="16dp" style="@style/2131821015"/>
+    <TextView id="@+id/text_error_label" visibility="visible" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" text="@string/incomplete_information" layout_below="@+id/edit_input_field" layout_marginStart="16dp"/>
+</RelativeLayout>

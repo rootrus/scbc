@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <TextView ellipsize="end" gravity="center_vertical" id="@+id/tv_history_value" paddingTop="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" maxLines="1" drawablePadding="12dp" drawableStart="@drawable/ic_clock" paddingStart="16dp" paddingEnd="16dp" style="@style/2131821058"/>
+</LinearLayout>

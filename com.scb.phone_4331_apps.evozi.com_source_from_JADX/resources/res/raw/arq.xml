@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/root_view" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" id="@+id/purchase_container" background="#ffffff" paddingBottom="16dp" visibility="visible" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0"/>
+        <TextView gravity="center" id="@+id/tv_remark" paddingTop="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/purchase_container" style="@style/2131820863"/>
+        <Button id="@+id/save_slip_button" background="@drawable/bg_button_transparent" layout_width="0dp" layout_height="50dp" layout_marginTop="20dp" text="@string/save_slip" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/tv_remark" style="@style/2131820806"/>
+        <TextView textStyle="bold" id="@+id/return_button" background="@drawable/ripple_rounded_dark_purple" focusable="true" clickable="true" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp" text="@string/return_to_accounts" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/save_slip_button" style="@style/2131821098"/>
+        <androidx.legacy.widget.Space layout_width="0dp" layout_height="24dp" NOT_FOUND_0x14="@+id/return_button"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

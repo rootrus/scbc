@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" id="@+id/view_repayment_plan_container" layout_width="match_parent" layout_height="wrap_content">
+        <com.scb.phone.view.custom.easycash.CustomEasyCashSectionLabel id="@+id/text_header" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.scb.phone.view.custom.easycash.CustomTileToggle id="@+id/custom_tile_toggle_repayment" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="-8dp" NOT_FOUND_0x5="@drawable/ic_full_amount" NOT_FOUND_0x6="@string/easycash_feature_account_repay_plan_full_amount_option" NOT_FOUND_0x7="@drawable/ic_min_amount" NOT_FOUND_0x8="@string/easycash_feature_account_repay_plan_min_amount_option"/>
+    </LinearLayout>
+</LinearLayout>

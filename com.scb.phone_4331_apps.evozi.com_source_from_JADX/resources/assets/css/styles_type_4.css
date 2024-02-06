@@ -1,0 +1,4 @@
+@font-face {font-family: DBHeavent;src: url(file:///android_asset/fonts/db_heavent_regular.ttf);}
+p {text-align:left !important;}
+body {margin:20px!important;font-family: 'DBHeavent' !important;font-size: 4vh !important; word-break: break-word; -webkittext-size-adjust: none; color: #c9c6cd !important;}
+.headline-text {color: #a8a4ac !important;} .text-color-norm {color: #353239 !important;}

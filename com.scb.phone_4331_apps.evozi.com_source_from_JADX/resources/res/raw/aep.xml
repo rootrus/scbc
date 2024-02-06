@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="wrap_content">
+        <include NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0x10="0" layout="@layout/2131493731"/>
+        <include id="@+id/layoutFromWallet" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/toolbar" layout="@layout/2131494393"/>
+        <include id="@+id/layoutToWallet" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/layoutFromWallet" layout="@layout/2131494392"/>
+        <include id="@+id/layoutFromAmount" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/layoutToWallet" layout="@layout/2131494391"/>
+        <include id="@+id/layoutToAmount" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/layoutFromAmount" layout="@layout/2131494391"/>
+        <TextView gravity="center" id="@+id/tvAmount" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" text="@string/prepaid_travel_conversion_landing_remark" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/layoutToAmount" style="@style/2131820994"/>
+        <TextView gravity="center" id="@+id/tvCurrencyRemarks" visibility="gone" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/tvAmount" style="@style/2131820994"/>
+        <androidx.appcompat.widget.AppCompatButton enabled="false" id="@+id/btnReview" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="16dp" text="@string/prepaid_travel_conversion_landing_review" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/tvCurrencyRemarks" style="@style/2131820837"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="match_parent" layout_above="@+id/btn_action_next" overScrollMode="never">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <TextView textColor="#353239" id="@+id/tv_title" padding="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/change_statement_ch_apply_all" style="@style/2131820996"/>
+            <LinearLayout orientation="horizontal" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content" layout_weight="2">
+                <RadioButton gravity="top" id="@+id/ckb_yes" layout_width="0dp" layout_height="wrap_content" text="@string/fatca_question_yes" layout_weight="1" paddingStart="8dp" NOT_FOUND_0x10="@drawable/radio_button_tint_selector" style="@style/2131821015"/>
+                <RadioButton gravity="top" id="@+id/ckb_no" layout_width="0dp" layout_height="wrap_content" text="@string/fatca_question_no" layout_weight="1" paddingStart="8dp" NOT_FOUND_0x10="@drawable/radio_button_tint_selector" style="@style/2131821015"/>
+            </LinearLayout>
+            <View style="@style/2131821259"/>
+            <LinearLayout orientation="vertical" id="@+id/ckb_select_all_layout" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+                <CheckBox id="@+id/ckb_select_all" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/select_all_listed_cards" paddingStart="8dp" buttonTint="@color/2131099710" style="@style/2131821015"/>
+                <View style="@style/2131821261"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/view_card_layout" layout_width="match_parent" layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button id="@+id/btn_action_next" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/next_button" layout_alignParentBottom="true" style="@style/2131820837"/>
+</RelativeLayout>

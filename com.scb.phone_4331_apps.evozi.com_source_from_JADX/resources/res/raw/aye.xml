@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#eae7ec" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout id="@+id/mutual_fund_layout" background="@drawable/ripple_purple_white_bg" layout_width="match_parent" layout_height="72dp">
+        <ImageView id="@+id/image_view_mutual_fund" layout_width="32dp" layout_height="32dp" layout_centerVertical="true" layout_marginStart="24dp" NOT_FOUND_0x10="@drawable/ic_mutual_fund"/>
+        <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/select_investment_screen_mutual_fund" layout_centerVertical="true" layout_marginStart="16dp" layout_toEndOf="@+id/image_view_mutual_fund" style="@style/2131821015"/>
+        <ImageView layout_width="16dp" layout_height="16dp" layout_centerVertical="true" layout_marginEnd="24dp" layout_alignParentEnd="true" NOT_FOUND_0x10="@drawable/ic_dark_chevron_up"/>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/robo_advisor_layout" background="@drawable/ripple_purple_white_bg" layout_width="match_parent" layout_height="72dp">
+        <ImageView id="@+id/image_view_robo_advisor" layout_width="32dp" layout_height="32dp" layout_centerVertical="true" layout_marginStart="24dp" NOT_FOUND_0x10="@drawable/ic_robo_advisor"/>
+        <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/select_investment_screen_robo_advisor" layout_centerVertical="true" layout_marginStart="16dp" layout_toEndOf="@+id/image_view_robo_advisor" style="@style/2131821015"/>
+        <ImageView layout_width="16dp" layout_height="16dp" layout_centerVertical="true" layout_marginEnd="24dp" layout_alignParentEnd="true" NOT_FOUND_0x10="@drawable/ic_dark_chevron_up"/>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/scbs_investment_layout" background="@drawable/ripple_purple_white_bg" layout_width="match_parent" layout_height="72dp">
+        <ImageView id="@+id/image_view_scbs_investment" layout_width="32dp" layout_height="32dp" layout_centerVertical="true" layout_marginStart="24dp" NOT_FOUND_0x10="@drawable/ic_scbs_investment"/>
+        <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/select_investment_screen_scbs_investment" layout_centerVertical="true" layout_marginStart="16dp" layout_toEndOf="@+id/image_view_scbs_investment" style="@style/2131821015"/>
+        <ImageView layout_width="16dp" layout_height="16dp" layout_centerVertical="true" layout_marginEnd="24dp" layout_alignParentEnd="true" NOT_FOUND_0x10="@drawable/ic_dark_chevron_up"/>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/rl_purchase_bond_scb_layout" background="@drawable/ripple_purple_white_bg" visibility="gone" layout_width="match_parent" layout_height="72dp">
+        <View gravity="center" layout_width="match_parent" layout_height="match_parent" layout_centerInParent="true" elevation="4dp"/>
+        <ImageView id="@+id/image_view_purchase_bond" layout_width="32dp" layout_height="32dp" layout_centerVertical="true" layout_marginStart="24dp" NOT_FOUND_0x10="@drawable/ic_purchase_bound"/>
+        <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/select_investment_screen_purchase_bound" layout_centerVertical="true" layout_marginStart="16dp" layout_toEndOf="@+id/image_view_purchase_bond" style="@style/2131821015"/>
+        <ImageView layout_width="16dp" layout_height="16dp" layout_centerVertical="true" layout_marginEnd="24dp" layout_alignParentEnd="true" NOT_FOUND_0x10="@drawable/ic_dark_chevron_up"/>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/rl_purchase_bond_dlt_layout" background="@drawable/ripple_purple_white_bg" visibility="gone" layout_width="match_parent" layout_height="72dp">
+        <View gravity="center" layout_width="match_parent" layout_height="match_parent" layout_centerInParent="true" elevation="4dp"/>
+        <ImageView id="@+id/image_view_bond" layout_width="32dp" layout_height="32dp" layout_centerVertical="true" layout_marginStart="24dp" NOT_FOUND_0x10="@drawable/ic_purchase_bound"/>
+        <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/auto_scbs_investment_select_function_purchase_bond_dlt" layout_centerVertical="true" layout_marginStart="16dp" layout_toEndOf="@+id/image_view_bond" style="@style/2131821015"/>
+        <ImageView layout_width="16dp" layout_height="16dp" layout_centerVertical="true" layout_marginEnd="24dp" layout_alignParentEnd="true" NOT_FOUND_0x10="@drawable/ic_dark_chevron_up"/>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/debenture_layout" background="@drawable/ripple_purple_white_bg" visibility="gone" layout_width="match_parent" layout_height="72dp">
+        <View gravity="center" layout_width="match_parent" layout_height="match_parent" layout_centerInParent="true" elevation="4dp"/>
+        <ImageView id="@+id/image_view_debenture" layout_width="32dp" layout_height="32dp" layout_centerVertical="true" layout_marginStart="24dp" NOT_FOUND_0x10="@drawable/ic_debenture"/>
+        <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/select_investment_screen_debenture" layout_centerVertical="true" layout_marginStart="16dp" layout_toEndOf="@+id/image_view_debenture" style="@style/2131821015"/>
+        <ImageView layout_width="16dp" layout_height="16dp" layout_centerVertical="true" layout_marginEnd="24dp" layout_alignParentEnd="true" NOT_FOUND_0x10="@drawable/ic_dark_chevron_up"/>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>

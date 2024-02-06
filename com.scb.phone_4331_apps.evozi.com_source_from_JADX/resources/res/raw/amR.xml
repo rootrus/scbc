@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/container" background="#ffffff" paddingBottom="16dp" clickable="true" layout_width="match_parent" layout_height="wrap_content" foreground="?attr/selectableItemBackground">
+    <TextView id="@+id/text_sme_loan_commercial_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/sme_loan_loan_type_label" layout_alignLeft="@+id/text_sme_loan_commercial_description" layout_alignStart="@+id/text_sme_loan_commercial_description" style="@style/2131820998"/>
+    <TextView ellipsize="end" id="@+id/text_sme_loan_commercial_description" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" maxLines="1" layout_below="@+id/text_sme_loan_commercial_title" layout_marginStart="20dp" layout_toStartOf="@+id/text_amount" style="@style/2131821015"/>
+    <ImageView id="@+id/expand_icon_image_view" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_alignParentRight="true" layout_centerInParent="true" contentDescription="@null" layout_marginEnd="8dp" layout_alignParentEnd="true"/>
+    <View id="@+id/expanded_line_view" layout_alignParentTop="true" style="@style/2131821259"/>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <ProgressBar id="@+id/progressBar2" padding="150dp" layout_width="match_parent" layout_height="196dp" indeterminate="true" indeterminateTint="#7f2bc8" style="@style/Widget.Material.ProgressBar.Large"/>
+        <TextView textColor="#353239" id="@+id/textView3" layout_width="match_parent" layout_height="wrap_content" text="Validating." textAlignment="center"/>
+    </LinearLayout>
+</FrameLayout>

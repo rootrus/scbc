@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+        <TextView layout_gravity="top" id="@+id/target_label" layout_width="wrap_content" layout_height="wrap_content" text="@string/to" layout_marginStart="16dp" style="@style/2131821012"/>
+        <FrameLayout gravity="end" layout_gravity="end" id="@+id/target_info_layout" layout_width="match_parent" layout_height="wrap_content" layout_marginEnd="16dp">
+            <com.scb.phone.view.custom.ImageTextView gravity="right" layout_gravity="right" id="@+id/target_name_text_view" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" NOT_FOUND_0x16="24dp" style="@style/2131821020"/>
+            <ImageView layout_gravity="top" id="@+id/target_avatar_image_view" visibility="gone" layout_width="20dp" layout_height="20dp" contentDescription="@null"/>
+        </FrameLayout>
+    </LinearLayout>
+    <TextView gravity="end" id="@+id/target_references_text_view" layout_width="match_parent" layout_height="match_parent" lineSpacingMultiplier="0.8" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820863"/>
+    <TextView gravity="end" id="@+id/ref_no_1_text_view" visibility="gone" layout_width="match_parent" layout_height="match_parent" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820863"/>
+    <TextView gravity="end" id="@+id/ref_no_2_text_view" visibility="gone" layout_width="match_parent" layout_height="match_parent" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820863"/>
+    <TextView gravity="end" id="@+id/ref_no_3_text_view" visibility="gone" layout_width="match_parent" layout_height="match_parent" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820863"/>
+    <LinearLayout gravity="right|center_vertical|center_horizontal|center|end" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" paddingStart="16dp" paddingEnd="16dp">
+        <ImageView id="@+id/target_favourite_icon" visibility="gone" layout_width="20dp" layout_height="20dp" layout_marginTop="8dp" layout_marginBottom="8dp" src="@drawable/ic_star_black_36dp" tint="#feac00" contentDescription="@null"/>
+        <TextView gravity="end" id="@+id/target_favourite_name_text_view" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="8dp" layout_marginStart="8dp" style="@style/2131821020"/>
+    </LinearLayout>
+    <com.scb.phone.view.custom.common.DefaultButton layout_gravity="end" id="@+id/target_favourite_button" background="@drawable/bg_button_transparent" visibility="gone" layout_width="204dp" layout_height="50dp" layout_marginBottom="16dp" layout_marginEnd="16dp" NOT_FOUND_0x14="@drawable/ic_favourite_star" NOT_FOUND_0x15="@color/2131099881" NOT_FOUND_0x17="@drawable/ripple_rounded_purple" NOT_FOUND_0x18="@string/add_favourite" NOT_FOUND_0x19="@color/2131099881"/>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+        <androidx.legacy.widget.Space id="@+id/target_divider_space" layout_width="16dp" layout_height="wrap_content"/>
+        <View id="@+id/target_divider_view" style="@style/2131821259"/>
+    </LinearLayout>
+</LinearLayout>

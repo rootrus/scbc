@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <LinearLayout orientation="vertical" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content">
+            <TextView id="@+id/content_msg" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/collateral_feature_header_instruction" style="@style/2131820873"/>
+            <com.scb.phone.view.custom.easycash.CustomEasyCashSectionLabel layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x27="true" NOT_FOUND_0x28="@string/collateral_feature_header_property_details"/>
+            <LinearLayout orientation="vertical" background="#ffffff" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <com.scb.phone.view.custom.investment.onboarding.CustomSpinnerWithTitle id="@+id/custom_spinner_location" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x22="@string/collateral_feature_title_collateral_type_hint" NOT_FOUND_0x23="@string/collateral_feature_title_collateral_type" layout="@layout/2131493716"/>
+                <TextView id="@+id/label_collateral_ownership" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/collateral_feature_title_collateral_ownership" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+                <RadioGroup orientation="horizontal" id="@+id/radio_group_collateral_ownership_option" paddingTop="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <RadioButton layout_gravity="center_vertical" id="@+id/rdb_myself" layout_width="0dp" layout_height="wrap_content" text="@string/collateral_ownership_myself" layout_weight="1" style="@style/2131821015"/>
+                    <RadioButton layout_gravity="center_vertical" id="@+id/rdb_family" layout_width="0dp" layout_height="wrap_content" text="@string/collateral_ownership_family" layout_weight="1" style="@style/2131821015"/>
+                </RadioGroup>
+                <TextView id="@+id/label_residential_status" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/collateral_feature_title_residential_status" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+                <RadioGroup orientation="horizontal" id="@+id/radio_group_residential_status_option" paddingTop="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <RadioButton layout_gravity="center_vertical" id="@+id/rdb_residential_status_yes" layout_width="0dp" layout_height="wrap_content" text="@string/ntb_yes" layout_weight="1" style="@style/2131821015"/>
+                    <RadioButton layout_gravity="center_vertical" id="@+id/rdb_residential_status_no" layout_width="0dp" layout_height="wrap_content" text="@string/ntb_no" layout_weight="1" style="@style/2131821015"/>
+                </RadioGroup>
+                <TextView id="@+id/label_price" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/collateral_feature_title_estimated_price" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+                <com.google.android.material.textfield.TextInputLayout id="@+id/text_error_price_layout" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x24="true" NOT_FOUND_0x25="@style/2131821003" NOT_FOUND_0x26="false">
+                    <com.scb.phone.view.custom.common.AmountEditText gravity="left|center_vertical|center_horizontal|center|start" id="@+id/edit_price" background="@drawable/shape_gray_rounded_rectangle_amount" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="40dp" layout_marginBottom="4dp" inputType="numberDecimal" imeOptions="actionDone" paddingStart="16dp" paddingEnd="32dp" style="@style/2131821015"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <TextView id="@+id/label_location" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/collateral_feature_title_location" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+                <RelativeLayout layout_gravity="left" id="@+id/layout_location" background="@drawable/bg_spinner" padding="5dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+                    <TextView gravity="left|center_vertical|center_horizontal|center" id="@+id/text_location" layout_width="match_parent" layout_height="wrap_content" minHeight="40dp" hint="@string/collateral_feature_title_location_hint" layout_alignTop="@+id/image_arrow_job" layout_marginStart="16dp" layout_toStartOf="@+id/image_arrow_job" style="@style/2131821015"/>
+                    <ImageView id="@+id/image_arrow_job" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_alignParentRight="true" layout_centerVertical="true" contentDescription="@null" rotation="-90" layout_marginEnd="8dp" layout_alignParentEnd="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <com.scb.phone.view.custom.easycash.CustomEasyCashSectionLabel layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x27="true" NOT_FOUND_0x28="@string/collateral_feature_header_insurance"/>
+            <LinearLayout orientation="vertical" background="#ffffff" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/label_fire_insurance" layout_width="match_parent" layout_height="wrap_content" text="@string/collateral_feature_title_fire_insurance" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+                <RadioGroup orientation="horizontal" id="@+id/radio_group_fire_insurance_option" paddingTop="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <RadioButton layout_gravity="center_vertical" id="@+id/rdb_fire_insurance_yes" layout_width="0dp" layout_height="wrap_content" text="@string/collateral_insurance_yes" layout_weight="1" style="@style/2131821015"/>
+                    <RadioButton layout_gravity="center_vertical" id="@+id/rdb_fire_insurance_no" layout_width="0dp" layout_height="wrap_content" text="@string/collateral_insurance_no" layout_weight="1" style="@style/2131821015"/>
+                </RadioGroup>
+                <TextView id="@+id/label_life_insurance" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/collateral_feature_title_life_insurance" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+                <RadioGroup orientation="horizontal" id="@+id/radio_group_life_insurance_option" paddingTop="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <RadioButton layout_gravity="center_vertical" id="@+id/rdb_life_insurance_yes" layout_width="0dp" layout_height="wrap_content" text="@string/collateral_insurance_yes" layout_weight="1" style="@style/2131821015"/>
+                    <RadioButton layout_gravity="center_vertical" id="@+id/rdb_life_insurance_no" layout_width="0dp" layout_height="wrap_content" text="@string/collateral_insurance_no" layout_weight="1" style="@style/2131821015"/>
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout orientation="horizontal" id="@+id/layout_bottom" padding="8dp" layout_width="match_parent" layout_height="wrap_content">
+        <Button enabled="false" id="@+id/button_calculate" layout_width="0dp" layout_height="wrap_content" layout_margin="8dp" text="@string/collateral_insurance_calculate" layout_weight="1" style="@style/2131820837"/>
+    </LinearLayout>
+</LinearLayout>

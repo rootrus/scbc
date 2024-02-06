@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <View id="@+id/top_divider" background="#c9c6cd" layout_width="match_parent" layout_height="1dp" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0" NOT_FOUND_0x9="0"/>
+    <com.scb.phone.view.custom.ImageTextView id="@+id/loan_name_img_text_view" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0" NOT_FOUND_0x8="@+id/top_divider" style="@style/2131821020"/>
+    <com.scb.phone.view.custom.easycash.CustomDeltaSliderPressed id="@+id/loan_slider" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0" NOT_FOUND_0x8="@+id/loan_name_img_text_view"/>
+    <View id="@+id/separator_view" background="#c9c6cd" layout_width="match_parent" layout_height="1dp" layout_marginTop="16dp" layout_marginStart="16dp" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0" NOT_FOUND_0x8="@+id/loan_slider"/>
+    <com.scb.phone.view.custom.easycash.CustomSeparatedViews id="@+id/details" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0" NOT_FOUND_0x8="@+id/separator_view"/>
+    <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0" NOT_FOUND_0x8="@+id/details"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

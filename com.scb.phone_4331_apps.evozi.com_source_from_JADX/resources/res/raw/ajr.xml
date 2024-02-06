@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="horizontal" id="@+id/linear_label" layout_width="match_parent" layout_height="wrap_content" layout_alignParentLeft="true" layout_alignParentTop="true" layout_alignParentStart="true">
+        <TextView ellipsize="end" gravity="left" id="@+id/used_title_text_view" layout_width="0dp" layout_height="wrap_content" maxLines="1" lines="1" layout_weight="1" textAllCaps="true" fontPath="fonts/PSL001Pro.ttf"/>
+        <View layout_width="8dp" layout_height="1dp"/>
+        <TextView ellipsize="end" gravity="right" id="@+id/available_title_text_view" layout_width="0dp" layout_height="wrap_content" maxLines="1" lines="1" layout_weight="1" layout_alignParentRight="true" textAllCaps="true" fontPath="fonts/PSL001Pro.ttf"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" id="@+id/ll_used_value" layout_width="match_parent" layout_height="wrap_content" weightSum="2" layout_below="@+id/linear_label">
+        <TextView gravity="start" layout_gravity="start" id="@+id/used_value_text_view" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1" textAllCaps="true"/>
+        <TextView gravity="end" layout_gravity="end" id="@+id/available_value_text_view" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1" textAllCaps="true"/>
+    </LinearLayout>
+    <ProgressBar id="@+id/custom_horizontal_progress_bar" layout_width="match_parent" layout_height="8dp" layout_marginTop="6dp" progressDrawable="@drawable/card_progress_bar" layout_below="@+id/ll_used_value" style="@style/Widget.ProgressBar.Horizontal"/>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/total_container_constraint_layout" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="6dp" layout_below="@+id/custom_horizontal_progress_bar">
+        <Space id="@+id/space" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0"/>
+        <TextView gravity="end" id="@+id/total_title_text_view" layout_width="0dp" layout_height="wrap_content" textAllCaps="true" NOT_FOUND_0x15="@+id/total_value_text_view" NOT_FOUND_0x16="@+id/space" NOT_FOUND_0x18="0" fontPath="fonts/db_heavent_regular.ttf"/>
+        <TextView id="@+id/total_value_text_view" layout_width="0dp" layout_height="wrap_content" textAllCaps="true" layout_marginStart="10dp" NOT_FOUND_0x15="@+id/space1" NOT_FOUND_0x16="@+id/total_title_text_view" NOT_FOUND_0x18="0" fontPath="fonts/db_heavent_regular.ttf"/>
+        <Space id="@+id/space1" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x14="0" NOT_FOUND_0x18="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

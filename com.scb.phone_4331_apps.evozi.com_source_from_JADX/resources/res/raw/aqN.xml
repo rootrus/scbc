@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content">
+        <include layout_width="match_parent" layout_height="152dp" layout_centerInParent="true" layout="@layout/2131493668"/>
+        <LinearLayout orientation="vertical" id="@+id/layout_cards" paddingBottom="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+            <com.asksira.loopingviewpager.LoopingViewPager id="@+id/card_view_pager" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="4dp" NOT_FOUND_0x1b="true"/>
+            <p059me.relex.circleindicator.CircleIndicator id="@+id/indicator" layout_width="match_parent" layout_height="16dp" NOT_FOUND_0x19="@drawable/circle_indicator_purple" NOT_FOUND_0x1a="@drawable/circle_indicator"/>
+        </LinearLayout>
+        <LinearLayout orientation="vertical" id="@+id/layout_no_card" padding="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+            <TextView gravity="center" layout_gravity="center" id="@+id/no_card_text_view_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/credit_card_no_visa_card_title" style="@style/2131821012"/>
+            <TextView gravity="center" layout_gravity="center" id="@+id/no_card_text_view_description" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821054"/>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" id="@+id/layout_error" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+            <RelativeLayout gravity="center_vertical" background="@drawable/bg_white_rounded" padding="20dp" layout_width="match_parent" layout_height="match_parent" layout_margin="16dp" elevation="2dp">
+                <TextView id="@+id/error_title" layout_width="match_parent" layout_height="wrap_content" text="@string/account_summary_card_error_title" layout_alignParentLeft="true" paddingStart="20dp" paddingEnd="20dp" layout_alignParentStart="true" style="@style/2131820996"/>
+                <TextView gravity="left" id="@+id/error_description" layout_width="match_parent" layout_height="wrap_content" text="@string/account_summary_card_error_description" layout_below="@+id/error_title" paddingStart="20dp" paddingEnd="20dp" style="@style/2131821054"/>
+                <ImageView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" src="@drawable/ic_reload_empty_item" layout_alignParentRight="true" contentDescription="@null" layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <View id="@+id/bottom_divider" layout_below="@+id/layout_cards" style="@style/2131821259"/>
+    </RelativeLayout>
+</LinearLayout>

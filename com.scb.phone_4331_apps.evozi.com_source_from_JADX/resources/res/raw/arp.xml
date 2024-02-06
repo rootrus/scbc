@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+    <LinearLayout orientation="vertical" id="@+id/ll_layout_root" layout_width="match_parent" layout_height="wrap_content">
+        <TextView id="@+id/tv_title" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/close_account_selection_subtitle" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821014"/>
+        <TextView id="@+id/tv_account_source_label" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/from" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0" NOT_FOUND_0xb="@+id/tv_title" style="@style/2131820996"/>
+        <include id="@+id/account_source" layout_width="match_parent" layout_height="100dp" layout_marginTop="16dp" layout_marginStart="72dp" layout_marginEnd="72dp" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0" NOT_FOUND_0xb="@+id/tv_account_source_label" layout="@layout/2131493317"/>
+        <TextView id="@+id/tv_receiving_account_label" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/close_account_selection_receiving_account" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820996"/>
+        <FrameLayout id="@+id/fm_layout_container" layout_width="match_parent" layout_height="match_parent" layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

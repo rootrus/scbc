@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <include visibility="visible" layout="@layout/2131493731"/>
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="match_parent" fillViewport="true" layout_above="@+id/btn_ack_knowledge" layout_below="@+id/toolbar">
+        <TextView gravity="left" id="@+id/tv_consent_detail" paddingTop="16dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/announce_cheque_detail" paddingStart="32dp" paddingEnd="32dp" style="@style/2131821015"/>
+    </androidx.core.widget.NestedScrollView>
+    <Button id="@+id/btn_ack_knowledge" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/announce_cheque_button" layout_alignParentBottom="true" style="@style/2131820837"/>
+</RelativeLayout>

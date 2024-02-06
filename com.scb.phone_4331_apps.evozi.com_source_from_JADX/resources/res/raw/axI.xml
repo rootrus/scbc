@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent" fillViewport="true" layout_below="@+id/toolbar">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" id="@+id/fields_container" background="#ffffff" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp" elevation="2dp">
+            <include layout="@layout/2131493295"/>
+            <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp" layout_marginTop="16dp"/>
+            <TextView textColor="#959199" id="@+id/disclaimer_description" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" style="@style/2131820859"/>
+        </LinearLayout>
+        <androidx.legacy.widget.Space id="@+id/space" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+        <Button enabled="false" layout_gravity="bottom" id="@+id/button_next" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="24dp" text="@string/risk_assessment_confirm" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820837"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

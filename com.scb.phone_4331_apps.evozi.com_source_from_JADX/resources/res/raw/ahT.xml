@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp">
+    <LinearLayout paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" paddingEnd="16dp">
+        <ImageView id="@+id/iv_bank_icon" layout_width="32dp" layout_height="32dp" contentDescription="@null"/>
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="10dp" layout_marginEnd="10dp">
+            <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+                <TextView textStyle="bold" layout_width="wrap_content" layout_height="wrap_content" text="@string/cheque_lbl_number" style="@style/2131821058"/>
+                <TextView textStyle="bold" gravity="right" layout_gravity="end" id="@+id/tv_cheque_date" layout_width="match_parent" layout_height="wrap_content" paddingStart="10dp" style="@style/2131821058"/>
+            </LinearLayout>
+            <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp">
+                <TextView id="@+id/tv_cheque_number" layout_width="0dp" layout_height="wrap_content" layout_weight="0.4" style="@style/2131820985"/>
+                <TextView gravity="right" layout_gravity="end" id="@+id/tv_cheque_moneny" layout_width="0dp" layout_height="wrap_content" layout_weight="0.6" paddingStart="10dp" style="@style/2131820985"/>
+            </LinearLayout>
+            <TextView textStyle="bold" id="@+id/tv_cheque_status" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5dp" style="@style/2131821066"/>
+            <TextView textColor="#f05f61" id="@+id/tv_cheque_reject_reason" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821058"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View id="@+id/divider" background="#c9c6cd" layout_width="match_parent" layout_height="1dp"/>
+</LinearLayout>

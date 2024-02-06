@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/root_prepaid_travel" layout_width="match_parent" layout_height="match_parent">
+    <com.scb.phone.view.custom.common.CustomTabLayout id="@+id/ctl_travel_tab" background="#ffffff" layout_width="match_parent" layout_height="56dp" NOT_FOUND_0x5="@color/2131099711" NOT_FOUND_0x6="@color/2131099711" NOT_FOUND_0x7="@style/2131820554" NOT_FOUND_0x8="@color/2131099773"/>
+    <View layout_width="match_parent" layout_height="1dp" style="@style/2131821259"/>
+    <com.scb.phone.view.custom.common.WrapContentViewPager id="@+id/vp_travel_content" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x9="true"/>
+</LinearLayout>

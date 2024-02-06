@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp">
+    <androidx.cardview.widget.CardView layout_width="232dp" layout_height="242dp" layout_margin="2dp" layout_centerInParent="true" NOT_FOUND_0x10="@color/2131100257" NOT_FOUND_0x11="@dimen/2131165624" NOT_FOUND_0x12="@dimen/2131165301">
+        <RelativeLayout id="@+id/rl_theme_gift_layout" layout_width="match_parent" layout_height="match_parent" layout_centerInParent="true">
+            <ImageView id="@+id/iv_theme_gift_card" layout_width="match_parent" layout_height="145dp" scaleType="fitXY" adjustViewBounds="true"/>
+            <LinearLayout orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="122dp" layout_alignParentBottom="true">
+                <TextView ellipsize="end" id="@+id/tv_theme_gift_card_name" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" maxLines="1" layout_marginStart="12dp" layout_marginEnd="12dp" style="@style/2131821014"/>
+                <TextView ellipsize="end" id="@+id/tv_theme_gift_card_description" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" maxLines="3" layout_marginStart="12dp" layout_marginEnd="12dp" style="@style/2131821060"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

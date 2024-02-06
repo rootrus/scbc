@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <TextView id="@+id/text_label" layout_width="match_parent" layout_height="wrap_content" text="@string/card_information_atm_cc_header" style="@style/2131821015"/>
+    <com.scb.phone.view.custom.common.ScbEditText textColorHint="#959199" ellipsize="end" id="@+id/edit_input_field" background="@drawable/shape_gray_rounded_rectangle" layout_width="match_parent" layout_height="40dp" hint="@string/card_information_atm_cc_hint" lines="1" maxLength="19" digits="01234567890 " drawablePadding="8dp" layout_below="@+id/text_label" inputType="number" imeOptions="actionNext" drawableStart="@drawable/ic_sample_card_grey" paddingStart="16dp" paddingEnd="32dp" style="@style/2131821015"/>
+    <ImageButton id="@+id/clear_button" background="?attr/selectableItemBackgroundBorderless" padding="8dp" visibility="gone" layout_width="40dp" layout_height="40dp" src="@drawable/ic_cross_circle" layout_alignTop="@+id/edit_input_field" layout_alignBottom="@+id/edit_input_field" layout_alignParentRight="true" contentDescription="@null" layout_alignParentEnd="true"/>
+    <TextView id="@+id/text_error_label" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_below="@+id/edit_input_field" style="@style/2131821109"/>
+</merge>

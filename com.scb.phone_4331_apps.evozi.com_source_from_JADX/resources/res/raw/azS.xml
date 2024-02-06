@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#ffffff" focusable="true" clickable="true" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" foreground="@drawable/ripple_rounded_4_purple">
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content">
+        <ImageView id="@+id/iv_landing_tile_icon" layout_width="48dp" layout_height="48dp" layout_marginTop="16dp" layout_marginBottom="16dp" scaleType="centerCrop" layout_alignParentTop="true" layout_marginStart="16dp" layout_marginEnd="8dp" layout_alignParentStart="true"/>
+        <ImageView id="@+id/iv_notification_mark_icon" layout_width="18dp" layout_height="18dp" layout_marginBottom="3dp" scaleType="centerCrop" layout_alignBottom="@+id/iv_landing_tile_icon" layout_marginEnd="3dp" layout_alignEnd="@+id/iv_landing_tile_icon"/>
+        <TextView id="@+id/tv_title" layout_width="match_parent" layout_height="wrap_content" layout_alignTop="@+id/iv_landing_tile_icon" layout_marginEnd="16dp" layout_toEndOf="@+id/iv_landing_tile_icon" style="@style/2131821012"/>
+        <TextView textSize="16sp" textColor="#736e78" id="@+id/tv_expire" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" layout_marginBottom="16dp" layout_below="@+id/tv_title" bottom="@+id/tv_title" layout_marginEnd="16dp" layout_alignStart="@+id/tv_title" style="@style/2131820815"/>
+    </RelativeLayout>
+    <View id="@+id/vw_my_e_coupon_separator" visibility="gone" style="@style/2131821259"/>
+    <View id="@+id/vw_my_e_coupon_separator_margin_left" style="@style/2131821261"/>
+</LinearLayout>

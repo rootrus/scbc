@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+        <TextView gravity="center" id="@+id/tvMonthHeader" padding="12dp" layout_width="100dp" layout_height="wrap_content" text="@string/deejung_amortization_month_header" maxLines="1" textAllCaps="true" NOT_FOUND_0xb="@dimen/2131165353" NOT_FOUND_0xc="1" style="@style/2131821012"/>
+        <View background="#eae7ec" layout_width="1dp" layout_height="match_parent"/>
+        <TextView gravity="center" id="@+id/tvInterestHeader" padding="12dp" layout_width="0dp" layout_height="wrap_content" text="@string/deejung_amortization_interest_header" maxLines="1" layout_weight="1" textAllCaps="true" NOT_FOUND_0xb="@dimen/2131165353" NOT_FOUND_0xc="1" style="@style/2131821012"/>
+        <View background="#eae7ec" layout_width="1dp" layout_height="match_parent"/>
+        <androidx.appcompat.widget.AppCompatTextView gravity="center" id="@+id/tvPrincipalHeader" padding="12dp" layout_width="0dp" layout_height="wrap_content" text="@string/deejung_amortization_principal_header" maxLines="1" layout_weight="1" textAllCaps="true" NOT_FOUND_0xb="@dimen/2131165353" NOT_FOUND_0xc="1" style="@style/2131821012"/>
+    </LinearLayout>
+    <View style="@style/2131821259"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/rvItems" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xd="androidx.recyclerview.widget.LinearLayoutManager"/>
+</LinearLayout>

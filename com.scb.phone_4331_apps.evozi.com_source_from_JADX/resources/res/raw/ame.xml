@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" paddingTop="16dp" layout_width="match_parent" layout_height="match_parent" paddingStart="16dp" paddingEnd="16dp">
+        <TextView textSize="24sp" id="@+id/tv_title" layout_width="match_parent" layout_height="wrap_content" text="@string/onboarding_address_information_house_registration_address" style="@style/2131820983"/>
+        <RelativeLayout id="@+id/rl_address_text_box" background="@drawable/shape_gray_rounded_rectangle" paddingTop="4dp" paddingBottom="4dp" layout_width="match_parent" layout_height="match_parent" layout_marginTop="8dp">
+            <TextView id="@+id/tv_hint" layout_width="wrap_content" layout_height="wrap_content" text="@string/onboarding_address_information_enter_house_registration_address" layout_alignParentLeft="true" layout_centerVertical="true" layout_marginStart="16dp" layout_toStartOf="@+id/iv_arrow" style="@style/2131821085"/>
+            <TextView textSize="24sp" id="@+id/tv_address" layout_width="wrap_content" layout_height="wrap_content" text="@string/onboarding_address_information_enter_house_registration_address" layout_alignParentLeft="true" layout_centerVertical="true" layout_marginStart="16dp" layout_toStartOf="@+id/iv_arrow" style="@style/2131820985"/>
+            <ImageView id="@+id/iv_arrow" padding="16dp" layout_width="48dp" layout_height="48dp" layout_alignParentRight="true" layout_centerVertical="true" NOT_FOUND_0x13="@drawable/ic_dark_chevron_up"/>
+        </RelativeLayout>
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <CheckBox id="@+id/cb_same_option_0" padding="8dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/onboarding_address_information_my_house_registration_address_is_the_same_scb" NOT_FOUND_0x12="@drawable/radio_button_tint_selector" style="@style/2131821062"/>
+            <CheckBox id="@+id/cb_same_option_1" padding="8dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/onboarding_address_information_my_house_registration_address_is_the_same_scb" NOT_FOUND_0x12="@drawable/radio_button_tint_selector" style="@style/2131821062"/>
+            <CheckBox id="@+id/cb_same_option_2" padding="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/onboarding_address_information_my_house_registration_address_is_the_same_scb" NOT_FOUND_0x12="@drawable/radio_button_tint_selector" style="@style/2131821062"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View id="@+id/separator" background="#c9c6cd" layout_width="match_parent" layout_height="1dp"/>
+</LinearLayout>

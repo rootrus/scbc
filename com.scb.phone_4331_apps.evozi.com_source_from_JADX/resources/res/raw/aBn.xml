@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" gravity="top|center_vertical|center_horizontal|center" background="#ffffff" clickable="true" layout_width="wrap_content" layout_height="wrap_content" layout_margin="6dp" minWidth="120dp" minHeight="120dp">
+    <TextView ellipsize="end" gravity="center" id="@+id/biller_name_text_view" paddingBottom="6dp" layout_width="62dp" layout_height="wrap_content" layout_marginTop="6dp" minLines="1" layout_below="@+id/biller_avatar_image_view" layout_centerHorizontal="true" lineSpacingMultiplier="0.6" style="@style/2131820879"/>
+    <ImageView id="@+id/biller_avatar_image_view" layout_width="54dp" layout_height="54dp" layout_marginTop="8dp" scaleType="fitCenter" layout_alignParentTop="true" layout_centerHorizontal="true" contentDescription="@null"/>
+    <ImageView id="@+id/biller_selected_border_image_view" visibility="gone" layout_width="54dp" layout_height="54dp" layout_marginTop="8dp" src="@drawable/ic_circle_purple_favorite" scaleType="fitCenter" layout_alignParentTop="true" layout_centerHorizontal="true" contentDescription="@null"/>
+    <CheckBox id="@+id/checkbox" clickable="false" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" paddingStart="-4dp" layout_marginEnd="4dp"/>
+</RelativeLayout>

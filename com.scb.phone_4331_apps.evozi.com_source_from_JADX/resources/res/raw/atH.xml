@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" clickable="true" layout_width="match_parent" layout_height="match_parent">
+    <ScrollView layout_width="match_parent" layout_height="match_parent" layout_alignParentTop="true">
+        <LinearLayout orientation="vertical" background="#eae7ec" layout_width="match_parent" layout_height="wrap_content">
+            <TextView id="@+id/label_personal_information" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/ntb_fillinformation_occupation_info" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+            <LinearLayout orientation="vertical" background="#ffffff" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/label_job" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/ntb_fillinformation_occupation_info_job_title" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+                <RelativeLayout layout_gravity="left" id="@+id/layout_job" background="@drawable/bg_spinner" padding="5dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+                    <TextView gravity="left|center_vertical|center_horizontal|center" id="@+id/text_job" layout_width="match_parent" layout_height="wrap_content" minHeight="40dp" hint="@string/ntb_fillinformation_occupation_info_job_title_hint" lines="1" layout_alignTop="@+id/image_arrow_job" layout_marginStart="16dp" layout_marginEnd="16dp" layout_toStartOf="@+id/image_arrow_job" style="@style/2131821015"/>
+                    <ImageView id="@+id/image_arrow_job" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_alignParentRight="true" layout_centerVertical="true" contentDescription="@null" rotation="-90" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+                </RelativeLayout>
+                <TextView id="@+id/label_source_of_income" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/ntb_fillinformation_occupation_info_source_of_income" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+                <RelativeLayout layout_gravity="left" id="@+id/layout_source_of_income" background="@drawable/bg_spinner" padding="5dp" layout_width="match_parent" layout_height="50dp" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+                    <Spinner id="@+id/spinner_source_of_income" background="#ffffff" layout_width="match_parent" layout_height="match_parent" layout_centerVertical="true" spinnerMode="dropdown" layout_marginStart="8dp" layout_marginEnd="8dp" style="@style/2131821062"/>
+                    <ImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+                </RelativeLayout>
+                <com.scb.phone.view.custom.common.CommonInputViewGroup id="@+id/company_name" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x24="29" NOT_FOUND_0x25="@string/ntb_fillinformation_occupation_info_company_name_hint" NOT_FOUND_0x26="@string/ntb_fillinformation_occupation_info_company_name"/>
+                <TextView id="@+id/label_work_address" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/ntb_fillinformation_occupation_info_work_address" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+                <RelativeLayout layout_gravity="left" id="@+id/layout_work_address" background="@drawable/bg_spinner" padding="4dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+                    <TextView gravity="left|center_vertical|center_horizontal|center" id="@+id/text_work_address" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" layout_marginBottom="4dp" minHeight="40dp" hint="@string/ntb_fillinformation_occupation_info_work_address_hint" minLines="1" layout_alignTop="@+id/image_arrow_current" layout_marginStart="16dp" layout_marginEnd="16dp" layout_toStartOf="@+id/image_arrow_current" style="@style/2131821015"/>
+                    <ImageView id="@+id/image_arrow_current" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_alignParentRight="true" layout_centerVertical="true" contentDescription="@null" rotation="-90" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+                </RelativeLayout>
+                <CheckBox id="@+id/cb_current_work_address" visibility="visible" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" button="@drawable/terms_checkbox_selector" text="@string/ntb_fillinformation_occupation_info_same_as_address" paddingStart="6dp" paddingEnd="6dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/layout_bottom" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+                <Button id="@+id/button_next" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/next" style="@style/2131820837"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

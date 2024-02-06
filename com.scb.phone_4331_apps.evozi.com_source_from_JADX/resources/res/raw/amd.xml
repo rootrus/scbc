@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" paddingTop="5dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+    <LinearLayout orientation="vertical" background="@drawable/shape_myfunds_group_title" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" paddingStart="16dp" paddingEnd="40dp">
+            <TextView id="@+id/text_title" layout_width="0dp" layout_height="wrap_content" layout_weight="1" style="@style/2131821062"/>
+            <TextView id="@+id/text_number_of_funds" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821013"/>
+        </LinearLayout>
+        <LinearLayout layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="15dp" paddingStart="16dp" paddingEnd="40dp">
+            <TextView id="@+id/text_subtitle" layout_width="0dp" layout_height="wrap_content" layout_weight="1" style="@style/2131821062"/>
+            <TextView id="@+id/text_tax_indicator" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131820865"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

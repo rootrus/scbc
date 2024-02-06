@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <TextView background="#ffffff" paddingTop="10dp" paddingBottom="10dp" layout_width="match_parent" layout_height="wrap_content" text="@string/hml_business_owner_review_2_header_step" textAllCaps="true" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+        <TextView id="@+id/tv_business_info_header" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/hml_business_owner_review_2_header_business_info" textAllCaps="true" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+        <com.scb.phone.view.custom.easycash.CustomSeparatedViews id="@+id/csv_business_info" layout_width="wrap_content" layout_height="wrap_content"/>
+        <TextView id="@+id/tv_loan_info_header" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/hml_business_owner_review_2_header_loan_purpose" textAllCaps="true" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+        <com.scb.phone.view.custom.easycash.CustomSeparatedViews id="@+id/csv_loan_info" layout_width="wrap_content" layout_height="wrap_content"/>
+        <TextView id="@+id/tv_income_info_header" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/hml_business_owner_review_2_header_business_income" textAllCaps="true" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+        <com.scb.phone.view.custom.easycash.CustomSeparatedViews id="@+id/csv_income_info" layout_width="wrap_content" layout_height="wrap_content"/>
+        <TextView id="@+id/tv_bank_account_info_header" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/hml_business_owner_review_2_header_operating_banks" textAllCaps="true" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+        <com.scb.phone.view.custom.easycash.CustomSeparatedViews id="@+id/csv_bank_account_info" layout_width="match_parent" layout_height="wrap_content"/>
+        <TextView id="@+id/tv_own_store_info_header" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/hml_business_owner_review_2_header_own_urls" textAllCaps="true" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+        <com.scb.phone.view.custom.easycash.CustomSeparatedViews id="@+id/csv_own_store_info" layout_width="match_parent" layout_height="wrap_content"/>
+        <TextView id="@+id/tv_store_or_product_info_header" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/hml_business_owner_review_2_header_store_or_product_urls" textAllCaps="true" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+        <com.scb.phone.view.custom.easycash.CustomSeparatedViews id="@+id/csv_store_or_product_info" layout_width="match_parent" layout_height="wrap_content"/>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@+id/cl_uploaded_documents_container" layout_width="match_parent" layout_height="wrap_content">
+            <TextView id="@+id/tv_documents_info_header" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" layout_width="0dp" layout_height="wrap_content" text="@string/hml_business_owner_review_2_header_uploaded_documents" textAllCaps="true" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0" style="@style/2131820996"/>
+            <TextView id="@+id/tv_uploaded_documents_label" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" text="@string/hml_business_owner_review_2_label_uploaded_documents" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="@+id/tv_documents_info_header" style="@style/2131820984"/>
+            <ImageView id="@+id/iv_documents_check" paddingBottom="16dp" layout_width="wrap_content" layout_height="0dp" adjustViewBounds="true" NOT_FOUND_0x12="@+id/tv_attached_documents_label" NOT_FOUND_0x15="@+id/tv_uploaded_documents_label" NOT_FOUND_0x17="@+id/tv_attached_documents_label" NOT_FOUND_0x18="@drawable/ic_check_green_24dp"/>
+            <TextView id="@+id/tv_attached_documents_label" paddingBottom="16dp" layout_width="0dp" layout_height="wrap_content" layout_marginTop="10dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/iv_documents_check" NOT_FOUND_0x16="@+id/tv_uploaded_documents_label" style="@style/2131821058"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView id="@+id/tv_terms_conditions_header" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/hml_business_owner_review_2_header_terms_conditions" textAllCaps="true" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+        <include layout="@layout/2131493725"/>
+        <LinearLayout orientation="vertical" id="@+id/consent_container" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+            <TextView id="@+id/tv_consents_header" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/hml_business_owner_review_2_header_consents" textAllCaps="true" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+            <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_label" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/hml_business_owner_review_2_label_consents" style="@style/2131820869"/>
+            <include layout_width="match_parent" layout_height="1dp" layout_marginStart="16dp" layout="@layout/2131493701"/>
+            <com.scb.phone.view.custom.easycash.CustomSeparatedViews id="@+id/csv_consents" layout_width="match_parent" layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout layout_width="match_parent" layout_height="wrap_content">
+            <Button id="@+id/b_confirm" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="30dp" text="@string/hml_business_owner_review_2_confirm_button" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820837"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

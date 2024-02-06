@@ -1,0 +1,35 @@
+package com.google.android.gms.internal.firebase_ml;
+
+import android.net.Uri;
+import com.google.android.gms.common.internal.GmsLogger;
+import com.google.firebase.p067ml.common.FirebaseMLException;
+import com.google.firebase.p067ml.common.modeldownload.FirebaseRemoteModel;
+import javax.net.ssl.HttpsURLConnection;
+
+final class zzof {
+    private static final GmsLogger zzaoz = new GmsLogger("BaseModelInfoRetriever", "");
+
+    static zzop zza(FirebaseRemoteModel firebaseRemoteModel, zzon zzon) throws FirebaseMLException {
+        HttpsURLConnection zza = zzou.zza(String.format("https://mlkit.googleapis.com/_i/v1/1p/m?n=%s", new Object[]{firebaseRemoteModel.zzmj()}), zzon);
+        if (zza == null) {
+            return null;
+        }
+        String headerField = zza.getHeaderField("Content-Location");
+        String headerField2 = zza.getHeaderField("ETag");
+        GmsLogger gmsLogger = zzaoz;
+        String valueOf = String.valueOf(headerField);
+        gmsLogger.mo4172d("BaseModelInfoRetriever", valueOf.length() != 0 ? "Received download URL: ".concat(valueOf) : new String("Received download URL: "));
+        if (headerField == null) {
+            return null;
+        }
+        if (headerField2 == null) {
+            zzon.zza(zzmk.MODEL_INFO_DOWNLOAD_NO_HASH, false);
+            throw new FirebaseMLException("No hash value for the base model", 13);
+        } else if (firebaseRemoteModel.zzcd(headerField2)) {
+            firebaseRemoteModel.zzce(headerField2);
+            return new zzop(firebaseRemoteModel.zzmj(), Uri.parse(headerField), headerField2, zzok.BASE);
+        } else {
+            throw new FirebaseMLException("Downloaded model hash doesn't match the expected. ", 13);
+        }
+    }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/divider" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="-12dp" layout_below="@+id/bill_layout">
+    <ImageView visibility="visible" layout_width="match_parent" layout_height="2dp" src="@drawable/dashed_line" layout_centerVertical="true" layerType="software"/>
+    <ImageView id="@+id/left_circle_divider" layout_width="24dp" layout_height="24dp" src="@drawable/shape_circle_white_background" tint="#f5f3f6" layout_marginStart="-12dp"/>
+    <ImageView id="@+id/right_circle_divider" layout_width="24dp" layout_height="24dp" src="@drawable/shape_circle_white_background" tint="#f5f3f6" layout_alignParentRight="true" layout_marginEnd="-12dp" layout_alignParentEnd="true"/>
+</RelativeLayout>

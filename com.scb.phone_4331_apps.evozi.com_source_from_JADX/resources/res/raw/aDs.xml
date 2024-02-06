@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" id="@+id/fragment_capture_point_crud_constraint_container" layout_width="match_parent" layout_height="wrap_content">
+        <View layout_width="0dp" layout_height="0dp" layout_marginRight="6dp" layout_marginEnd="6dp" NOT_FOUND_0xc="0" NOT_FOUND_0xe="0" NOT_FOUND_0x10="0">
+            <requestFocus/>
+        </View>
+        <androidx.appcompat.widget.AppCompatEditText id="@+id/fragment_capture_point_crud_edittext_capture_point_name" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="24dp" layout_marginRight="16dp" hint="@string/th_hint_capture_point" inputType="text" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0x10="0"/>
+        <androidx.appcompat.widget.SwitchCompat id="@+id/fragment_capture_point_crud_switch_enable" layout_width="0dp" layout_height="56dp" layout_marginTop="32dp" text="@string/th_label_enable_capture_point" hint="@string/th_label_enable_capture_point" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/fragment_capture_point_crud_edittext_capture_point_name" style="@style/2131821241"/>
+        <androidx.appcompat.widget.AppCompatTextView id="@+id/fragment_capture_point_crud_textview_attribute_label" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="32dp" layout_marginRight="16dp" text="@string/th_label_capture_to" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/fragment_capture_point_crud_switch_enable" style="@style/2131821244"/>
+        <com.thunderhead.android.infrastructure.p057ui.views.TTFAppCompatButton id="@+id/fragment_capture_point_crud_button_choose_attribute" layout_width="0dp" layout_height="56dp" layout_marginTop="8dp" hint="@string/th_hint_select_attribute" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/fragment_capture_point_crud_textview_attribute_label" NOT_FOUND_0x11="@string/th_icon_chevron" NOT_FOUND_0x12="false" style="@style/2131821200"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

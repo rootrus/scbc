@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" gravity="center" orientation="vertical" id="@+id/progress_triple_point" layout_width="match_parent" layout_height="match_parent" interpolator="@android:anim/linear_interpolator">
+    <RelativeLayout id="@+id/progress_sub" layout_width="60dp" layout_height="60dp">
+        <ImageView layout_gravity="center_horizontal" id="@+id/progress_circle01" background="@drawable/shape_progressbar_point_circle" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="13dp" layout_alignParentTop="true" layout_centerInParent="true" backgroundTint="#7631c1"/>
+        <ImageView layout_gravity="center_horizontal" id="@+id/progress_circle04" background="@drawable/shape_progressbar_point_circle" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="13dp" layout_alignParentBottom="true" layout_centerInParent="true" backgroundTint="#c9c6cd"/>
+        <RelativeLayout layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true">
+            <ImageView id="@+id/progress_circle02" background="@drawable/shape_progressbar_point_circle" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="13dp" layout_alignParentStart="true" backgroundTint="#736e78"/>
+            <ImageView id="@+id/progress_circle03" background="@drawable/shape_progressbar_point_circle" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="13dp" layout_alignParentEnd="true" backgroundTint="#eae7ec"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

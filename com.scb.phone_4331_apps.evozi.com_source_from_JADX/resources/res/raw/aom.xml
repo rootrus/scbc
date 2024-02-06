@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="horizontal" id="@+id/linear_item" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout paddingTop="16dp" layout_width="0dp" layout_height="wrap_content" layout_weight="0.4">
+            <TextView id="@+id/number_account_text" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="16dp" style="@style/2131821015"/>
+        </LinearLayout>
+        <LinearLayout orientation="vertical" paddingTop="16dp" paddingBottom="16dp" layout_width="0dp" layout_height="wrap_content" layout_weight="0.6">
+            <TextView id="@+id/account_text" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+            <TextView id="@+id/type_text" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+            <TextView id="@+id/branch_text" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821062"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View id="@+id/top_separator" layout_below="@+id/linear_item" layout_marginStart="16dp" style="@style/2131821259"/>
+</RelativeLayout>

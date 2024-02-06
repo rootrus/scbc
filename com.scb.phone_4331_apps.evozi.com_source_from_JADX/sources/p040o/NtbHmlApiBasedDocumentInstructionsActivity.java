@@ -1,0 +1,6 @@
+package p040o;
+
+/* renamed from: o.NtbHmlApiBasedDocumentInstructionsActivity */
+public interface NtbHmlApiBasedDocumentInstructionsActivity {
+    void write(FragmentBuilder_BindIncomingFragment fragmentBuilder_BindIncomingFragment, FragmentBuilder_BindHowToAddFavouriteTopUpFragment<FragmentBuilder_BindLandingFragment<Exception>> fragmentBuilder_BindHowToAddFavouriteTopUpFragment, FragmentBuilder_BindHowToAddFavouriteTopUpFragment<FragmentBuilder_BindJuristicRequestFormSuccessfulFragment<FragmentBuilder_BindInformationTabFragment>> fragmentBuilder_BindHowToAddFavouriteTopUpFragment2);
+}

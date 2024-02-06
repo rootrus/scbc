@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item drawable="@drawable/juristic_landing_coach_mark_1" maxLevel="0"/>
+    <item drawable="@drawable/juristic_landing_coach_mark_2" maxLevel="1"/>
+    <item drawable="@drawable/juristic_landing_coach_mark_3" maxLevel="2"/>
+    <item drawable="@drawable/juristic_landing_coach_mark_4" maxLevel="3"/>
+</level-list>

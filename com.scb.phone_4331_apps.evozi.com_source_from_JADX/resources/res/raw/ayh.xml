@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <TextView id="@+id/text_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/ntb_select_purpose_header" layout_alignParentTop="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820996"/>
+    <LinearLayout orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_below="@+id/text_title">
+        <TextView id="@+id/tv_title" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/ntb_select_purpose_spinner_title" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+        <RelativeLayout id="@+id/layout_title" background="@drawable/bg_spinner" padding="5dp" layout_width="wrap_content" layout_height="50dp" layout_marginTop="16dp" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+            <Spinner id="@+id/spinner_purpose" background="#ffffff" layout_width="match_parent" layout_height="match_parent" layout_centerVertical="true" spinnerMode="dropdown" layout_marginStart="8dp" layout_marginEnd="8dp" style="@style/2131821062"/>
+            <ImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/layout_bottom" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+        <Button id="@+id/btn_select" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/ntb_select_purpose_button" style="@style/2131820837"/>
+    </LinearLayout>
+</RelativeLayout>

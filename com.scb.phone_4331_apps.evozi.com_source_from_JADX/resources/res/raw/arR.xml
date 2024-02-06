@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout id="@+id/layout_card_status" background="#ffffff" paddingTop="24dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content">
+        <ImageView id="@+id/card_lock_icon" layout_width="24dp" layout_height="24dp" src="@drawable/ic_lock" layout_marginStart="16dp"/>
+        <TextView id="@+id/card_lock_instruction_text" layout_width="wrap_content" layout_height="wrap_content" text="@string/auto_debit_card_lock_card_menu_title" layout_marginStart="16dp" layout_toEndOf="@+id/card_lock_icon" style="@style/2131821015"/>
+        <TextView textColor="#959199" id="@+id/card_lock_no_allow_tag" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/auto_debit_card_lock_card_menu_description" layout_below="@+id/card_lock_instruction_text" layout_marginStart="16dp" layout_marginEnd="16dp" layout_toStartOf="@+id/card_lock_toggle" layout_toEndOf="@+id/card_lock_icon" style="@style/2131821013"/>
+        <androidx.appcompat.widget.SwitchCompat id="@+id/card_lock_toggle" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <View id="@+id/view_separator" NOT_FOUND_0x17="@+id/layout_card_status" style="@style/2131821259"/>
+    <RelativeLayout id="@+id/layout_limit" background="#ffffff" paddingTop="24dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x17="@+id/view_separator">
+        <ImageView id="@+id/limit_icon" layout_width="24dp" layout_height="24dp" src="@drawable/ic_temp_limit_increase" layout_centerVertical="true" layout_marginStart="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x18="0"/>
+        <TextView id="@+id/limit_instruction_text" layout_width="wrap_content" layout_height="wrap_content" text="@string/debit_atm_tab_service_manage_card_limit" layout_centerVertical="true" layout_marginStart="16dp" layout_toEndOf="@+id/limit_icon" NOT_FOUND_0x13="0" NOT_FOUND_0x15="@+id/limit_icon" NOT_FOUND_0x18="0" style="@style/2131821015"/>
+        <ImageView id="@+id/limit_toggle" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_centerVertical="true" rotation="268" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x13="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0"/>
+    </RelativeLayout>
+    <View id="@+id/view_separator_limit" NOT_FOUND_0x17="@+id/layout_card_status" style="@style/2131821259"/>
+    <RelativeLayout id="@+id/layout_reset_card_pin" background="#ffffff" paddingTop="24dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x17="@+id/view_separator">
+        <ImageView id="@+id/reset_pin_icon" layout_width="24dp" layout_height="24dp" src="@drawable/ic_reset_pin" layout_centerVertical="true" layout_marginStart="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x18="0"/>
+        <TextView id="@+id/reset_pin_label_text" layout_width="wrap_content" layout_height="wrap_content" text="@string/auto_debit_card_reset_pin_menu_title" layout_centerVertical="true" layout_marginStart="16dp" layout_toEndOf="@+id/reset_pin_icon" NOT_FOUND_0x13="0" NOT_FOUND_0x15="@+id/reset_pin_icon" NOT_FOUND_0x18="0" style="@style/2131821015"/>
+        <ImageView id="@+id/reset_pin_toggle" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_centerVertical="true" rotation="268" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x13="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0"/>
+    </RelativeLayout>
+    <View id="@+id/view_separator_reset_card_pin" NOT_FOUND_0x17="@+id/layout_card_status" style="@style/2131821259"/>
+</LinearLayout>

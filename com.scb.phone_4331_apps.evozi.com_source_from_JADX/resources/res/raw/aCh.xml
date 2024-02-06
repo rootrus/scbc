@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout gravity="center_horizontal" orientation="vertical" background="#4f2a81" layout_width="match_parent" layout_height="wrap_content">
+        <ImageView id="@+id/image_slip_header" layout_width="match_parent" layout_height="wrap_content" src="@drawable/theme_slip_default_header" scaleType="fitXY" adjustViewBounds="true" contentDescription="@null"/>
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp">
+            <TextView layout_gravity="center_horizontal" layout_width="wrap_content" layout_height="wrap_content" text="@string/debit_card_activation_slip_title" textAlignment="center" style="@style/2131821049"/>
+            <TextView layout_gravity="center_horizontal" id="@+id/tvActivationTitle" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="-16dp" text="@string/debit_card_activation_slip_sub_title" textAlignment="center" style="@style/2131821049"/>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" id="@+id/content" layout_width="match_parent" layout_height="0dp" layout_weight="1">
+            <RelativeLayout id="@+id/layout_slip" background="#ffffff" layout_width="0dp" layout_height="wrap_content" layout_weight="1">
+                <LinearLayout orientation="vertical" id="@+id/container" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_alignParentLeft="true" layout_alignParentTop="true" layout_alignParentStart="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+            <ImageView id="@+id/image_slip_bottom" layout_width="match_parent" layout_height="wrap_content" src="@drawable/theme_slip_default_bottom" scaleType="fitXY" adjustViewBounds="true"/>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

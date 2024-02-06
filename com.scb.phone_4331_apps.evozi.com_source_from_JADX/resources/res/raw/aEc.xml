@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/toolbar" background="?attr/colorPrimary" layout_width="match_parent" layout_height="wrap_content" minHeight="?attr/actionBarSize" NOT_FOUND_0x5="@style/2131821180" NOT_FOUND_0x6="@style/2131821177"/>

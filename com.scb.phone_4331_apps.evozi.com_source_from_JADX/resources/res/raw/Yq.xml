@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/custom_progress" background="#e6ffffff" layout_width="match_parent" layout_height="match_parent">
+    <TextView gravity="center" id="@+id/title_text_view" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="48dp" layout_below="@+id/anchor" layout_centerHorizontal="true" layout_marginStart="40dp" layout_marginEnd="40dp" style="@style/2131821020"/>
+    <TextView gravity="center" id="@+id/description_text_view" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_below="@+id/title_text_view" layout_centerHorizontal="true" layout_marginStart="40dp" layout_marginEnd="40dp" style="@style/2131820998"/>
+    <View id="@+id/anchor" layout_width="0dp" layout_height="0dp" layout_centerInParent="true"/>
+    <com.scb.phone.view.custom.common.CustomViewProgressAnimationFull id="@+id/animation_view" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true"/>
+</RelativeLayout>

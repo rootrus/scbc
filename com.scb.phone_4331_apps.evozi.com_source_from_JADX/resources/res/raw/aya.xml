@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <TextView id="@+id/text_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/choose_recipient_bank" textAllCaps="true" layout_marginStart="16dp" style="@style/2131820996"/>
+    <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp" layout_marginTop="4dp" layout_below="@+id/text_title"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/recycler_view" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xb="androidx.recyclerview.widget.GridLayoutManager" NOT_FOUND_0xc="4"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+        <LinearLayout orientation="vertical" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+                <TextView gravity="center" id="@+id/banner_text_view" background="#4a90e2" visibility="gone" layout_width="match_parent" layout_height="64dp" style="@style/2131821116"/>
+                <include id="@+id/chubb_common_transfer_and_pay_review" layout="@layout/2131493300"/>
+                <com.scb.phone.view.custom.transferandpay.CustomPhotoLeftDetails id="@+id/movie_details" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+                <LinearLayout orientation="vertical" id="@+id/payment_info_view" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+                    <View layout_width="match_parent" layout_height="1dp" layout_marginStart="16dp" style="@style/2131821259"/>
+                    <androidx.recyclerview.widget.RecyclerView id="@+id/recycler_view" layout_width="match_parent" layout_height="wrap_content" nestedScrollingEnabled="false"/>
+                    <View layout_width="match_parent" layout_height="1dp" style="@style/2131821259"/>
+                </LinearLayout>
+            </LinearLayout>
+            <androidx.legacy.widget.Space layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+            <Button layout_gravity="bottom" id="@+id/button_continue" background="@drawable/bg_button" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="18dp" layout_marginBottom="18dp" text="@string/confirm" layout_alignParentBottom="true" layout_marginStart="20dp" layout_marginEnd="20dp" style="@style/2131820837"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

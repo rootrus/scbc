@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="match_parent" layout_above="@+id/next_button" layout_alignParentTop="true">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <com.scb.phone.view.custom.easycash.CustomEasyCashSectionLabel id="@+id/header_one" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x15="@string/easycash_loan_requestor_subtitle"/>
+            <LinearLayout orientation="vertical" id="@+id/v_privacy_notice" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/tv_privacy_notice" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821058"/>
+            </LinearLayout>
+            <View background="#66c9c6cd" layout_width="match_parent" layout_height="1dp"/>
+            <com.scb.phone.view.custom.common.InputText id="@+id/first_name" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="@string/easycash_loan_requestor_name_error" NOT_FOUND_0x10="@string/easycash_loan_requestor_first_name_hint" NOT_FOUND_0x12="false" NOT_FOUND_0x13="40" NOT_FOUND_0x18="@string/easycash_loan_requestor_first_name"/>
+            <com.scb.phone.view.custom.common.InputText id="@+id/last_name" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="@string/easycash_loan_requestor_name_error" NOT_FOUND_0x10="@string/easycash_loan_requestor_last_name_hint" NOT_FOUND_0x12="false" NOT_FOUND_0x13="30" NOT_FOUND_0x18="@string/easycash_loan_requestor_last_name"/>
+            <com.scb.phone.view.custom.common.InputText id="@+id/current_address" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="@string/easycash_loan_requestor_address_error" NOT_FOUND_0x10="@string/easycash_loan_requestor_current_address_hint" NOT_FOUND_0x11="true" NOT_FOUND_0x12="true" NOT_FOUND_0x13="200" NOT_FOUND_0x18="@string/easycash_loan_requestor_current_address"/>
+            <com.scb.phone.view.custom.common.InputText id="@+id/office_address" background="#ffffff" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="@string/easycash_loan_requestor_address_error" NOT_FOUND_0x10="@string/easycash_loan_requestor_office_address_hint" NOT_FOUND_0x11="true" NOT_FOUND_0x12="true" NOT_FOUND_0x13="200" NOT_FOUND_0x18="@string/easycash_loan_requestor_office_address"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.scb.phone.view.custom.common.DefaultButton id="@+id/next_button" background="@drawable/bg_button" layout_width="match_parent" layout_height="48dp" layout_marginTop="24dp" layout_marginBottom="16dp" layout_alignParentBottom="true" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xe="false" NOT_FOUND_0x14="@drawable/ripple_rounded_dark_purple" NOT_FOUND_0x16="@string/next" NOT_FOUND_0x17="@color/2131100257"/>
+</RelativeLayout>

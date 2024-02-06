@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" focusable="false" clickable="false" layout_width="match_parent" layout_height="76dp">
+    <ImageView id="@+id/edit_favourite_icon" layout_width="44dp" layout_height="44dp" src="@drawable/ic_top_up" scaleType="fitCenter" layout_alignParentLeft="true" layout_centerVertical="true" layout_marginStart="14dp" layout_alignParentStart="true"/>
+    <TextView id="@+id/edit_favourite_title" layout_width="wrap_content" layout_height="wrap_content" lines="1" layout_centerVertical="true" layout_marginStart="14dp" layout_toEndOf="@+id/edit_favourite_icon" style="@style/2131821015"/>
+    <RelativeLayout id="@+id/edit_favourite_edit_relative_layout" clickable="true" layout_width="40dp" layout_height="40dp" layout_centerVertical="true" layout_marginStart="8dp" layout_toStartOf="@+id/edit_favourite_delete_relative_layout">
+        <ImageView layout_width="20dp" layout_height="20dp" src="@drawable/ic_edit_black_24dp" tint="#7631c1" layout_centerInParent="true"/>
+        <View background="@drawable/ripple_rounded_purple" layout_width="match_parent" layout_height="match_parent" layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/edit_favourite_delete_relative_layout" clickable="true" layout_width="40dp" layout_height="40dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="10dp" layout_alignParentEnd="true">
+        <ImageView layout_width="20dp" layout_height="20dp" src="@drawable/ic_trash" layout_centerInParent="true"/>
+        <View background="@drawable/ripple_rounded_purple" layout_width="match_parent" layout_height="match_parent" layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View id="@+id/edit_favourite_divider_view" background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_alignParentBottom="true" layout_marginStart="16dp"/>
+    <View id="@+id/edit_favourite_full_divider_view" background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_alignParentBottom="true"/>
+</RelativeLayout>

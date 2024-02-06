@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <fragment name="com.scb.phone.view.fragment.bankingactions.BankingActionFragment" id="@+id/fragment_banking_account" layout_width="match_parent" layout_height="match_parent"/>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/tutorial_view" background="#ffffff" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+        <ImageView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="44dp" src="@drawable/ic_close_24dp" layout_marginEnd="24dp" NOT_FOUND_0xe="0" NOT_FOUND_0x10="0"/>
+        <ImageView id="@+id/tutorial_image_view" layout_width="0dp" layout_height="wrap_content" layout_marginTop="50dp" src="@drawable/banking_services_coach_mark" adjustViewBounds="true" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0x10="0"/>
+        <TextView gravity="center" id="@+id/new_features_header_text_view" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="40dp" text="@string/new_features" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/tutorial_image_view" style="@style/2131821026"/>
+        <TextView gravity="center" id="@+id/new_feature_one" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/new_feature_one" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/new_features_header_text_view" style="@style/2131820998"/>
+        <TextView gravity="center" id="@+id/new_feature_two" layout_width="wrap_content" layout_height="wrap_content" text="@string/new_feature_two" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/new_feature_one" style="@style/2131820998"/>
+        <TextView gravity="center" id="@+id/new_feature_three" layout_width="wrap_content" layout_height="wrap_content" text="@string/new_feature_three" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/new_feature_two" style="@style/2131820998"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

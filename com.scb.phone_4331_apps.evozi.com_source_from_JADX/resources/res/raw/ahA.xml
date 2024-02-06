@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/thailand_address_section" layout_width="match_parent" layout_height="wrap_content">
+    <com.scb.phone.view.custom.common.CustomAddressInput id="@+id/road" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x14="@string/enter_road" NOT_FOUND_0x15="30" NOT_FOUND_0x16="@string/road"/>
+    <TextView ellipsize="end" id="@+id/province_title" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/ntb_province" lines="1" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+    <RelativeLayout layout_gravity="center_horizontal" id="@+id/select_province" background="@drawable/bg_spinner" layout_width="match_parent" layout_height="50dp" layout_marginTop="4dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+        <TextView ellipsize="end" id="@+id/province_label" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" hint="@string/select_province" lines="1" layout_centerVertical="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+        <ImageView layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_alignParentRight="true" layout_centerVertical="true" contentDescription="@null" rotation="-90" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <TextView ellipsize="end" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/ntb_district" lines="1" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+    <TextView ellipsize="end" id="@+id/district_label" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" hint="@string/will_be_autofilled" lines="1" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821062"/>
+    <TextView ellipsize="end" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/sub_district_label" lines="1" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+    <TextView ellipsize="end" id="@+id/sub_district_label" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" hint="@string/will_be_autofilled" lines="1" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821062"/>
+    <TextView ellipsize="end" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/ntb_postal_code" lines="1" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+    <TextView ellipsize="end" id="@+id/postal_code_label" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" hint="@string/will_be_autofilled" lines="1" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821062"/>
+</LinearLayout>

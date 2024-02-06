@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView background="#ffffff" layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <ImageView id="@+id/image_detail" layout_width="match_parent" layout_height="150dp" scaleType="fitXY" adjustViewBounds="true"/>
+            <WebView id="@+id/webview" padding="16dp" scrollbars="none" layout_width="match_parent" layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button gravity="center" id="@+id/bt_proceed" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/proceed" style="@style/2131820837"/>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <TextView id="@+id/content_msg" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/input_income_instruction" style="@style/2131820873"/>
+            <com.scb.phone.view.custom.easycash.CustomEasyCashSectionLabel layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="true" NOT_FOUND_0x1a="@string/easycash_send_product_monthly_income"/>
+            <com.google.android.material.textfield.TextInputLayout theme="@style/2131820780" id="@+id/text_error_input_layout" background="#ffffff" paddingTop="8dp" paddingBottom="16dp" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x18="false">
+                <com.scb.phone.view.custom.common.AmountEditText textColorHint="#959199" gravity="end" id="@+id/edit_amount" layout_width="match_parent" layout_height="wrap_content" inputType="numberDecimal" imeOptions="actionDone" style="@style/2131821029"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.scb.phone.view.custom.easycash.CustomEasyCashSectionLabel id="@+id/repayment_header_layout" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="true" NOT_FOUND_0x1a="@string/easycash_input_income_willing_repayment"/>
+            <com.google.android.material.textfield.TextInputLayout theme="@style/2131820780" id="@+id/text_error_repayment_input_layout" background="#ffffff" paddingTop="8dp" paddingBottom="16dp" focusable="true" focusableInTouchMode="true" visibility="gone" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x18="false">
+                <com.scb.phone.view.custom.common.AmountEditText textColorHint="#959199" gravity="end" id="@+id/edit_willing_repayment" layout_width="match_parent" layout_height="wrap_content" inputType="numberDecimal" imeOptions="actionDone" style="@style/2131821029"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView id="@+id/disclaimer_text" background="#f5f3f6" paddingTop="24dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content" text="@string/input_income_remarks" lineSpacingExtra="4sp" textAlignment="center" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820873"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout orientation="horizontal" id="@+id/layout_bottom" padding="8dp" layout_width="match_parent" layout_height="wrap_content">
+        <Button enabled="false" id="@+id/button_calculate" layout_width="0dp" layout_height="wrap_content" layout_margin="8dp" text="@string/input_income_calculate" layout_weight="1" style="@style/2131820837"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <TextView id="@+id/title_dialog_text_view" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" text="@string/quick_balance" layout_alignParentTop="true" layout_centerInParent="true" style="@style/2131821101"/>
+    <RelativeLayout layout_gravity="end" id="@+id/item_back_icon_relative_layout" clickable="true" layout_width="50dp" layout_height="50dp" layout_alignParentTop="true" layout_alignParentRight="true" layout_alignParentEnd="true">
+        <ImageView id="@+id/back_icon_image_view" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_close_24dp" tint="#7631c1" layout_centerInParent="true"/>
+        <View background="@drawable/ripple_rounded_purple" layout_width="match_parent" layout_height="match_parent" layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_marginTop="14dp" layout_below="@+id/title_dialog_text_view"/>
+</RelativeLayout>

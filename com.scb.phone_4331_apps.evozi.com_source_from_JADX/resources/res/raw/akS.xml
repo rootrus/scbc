@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="8dp">
+    <com.scb.phone.view.custom.easycash.CustomEasyCashSectionLabel id="@+id/text_header" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xd="@string/repayment_plan_header"/>
+    <LinearLayout orientation="vertical" background="#ffffff" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content">
+        <RadioGroup orientation="horizontal" id="@+id/radio_group_repay_option" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+            <RadioButton layout_gravity="center_vertical" id="@+id/rdb_direct_debit" layout_width="0dp" layout_height="wrap_content" text="@string/easycash_feature_account_direct_debit_option" layout_weight="1" style="@style/2131821015"/>
+            <RadioButton layout_gravity="center_vertical" id="@+id/rdb_cash" layout_width="0dp" layout_height="wrap_content" text="@string/easycash_feature_account_cash_option" layout_weight="1" style="@style/2131821015"/>
+        </RadioGroup>
+        <com.scb.phone.view.custom.easycash.CustomAccountSelector id="@+id/account_selector" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

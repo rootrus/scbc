@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#00000000" layout_width="match_parent" layout_height="wrap_content">
+    <com.scb.phone.view.custom.transferandpay.CustomTransferAndPaySource id="@+id/investment_review_success_client_no" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.scb.phone.view.custom.transferandpay.CustomTransferAndPaySource id="@+id/investment_review_success_funds" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.scb.phone.view.custom.transferandpay.CustomTransferAndPaySource id="@+id/investment_review_success_account" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.scb.phone.view.custom.transferandpay.CustomScheduleFundItem id="@+id/investment_review_schedule" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayItem id="@+id/investment_review_success_transfer_date" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x6="@string/transfer_date"/>
+    <com.scb.phone.view.custom.common.CustomSwitchItem id="@+id/switch_date" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayItem id="@+id/investment_review_success_amount" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x6="@string/amount"/>
+    <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayItem id="@+id/investment_review_success_fees" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x6="@string/review_fees"/>
+    <com.scb.phone.view.custom.common.CustomSwitchItem id="@+id/switch_fee" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+</LinearLayout>

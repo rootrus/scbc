@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/current_cycle_view" background="#ffffff" paddingTop="24sp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x14="@+id/current_cycle_label">
+    <ImageView id="@+id/lower_tier_image" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x10="0" NOT_FOUND_0x15="0"/>
+    <ProgressBar id="@+id/spending_progress_bar" layout_width="0dp" layout_height="8dp" progressDrawable="@drawable/card_progress_bar" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xf="@+id/lower_tier_image" NOT_FOUND_0x11="@+id/lower_tier_image" NOT_FOUND_0x12="@+id/higher_tier_image" NOT_FOUND_0x15="@+id/lower_tier_image" style="@style/Widget.ProgressBar.Horizontal"/>
+    <ImageView id="@+id/higher_tier_image" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0"/>
+    <TextView id="@+id/lower_tier_label" layout_width="0dp" layout_height="wrap_content" layout_marginTop="8dp" textAllCaps="true" NOT_FOUND_0x10="0" NOT_FOUND_0x14="@+id/lower_tier_image" style="@style/2131821060"/>
+    <TextView gravity="center" id="@+id/current_spending_label" layout_width="0dp" layout_height="wrap_content" layout_marginTop="8dp" text="@string/current_spend_label" NOT_FOUND_0x10="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/lower_tier_image" style="@style/2131821060"/>
+    <TextView id="@+id/higher_tier_label" layout_width="0dp" layout_height="wrap_content" layout_marginTop="8dp" textAllCaps="true" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/lower_tier_image" style="@style/2131821060"/>
+    <TextView id="@+id/lower_tier_value" layout_width="0dp" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0x10="0" NOT_FOUND_0x14="@+id/lower_tier_label" style="@style/2131821015"/>
+    <TextView gravity="center" id="@+id/current_spending_value" layout_width="0dp" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0x10="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/current_spending_label" style="@style/2131821099"/>
+    <TextView id="@+id/higher_tier_value" layout_width="0dp" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/lower_tier_label" style="@style/2131821015"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

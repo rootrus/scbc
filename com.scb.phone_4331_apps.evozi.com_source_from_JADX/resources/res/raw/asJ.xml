@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+    <LinearLayout orientation="vertical" id="@+id/layout_account_container" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/recycler_account_dynamic" layout_width="match_parent" layout_height="wrap_content"/>
+        <Button enabled="false" id="@+id/btn_action" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/next" style="@style/2131820837"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

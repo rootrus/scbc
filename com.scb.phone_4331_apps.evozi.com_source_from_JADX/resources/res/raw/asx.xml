@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x16="@+id/ll_bt_confirm_section" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0">
+        <LinearLayout orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+            <com.scb.phone.view.custom.transferandpay.CustomTransferAndPaySource id="@+id/ctps_card" layout_width="match_parent" layout_height="wrap_content"/>
+            <com.scb.phone.view.custom.transferandpay.CustomTransferAndPaySource id="@+id/ctps_item" layout_width="match_parent" layout_height="wrap_content"/>
+            <RelativeLayout orientation="horizontal" id="@+id/view_have_points" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <TextView ellipsize="end" id="@+id/tv_title_point" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/e_coupon_review_total_points" layout_centerVertical="true" layout_marginStart="16dp" style="@style/2131821012"/>
+                <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_centerVertical="true" layout_marginEnd="16dp" layout_toStartOf="@+id/tv_title_point" layout_alignParentEnd="true">
+                    <TextView textSize="28sp" textColor="#353239" id="@+id/tv_point" layout_width="wrap_content" layout_height="wrap_content" paddingStart="4dp" paddingEnd="4dp"/>
+                    <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/e_coupon_quantity_title_pts_unit" paddingStart="4dp" style="@style/2131821020"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <View style="@style/2131821259"/>
+            <com.scb.phone.view.custom.cardmanagement.TermsAndConditionsView id="@+id/terms_and_conditions" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x17="0" NOT_FOUND_0x19="0"/>
+            <TextView textColor="#f05f61" id="@+id/tv_remark" background="#f5f3f6" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp" style="@style/2131821060"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout id="@+id/ll_bt_confirm_section" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x15="0">
+        <Button enabled="false" id="@+id/bt_confirm" layout_width="match_parent" layout_marginTop="8dp" layout_marginBottom="24dp" text="@string/confirm" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820837"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493363"/>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout id="@+id/swipe_refresh" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xd="@string/appbar_scrolling_view_behavior">
+        <androidx.core.widget.NestedScrollView background="#f5f3f6" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xd="@string/appbar_scrolling_view_behavior">
+            <LinearLayout orientation="vertical" paddingTop="20dp" layout_width="match_parent" layout_height="wrap_content">
+                <fragment name="com.scb.phone.view.fragment.accountsummary.DepositFragment" id="@+id/fragment_deposit" layout_width="match_parent" layout_height="wrap_content"/>
+                <fragment name="com.scb.phone.view.fragment.accountsummary.MerchantWalletFragment" id="@+id/fragment_merchant_wallet" layout_width="match_parent" layout_height="wrap_content"/>
+                <fragment name="com.scb.phone.view.fragment.accountsummary.CreditCardFragment" id="@+id/fragment_card" layout_width="match_parent" layout_height="wrap_content"/>
+                <fragment name="com.scb.phone.view.fragment.accountsummary.DebitCardFragment" id="@+id/fragment_debit" layout_width="match_parent" layout_height="wrap_content"/>
+                <fragment name="com.scb.phone.view.fragment.accountsummary.PrepaidFragment" id="@+id/fragment_prepaid" layout_width="match_parent" layout_height="wrap_content"/>
+                <fragment name="com.scb.phone.view.fragment.accountsummary.InvestmentFragment" id="@+id/fragment_investment" layout_width="match_parent" layout_height="wrap_content"/>
+                <fragment name="com.scb.phone.view.fragment.accountsummary.LoanFragment" id="@+id/fragment_loan" layout_width="match_parent" layout_height="wrap_content"/>
+                <fragment name="com.scb.phone.view.fragment.accountsummary.SmeLoanFragment" id="@+id/fragment_sme_loan" layout_width="match_parent" layout_height="wrap_content"/>
+                <fragment name="com.scb.phone.view.fragment.accountsummary.MyInsuranceFragment" id="@+id/fragment_my_insurance" layout_width="match_parent" layout_height="wrap_content"/>
+                <com.scb.phone.view.custom.common.DefaultButton id="@+id/account_summary_add_button" background="@drawable/bg_button_transparent" layout_width="match_parent" layout_height="50dp" layout_marginTop="18dp" layout_marginBottom="26dp" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0xb="@drawable/ic_add_black_24dp" NOT_FOUND_0xc="@color/2131099881" NOT_FOUND_0xe="@drawable/ripple_rounded_purple" NOT_FOUND_0xf="@string/account_summary_add_more_account" NOT_FOUND_0x10="@color/2131099881"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

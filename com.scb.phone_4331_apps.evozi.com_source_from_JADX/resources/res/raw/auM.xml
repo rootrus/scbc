@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/root_view" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+        <ImageView id="@+id/iv_header" layout_width="match_parent" layout_height="wrap_content" src="@drawable/success_loan_header" scaleType="fitCenter" adjustViewBounds="true" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x16="0"/>
+        <TextView id="@+id/tv_transaction_date" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="@+id/iv_header" style="@style/2131821060"/>
+        <TextView id="@+id/tv_reference_id" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="@+id/tv_transaction_date" style="@style/2131821060"/>
+        <TextView id="@+id/tv_success_remark" visibility="visible" layout_width="0dp" layout_height="wrap_content" layout_marginTop="8dp" textAlignment="center" layout_marginStart="24dp" layout_marginEnd="24dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="@+id/tv_reference_id" style="@style/2131821060"/>
+        <Button id="@+id/btn_register_scbs" visibility="gone" layout_width="0dp" layout_height="wrap_content" layout_marginTop="24dp" text="@string/hml_success_register_scb" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="@+id/tv_success_remark" style="@style/2131820837"/>
+        <androidx.cardview.widget.CardView id="@+id/cv_loan_info" layout_width="0dp" layout_height="wrap_content" layout_marginTop="24dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="@+id/btn_register_scbs">
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+                <com.scb.phone.view.custom.hml.CustomLoanSuccessInformation layout_gravity="center" id="@+id/clsi_loan_info" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+                <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp" layout_marginStart="16dp"/>
+                <com.scb.phone.view.custom.transferandpay.CustomTransferAndPaySource id="@+id/ctps_receiving_account" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x12="false"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <Button id="@+id/btn_save_slip" layout_width="0dp" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="24dp" text="@string/hml_success_save_slip" layout_marginStart="24dp" layout_marginEnd="24dp" NOT_FOUND_0x13="@+id/cv_loan_info" NOT_FOUND_0x14="@+id/cv_loan_info" NOT_FOUND_0x15="@+id/cv_loan_info" style="@style/2131820806"/>
+        <Button gravity="center" id="@+id/btn_loan_setup_home" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" text="@string/hml_success_return" NOT_FOUND_0x15="@+id/btn_save_slip" style="@style/2131820987"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

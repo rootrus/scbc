@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/unbilled_container" background="#ffffff" layout_width="match_parent" layout_height="76dp">
+    <View id="@+id/unbilled_line" layout_height="24dp" layout_marginStart="24dp" style="@style/2131821258"/>
+    <View id="@+id/unbilled_dot" background="@drawable/shape_txn_item_dot" layout_width="8dp" layout_height="8dp" layout_below="@+id/unbilled_line" layout_marginStart="20dp"/>
+    <View id="@+id/unbilled_vertical_line_view" layout_below="@+id/unbilled_dot" layout_marginStart="24dp" style="@style/2131821258"/>
+    <TextView ellipsize="end" id="@+id/unbilled_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" maxLines="1" singleLine="true" layout_marginStart="16dp" layout_marginEnd="16dp" layout_toStartOf="@+id/unbilled_value" layout_toEndOf="@+id/unbilled_dot" style="@style/2131821020"/>
+    <TextView ellipsize="end" id="@+id/unbilled_pending" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/bill_pending" lines="1" layout_below="@+id/unbilled_title" layout_marginStart="16dp" layout_marginEnd="16dp" layout_toStartOf="@+id/unbilled_value" layout_toEndOf="@+id/unbilled_dot" style="@style/2131821085"/>
+    <TextView id="@+id/unbilled_type" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="6dp" layout_below="@+id/unbilled_title" layout_marginStart="25dp" style="@style/2131821080"/>
+    <TextView id="@+id/unbilled_value" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_toStartOf="@+id/expand_icon_image_view" style="@style/2131821020"/>
+    <TextView id="@+id/unbilled_date" layout_width="wrap_content" layout_height="wrap_content" layout_below="@+id/unbilled_value" layout_toStartOf="@+id/expand_icon_image_view" style="@style/2131820880"/>
+    <include layout="@layout/2131493416"/>
+</RelativeLayout>

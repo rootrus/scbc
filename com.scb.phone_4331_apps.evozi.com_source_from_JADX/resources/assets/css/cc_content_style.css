@@ -1,0 +1,8 @@
+    @font-face {font-family: DBHeavent;src: url(file:///android_asset/fonts/db_heavent_regular.ttf);}
+    ol{counter-reset: item;padding-left:0;margin-left: 0;}
+    ol li{display: block;}
+    ol li li{display: block;margin-left: 10px;}
+    ol li:before{content: counters(item, '.') '.';counter-increment: item;padding-right: 5px;}
+    p {text-align:left !important;}
+    body {margin:20px!important;font-family: 'DBHeavent' !important;font-size: 16pt !important; word-break: break-word; -webkittext-size-adjust: none; color: #736E78 !important; background: #F5F3F6}
+    .headline-text {color: #353239 !important;}

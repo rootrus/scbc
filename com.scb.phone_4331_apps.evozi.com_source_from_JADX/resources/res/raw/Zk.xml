@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/root_view" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+    <LinearLayout orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+        <View background="@drawable/shape_review_black_bg" layout_width="match_parent" layout_height="8dp" layout_marginTop="4dp" layout_marginStart="4dp" layout_marginEnd="4dp"/>
+        <RelativeLayout background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="8dp" layout_marginEnd="8dp">
+            <LinearLayout orientation="vertical" id="@+id/ll_success" background="@drawable/slip_bg" layout_width="match_parent" layout_height="wrap_content" layout_alignParentTop="true">
+                <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+                    <ImageView layout_gravity="center" layout_width="match_parent" layout_height="64dp" layout_marginTop="14dp" src="@drawable/icon_green_tick" contentDescription="@null"/>
+                    <TextView textSize="24sp" gravity="center_horizontal" layout_gravity="center" id="@+id/tv_title" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" text="@string/review_success_transfer" style="@style/2131821072"/>
+                    <TextView textSize="24sp" gravity="center_horizontal" layout_gravity="center" id="@+id/tv_transaction_date" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" style="@style/2131821060"/>
+                    <TextView textSize="24sp" gravity="center_horizontal" layout_gravity="center" id="@+id/tv_ref_id" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821060"/>
+                    <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_marginTop="24dp" layout_marginStart="16dp"/>
+                </LinearLayout>
+                <RelativeLayout layout_width="match_parent" layout_height="match_parent" layout_marginTop="24dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+                    <TextView textSize="24sp" id="@+id/tv_account_label" layout_width="wrap_content" layout_height="wrap_content" text="@string/banking_success_to" style="@style/2131820983"/>
+                    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_alignParentRight="true" layout_marginStart="24dp" layout_toEndOf="@+id/tv_account_label" layout_alignParentEnd="true">
+                        <LinearLayout layout_gravity="end" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+                            <ImageView id="@+id/iv_to_icon" layout_width="24dp" layout_height="24dp" NOT_FOUND_0x1a="@drawable/logo_scb_new"/>
+                            <com.scb.phone.view.custom.common.ThaiTextView textSize="24sp" gravity="end" id="@+id/tv_to_account_name" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="4dp" style="@style/2131820983"/>
+                        </LinearLayout>
+                        <TextView textSize="24sp" gravity="end" id="@+id/tv_to_account_no" layout_width="match_parent" layout_height="wrap_content" style="@style/2131820996"/>
+                    </LinearLayout>
+                </RelativeLayout>
+                <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_marginTop="24dp" layout_marginStart="16dp"/>
+                <RelativeLayout layout_width="match_parent" layout_height="match_parent" layout_marginTop="24dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+                    <TextView textSize="24sp" id="@+id/tv_agent" layout_width="wrap_content" layout_height="wrap_content" text="@string/banking_success_agent" style="@style/2131820983"/>
+                    <LinearLayout gravity="end" orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_alignParentRight="true" layout_marginStart="24dp" layout_toEndOf="@+id/tv_agent" layout_alignParentEnd="true">
+                        <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+                            <ImageView id="@+id/iv_agent_icon" layout_width="24dp" layout_height="24dp"/>
+                            <com.scb.phone.view.custom.common.ThaiTextView textSize="24sp" gravity="end" id="@+id/tv_agent_name" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginStart="4dp" style="@style/2131820983"/>
+                        </LinearLayout>
+                        <TextView textSize="24sp" gravity="end" id="@+id/tv_agent_no" layout_width="match_parent" layout_height="wrap_content" style="@style/2131820996"/>
+                    </LinearLayout>
+                </RelativeLayout>
+                <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_marginTop="24dp" layout_marginStart="16dp"/>
+                <RelativeLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+                    <TextView textSize="24sp" layout_width="wrap_content" layout_height="wrap_content" text="@string/banking_success_amount" style="@style/2131820983"/>
+                    <TextView textSize="24sp" id="@+id/tv_amount" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" layout_alignParentEnd="true" style="@style/2131820983"/>
+                </RelativeLayout>
+                <View id="@+id/view7" background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_marginTop="24dp" layout_marginBottom="16dp" layout_marginStart="16dp"/>
+            </LinearLayout>
+            <ImageView layout_width="match_parent" layout_height="wrap_content" src="@drawable/slip_curly" scaleType="fitXY" tint="#f5f3f6" layout_alignBottom="@+id/ll_success" contentDescription="@null"/>
+        </RelativeLayout>
+        <com.scb.phone.view.custom.common.ThaiTextView textSize="24sp" gravity="center_horizontal" id="@+id/thaiTextView" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/banking_success_fee" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820996"/>
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp">
+            <Button id="@+id/bt_share_slip" layout_width="match_parent" layout_height="wrap_content" text="@string/banking_success_share_slip" layout_weight="1" style="@style/2131820806"/>
+            <View id="@+id/divider_buttons" layout_width="16dp" layout_height="match_parent"/>
+            <Button id="@+id/bt_save_slip" layout_width="match_parent" layout_height="wrap_content" text="@string/banking_success_save_slip" layout_weight="1" style="@style/2131820837"/>
+        </LinearLayout>
+        <TextView textStyle="bold" gravity="center_horizontal" id="@+id/tv_return_to_account" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" text="@string/banking_success_return_to_account" style="@style/2131821102"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+    <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayTarget id="@+id/target" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayItem id="@+id/amount" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x5="@string/amount"/>
+    <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayItem id="@+id/fee" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x5="@string/review_fees"/>
+    <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+    <View background="#f5f3f6" layout_width="match_parent" layout_height="16dp"/>
+</LinearLayout>

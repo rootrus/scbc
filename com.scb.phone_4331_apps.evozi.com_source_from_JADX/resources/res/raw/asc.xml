@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView id="@+id/nested_scrollview_deposit_select_account" layout_width="match_parent" layout_height="wrap_content" layout_above="@+id/ll_sale_sheet_button_container" overScrollMode="never">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView id="@+id/recycler_view" layout_width="match_parent" layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout orientation="vertical" id="@+id/ll_sale_sheet_button_container" padding="16dp" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+        <Button id="@+id/button_view_product_catalog" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16sp" text="@string/etb_product_catalog_read_market_conduct" style="@style/2131820837"/>
+        <Button id="@+id/view_sale_sheet_button" layout_width="match_parent" layout_height="wrap_content" text="@string/etb_select_account_view_sales_sheet" style="@style/2131820806"/>
+    </LinearLayout>
+</RelativeLayout>

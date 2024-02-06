@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+    <RelativeLayout background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <LinearLayout orientation="vertical" id="@+id/layoutFrom" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/accounts_label" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/nsip_from" textAllCaps="true" layout_marginStart="16dp" style="@style/2131820996"/>
+                <FrameLayout id="@+id/fragment_account_source_select" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="16dp"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/layoutTo" layout_width="match_parent" layout_height="wrap_content">
+                <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="8dp" text="@string/nsip_to" textAllCaps="true" layout_marginStart="16dp" style="@style/2131820996"/>
+                <View style="@style/2131821259"/>
+                <androidx.constraintlayout.widget.ConstraintLayout background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                    <ImageView id="@+id/imgMerchantLogo" layout_width="48dp" layout_height="48dp" NOT_FOUND_0x1a="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0"/>
+                    <androidx.appcompat.widget.AppCompatTextView id="@+id/tvMerchantName" layout_width="0dp" layout_height="wrap_content" layout_marginStart="8dp" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="@+id/imgMerchantLogo" NOT_FOUND_0x1f="0" style="@style/2131820983"/>
+                    <TextView id="@+id/tvMerchantAccountNo" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1d="@+id/tvMerchantName" NOT_FOUND_0x1e="@+id/tvMerchantName" style="@style/2131821060"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <View style="@style/2131821259"/>
+                <LinearLayout orientation="vertical" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView id="@+id/tvRef1Label" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131820983"/>
+                    <TextView id="@+id/tvRef1Value" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821060"/>
+                </LinearLayout>
+                <View style="@style/2131821259"/>
+                <LinearLayout orientation="vertical" id="@+id/layoutRef2" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView id="@+id/tvRef2Label" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131820983"/>
+                    <TextView id="@+id/tvRef2Value" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821060"/>
+                </LinearLayout>
+                <View style="@style/2131821259"/>
+                <LinearLayout orientation="vertical" id="@+id/layoutRef3" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView id="@+id/tvRef3Label" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131820983"/>
+                    <TextView id="@+id/tvRef3Value" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821060"/>
+                </LinearLayout>
+                <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/nsip_amount" textAllCaps="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820996"/>
+                <View layout_marginTop="8dp" style="@style/2131821259"/>
+                <LinearLayout orientation="vertical" background="#ffffff" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content">
+                    <com.google.android.material.textfield.TextInputLayout id="@+id/text_error_input_layout" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x17="false" NOT_FOUND_0x18="@style/2131821003" NOT_FOUND_0x19="false">
+                        <com.scb.phone.view.custom.common.AmountEditText enabled="false" gravity="end" id="@+id/edtAmount" layout_width="match_parent" layout_height="wrap_content" text="0.00" inputType="numberDecimal" imeOptions="actionDone" style="@style/2131821029"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <TextView textSize="20sp" textColor="#da2e36" gravity="end" id="@+id/tvAmountError" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginEnd="16dp" style="@style/2131820820"/>
+                    <View layout_marginTop="16dp" style="@style/2131821259"/>
+                </LinearLayout>
+                <include layout_width="match_parent" layout_height="26dp" layout_marginTop="16dp" layout_marginEnd="16dp" layout="@layout/2131493668"/>
+                <include layout="@layout/2131493633"/>
+                <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/nsip_more_option" textAllCaps="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820996"/>
+                <View layout_marginTop="8dp" style="@style/2131821259"/>
+                <LinearLayout orientation="vertical" id="@+id/layoutNote" background="#ffffff" paddingTop="8dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+                    <com.scb.phone.view.custom.common.NoteEditText id="@+id/edtNote" layout_width="match_parent" layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <Button id="@+id/btnReview" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/nsip_review" style="@style/2131820837"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

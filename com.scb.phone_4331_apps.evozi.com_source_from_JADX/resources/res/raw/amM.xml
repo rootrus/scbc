@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" clickable="true" layout_width="match_parent" layout_height="wrap_content" foreground="@drawable/ripple_rounded_4_purple">
+    <LinearLayout orientation="vertical" background="@drawable/bg_white_rounded" layout_width="match_parent" layout_height="wrap_content" layout_margin="5dp" minHeight="130dp" elevation="2dp">
+        <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp">
+            <ImageView id="@+id/image_account_icon" layout_width="20dp" layout_height="12dp" layout_marginTop="6dp" src="@drawable/ic_account_summary" scaleType="fitCenter" contentDescription="@null" layout_marginEnd="8dp"/>
+            <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+                <TextView id="@+id/text_account_name" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821062"/>
+                <TextView id="@+id/text_account_number" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821060"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView layout_gravity="end" id="@+id/text_balance_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="16dp" style="@style/2131821056"/>
+        <TextView layout_gravity="end" id="@+id/text_balance" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="8dp" layout_marginEnd="16dp" style="@style/2131821028"/>
+    </LinearLayout>
+</FrameLayout>

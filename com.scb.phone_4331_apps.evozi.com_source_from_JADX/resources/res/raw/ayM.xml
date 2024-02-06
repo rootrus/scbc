@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/view_group_root" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout background="#eae7ec" layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <TextView gravity="center_horizontal" id="@+id/tv_pin_header" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="40dp" layout_marginBottom="8dp" text="@string/auto_touchpoints_enter_temporary_pin_you_setup_at" paddingStart="8dp" paddingEnd="8dp" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x11="@+id/tv_pin_touchpoint_name" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" style="@style/2131821020"/>
+        <TextView gravity="center_horizontal" id="@+id/tv_pin_touchpoint_name" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" paddingStart="8dp" paddingEnd="8dp" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x11="@+id/iv_pin_avatar" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" style="@style/2131821020"/>
+        <ImageView id="@+id/iv_pin_avatar" layout_width="@dimen/2131166000" layout_height="@dimen/2131166000" layout_margin="8dp" layout_marginTop="16dp" contentDescription="@null" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0"/>
+        <com.scb.phone.view.custom.login.CustomPinInput id="@+id/custom_pin_input" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="32dp" layout_marginBottom="8dp" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/iv_pin_avatar"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.scb.phone.view.custom.login.CustomKeypad id="@+id/custom_pin_keypad" layout_width="match_parent" layout_height="0dp" layout_weight="1" NOT_FOUND_0x16="true"/>
+</LinearLayout>

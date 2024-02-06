@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/item_container" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" layout_marginStart="16dp">
+        <RadioButton id="@+id/radio_button" clickable="false" layout_width="wrap_content" layout_height="wrap_content" checked="false"/>
+        <TextView id="@+id/language_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="16dp" style="@style/2131821020"/>
+    </LinearLayout>
+    <View id="@+id/footer_divider_view" background="#eae7ec" visibility="gone" layout_width="match_parent" layout_height="1dp" layout_marginTop="5dp"/>
+    <View id="@+id/divider_view" background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_marginTop="5dp" layout_marginStart="16dp"/>
+</LinearLayout>

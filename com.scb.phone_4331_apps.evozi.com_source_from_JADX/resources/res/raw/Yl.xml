@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" gravity="center" orientation="vertical" id="@+id/view_group_progress" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <com.scb.phone.view.custom.common.CustomViewInlineProgressAnimation layout_width="match_parent" layout_height="80dp"/>
+</LinearLayout>

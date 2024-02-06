@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/my_investment_card_error" visibility="gone" layout_width="match_parent" layout_height="200dp" layout_marginTop="26dp" layout_marginStart="8dp" layout_marginEnd="8dp" layout="@layout/2131493411"/>
+    <LinearLayout orientation="vertical" id="@+id/ll_layout_investment_card_contents" layout_width="match_parent" layout_height="288dp" layout_marginBottom="16dp" layout_marginStart="8dp" layout_marginEnd="8dp">
+        <RelativeLayout layout_width="match_parent" layout_height="wrap_content">
+            <ImageView layout_gravity="top" id="@+id/iv_card_bg" layout_width="match_parent" layout_height="240dp" src="@drawable/bg_investment_card" scaleType="centerCrop" contentDescription="@null"/>
+            <LinearLayout orientation="vertical" id="@+id/ll_layout_content" layout_width="match_parent" layout_height="240dp" layout_alignParentLeft="true" layout_alignParentTop="true" paddingStart="16dp" paddingEnd="16dp" layout_alignParentStart="true">
+                <LinearLayout orientation="horizontal" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="3dp" paddingStart="8dp">
+                    <ImageView layout_gravity="center" id="@+id/iv_investment_icon" layout_width="24dp" layout_height="24dp" src="@drawable/ic_investment_summary" tint="#959199" contentDescription="@null" layout_marginEnd="8dp"/>
+                    <TextView gravity="start" id="@+id/tv_card_title" layout_width="match_parent" layout_height="wrap_content" text="@string/account_summary_total_investment" style="@style/2131820998"/>
+                </LinearLayout>
+                <LinearLayout gravity="end" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+                    <ImageView layout_gravity="center_vertical" id="@+id/iv_investment_gain_indicator" layout_width="wrap_content" layout_height="wrap_content" adjustViewBounds="true" paddingStart="5dp" paddingEnd="5dp"/>
+                    <TextView gravity="end" id="@+id/tv_investment_total_balance_text_view" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821028"/>
+                </LinearLayout>
+                <TextView gravity="end" id="@+id/tv_investment_net_gain_text_view" layout_width="match_parent" layout_height="wrap_content" layout_marginEnd="5dp" fontPaht="fonts/PSL001Pro.ttf" style="@style/2131820982"/>
+            </LinearLayout>
+            <View background="@drawable/ripple_rounded_4_purple" layout_width="match_parent" layout_height="240dp"/>
+            <LinearLayout gravity="end" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" layout_alignBottom="@+id/ll_layout_content" paddingStart="16dp" paddingEnd="16dp">
+                <TextView gravity="end" id="@+id/tv_investment_last_updated_date_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/account_summary_investment_status_date" layout_marginEnd="5dp" style="@style/2131821034"/>
+                <TextView gravity="end" id="@+id/tv_investment_last_updated_date_text_view" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821034"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView gravity="top|left|center_vertical|center_horizontal|center|start" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" text="@string/account_summary_my_investment_message" layout_marginStart="4dp" style="@style/2131821058"/>
+    </LinearLayout>
+</RelativeLayout>

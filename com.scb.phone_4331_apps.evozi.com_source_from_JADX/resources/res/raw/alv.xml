@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scb.phone.view.custom.RectangleRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/rectangle_relative_layout" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content" layout_margin="2dp" minHeight="120dp">
+    <ImageView id="@+id/personalize_tile_background" layout_width="match_parent" layout_height="match_parent" src="@drawable/bg_personalize" scaleType="fitXY" contentDescription="@null"/>
+    <LinearLayout gravity="center" orientation="horizontal" id="@+id/landing_empty_cell_h" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_centerInParent="true">
+        <ImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_add_icon" tint="#353239" contentDescription="@null" layout_marginEnd="12dp"/>
+        <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/landing_page_personalize" style="@style/2131821013"/>
+    </LinearLayout>
+    <RelativeLayout id="@+id/landing_empty_cell_v" layout_width="match_parent" layout_height="match_parent">
+        <ImageView id="@+id/add_icon" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" src="@drawable/ic_add_icon" tint="#353239" layout_centerHorizontal="true" contentDescription="@null"/>
+        <TextView textColor="#353239" ellipsize="end" gravity="center" id="@+id/text_label" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165651" layout_marginBottom="@dimen/2131165650" text="@string/landing_page_personalize" maxLines="2" lines="2" layout_below="@+id/add_icon" layout_alignParentBottom="true" layout_centerHorizontal="true" lineSpacingExtra="-7dp" layout_marginStart="6dp" layout_marginEnd="6dp" style="@style/2131820887"/>
+    </RelativeLayout>
+    <View background="@drawable/ripple_purple" layout_width="match_parent" layout_height="match_parent"/>
+</com.scb.phone.view.custom.RectangleRelativeLayout>

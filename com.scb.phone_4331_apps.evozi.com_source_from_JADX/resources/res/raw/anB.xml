@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/rl_item" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp">
+    <RadioButton id="@+id/rb_account" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentTop="true" layout_marginStart="16dp"/>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_alignTop="@+id/rb_account" layout_marginStart="8dp" layout_marginEnd="16dp" layout_toEndOf="@+id/rb_account">
+        <TextView id="@+id/tv_account" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" text="xxx-xxx-1234" style="@style/2131821015"/>
+        <TextView id="@+id/tv_type_account" layout_width="wrap_content" layout_height="wrap_content" text="Fixed" style="@style/2131821015"/>
+        <TextView id="@+id/tv_nickname" layout_width="wrap_content" layout_height="wrap_content" text="My salary" style="@style/2131821062"/>
+    </LinearLayout>
+</RelativeLayout>

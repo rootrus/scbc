@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_enabled="false">
+        <layer-list>
+            <item>
+                <shape padding="8dp" shape="rectangle">
+                    <solid color="#00000000"/>
+                    <corners radius="4dp"/>
+                    <stroke width="1dp" color="#c9c6cd"/>
+                </shape>
+            </item>
+            <item right="8dp">
+                <bitmap gravity="right|center_vertical|center_horizontal|center" src="@drawable/ic_expand_more_light_grey_24dp"/>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape padding="8dp" shape="rectangle">
+                    <solid color="#00000000"/>
+                    <corners radius="4dp"/>
+                    <stroke width="1dp" color="#c9c6cd"/>
+                </shape>
+            </item>
+            <item right="8dp">
+                <bitmap gravity="right|center_vertical|center_horizontal|center" src="@drawable/ic_expand_more_black_24dp"/>
+            </item>
+        </layer-list>
+    </item>
+</selector>

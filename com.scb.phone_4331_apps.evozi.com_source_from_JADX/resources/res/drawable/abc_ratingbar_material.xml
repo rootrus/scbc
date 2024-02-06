@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item id="@android:id/background" drawable="@drawable/abc_ic_star_black_48dp"/>
+    <item id="@android:id/secondaryProgress" drawable="@drawable/abc_ic_star_half_black_48dp"/>
+    <item id="@android:id/progress">
+        <bitmap src="@drawable/abc_ic_star_black_48dp" tileModeX="repeat"/>
+    </item>
+</layer-list>

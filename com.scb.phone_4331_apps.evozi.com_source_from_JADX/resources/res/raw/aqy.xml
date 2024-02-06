@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <ImageView id="@+id/biometric_delete_img" layout_width="match_parent" layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="0dp" layout_weight="2">
+        <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="40dp">
+            <LinearLayout layout_width="match_parent" layout_height="match_parent" layout_weight="1">
+                <TextView textSize="16dp" textStyle="bold" layout_width="80dp" layout_height="wrap_content" text="Subject ID "/>
+                <EditText id="@+id/biometric_delete_et_subjectID" layout_width="match_parent" layout_height="wrap_content" scrollHorizontally="true" singleLine="true" imeOptions="actionDone"/>
+            </LinearLayout>
+            <LinearLayout visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_weight="1">
+                <TextView textSize="16dp" textStyle="bold" layout_width="80dp" layout_height="wrap_content" text="Password "/>
+                <EditText ellipsize="end" id="@+id/biometric_delete_et_password" layout_width="match_parent" layout_height="wrap_content" maxLines="1" scrollHorizontally="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout visibility="gone" layout_width="match_parent" layout_height="40dp">
+            <TextView textSize="16dp" textStyle="bold" layout_width="80dp" layout_height="wrap_content" text="Name "/>
+            <EditText ellipsize="end" id="@+id/biometric_delete_et_name" layout_width="match_parent" layout_height="wrap_content" maxLines="1" scrollHorizontally="true"/>
+        </LinearLayout>
+        <LinearLayout visibility="invisible" layout_width="match_parent" layout_height="40dp">
+            <TextView textSize="16dp" textStyle="bold" layout_width="80dp" layout_height="wrap_content" text="Email "/>
+            <EditText ellipsize="end" id="@+id/biometric_delete_et_email" layout_width="match_parent" layout_height="wrap_content" maxLines="1" scrollHorizontally="true"/>
+        </LinearLayout>
+        <LinearLayout gravity="center_vertical" orientation="horizontal" visibility="invisible" layout_width="match_parent" layout_height="40dp">
+            <LinearLayout layout_width="match_parent" layout_height="match_parent" layout_weight="1">
+                <TextView textSize="16dp" textStyle="bold" layout_width="80dp" layout_height="wrap_content" text="Mobile "/>
+                <EditText ellipsize="end" id="@+id/biometric_delete_et_mobile" layout_width="match_parent" layout_height="wrap_content" maxLines="1" scrollHorizontally="true"/>
+            </LinearLayout>
+            <LinearLayout layout_width="match_parent" layout_height="match_parent" layout_weight="1">
+                <TextView textSize="16dp" textStyle="bold" layout_width="80dp" layout_height="wrap_content" text="State Code "/>
+                <EditText ellipsize="end" id="@+id/biometric_delete_et_state_code" layout_width="match_parent" layout_height="wrap_content" maxLines="1" scrollHorizontally="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView textColor="@android:color/white" id="@+id/biometric_delete_tv_result" background="@android:color/darker_gray" scrollbars="vertical" layout_width="match_parent" layout_height="150dp"/>
+        <LinearLayout gravity="center" layout_width="match_parent" layout_height="match_parent">
+            <Button layout_gravity="center_horizontal" id="@+id/biometric_delete_btn" layout_width="200dp" layout_height="60dp" text="Delete"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

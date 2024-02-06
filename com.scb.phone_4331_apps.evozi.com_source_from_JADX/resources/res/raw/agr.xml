@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" id="@+id/bill_layout" layout_width="match_parent" layout_height="wrap_content" layout_alignParentLeft="true" layout_alignParentTop="true" layout_alignParentStart="true">
+        <androidx.appcompat.widget.AppCompatImageView layout_gravity="center" id="@+id/success_icon" layout_width="45dp" layout_height="45dp" layout_marginTop="16dp" src="@drawable/ic_check_circle_black_48dp" contentDescription="@null" NOT_FOUND_0x14="@color/2131099798"/>
+        <RelativeLayout id="@+id/frame" layout_width="match_parent" layout_height="wrap_content" layout_alignParentTop="true">
+            <TextView gravity="center_horizontal" id="@+id/successful_request" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp" text="@string/successful_request" layout_centerHorizontal="true" style="@style/2131821073"/>
+            <TextView gravity="center" layout_gravity="center_horizontal" id="@+id/textview_date" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" text="@string/use_withdraw_code" layout_below="@+id/successful_request" layout_centerHorizontal="true" lineSpacingMultiplier="0.8" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820865"/>
+            <TextView gravity="center" layout_gravity="center_horizontal" id="@+id/textview_use_withdraw_code" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="24dp" text="@string/use_withdraw_code" layout_below="@+id/textview_date" layout_centerHorizontal="true" lineSpacingMultiplier="0.8" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820865"/>
+        </RelativeLayout>
+        <View id="@+id/divider_view" layout_width="match_parent" layout_height="1dp" layout_marginStart="16dp" style="@style/2131821259"/>
+        <com.scb.phone.view.custom.transferandpay.CustomCardlessWithdrawCodeItem id="@+id/withdraw_code" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayItem id="@+id/mobile_no" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.scb.phone.view.custom.transferandpay.CustomTransferAndPaySource id="@+id/cardless_source" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayItem id="@+id/cardless_amount" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x13="@string/amount"/>
+    </LinearLayout>
+</RelativeLayout>

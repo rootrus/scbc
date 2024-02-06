@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="wrap_content" fillViewport="true">
+        <LinearLayout orientation="vertical" descendantFocusability="blocksDescendants" layout_width="match_parent" layout_height="wrap_content">
+            <TextView background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/power_credit_information_info_text" style="@style/2131820873"/>
+            <TextView paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/power_credit_information_loan_amount_section_header" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+            <androidx.recyclerview.widget.RecyclerView id="@+id/loan_information_recycleview" layout_width="match_parent" layout_height="wrap_content"/>
+            <Button id="@+id/button_done" layout_width="match_parent" layout_height="wrap_content" text="@string/done" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820837"/>
+            <Button id="@+id/button_reset" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/button_reset" style="@style/2131820806"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

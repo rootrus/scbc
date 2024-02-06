@@ -1,0 +1,10 @@
+package com.scb.phone.p035di;
+
+import androidx.fragment.app.Fragment;
+import p040o.MileageQuantitySelectionActivity_ViewBinding;
+
+/* renamed from: com.scb.phone.di.FragmentBuilder_BindDeejungPlanErrorFragment */
+public abstract class FragmentBuilder_BindDeejungPlanErrorFragment {
+    /* access modifiers changed from: package-private */
+    public abstract MileageQuantitySelectionActivity_ViewBinding.read<? extends Fragment> MediaBrowserCompat$ItemReceiver(C2554x36893041 fragmentBuilder_BindDeejungPlanErrorFragment$MediaBrowserCompat$ItemReceiver$MediaBrowserCompat$CustomActionResultReceiver);
+}

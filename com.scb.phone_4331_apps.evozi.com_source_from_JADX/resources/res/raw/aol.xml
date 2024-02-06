@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="wrap_content">
+    <TextView id="@+id/effectiveTitle" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="5dp" text="@string/topup_review_007" style="@style/2131821012"/>
+    <TextView id="@+id/title" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="5dp" text="@string/topup_input_003" layout_below="@+id/effectiveTitle" style="@style/2131821060"/>
+    <ImageView id="@+id/calendar_icon" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5dp" src="@drawable/calendar" layout_below="@+id/title"/>
+    <TextView id="@+id/schedule_type" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="4dp" layout_below="@+id/title" layout_marginStart="10dp" layout_toStartOf="@+id/edit_button" layout_toEndOf="@+id/calendar_icon" style="@style/2131821015"/>
+    <ImageView layout_gravity="center" id="@+id/edit_button" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_accent_edit" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true"/>
+    <ImageView id="@+id/iv_next_arrow" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/black_arrow" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true"/>
+    <TextView id="@+id/schedule_date_line1" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="4dp" layout_below="@+id/schedule_type" layout_marginStart="10dp" layout_toStartOf="@+id/edit_button" layout_toEndOf="@+id/calendar_icon" style="@style/2131821013"/>
+    <TextView id="@+id/schedule_date_line2" layout_width="wrap_content" layout_height="wrap_content" layout_below="@+id/schedule_date_line1" layout_marginStart="10dp" layout_toStartOf="@+id/edit_button" layout_toEndOf="@+id/calendar_icon" style="@style/2131821013"/>
+</RelativeLayout>

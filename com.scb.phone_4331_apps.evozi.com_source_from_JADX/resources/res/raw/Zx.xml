@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/view_group_root" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <LinearLayout orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+                <ImageView layout_gravity="center_horizontal" id="@+id/img_my_promptpay_qr" padding="8dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" src="@drawable/my_promptpay_qr"/>
+                <RelativeLayout layout_gravity="center_horizontal" background="@drawable/shape_light_gray_border_rectangle" layout_width="@dimen/2131165864" layout_height="@dimen/2131165864" layout_marginTop="16dp" layout_marginBottom="16dp">
+                    <ImageView id="@+id/img_qr" padding="8dp" layout_width="@dimen/2131165864" layout_height="@dimen/2131165864"/>
+                </RelativeLayout>
+                <TextView gravity="center" layout_gravity="center_horizontal" id="@+id/tv_valid_duration" layout_width="wrap_content" layout_height="wrap_content" text="@string/qr_payment_show_this_qr" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820863"/>
+                <TextView layout_gravity="center_horizontal" id="@+id/tv_expiry_date_time" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820863"/>
+                <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_marginTop="16dp" layout_marginBottom="16dp" layout_marginStart="16dp"/>
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+                    <TextView layout_width="0dp" layout_height="wrap_content" text="@string/qr_payment_remaining_limit" layout_weight="0.7" style="@style/2131821012"/>
+                    <TextView gravity="right" id="@+id/tv_remaining_limit" layout_width="0dp" layout_height="wrap_content" layout_weight="0.3" style="@style/2131821013"/>
+                </LinearLayout>
+                <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+            </LinearLayout>
+            <Button id="@+id/btn_manage_qr" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="16dp" text="@string/qr_manage_qr" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820806"/>
+            <TextView layout_gravity="center_horizontal" id="@+id/btn_return_to_account" background="@drawable/ripple_rounded_dark_purple" padding="4dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" text="@string/return_to_accounts" style="@style/2131821098"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

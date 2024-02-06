@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+    <TextView layout_gravity="bottom" id="@+id/text_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="3dp" text="@string/favorite" textAllCaps="true" layout_marginStart="16dp" style="@style/2131821066"/>
+    <androidx.legacy.widget.Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+    <RelativeLayout padding="8dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="8dp">
+        <ImageView id="@+id/button_edit" background="?attr/selectableItemBackgroundBorderless" clickable="true" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_edit_black_24dp" scaleType="fitCenter" tint="#7631c1" contentDescription="@null"/>
+    </RelativeLayout>
+</LinearLayout>

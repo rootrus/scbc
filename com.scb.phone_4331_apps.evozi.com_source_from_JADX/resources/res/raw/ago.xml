@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/root_error_layout" background="#ffffff" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+    <ImageView layout_gravity="center_horizontal" layout_width="16dp" layout_height="16dp" src="@drawable/fatca_error_ico"/>
+    <TextView gravity="center" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/custom_error_title" style="@style/2131821015"/>
+    <TextView layout_width="match_parent" layout_height="wrap_content" text="@string/custom_error_info" textAlignment="center" style="@style/2131821015"/>
+</LinearLayout>

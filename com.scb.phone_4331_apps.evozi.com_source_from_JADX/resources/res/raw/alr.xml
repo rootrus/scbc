@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <TextView ellipsize="end" id="@+id/issuer_name" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" maxLines="1" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xc="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" style="@style/2131821020"/>
+    <TextView id="@+id/loan_type" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="8dp" NOT_FOUND_0xd="@+id/delete_image_view" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/issuer_name" style="@style/2131821062"/>
+    <ImageView id="@+id/delete_image_view" layout_width="20dp" layout_height="20dp" contentDescription="@null" layout_marginEnd="16dp" NOT_FOUND_0xc="0" NOT_FOUND_0x11="@+id/loan_type" NOT_FOUND_0x13="@drawable/ic_trash"/>
+    <TextView id="@+id/loan_amount" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/loan_type" NOT_FOUND_0x12="0" style="@style/2131821015"/>
+    <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

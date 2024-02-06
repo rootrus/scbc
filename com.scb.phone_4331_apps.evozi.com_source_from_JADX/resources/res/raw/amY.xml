@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/container" background="#ffffff" clickable="true" layout_width="match_parent" layout_height="96dp" foreground="?attr/selectableItemBackground">
+    <LinearLayout gravity="center" orientation="horizontal" id="@+id/ll_biller_image" layout_width="wrap_content" layout_height="wrap_content" layout_alignTop="@+id/text_title" layout_alignBottom="@+id/text_title" layout_marginStart="16dp" NOT_FOUND_0x12="@+id/text_title" NOT_FOUND_0x17="0" NOT_FOUND_0x19="@+id/text_title">
+        <ImageView id="@+id/iv_biller_image" layout_width="24dp" layout_height="24dp" contentDescription="@null"/>
+    </LinearLayout>
+    <TextView id="@+id/text_amount" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" maxLines="1" layout_marginEnd="8dp" NOT_FOUND_0x14="@+id/expand_icon_image_view" NOT_FOUND_0x19="0" style="@style/2131821020"/>
+    <TextView ellipsize="end" id="@+id/text_title" layout_width="0dp" layout_height="wrap_content" maxLines="1" layout_marginStart="8dp" NOT_FOUND_0x12="@+id/text_amount" NOT_FOUND_0x14="@+id/text_amount" NOT_FOUND_0x16="@+id/ll_biller_image" NOT_FOUND_0x19="@+id/text_amount" style="@style/2131821015"/>
+    <TextView id="@+id/text_timestamp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" layout_marginEnd="8dp" NOT_FOUND_0x14="@+id/expand_icon_image_view" NOT_FOUND_0x18="@+id/text_amount" style="@style/2131820880"/>
+    <TextView ellipsize="end" id="@+id/text_reference" layout_width="0dp" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x12="@+id/text_timestamp" NOT_FOUND_0x14="@+id/text_timestamp" NOT_FOUND_0x15="0" NOT_FOUND_0x17="@+id/text_title" NOT_FOUND_0x19="@+id/text_timestamp" style="@style/2131820879"/>
+    <View id="@+id/v_divider" background="#c9c6cd" layout_width="match_parent" layout_height="1dp" layout_marginStart="16dp" NOT_FOUND_0x12="0"/>
+    <View id="@+id/v_end_of_table" background="#c9c6cd" layout_width="match_parent" layout_height="1dp" NOT_FOUND_0x12="0"/>
+    <ImageView id="@+id/expand_icon_image_view" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_light_grey_24dp" tint="#c9c6cd" contentDescription="@null" layout_marginEnd="8dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x19="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="0dp" baselineAligned="false" layout_weight="1">
+        <Button id="@+id/button_1" background="?attr/selectableItemBackground" layout_width="0dp" layout_height="match_parent" text="@string/number_1" layout_weight="1" style="@style/2131821075"/>
+        <RelativeLayout layout_width="0dp" layout_height="match_parent" layout_weight="1">
+            <View id="@+id/vertical_line_1" background="#e4e3e5" layout_width="1dp" layout_height="match_parent"/>
+            <Button id="@+id/button_2" background="?attr/selectableItemBackground" layout_width="match_parent" layout_height="match_parent" text="@string/number_2" layout_centerInParent="true" style="@style/2131821075"/>
+            <View id="@+id/vertical_line_2" background="#e4e3e5" layout_width="1dp" layout_height="match_parent" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <Button id="@+id/button_3" background="?attr/selectableItemBackground" layout_width="0dp" layout_height="match_parent" text="@string/number_3" layout_weight="1" style="@style/2131821075"/>
+    </LinearLayout>
+    <View id="@+id/horizontal_line_1" background="#e4e3e5" layout_width="match_parent" layout_height="1dp"/>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="0dp" baselineAligned="false" layout_weight="1">
+        <Button id="@+id/button_4" background="?attr/selectableItemBackground" layout_width="0dp" layout_height="match_parent" text="@string/number_4" layout_weight="1" style="@style/2131821075"/>
+        <RelativeLayout layout_width="0dp" layout_height="match_parent" layout_weight="1">
+            <View id="@+id/vertical_line_3" background="#e4e3e5" layout_width="1dp" layout_height="match_parent"/>
+            <Button id="@+id/button_5" background="?attr/selectableItemBackground" layout_width="match_parent" layout_height="match_parent" text="@string/number_5" layout_centerInParent="true" style="@style/2131821075"/>
+            <View id="@+id/vertical_line_4" background="#e4e3e5" layout_width="1dp" layout_height="match_parent" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <Button id="@+id/button_6" background="?attr/selectableItemBackground" layout_width="0dp" layout_height="match_parent" text="@string/number_6" layout_weight="1" style="@style/2131821075"/>
+    </LinearLayout>
+    <View id="@+id/horizontal_line_2" background="#e4e3e5" layout_width="match_parent" layout_height="1dp"/>
+    <LinearLayout layout_gravity="center" orientation="horizontal" layout_width="match_parent" layout_height="0dp" baselineAligned="false" layout_weight="1">
+        <Button id="@+id/button_7" background="?attr/selectableItemBackground" layout_width="0dp" layout_height="match_parent" text="@string/number_7" layout_weight="1" style="@style/2131821075"/>
+        <RelativeLayout layout_width="0dp" layout_height="match_parent" layout_weight="1">
+            <View id="@+id/vertical_line_5" background="#e4e3e5" layout_width="1dp" layout_height="match_parent"/>
+            <Button id="@+id/button_8" background="?attr/selectableItemBackground" layout_width="match_parent" layout_height="match_parent" text="@string/number_8" layout_centerInParent="true" style="@style/2131821075"/>
+            <View id="@+id/vertical_line_6" background="#e4e3e5" layout_width="1dp" layout_height="match_parent" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <Button id="@+id/button_9" background="?attr/selectableItemBackground" layout_width="0dp" layout_height="match_parent" text="@string/number_9" layout_weight="1" style="@style/2131821075"/>
+    </LinearLayout>
+    <View id="@+id/horizontal_line_3" background="#e4e3e5" layout_width="match_parent" layout_height="1dp"/>
+    <LinearLayout layout_gravity="end" orientation="horizontal" layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <androidx.legacy.widget.Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+        <RelativeLayout layout_width="0dp" layout_height="match_parent" layout_weight="1">
+            <View id="@+id/vertical_line_7" background="#e4e3e5" layout_width="1dp" layout_height="match_parent"/>
+            <Button id="@+id/button_0" background="?attr/selectableItemBackground" layout_width="match_parent" layout_height="match_parent" text="@string/number_0" layout_centerInParent="true" style="@style/2131821075"/>
+            <View id="@+id/vertical_line_8" background="#e4e3e5" layout_width="1dp" layout_height="match_parent" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <ImageButton id="@+id/button_delete" background="?attr/selectableItemBackground" layout_width="0dp" layout_height="match_parent" src="@drawable/ic_backspace" layout_weight="1" contentDescription="@null" style="@style/2131821075"/>
+    </LinearLayout>
+</LinearLayout>

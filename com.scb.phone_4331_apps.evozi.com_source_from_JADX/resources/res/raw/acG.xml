@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar id="@+id/toolbar" background="?attr/colorPrimary" layout_width="match_parent" layout_height="?attr/actionBarSize" elevation="2dp" NOT_FOUND_0x9="0dp" NOT_FOUND_0xb="0">
+        <TextView ellipsize="end" layout_gravity="center" id="@+id/title_text_view" layout_width="wrap_content" layout_height="wrap_content" lines="1"/>
+    </androidx.appcompat.widget.Toolbar>
+    <com.scb.phone.view.custom.webview.SCBWebView id="@+id/wv_content" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xa="0" NOT_FOUND_0xb="0"/>
+    <com.scb.phone.view.custom.common.CustomViewProgressAnimationFull id="@+id/custom_loading" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xa="0" NOT_FOUND_0xb="@+id/toolbar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

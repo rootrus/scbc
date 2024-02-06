@@ -1,0 +1,8 @@
+package com.scb.phone.p035di;
+
+import com.scb.phone.view.activity.prepaid.PrepaidTravelForeignCurrencyWalletDetailActivity;
+import p040o.MileageQuantitySelectionActivity_ViewBinding;
+
+/* renamed from: com.scb.phone.di.ActivityBuilder_ContributePrepaidTravelForeignCurrencyWalletDetailActivity$MediaBrowserCompat$CustomActionResultReceiver */
+public interface C2308xdeef8e02 extends MileageQuantitySelectionActivity_ViewBinding<PrepaidTravelForeignCurrencyWalletDetailActivity> {
+}

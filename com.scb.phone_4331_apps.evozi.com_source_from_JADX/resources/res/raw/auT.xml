@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent" layout_alignParentLeft="true" layout_alignParentTop="true" layout_alignParentStart="true">
+        <ImageView layout_gravity="center" padding="16dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp" src="@drawable/ic_verify_email_successful"/>
+        <TextView textSize="24sp" textColor="#353239" layout_gravity="center" id="@+id/tv_hml_email_verify_success_text" padding="16dp" layout_width="match_parent" layout_height="wrap_content" textAlignment="center"/>
+    </LinearLayout>
+    <Button id="@+id/bt_hml_email_verify_success_button" padding="16dp" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/hml_verify_email_success_button" layout_alignParentLeft="true" layout_alignParentBottom="true" layout_alignParentStart="true" style="@style/2131820837"/>
+</RelativeLayout>

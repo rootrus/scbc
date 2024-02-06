@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="wrap_content" layout_height="wrap_content">
+    <ProgressBar id="@+id/oneres_loading_dialog_progress_bar" layout_width="wrap_content" layout_height="wrap_content" indeterminate="true" style="@style/2131821228"/>
+    <androidx.appcompat.widget.AppCompatTextView id="@+id/oneres_loading_dialog_message" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="20dp" text="@string/th_loading_label" layout_marginStart="20dp" style="@style/2131821244"/>
+</merge>

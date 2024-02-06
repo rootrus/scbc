@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+        <FrameLayout background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+            <include layout="@layout/2131493294"/>
+        </FrameLayout>
+        <View id="@+id/full_divider" background="#c9c6cd" style="@style/2131821259"/>
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <TextView textColor="#736e78" gravity="center_horizontal" id="@+id/tv_remittance_review_remark_1" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820859"/>
+            <TextView textColor="#736e78" gravity="center_horizontal" id="@+id/tv_remittance_review_remark_2" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820859"/>
+            <TextView textColor="#736e78" gravity="center_horizontal" id="@+id/tv_remittance_review_remark_3" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820859"/>
+        </LinearLayout>
+        <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+            <com.scb.phone.view.custom.common.DefaultButton textColor="#ffffff" id="@+id/btn_confirm_review_remittance" background="@drawable/bg_button" layout_width="match_parent" layout_height="50dp" layout_marginTop="8dp" layout_marginBottom="8dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xf="@string/confirm" style="@style/2131821116"/>
+        </FrameLayout>
+        <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+            <ImageView layout_gravity="center" id="@+id/remittance_logo" visibility="gone" layout_width="109dp" layout_height="18dp" layout_margin="16dp" scaleType="fitXY"/>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

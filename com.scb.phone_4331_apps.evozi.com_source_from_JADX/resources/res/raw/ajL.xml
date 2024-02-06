@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout id="@+id/agent_grid_layout" background="@drawable/ripple_purple" layout_width="match_parent" layout_height="wrap_content">
+        <ImageView id="@+id/agent_avatar_image_view" layout_width="54dp" layout_height="54dp" layout_marginTop="8dp" scaleType="fitCenter" layout_centerHorizontal="true" contentDescription="@null"/>
+        <TextView ellipsize="end" gravity="center_horizontal" id="@+id/agent_name_text_view" paddingBottom="6dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="6dp" maxLines="2" minLines="2" layout_below="@+id/agent_avatar_image_view" layout_centerHorizontal="true" lineSpacingMultiplier="0.6" layout_marginStart="8dp" layout_marginEnd="8dp" style="@style/2131820992"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/agent_list_layout" background="@drawable/ripple_rounded_purple" layout_width="match_parent" layout_height="wrap_content">
+        <ImageView id="@+id/agent_avatar_image_view_list" layout_width="40dp" layout_height="40dp" layout_marginTop="8dp" layout_alignParentLeft="true" layout_alignParentTop="true" layout_marginStart="16dp" layout_alignParentStart="true"/>
+        <TextView ellipsize="end" id="@+id/agent_name_text_view_list" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" maxLines="1" layout_alignParentTop="true" layout_marginStart="24dp" layout_marginEnd="16dp" layout_toEndOf="@+id/agent_avatar_image_view_list" style="@style/2131821015"/>
+        <TextView id="@+id/agent_code_text_view_list" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_below="@+id/agent_name_text_view_list" layout_marginStart="24dp" layout_marginEnd="16dp" layout_toEndOf="@+id/agent_avatar_image_view_list" style="@style/2131821085"/>
+        <View id="@+id/agent_divider" background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_marginTop="8dp" layout_below="@+id/agent_code_text_view_list" layout_marginStart="80dp"/>
+        <View id="@+id/agent_full_divider" background="#eae7ec" visibility="gone" layout_width="match_parent" layout_height="1dp" layout_marginTop="8dp" layout_below="@+id/agent_name_text_view_list"/>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <include visibility="gone" layout="@layout/2131493731"/>
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="0dp" fillViewport="true" layout_weight="1">
+        <LinearLayout orientation="vertical" paddingBottom="16dp" layout_width="match_parent" layout_height="match_parent">
+            <TextView id="@+id/tv_myshop" padding="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" text="@string/mw_landing_header" style="@style/2131821060"/>
+            <androidx.recyclerview.widget.RecyclerView id="@+id/rv_wallet" layout_width="match_parent" layout_height="wrap_content"/>
+            <ImageView id="@+id/iv_gmb_banner" layout_width="match_parent" layout_height="wrap_content" scaleType="fitXY" adjustViewBounds="true"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button id="@+id/btn_gmb_activate_account" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" text="@string/auto_maemanee_gmb_entrace_open_gmb_button" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820837"/>
+    <Button id="@+id/btn_download" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="24dp" text="@string/mw_landing_download_maemanee_app" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820806"/>
+</LinearLayout>

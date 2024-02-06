@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp"/>
+    <ScrollView layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <androidx.gridlayout.widget.GridLayout id="@+id/grid" background="#ffffff" paddingTop="24dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="10dp" paddingEnd="10dp" NOT_FOUND_0xe="3">
+                <com.scb.phone.view.custom.common.BubbleSelector layout_width="0dp" layout_height="wrap_content" layout_marginBottom="20dp" layout_marginStart="6dp" layout_marginEnd="6dp" NOT_FOUND_0xf="1" NOT_FOUND_0x10="@string/setup_label_monday" NOT_FOUND_0x11="1" NOT_FOUND_0x12="7"/>
+                <com.scb.phone.view.custom.common.BubbleSelector layout_width="0dp" layout_height="wrap_content" layout_marginStart="6dp" layout_marginEnd="6dp" NOT_FOUND_0xf="2" NOT_FOUND_0x10="@string/setup_label_tuesday" NOT_FOUND_0x11="1" NOT_FOUND_0x12="7"/>
+                <com.scb.phone.view.custom.common.BubbleSelector layout_width="0dp" layout_height="wrap_content" layout_marginStart="6dp" layout_marginEnd="6dp" NOT_FOUND_0xf="3" NOT_FOUND_0x10="@string/setup_label_wednesday" NOT_FOUND_0x11="1" NOT_FOUND_0x12="7"/>
+                <com.scb.phone.view.custom.common.BubbleSelector layout_width="0dp" layout_height="wrap_content" layout_marginStart="6dp" layout_marginEnd="6dp" NOT_FOUND_0xf="4" NOT_FOUND_0x10="@string/setup_label_thursday" NOT_FOUND_0x11="1" NOT_FOUND_0x12="7"/>
+                <com.scb.phone.view.custom.common.BubbleSelector layout_width="0dp" layout_height="wrap_content" layout_marginStart="6dp" layout_marginEnd="6dp" NOT_FOUND_0xf="5" NOT_FOUND_0x10="@string/setup_label_friday" NOT_FOUND_0x11="1" NOT_FOUND_0x12="7"/>
+            </androidx.gridlayout.widget.GridLayout>
+            <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp"/>
+            <TextView id="@+id/disclaimer_text" background="#f5f3f6" paddingTop="24dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content" lineSpacingExtra="4sp" textAlignment="center" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820873"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

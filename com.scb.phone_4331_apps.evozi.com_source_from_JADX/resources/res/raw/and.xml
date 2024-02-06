@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" gravity="center" background="#f5f3f6" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+    <TextView textColor="#959199" gravity="center" id="@+id/history_remark_text_view" padding="16dp" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content" minLines="1" singleLine="false" textAlignment="center" style="@style/2131820859"/>
+</RelativeLayout>

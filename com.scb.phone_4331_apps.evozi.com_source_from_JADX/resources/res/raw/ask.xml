@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" focusable="true" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+    <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayBiller id="@+id/direct_debit_custom_transfer_and_pay_biller" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content"/>
+    <View background="#c9c6cd" focusableInTouchMode="true" layout_width="match_parent" layout_height="1dp"/>
+    <LinearLayout orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+        <TextView ellipsize="end" id="@+id/tv_direct_debit_ref1" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" lines="1" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+        <com.scb.phone.view.custom.ScbEditText textColorHint="#959199" ellipsize="end" id="@+id/direct_debit_ref1_et" background="@drawable/shape_gray_rounded_rectangle" layout_width="match_parent" layout_height="40dp" layout_marginTop="8dp" lines="1" inputType="text" imeOptions="actionNext" paddingStart="16dp" paddingEnd="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+        <TextView ellipsize="end" id="@+id/tv_direct_debit_ref2" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" lines="1" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+        <com.scb.phone.view.custom.ScbEditText textColorHint="#959199" ellipsize="end" id="@+id/direct_debit_ref2_et" background="@drawable/shape_gray_rounded_rectangle" visibility="gone" layout_width="match_parent" layout_height="40dp" layout_marginTop="8dp" lines="1" inputType="text" imeOptions="actionDone" paddingStart="16dp" paddingEnd="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+        <View layout_marginTop="24dp" style="@style/2131821259"/>
+    </LinearLayout>
+    <TextView gravity="center" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/auto_direct_debit_subject_fee_remark" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820863"/>
+    <Button layout_gravity="bottom" id="@+id/bt_direct_debit_review" background="@drawable/bg_button_primary" layout_width="match_parent" layout_height="50dp" layout_marginTop="18dp" layout_marginBottom="18dp" text="@string/review" layout_marginStart="20dp" layout_marginEnd="20dp" style="@style/2131820837"/>
+</LinearLayout>

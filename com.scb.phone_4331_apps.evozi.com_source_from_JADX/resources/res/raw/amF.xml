@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/custom_item_selection" layout_width="match_parent" layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView id="@+id/icon" layout_width="24dp" layout_height="24dp" layout_marginTop="16dp" layout_marginBottom="16dp" layout_marginStart="16dp" NOT_FOUND_0x8="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0"/>
+    <TextView id="@+id/text" layout_width="0dp" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x8="0" NOT_FOUND_0xa="@+id/arrow" NOT_FOUND_0xb="@+id/icon" NOT_FOUND_0xd="0" style="@style/2131820985"/>
+    <androidx.appcompat.widget.AppCompatImageView id="@+id/arrow" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" src="@drawable/black_arrow" layout_marginEnd="16dp" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xd="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

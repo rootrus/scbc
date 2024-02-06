@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+    <TextView textStyle="bold" id="@+id/tv_top_account_lbl" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/cheque_lbl_from" layout_centerVertical="true" layout_marginStart="18dp" style="@style/2131820996"/>
+    <LinearLayout orientation="vertical" id="@+id/error_no_account" background="#ffffff" padding="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+        <TextView gravity="center" id="@+id/tv_cheque_no_account_title" layout_width="match_parent" layout_height="wrap_content" text="@string/error_deposit_cheque_no_account" style="@style/2131820994"/>
+        <TextView gravity="center" id="@+id/tv_cheque_no_account_detail" layout_width="match_parent" layout_height="wrap_content" text="@string/error_deposit_cheque_no_account_detail" style="@style/2131821054"/>
+    </LinearLayout>
+    <FrameLayout id="@+id/fragment_account_source_select" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content"/>
+    <RelativeLayout orientation="vertical" id="@+id/root_view" background="#f5f3f6" paddingBottom="24dp" layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" id="@+id/title_header" layout_width="match_parent" layout_height="wrap_content">
+            <RelativeLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" paddingStart="18dp" paddingEnd="18dp">
+                <TextView textStyle="bold" id="@+id/tv_down_account_lbl" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/activate_cheque_input_header" layout_centerVertical="true" textAllCaps="true" style="@style/2131820996"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <com.scb.phone.view.custom.common.ScbTextInputLayout id="@+id/stil_activate_cheque_input" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/title_header" NOT_FOUND_0x1d="@string/activate_cheque_input_error_line" NOT_FOUND_0x1e="@string/stop_cheque_input_label">
+            <com.scb.phone.view.custom.common.ScbEditText textColorHint="#959199" id="@+id/et_activate_input" background="@drawable/shape_gray_rounded_rectangle" focusable="true" clickable="true" layout_width="match_parent" layout_height="40dp" hint="@string/activate_cheque_input_hint" lines="1" maxLength="8" inputType="number" imeOptions="actionNext" paddingStart="16dp" paddingEnd="16dp" style="@style/2131821015"/>
+        </com.scb.phone.view.custom.common.ScbTextInputLayout>
+        <Button id="@+id/btn_activate_cheque_review" layout_width="match_parent" layout_marginTop="24dp" text="@string/review" layout_alignParentBottom="true" layout_marginStart="24dp" layout_marginEnd="24dp" style="@style/2131820837"/>
+    </RelativeLayout>
+</LinearLayout>

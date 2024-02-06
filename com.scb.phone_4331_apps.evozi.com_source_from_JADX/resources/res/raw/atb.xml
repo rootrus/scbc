@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <com.google.android.material.textfield.TextInputLayout theme="@style/2131820780" id="@+id/ebill_amount_value_input_layout" background="#ffffff" paddingTop="10dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+        <com.scb.phone.view.custom.common.AmountEditText gravity="end" id="@+id/ebill_amount_value_edit_text" focusable="true" layout_width="match_parent" layout_height="wrap_content" inputType="numberDecimal" imeOptions="actionDone" style="@style/2131821029"/>
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

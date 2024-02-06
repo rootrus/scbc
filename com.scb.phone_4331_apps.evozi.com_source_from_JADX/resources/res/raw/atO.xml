@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <androidx.core.widget.NestedScrollView id="@+id/fund_details_scrollview" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" background="#f5f3f6" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content">
+            <com.scb.phone.view.custom.common.FragmentWrapContentViewPager id="@+id/card_view_pager" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="3dp"/>
+            <p059me.relex.circleindicator.CircleIndicator id="@+id/indicator" layout_width="match_parent" layout_height="16dp" NOT_FOUND_0xc="@drawable/dark_gray_radius" NOT_FOUND_0xd="@drawable/gray_radius"/>
+            <com.scb.phone.view.custom.common.CustomFundsActions gravity="center_horizontal" id="@+id/investment_details_funds_actions" layout_width="match_parent" layout_height="wrap_content" paddingStart="4dp" paddingEnd="4dp"/>
+            <fragment name="com.scb.phone.view.fragment.investment.funddetails.FundDetailSummaryFragment" id="@+id/fragment_card" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp"/>
+            <include background="#ffffff" layout_width="match_parent" layout_height="match_parent" layout="@layout/2131493674"/>
+            <LinearLayout orientation="vertical" id="@+id/ltf_dividend_container" background="#f5f3f6" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/ltf_dividend_text_view" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" layout_marginBottom="5dp" paddingStart="20dp" style="@style/2131821057"/>
+                <LinearLayout orientation="vertical" id="@+id/ltf_dividend_fragment_container" background="#ffffff" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content"/>
+                <com.scb.phone.view.custom.common.CustomTabLayout id="@+id/fund_details_tab_layout" background="#f5f3f6" layout_width="match_parent" layout_height="56dp" NOT_FOUND_0xe="@color/2131099711" NOT_FOUND_0xf="@color/2131099711" NOT_FOUND_0x10="@style/2131820554" NOT_FOUND_0x11="@color/2131099773"/>
+                <com.scb.phone.view.custom.common.FragmentWrapContentViewPager id="@+id/fund_details_view_pager" background="#00000000" layout_width="match_parent" layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

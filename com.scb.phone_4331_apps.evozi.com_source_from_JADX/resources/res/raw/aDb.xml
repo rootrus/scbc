@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/toolbar" background="?attr/colorPrimary" layout_width="match_parent" layout_height="?attr/actionBarSize" elevation="2dp" NOT_FOUND_0xb="0dp">
+    <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" paddingEnd="16dp">
+        <TextView textSize="24sp" ellipsize="end" id="@+id/title_text_view" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" style="@style/2131821090"/>
+        <TextView id="@+id/txv_card_points" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="-4dp" style="@style/2131820868"/>
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

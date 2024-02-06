@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#ffffff" focusable="false" clickable="false" layout_width="match_parent" layout_height="wrap_content" minHeight="76dp">
+    <ImageView id="@+id/device_settings_icon" padding="16dp" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_phone" layout_alignParentLeft="true" layout_centerVertical="true" contentDescription="@null" layout_alignParentStart="true"/>
+    <TextView ellipsize="end" id="@+id/device_settings_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" lines="1" layout_toStartOf="@+id/device_settings_relative_layout" layout_toEndOf="@+id/device_settings_icon" style="@style/2131821015"/>
+    <TextView id="@+id/device_settings_date" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="12dp" layout_below="@+id/device_settings_title" layout_toStartOf="@+id/device_settings_relative_layout" layout_toEndOf="@+id/device_settings_icon" style="@style/2131821062"/>
+    <RelativeLayout id="@+id/device_settings_relative_layout" clickable="true" layout_width="40dp" layout_height="40dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginStart="8dp" layout_marginEnd="10dp" layout_alignParentEnd="true">
+        <ImageView layout_width="20dp" layout_height="20dp" src="@drawable/ic_trash" layout_centerInParent="true" contentDescription="@null"/>
+        <View background="@drawable/ripple_rounded_purple" layout_width="match_parent" layout_height="match_parent" layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View id="@+id/device_settings_divider_view" background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_alignParentBottom="true" layout_marginStart="16dp"/>
+    <View id="@+id/device_settings_full_divider_view" background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_alignParentBottom="true"/>
+</RelativeLayout>

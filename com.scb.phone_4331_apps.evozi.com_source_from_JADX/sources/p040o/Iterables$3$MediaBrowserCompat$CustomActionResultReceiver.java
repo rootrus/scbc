@@ -1,0 +1,85 @@
+package p040o;
+
+/* renamed from: o.Iterables$3$MediaBrowserCompat$CustomActionResultReceiver */
+public final class Iterables$3$MediaBrowserCompat$CustomActionResultReceiver {
+    public static final int abc_config_activityDefaultDur = 2131361792;
+    public static final int abc_config_activityShortDur = 2131361793;
+    public static final int app_bar_elevation_anim_duration = 2131361794;
+    public static final int avatar_animation_duration = 2131361795;
+    public static final int balloon_animation_duration = 2131361796;
+    public static final int bottom_sheet_slide_duration = 2131361797;
+    public static final int cancel_button_image_alpha = 2131361798;
+    public static final int common_input_text_max_length = 2131361799;
+    public static final int config_tooltipAnimTime = 2131361800;
+    public static final int constraint_zero_bias = 2131361801;
+    public static final int contextual_banner_max_lines = 2131361802;
+    public static final int contextual_banner_min_lines = 2131361803;
+    public static final int debit_rotation_268 = 2131361804;
+    public static final int deejung_installment_review_merchant_name_max_line = 2131361805;
+    public static final int default_auto_scroll_millis = 2131361806;
+    public static final int design_snackbar_text_max_lines = 2131361807;
+    public static final int design_tab_indicator_anim_duration_ms = 2131361808;
+    public static final int digits_before_point = 2131361809;
+    public static final int google_play_services_version = 2131361810;
+    public static final int hide_password_duration = 2131361811;
+    public static final int insight_header_triangle_bubble_viewport_height = 2131361812;
+    public static final int insight_header_triangle_bubble_viewport_width = 2131361813;
+    public static final int juristic_account_max_limit = 2131361814;
+    public static final int juristic_account_no_max_length = 2131361815;
+    public static final int juristic_number_max_limit = 2131361816;
+    public static final int juristic_registration_no_max_length = 2131361817;
+    public static final int juristic_starting_pin_max_length = 2131361818;
+    public static final int justforyou_today_insights_background_gradient_angle = 2131361819;
+    public static final int max_character_length = 2131361820;
+    public static final int max_length_10 = 2131361821;
+    public static final int max_length_20 = 2131361822;
+    public static final int max_length_30 = 2131361823;
+    public static final int max_lines_1 = 2131361824;
+    public static final int max_lines_2 = 2131361825;
+    public static final int max_lines_3 = 2131361826;
+    public static final int max_lines_30 = 2131361827;
+    public static final int max_lines_4 = 2131361828;
+    public static final int max_lines_5 = 2131361829;
+    public static final int max_lines_7 = 2131361830;
+    public static final int max_lines_9 = 2131361831;
+    public static final int max_phone_number_length = 2131361832;
+    public static final int min_lines_1 = 2131361833;
+    public static final int min_lines_2 = 2131361834;
+    public static final int min_lines_3 = 2131361835;
+    public static final int mtrl_btn_anim_delay_ms = 2131361836;
+    public static final int mtrl_btn_anim_duration_ms = 2131361837;
+    public static final int mtrl_chip_anim_duration = 2131361838;
+    public static final int mtrl_tab_indicator_anim_duration_ms = 2131361839;
+    public static final int ota_counter_max = 2131361840;
+    public static final int progress_circle_innerRadiusRatio = 2131361841;
+    public static final int progress_tab = 2131361842;
+    public static final int radius_5 = 2131361843;
+    public static final int rectangle_height = 2131361844;
+    public static final int referral_code_max_length = 2131361845;
+    public static final int remittance_mobile_max_length = 2131361846;
+    public static final int robo_bullet_gap_width = 2131361847;
+    public static final int rotation_90 = 2131361848;
+    public static final int rotation_90_counter = 2131361849;
+    public static final int scb_one_car_plate_max_limit = 2131361850;
+    public static final int scb_one_company_name_counter_max = 2131361851;
+    public static final int scb_one_first_name_limit = 2131361852;
+    public static final int scb_one_id_card_limit = 2131361853;
+    public static final int scb_one_last_name_limit = 2131361854;
+    public static final int scb_one_name_counter_max = 2131361855;
+    public static final int scb_one_number_employee_limit = 2131361856;
+    public static final int scb_one_product_staff_ref2_id_max_limit = 2131361857;
+    public static final int scb_one_product_staff_ref_id_max_limit = 2131361858;
+    public static final int show_password_duration = 2131361859;
+    public static final int span_count_3 = 2131361860;
+    public static final int status_bar_notification_info_maxnum = 2131361861;
+    public static final int view_gone = 2131361862;
+    public static final int view_visible = 2131361863;
+    public static final int weight_1 = 2131361864;
+    public static final int weight_2 = 2131361865;
+    public static final int weight_3 = 2131361866;
+    public static final int weight_5 = 2131361867;
+
+    public void MediaBrowserCompat$CustomActionResultReceiver(float f, float f2, nIncContextFinish ninccontextfinish) {
+        ninccontextfinish.read(f);
+    }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <androidx.constraintlayout.widget.ConstraintLayout background="#eae7ec" layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <TextView id="@+id/text_label_top" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="8dp" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0xd="@+id/custom_pin_input" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" style="@style/2131821020"/>
+        <com.scb.phone.view.custom.login.CustomPinInput id="@+id/custom_pin_input" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="8dp" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0xc="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0"/>
+        <TextView textSize="20sp" gravity="center" id="@+id/text_label_bottom" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="8dp" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0xd="@+id/button_next" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/custom_pin_input" style="@style/2131820859"/>
+        <com.scb.phone.view.custom.common.DefaultButton id="@+id/button_next" background="@drawable/bg_button" layout_width="match_parent" layout_height="50dp" layout_marginBottom="8dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xc="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x12="@drawable/ripple_rounded_dark_purple" NOT_FOUND_0x13="@string/next"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.scb.phone.view.custom.login.CustomKeypad id="@+id/custom_keypad" layout_width="match_parent" layout_height="0dp" layout_weight="1" NOT_FOUND_0x14="true"/>
+</LinearLayout>

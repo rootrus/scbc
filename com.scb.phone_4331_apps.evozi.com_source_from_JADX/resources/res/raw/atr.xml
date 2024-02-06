@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <ImageView id="@+id/iv_detailImage" layout_width="match_parent" layout_height="wrap_content" scaleType="fitCenter" adjustViewBounds="true" minHeight="123dp" contentDescription="@null" NOT_FOUND_0x12="2.60:1"/>
+        <LinearLayout orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+            <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_product_name" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821014"/>
+            <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_product_short_desc" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820863"/>
+            <LinearLayout orientation="vertical" id="@+id/layoutSpinnerOptions" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/tv_spinner_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/etb_select_plan_account_plan_header" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+                <RelativeLayout layout_gravity="center_horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+                    <Spinner id="@+id/spinner_select_plan" background="@drawable/bg_spinner_with_icon" layout_width="match_parent" layout_height="wrap_content" minHeight="48dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout layout_width="match_parent" layout_height="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView id="@+id/recycler_view_longDesc" layout_width="match_parent" layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.legacy.widget.Space id="@+id/space" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+        <Button id="@+id/select_button" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="24dp" text="@string/etb_select_plan_select" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820837"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

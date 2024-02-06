@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <androidx.cardview.widget.CardView id="@+id/card_view_container" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="6dp" layout_marginBottom="6dp" NOT_FOUND_0xb="4dp" NOT_FOUND_0xc="4dp" NOT_FOUND_0xd="true">
+        <LinearLayout orientation="vertical" id="@+id/layout_container" padding="16dp" paddingTop="16dp" layout_width="match_parent" layout_height="match_parent" elevation="2dp">
+            <TextView id="@+id/text_account_name" layout_width="wrap_content" layout_height="wrap_content" text="My Salary" style="@style/2131821015"/>
+            <TextView id="@+id/text_account_number" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="xxx-xxx789-0" style="@style/2131821062"/>
+            <TextView id="@+id/text_account_branch" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="Ratchayothin branch" style="@style/2131821062"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <View style="@style/2131821259"/>
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content" minHeight="100dp">
+        <TextView gravity="center" id="@+id/text_message" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content" minHeight="100dp" text="@string/wallet_detail_no_transaction_msg" style="@style/2131821015"/>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/recycler_view_transactions" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content"/>
+        <include layout_width="match_parent" layout_height="75dp" layout="@layout/2131493406"/>
+        <include layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" layout="@layout/2131493668"/>
+    </RelativeLayout>
+</LinearLayout>

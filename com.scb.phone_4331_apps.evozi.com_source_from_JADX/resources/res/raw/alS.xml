@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content" foreground="@drawable/ripple_rounded_4_purple">
+    <RelativeLayout gravity="center_vertical" id="@+id/layout_merchant_detail_error" background="@drawable/bg_white_rounded" paddingTop="20dp" paddingBottom="20dp" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_margin="5dp" paddingStart="20dp" paddingEnd="20dp" elevation="2dp">
+        <TextView id="@+id/error_title" layout_width="match_parent" layout_height="wrap_content" text="@string/account_summary_error_title" layout_alignParentLeft="true" paddingStart="20dp" paddingEnd="20dp" layout_alignParentStart="true" style="@style/2131820996"/>
+        <TextView gravity="left" id="@+id/error_description" layout_width="match_parent" layout_height="wrap_content" text="@string/account_summary_error_description" layout_below="@+id/error_title" paddingStart="20dp" paddingEnd="20dp" style="@style/2131821054"/>
+        <ImageView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" src="@drawable/ic_reload_empty_item" layout_alignParentRight="true" contentDescription="@null" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <LinearLayout orientation="vertical" id="@+id/layout_merchant_detail" background="@drawable/bg_white_rounded" paddingTop="16dp" paddingBottom="16dp" visibility="invisible" layout_width="match_parent" layout_height="wrap_content" layout_margin="5dp" elevation="2dp">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+            <ImageView id="@+id/deposit_image" layout_width="20dp" layout_height="20dp" src="@drawable/ic_scb_wallet_shop" adjustViewBounds="true" tint="#959199" contentDescription="@null" layout_marginEnd="8dp" NOT_FOUND_0x22="@+id/deposit_name_text_view" NOT_FOUND_0x24="0" NOT_FOUND_0x25="@+id/deposit_name_text_view" NOT_FOUND_0x29="@+id/deposit_name_text_view"/>
+            <TextView ellipsize="end" gravity="start" id="@+id/deposit_name_text_view" layout_width="0dp" layout_height="wrap_content" maxLines="1" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x23="0" NOT_FOUND_0x25="@+id/deposit_image" NOT_FOUND_0x26="@+id/deposit_image" NOT_FOUND_0x29="0" style="@style/2131821015"/>
+            <TextView gravity="start" id="@+id/deposit_account_text_view" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x27="@+id/deposit_name_text_view" NOT_FOUND_0x28="@+id/deposit_name_text_view" style="@style/2131821060"/>
+            <androidx.appcompat.widget.AppCompatTextView gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/deposit_total_amount_text_view" layout_width="match_parent" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x1e="32sp" NOT_FOUND_0x1f="20sp" NOT_FOUND_0x20="2sp" NOT_FOUND_0x21="1" NOT_FOUND_0x24="0" NOT_FOUND_0x28="@+id/deposit_account_text_view" style="@style/2131821028"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_marginTop="9dp" layout_marginBottom="9dp"/>
+        <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" id="@+id/view_latest_statements" layout_width="match_parent" layout_height="wrap_content">
+                <TextView gravity="start" layout_width="match_parent" layout_height="wrap_content" text="@string/account_summary_last_transaction" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+                <LinearLayout orientation="vertical" id="@+id/deposit_last_transactions_linear_layout" layout_width="match_parent" layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/view_latest_statements_error" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="16dp">
+                <TextView id="@+id/text_error_title" layout_width="match_parent" layout_height="wrap_content" text="@string/custom_error_title" style="@style/2131820998"/>
+                <TextView id="@+id/text_error_message" layout_width="match_parent" layout_height="wrap_content" text="@string/summary_custom_error_contact_call_center" style="@style/2131821060"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/layout_merchant_detail_loading" layout_width="match_parent" layout_height="match_parent">
+        <include layout="@layout/2131493635"/>
+    </LinearLayout>
+</FrameLayout>

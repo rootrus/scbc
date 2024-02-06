@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" padding="16dp" layout_width="match_parent" layout_height="match_parent">
+    <TextView id="@+id/tv_hml_repayment_about_auto_title" layout_width="match_parent" layout_height="wrap_content" text="@string/hml_repayment_about_auto_title" style="@style/2131821060"/>
+    <TextView id="@+id/tv_hml_repayment_about_auto" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" text="@string/hml_repayment_about_auto" style="@style/2131821058"/>
+    <TextView id="@+id/tv_hml_repayment_about_scb_title" layout_width="match_parent" layout_height="wrap_content" text="@string/hml_repayment_about_scb_title" style="@style/2131821060"/>
+    <TextView id="@+id/tv_hml_repayment_about_scb" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" text="@string/hml_repayment_about_scb" style="@style/2131821058"/>
+</LinearLayout>

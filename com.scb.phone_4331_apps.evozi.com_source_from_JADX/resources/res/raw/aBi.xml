@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+    <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+        <TextView id="@+id/tv_label" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+        <TextView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/tv_counter" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131820992"/>
+    </FrameLayout>
+    <FrameLayout id="@+id/fl_et_container" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="8dp">
+        <ImageView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/iv_close" visibility="gone" layout_width="48dp" layout_height="match_parent" src="@drawable/ic_close_circle_gray600_24dp" scaleType="center"/>
+    </FrameLayout>
+    <TextView id="@+id/tv_error" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821109"/>
+</merge>

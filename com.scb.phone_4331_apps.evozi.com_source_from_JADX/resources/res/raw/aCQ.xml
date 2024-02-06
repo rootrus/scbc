@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="horizontal" layout_width="match_parent" layout_height="72dp">
+    <include layout_gravity="center" visibility="invisible" layout_width="24dp" layout_height="24dp" layout_marginLeft="16dp" layout_marginRight="16dp" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true" layout="@layout/2131494458"/>
+    <View id="@+id/place_autocomplete_separator" layout_width="0dp" layout_height="0dp" layout_centerVertical="true"/>
+    <TextView textSize="16sp" textColor="#212121" ellipsize="end" id="@+id/place_autocomplete_prediction_primary_text" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp" lines="1" singleLine="true" layout_toRightOf="@+id/place_autocomplete_progress" layout_above="@+id/place_autocomplete_separator" layout_centerVertical="true" layout_toEndOf="@+id/place_autocomplete_progress"/>
+    <TextView textSize="14sp" textColor="#757575" ellipsize="end" id="@+id/place_autocomplete_prediction_secondary_text" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp" lines="1" singleLine="true" layout_toRightOf="@+id/place_autocomplete_progress" layout_below="@+id/place_autocomplete_separator" layout_toEndOf="@+id/place_autocomplete_progress"/>
+</RelativeLayout>

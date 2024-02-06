@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="wrap_content">
+    <include layout_width="match_parent" layout_height="152dp" layout_centerInParent="true" layout="@layout/2131493668"/>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12dp">
+        <TextView id="@+id/from_text_view" layout_width="wrap_content" layout_height="wrap_content" text="@string/request_to_pay_to_my_prompt_pay" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821057"/>
+        <LinearLayout orientation="vertical" id="@+id/ll_account_source" visibility="visible" layout_width="match_parent" layout_height="wrap_content">
+            <com.scb.phone.view.custom.common.NoSwipeViewPager id="@+id/account_select_view_pager" layout_width="match_parent" layout_height="105dp"/>
+            <p059me.relex.circleindicator.CircleIndicator id="@+id/account_select_indicator" layout_width="match_parent" layout_height="12dp" layout_marginTop="8dp" NOT_FOUND_0x1b="@drawable/circle_indicator_purple" NOT_FOUND_0x1c="@drawable/circle_indicator"/>
+        </LinearLayout>
+        <LinearLayout orientation="vertical" id="@+id/empty_container_relative_layout" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+            <RelativeLayout layout_gravity="center_vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/empty_title_text_view" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content" text="sdfsdfdsfdsfd" layout_alignParentLeft="true" layout_alignParentTop="true" paddingStart="16dp" paddingEnd="0dp" layout_alignParentStart="true" style="@style/2131820996"/>
+                <TextView id="@+id/empty_description_text_view" paddingTop="3dp" paddingBottom="16dp" layout_width="wrap_content" layout_height="wrap_content" text="sdfsdfds d fdsfd" layout_below="@+id/empty_title_text_view" paddingStart="16dp" paddingEnd="0dp" style="@style/2131821054"/>
+                <ImageView id="@+id/empty_button_image_view" padding="10dp" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_reload_empty_item" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true"/>
+                <View background="@drawable/ripple_purple" layout_width="match_parent" layout_height="wrap_content" layout_alignTop="@+id/empty_title_text_view" layout_alignBottom="@+id/empty_description_text_view"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

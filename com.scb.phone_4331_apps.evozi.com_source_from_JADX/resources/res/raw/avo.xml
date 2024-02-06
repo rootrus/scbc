@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" id="@+id/manage_promptpay_header" background="#ffffff" paddingTop="24dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+        <ImageView layout_gravity="center" id="@+id/component_icon" layout_width="45dp" layout_height="45dp" layout_marginTop="14dp" src="@drawable/ic_check_circle_black_48dp" tint="#06bf59" contentDescription="@null"/>
+        <TextView textColor="#06bf59" layout_gravity="center" id="@+id/manage_promptpay_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" style="@style/2131820985"/>
+    </LinearLayout>
+    <TextView gravity="center" id="@+id/manage_promptpay_information_text" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" style="@style/2131820994"/>
+    <RelativeLayout background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+        <ImageView id="@+id/citizen_id_icon" layout_width="32dp" layout_height="32dp" layout_marginTop="24dp" src="@drawable/ic_mobile" tint="#000000" contentDescription="@null" layout_marginStart="24dp"/>
+        <TextView id="@+id/manage_promptpay_citizen_number" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginStart="16dp" layout_toEndOf="@+id/citizen_id_icon" style="@style/2131820985"/>
+        <ImageView id="@+id/arrow_icon" layout_width="32dp" layout_height="32dp" layout_marginTop="8dp" src="@drawable/unlink_icon" layout_below="@+id/citizen_id_icon" contentDescription="@null" layout_marginStart="24dp"/>
+        <ImageView id="@+id/account_icon" layout_width="32dp" layout_height="32dp" layout_marginTop="8dp" src="@drawable/account_black_icon" tint="#000000" layout_below="@+id/arrow_icon" contentDescription="@null" layout_marginStart="24dp"/>
+        <TextView id="@+id/manage_promptpay_account_number" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_below="@+id/arrow_icon" layout_marginStart="16dp" layout_toEndOf="@+id/account_icon" style="@style/2131820985"/>
+        <TextView id="@+id/manage_promptpay_account_details" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/manage_promptpay_account_number" layout_alignLeft="@+id/manage_promptpay_account_number" layout_alignStart="@+id/manage_promptpay_account_number" style="@style/2131820985"/>
+        <TextView id="@+id/manage_promptpay_account_name" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" layout_below="@+id/manage_promptpay_account_details" layout_alignLeft="@+id/manage_promptpay_account_number" layout_alignStart="@+id/manage_promptpay_account_number" style="@style/2131821062"/>
+    </RelativeLayout>
+    <androidx.legacy.widget.Space layout_width="1dp" layout_height="0dp" layout_weight="1"/>
+    <com.scb.phone.view.custom.common.DefaultButton layout_gravity="bottom" id="@+id/done_button" background="@drawable/bg_button" layout_width="match_parent" layout_height="50dp" layout_marginTop="18dp" layout_marginBottom="18dp" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0x16="@drawable/ripple_rounded_dark_purple" NOT_FOUND_0x17="@string/done" NOT_FOUND_0x18="@color/2131100257" style="@style/2131821118"/>
+</LinearLayout>

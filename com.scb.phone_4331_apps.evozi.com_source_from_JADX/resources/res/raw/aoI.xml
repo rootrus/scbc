@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" ellipsize="end" id="@android:id/text1" paddingTop="8dp" paddingBottom="4dp" layout_width="match_parent" layout_height="wrap_content" maxLines="1" paddingStart="8dp" paddingEnd="8dp" style="@style/2131821015"/>

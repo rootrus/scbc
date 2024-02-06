@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/view_group_root" background="#f5f3f6" padding="16dp" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" id="@+id/ll_layout_content" layout_width="match_parent" layout_height="wrap_content">
+        <ImageView layout_gravity="center_horizontal" padding="16dp" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_verify_email_processing"/>
+        <TextView id="@+id/tv_hml_verify_email_text" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" textAlignment="center" style="@style/2131821023"/>
+        <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" text="@string/hml_verify_email_text_description" textAlignment="center" style="@style/2131821053"/>
+        <Button id="@+id/bt_hml_verify_email_send_button" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" text="@string/hml_verify_email_verify_button" style="@style/2131820837"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_enabled="true">
+        <bitmap src="@drawable/ic_add_black_24dp" tint="#7631c1"/>
+    </item>
+    <item state_enabled="false">
+        <bitmap src="@drawable/ic_add_black_24dp" tint="#ffbca0dc"/>
+    </item>
+</selector>

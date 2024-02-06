@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/root_view" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content" paddingEnd="16dp">
+    <RelativeLayout gravity="center" id="@+id/radio_button_container" layout_width="32dp" layout_height="32dp" layout_marginStart="16dp">
+        <RadioButton id="@+id/radio_button" clickable="false" layout_width="wrap_content" layout_height="wrap_content" checked="true"/>
+    </RelativeLayout>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_toEndOf="@+id/radio_button_container">
+        <TextView id="@+id/deposit_number" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+        <TextView id="@+id/deposit_type" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+        <TextView id="@+id/deposit_nickname" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="16dp" style="@style/2131821062"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+    <LinearLayout orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+        <include id="@+id/points_layout" layout="@layout/2131494397"/>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+        <androidx.legacy.widget.Space layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+        <com.scb.phone.view.custom.common.DefaultButton id="@+id/btn_points_continue" background="@drawable/bg_button" layout_width="match_parent" layout_height="48dp" layout_marginTop="24dp" layout_marginBottom="24dp" textAllCaps="false" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xc="@string/redeem" style="@style/2131821116"/>
+    </LinearLayout>
+</ScrollView>

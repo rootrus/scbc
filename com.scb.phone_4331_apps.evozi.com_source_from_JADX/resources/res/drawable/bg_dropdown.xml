@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <solid color="@android:color/transparent"/>
+                    <padding left="5dp" top="5dp" right="5dp" bottom="5dp"/>
+                </shape>
+            </item>
+            <item>
+                <bitmap gravity="right|center_vertical|center_horizontal|center" src="@drawable/ic_filter_list_black_24dp" tint="#000000"/>
+            </item>
+        </layer-list>
+    </item>
+</layer-list>

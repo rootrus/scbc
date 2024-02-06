@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout id="@+id/label_layout" background="#ffffff" layout_width="wrap_content" layout_height="wrap_content">
+        <androidx.legacy.widget.Space id="@+id/top_space" layout_width="0dp" layout_height="14dp"/>
+        <TextView id="@+id/account_no_text" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/top_space" layout_marginStart="16dp" style="@style/2131821015"/>
+        <TextView id="@+id/account_type_text" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/account_no_text" layout_marginStart="16dp" style="@style/2131821015"/>
+        <ImageView id="@+id/delete_scbs_button" padding="3dp" visibility="gone" layout_width="24dp" layout_height="24dp" src="@drawable/ic_trash" adjustViewBounds="true" layout_alignTop="@+id/account_type_text" layout_alignBottom="@+id/account_type_text" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="20dp" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/button_layout" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="18dp" layout_below="@+id/label_layout" layout_alignParentRight="true" layout_alignParentEnd="true">
+        <TextView id="@+id/account_nickname_text" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="16dp" style="@style/2131821099"/>
+        <LinearLayout layout_width="wrap_content" layout_height="24dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="20dp" layout_alignParentEnd="true">
+            <ImageView id="@+id/edit_button" padding="2dp" layout_width="24dp" layout_height="24dp" src="@drawable/ic_accent_edit" adjustViewBounds="true"/>
+            <ImageView id="@+id/delete_button" padding="2dp" layout_width="24dp" layout_height="24dp" src="@drawable/ic_trash" adjustViewBounds="true" layout_marginStart="10dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/edit_layout" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="18dp" layout_below="@+id/button_layout" layout_alignParentRight="true" layout_alignParentEnd="true">
+        <com.scb.phone.view.custom.common.CustomNoteEditText textColorHint="#959199" id="@+id/text_input" background="@drawable/shape_gray_rounded_rectangle" paddingTop="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" maxLength="20" layout_below="@+id/title_text" inputType="text" imeOptions="actionNext" paddingStart="16dp" paddingEnd="32dp" layout_marginStart="16dp" layout_marginEnd="16dp" layout_toStartOf="@+id/done_button" style="@style/2131821015"/>
+        <ImageButton id="@+id/edit_clear" background="#00000000" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" src="@drawable/ic_cross_circle" adjustViewBounds="true" layout_alignTop="@+id/text_input" layout_alignRight="@+id/text_input" layout_marginEnd="8dp" layout_alignEnd="@+id/text_input"/>
+        <com.scb.phone.view.custom.common.DefaultButton id="@+id/done_button" background="@drawable/bg_button" layout_width="64dp" layout_height="wrap_content" layout_alignTop="@+id/text_input" layout_alignBottom="@+id/text_input" layout_alignParentRight="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x22="@drawable/ripple_rounded_dark_purple" NOT_FOUND_0x23="@string/account_edit_done_label" NOT_FOUND_0x24="@color/2131100257"/>
+        <TextView id="@+id/error_text_view" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" text="@string/favorite_invalid_character" layout_below="@+id/text_input" layout_alignLeft="@+id/text_input" layout_alignRight="@+id/text_input" layout_alignStart="@+id/text_input" layout_alignEnd="@+id/text_input" style="@style/2131821002"/>
+    </RelativeLayout>
+    <View id="@+id/top_separator" layout_alignParentBottom="true" layout_marginStart="16dp" style="@style/2131821259"/>
+</merge>

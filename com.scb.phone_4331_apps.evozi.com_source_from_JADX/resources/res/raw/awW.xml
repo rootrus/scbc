@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <androidx.core.widget.NestedScrollView id="@+id/fund_purchase_landing_scroll_view" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" background="#f5f3f6" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" id="@+id/client_no_layout" background="#f5f3f6" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content" paddingStart="20dp">
+                <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" layout_marginBottom="5dp" text="@string/fund_client_no" style="@style/2131821057"/>
+                <com.scb.phone.view.custom.common.NoSwipeViewPager id="@+id/card_view_pager" layout_width="wrap_content" layout_height="120dp" layout_marginTop="8dp" layout_marginBottom="3dp"/>
+                <p059me.relex.circleindicator.CircleIndicator id="@+id/indicator" layout_width="match_parent" layout_height="16dp" NOT_FOUND_0x14="@drawable/circle_indicator_purple" NOT_FOUND_0x15="@drawable/gray_radius"/>
+            </LinearLayout>
+            <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" layout_marginBottom="5dp" text="@string/purchase_fund" paddingStart="20dp" style="@style/2131821057"/>
+            <LinearLayout orientation="vertical" id="@+id/select_fund_container_linear_layout" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+                <View id="@+id/top_divider" background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+                <com.scb.phone.view.custom.common.CustomScheduleView id="@+id/schedule_view" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+                <com.scb.phone.view.custom.common.CustomFundSelect id="@+id/fund_select" layout_width="match_parent" layout_height="wrap_content"/>
+            </LinearLayout>
+            <include background="#ffffff" layout_width="match_parent" layout_height="match_parent" layout="@layout/2131493674"/>
+            <LinearLayout orientation="vertical" id="@+id/fund_pay_container" background="#f5f3f6" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/fund_pay_title_text_view" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" layout_marginBottom="5dp" paddingStart="20dp" style="@style/2131821057"/>
+                <LinearLayout orientation="vertical" id="@+id/fund_pay_fragment_container" background="#ffffff" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content"/>
+                <com.scb.phone.view.custom.common.CustomTabLayout id="@+id/fund_pay_tab_layout" background="#ffffff" layout_width="match_parent" layout_height="56dp" NOT_FOUND_0x17="@color/2131099711" NOT_FOUND_0x18="@color/2131099711" NOT_FOUND_0x19="@style/2131820554" NOT_FOUND_0x1a="@color/2131099773"/>
+                <com.scb.phone.view.custom.common.FragmentWrapContentViewPager id="@+id/fund_pay_view_pager" background="#00000000" layout_width="match_parent" layout_height="wrap_content"/>
+            </LinearLayout>
+            <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/review_amount" textAllCaps="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821057"/>
+            <View layout_marginTop="8dp" style="@style/2131821259"/>
+            <LinearLayout orientation="vertical" background="#ffffff" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <com.scb.phone.view.custom.common.AmountEditText gravity="end" id="@+id/edit_amount" layout_width="match_parent" layout_height="wrap_content" hint="@string/transfer_to_account_amount_hint" inputType="numberDecimal" windowSoftInputMode="adjustUnspecified|stateVisible|adjustResize|adjustPan|adjustNothing" imeOptions="actionDone" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821088"/>
+                <View layout_marginTop="24dp" style="@style/2131821259"/>
+            </LinearLayout>
+            <com.scb.phone.view.custom.common.DefaultButton id="@+id/button_review" background="@drawable/bg_button" layout_width="match_parent" layout_height="48dp" layout_marginTop="24dp" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x16="@drawable/ripple_rounded_dark_purple" NOT_FOUND_0x1b="@string/review" NOT_FOUND_0x1c="@color/2131100257"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

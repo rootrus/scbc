@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/buttons_container">
+    <LinearLayout orientation="horizontal" id="@+id/qr_code_layout" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="22dp">
+        <ImageView layout_gravity="center_vertical" layout_width="24dp" layout_height="24dp" src="@drawable/qr_code_icon" contentDescription="@null"/>
+        <TextView id="@+id/qr_code_section_header" layout_width="0dp" layout_height="wrap_content" text="@string/successful_qr_code_transfer_header" layout_weight="1" layout_marginStart="16dp" style="@style/2131820864"/>
+        <ImageView layout_gravity="center_vertical" id="@+id/expand_icon_image_view" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" contentDescription="@null"/>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/qr_code_section" background="#ffffff" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+        <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp" layout_marginStart="16dp"/>
+        <TextView gravity="center" layout_gravity="center_horizontal" id="@+id/qr_code_description" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/successful_qr_code_transfer_description" paddingStart="32dp" paddingEnd="32dp" style="@style/2131821015"/>
+        <ImageView layout_gravity="center" id="@+id/qr_code_image" layout_width="240dp" layout_height="240dp" layout_margin="8dp" scaleType="fitXY" contentDescription="@null"/>
+        <TextView layout_gravity="center" id="@+id/reference_id_text_view" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" style="@style/2131820984"/>
+    </LinearLayout>
+</LinearLayout>

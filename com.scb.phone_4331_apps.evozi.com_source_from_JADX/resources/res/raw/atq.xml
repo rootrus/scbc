@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" id="@+id/layout_personal" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout gravity="center" orientation="vertical" id="@+id/layout_tap_to_retry" background="#f5f3f6" padding="20dp" layout_width="match_parent" layout_height="match_parent" minHeight="275dp">
+            <TextView gravity="center_horizontal" id="@+id/error_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/custom_static_error_description" style="@style/2131820985"/>
+            <TextView gravity="center_horizontal" id="@+id/error_tap_to_retry" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/custom_static_tap_to_retry" style="@style/2131821098"/>
+        </LinearLayout>
+        <LinearLayout orientation="vertical" id="@+id/layout_info" layout_width="match_parent" layout_height="wrap_content">
+            <com.scb.phone.view.custom.ntb.CustomInformationPanel id="@+id/information_panel_personal_info" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="@string/etb_personal_info_title_panel_1" layout="@layout/2131493439"/>
+            <View background="#c9c6cd" style="@style/2131821259"/>
+            <com.scb.phone.view.custom.ntb.CustomInformationPanel id="@+id/information_panel_contact_info" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="@string/etb_personal_info_title_panel_2" layout="@layout/2131493439"/>
+            <View background="#c9c6cd" style="@style/2131821259"/>
+            <com.scb.phone.view.custom.ntb.CustomInformationPanel id="@+id/information_panel_occupation_info" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="@string/etb_personal_info_title_panel_3" layout="@layout/2131493439"/>
+            <View background="#c9c6cd" style="@style/2131821259"/>
+            <LinearLayout layout_gravity="center_horizontal" orientation="vertical" id="@+id/layout_bottom" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+                <LinearLayout orientation="vertical" id="@+id/layout_find_us_link" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView gravity="center" layout_gravity="center_horizontal" layout_width="match_parent" layout_height="wrap_content" text="@string/etb_personal_info_tc" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821058"/>
+                </LinearLayout>
+                <Button id="@+id/btn_next" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/etb_personal_info_confirm" style="@style/2131820837"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

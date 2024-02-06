@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/view_container" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/menu_list" layout_width="match_parent" layout_height="55dp">
+        <ImageView id="@+id/icon" layout_width="24dp" layout_height="wrap_content" contentDescription="@null" layout_marginStart="16dp"/>
+        <TextView gravity="center_vertical" id="@+id/title" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginStart="10dp" style="@style/2131821015"/>
+        <ImageView layout_gravity="right|center_vertical|center_horizontal|center" paddingTop="4dp" paddingBottom="4dp" layout_width="24dp" layout_height="24dp" src="@drawable/chevron_right" adjustViewBounds="true" tint="#000000" contentDescription="@null" layout_marginEnd="22dp"/>
+    </LinearLayout>
+    <View id="@+id/divider_view" background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_below="@+id/menu_list" layout_marginStart="16dp"/>
+    <View id="@+id/full_divider_view" background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_below="@+id/menu_list"/>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" theme="@style/2131821249" layout_width="360dp" layout_height="wrap_content">
+    <FrameLayout id="@+id/header2" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="5dp"/>
+    <com.thunderhead.android.infrastructure.p057ui.views.TTFAppCompatTextView textColor="#061c3f" id="@+id/arrow_up" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="-5dp" text="@string/th_icon_anchor_up"/>
+    <LinearLayout gravity="center" orientation="vertical" id="@+id/layout_container" fadingEdgeLength="0dp" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/header2">
+        <RadioGroup orientation="horizontal" id="@+id/segmented_control" layout_width="match_parent" layout_height="34dp" checkedButton="@+id/button_add">
+            <androidx.appcompat.widget.AppCompatRadioButton id="@+id/button_element" paddingLeft="8dp" paddingRight="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/th_element" layout_weight="1" style="@style/2131821235"/>
+            <androidx.appcompat.widget.AppCompatRadioButton id="@+id/button_group" paddingLeft="8dp" paddingRight="8dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" text="@string/th_group" layout_weight="1" style="@style/2131821235"/>
+            <androidx.appcompat.widget.AppCompatRadioButton id="@+id/button_region" paddingLeft="8dp" paddingRight="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/th_region" layout_weight="1" style="@style/2131821235"/>
+        </RadioGroup>
+        <LinearLayout orientation="vertical" id="@+id/region_layout" background="#061c3f" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout gravity="center_vertical" orientation="vertical" id="@+id/text_element_name_container" background="@drawable/th_popover_point_list_point_background_statelist" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="60dp">
+                <androidx.appcompat.widget.AppCompatTextView textColor="@color/2131100211" id="@+id/text_element_name" clickable="false" layout_width="match_parent" layout_height="wrap_content" style="?attr/editTextStyle"/>
+            </LinearLayout>
+            <RadioGroup orientation="horizontal" id="@+id/region_points_toggle" layout_width="match_parent" layout_height="32dp" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginBottom="22dp" checkedButton="@+id/button_tracking_points">
+                <com.thunderhead.android.infrastructure.p057ui.views.TTFAppCompatRadioButton id="@+id/button_tracking_points" paddingLeft="35dp" paddingRight="40dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/th_number_zero" layout_weight="0.5" NOT_FOUND_0x16="@string/th_icon_tracking_point" NOT_FOUND_0x17="@dimen/2131165967" style="@style/2131821234"/>
+                <com.thunderhead.android.infrastructure.p057ui.views.TTFAppCompatRadioButton id="@+id/button_optimization_points" paddingLeft="35dp" paddingRight="40dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/th_number_zero" layout_weight="0.5" NOT_FOUND_0x16="@string/th_icon_optimization_point" NOT_FOUND_0x17="@dimen/2131165967" style="@style/2131821233"/>
+            </RadioGroup>
+            <LinearLayout orientation="vertical" id="@+id/trackContainer" background="#061c3f" layout_width="match_parent" layout_height="wrap_content"/>
+            <LinearLayout orientation="vertical" id="@+id/optimizationContainer" background="?android:attr/selectableItemBackground" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout id="@+id/footer" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/layout_container"/>
+    <com.thunderhead.android.infrastructure.p057ui.views.TTFAppCompatTextView textColor="#061c3f" id="@+id/arrow_down" paddingTop="0dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="-8dp" text="@string/th_icon_anchor_down" layout_below="@+id/footer"/>
+</RelativeLayout>

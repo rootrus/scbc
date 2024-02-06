@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" paddingStart="20dp" paddingEnd="20dp">
+    <View layout_marginBottom="16dp" style="@style/2131821259"/>
+    <TextView id="@+id/text_issued_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/sme_loan_issued_detail_label" maxLines="1" style="@style/2131821015"/>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+            <TextView id="@+id/text_issued_type_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/sme_loan_issued_type_label" style="@style/2131821060"/>
+            <Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+            <TextView layout_gravity="end" id="@+id/text_issued_debit_account_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/sme_loan_issued_debit_account_label" style="@style/2131821060"/>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp">
+            <TextView id="@+id/text_issued_type_value" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+            <Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+            <TextView layout_gravity="end" id="@+id/text_issued_debit_account_value" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+            <TextView id="@+id/text_issued_document_no_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/sme_loan_issued_document_no_label" style="@style/2131821060"/>
+            <Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+            <TextView layout_gravity="end" id="@+id/text_issued_start_date_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/sme_loan_issued_start_date_label" style="@style/2131821060"/>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp">
+            <TextView id="@+id/text_issued_document_no_value" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+            <Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+            <TextView layout_gravity="end" id="@+id/text_issued_start_date_value" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp">
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+            <TextView id="@+id/text_issued_next_fee_amount_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/sme_loan_issued_next_fee_label" style="@style/2131821060"/>
+            <Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+            <TextView layout_gravity="end" id="@+id/text_issued_fee_rate_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/sme_loan_issued_fee_rate_label" style="@style/2131821060"/>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp">
+            <TextView id="@+id/text_issued_next_fee_amount_value" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+            <Space layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+            <TextView layout_gravity="end" id="@+id/text_issued_fee_rate_value" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/layout_claimed" layout_width="match_parent" layout_height="wrap_content">
+        <View layout_marginBottom="16dp" style="@style/2131821259"/>
+        <TextView id="@+id/text_claimed_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/sme_loan_claimed_detail_label" maxLines="1" style="@style/2131821015"/>
+        <LinearLayout orientation="vertical" id="@+id/layout_claimed_list" layout_width="match_parent" layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

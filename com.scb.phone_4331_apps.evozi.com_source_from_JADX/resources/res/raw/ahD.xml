@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="wrap_content">
+    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_bullet" layout_width="0dp" layout_height="wrap_content" text="@string/hml_tab" layout_marginStart="16dp" NOT_FOUND_0x9="0" NOT_FOUND_0xa="@+id/tv_remarks" style="@style/2131820863"/>
+    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_remarks" layout_width="0dp" layout_height="wrap_content" layout_marginStart="2dp" layout_marginEnd="16dp" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0" NOT_FOUND_0x8="@+id/tv_bullet" NOT_FOUND_0xa="0" style="@style/2131820863"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content">
+        <TextView gravity="top" id="@+id/tv_item_information_panel_title" layout_width="100dp" layout_height="wrap_content" layout_alignParentLeft="true" layout_marginStart="16dp" style="@style/2131821012"/>
+        <com.scb.phone.view.custom.ImageTextView gravity="right" layout_gravity="right" id="@+id/target_name_text_view" layout_width="match_parent" layout_height="wrap_content" layout_alignParentRight="true" paddingStart="16dp" layout_marginEnd="16dp" layout_toEndOf="@+id/tv_item_information_panel_title" NOT_FOUND_0x10="24dp" style="@style/2131821020"/>
+        <TextView gravity="end" id="@+id/tv_item_information_panel_sub_1" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/target_name_text_view" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820863"/>
+        <TextView gravity="end" id="@+id/tv_item_information_panel_sub_2" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/tv_item_information_panel_sub_1" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820863"/>
+    </RelativeLayout>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+        <Space id="@+id/space_separator" layout_width="16dp" layout_height="wrap_content"/>
+        <View layout_gravity="bottom" style="@style/2131821259"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/justforyouspendingcategorydetail" layout_width="match_parent" layout_height="match_parent">
+    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_select" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" text="@string/auto_change_mailing_address_select_address_header" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0" style="@style/2131820873"/>
+    <LinearLayout orientation="vertical" id="@+id/rg_address" background="#ffffff" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" NOT_FOUND_0x12="@+id/btn_next" NOT_FOUND_0x13="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="@+id/tv_select" NOT_FOUND_0x19="0">
+        <androidx.constraintlayout.widget.ConstraintLayout orientation="horizontal" id="@+id/radioButton_current_address" paddingTop="16dp" paddingBottom="16dp" focusable="true" clickable="true" layout_width="match_parent" layout_height="wrap_content" paddingStart="20dp" paddingEnd="16dp">
+            <RadioButton id="@+id/radioButton_current_address_button" focusable="false" clickable="false" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x11="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0"/>
+            <com.scb.phone.view.custom.common.ThaiTextView id="@+id/radioButton_current_address_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/auto_change_mailing_address_select_address_current_button" paddingStart="20dp" paddingEnd="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="@+id/radioButton_current_address_button" NOT_FOUND_0x18="0" style="@style/2131820985"/>
+            <com.scb.phone.view.custom.common.ThaiTextView id="@+id/radioButton_current_address_sub" layout_width="0dp" layout_height="wrap_content" paddingStart="20dp" paddingEnd="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="@+id/radioButton_current_address_button" NOT_FOUND_0x17="@+id/radioButton_current_address_title" style="@style/2131820998"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View layout_width="match_parent" layout_height="1dp" style="@style/2131821259"/>
+        <LinearLayout id="@+id/radioButton_new_address" paddingTop="16dp" paddingBottom="16dp" focusable="true" clickable="true" layout_width="match_parent" layout_height="wrap_content" paddingStart="20dp" paddingEnd="16dp">
+            <RadioButton id="@+id/radioButton_new_address_button" focusable="false" clickable="false" layout_width="match_parent" layout_height="wrap_content" text="@string/auto_change_mailing_address_select_address_new_button" paddingStart="20dp" paddingEnd="16dp" style="@style/2131820985"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Button enabled="false" id="@+id/btn_next" layout_width="0dp" layout_height="wrap_content" layout_marginBottom="24dp" text="@string/auto_change_mailing_address_select_address_bottom_button" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x11="0" NOT_FOUND_0x13="0" NOT_FOUND_0x16="0" style="@style/2131820837"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

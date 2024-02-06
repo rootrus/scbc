@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" gravity="center" orientation="horizontal" id="@+id/progress_triple_point" layout_width="match_parent" layout_height="match_parent" interpolator="@android:anim/linear_interpolator">
+    <ImageView id="@+id/progress_inline_circle01" background="@drawable/shape_progressbar_point_circle" layout_width="10dp" layout_height="10dp" layout_marginTop="10dp" layout_marginBottom="10dp" layout_marginStart="10dp" backgroundTint="#7631c1"/>
+    <ImageView id="@+id/progress_inline_circle02" background="@drawable/shape_progressbar_point_circle" layout_width="5dp" layout_height="5dp" layout_marginTop="10dp" layout_marginBottom="10dp" alpha="0.3" layout_marginStart="3dp" backgroundTint="#736e78"/>
+    <ImageView id="@+id/progress_inline_circle03" background="@drawable/shape_progressbar_point_circle" layout_width="10dp" layout_height="10dp" layout_marginTop="10dp" layout_marginBottom="10dp" layout_marginStart="3dp" layout_marginEnd="10dp" backgroundTint="#c9c6cd"/>
+</LinearLayout>

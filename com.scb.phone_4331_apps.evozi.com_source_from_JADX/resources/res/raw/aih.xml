@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" paddingTop="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content">
+    <ImageView id="@+id/card_image_view" layout_width="@dimen/2131165262" layout_height="@dimen/2131165261" scaleType="fitXY" contentDescription="@null" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0"/>
+    <LinearLayout gravity="center_vertical" layout_gravity="bottom" orientation="horizontal" id="@+id/layout_card_number" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x10="@+id/card_image_view" NOT_FOUND_0x11="@+id/card_image_view" NOT_FOUND_0x12="0.3" NOT_FOUND_0x13="@+id/card_image_view" NOT_FOUND_0x14="@+id/card_image_view" NOT_FOUND_0x15="0.65">
+        <TextView id="@+id/card_number_front_text_view" layout_width="wrap_content" layout_height="wrap_content" shadowColor="#353239" shadowDx="2" shadowDy="2" shadowRadius="4" layout_marginEnd="12dp" style="@style/2131821039"/>
+        <TextView id="@+id/card_number_2nd_front_text_view" layout_width="wrap_content" layout_height="wrap_content" shadowColor="#353239" shadowDx="2" shadowDy="2" shadowRadius="4" layout_marginEnd="4dp" style="@style/2131821039"/>
+        <View background="@drawable/shape_credit_card_dot" layout_width="8dp" layout_height="8dp" layout_marginEnd="4dp"/>
+        <View background="@drawable/shape_credit_card_dot" layout_width="8dp" layout_height="8dp" layout_marginEnd="12dp"/>
+        <include layout_width="wrap_content" layout_height="wrap_content" layout="@layout/2131493384"/>
+        <TextView id="@+id/card_number_text_view" layout_width="wrap_content" layout_height="wrap_content" shadowColor="#353239" shadowDx="2" shadowDy="2" shadowRadius="4" style="@style/2131821039"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

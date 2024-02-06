@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/amount_container_relative_layout" layout_width="match_parent" layout_height="wrap_content">
+    <androidx.cardview.widget.CardView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="8dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <TextView gravity="center" id="@+id/tv_upsell_header_title" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content" layout_margin="12dp" style="@style/2131821098"/>
+            <View id="@+id/v_upsell_separator" layout_marginBottom="12dp" style="@style/2131821259"/>
+            <ImageView layout_gravity="center" id="@+id/iv_upsell_icon" layout_width="60dp" layout_height="60dp"/>
+            <TextView gravity="center" id="@+id/tv_upsell_description" layout_width="match_parent" layout_height="wrap_content" layout_margin="12dp" style="@style/2131821062"/>
+            <com.scb.phone.view.custom.common.CustomDeltaInputPressed id="@+id/cdi_loan_amount" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12dp" layout_marginStart="12dp" layout_marginEnd="12dp"/>
+            <TextView id="@+id/tv_loanamount_remark" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginStart="20dp" layout_marginEnd="20dp" style="@style/2131821080"/>
+            <Button enabled="false" id="@+id/bt_accept" layout_width="match_parent" layout_height="50dp" layout_margin="16dp" text="@string/auto_app_outcome_upselling_custom_recalculate" style="@style/2131820837"/>
+            <TextView layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/auto_app_outcome_upselling_custom_recalculate_remarks" style="@style/2131821092"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

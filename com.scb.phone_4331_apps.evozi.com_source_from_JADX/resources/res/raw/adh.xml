@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <androidx.core.widget.NestedScrollView background="#ffffff" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <View style="@style/2131821259"/>
+            <TextView id="@+id/tv_shop_photo" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/mw_shop_information_photo" paddingStart="16dp" paddingEnd="16dp" style="@style/2131821062"/>
+            <View style="@style/2131821259"/>
+            <LinearLayout gravity="center" orientation="vertical" id="@+id/ll_shop_photo_container" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="wrap_content">
+                    <ImageView id="@+id/iv_shop_cover" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x1b="H,2.5:1" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="0"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <View style="@style/2131821259"/>
+                <LinearLayout gravity="center" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+                    <ImageView id="@+id/iv_check" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_check_green_24dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+                    <TextView id="@+id/tv_successfully_attached" layout_width="0dp" layout_height="wrap_content" text="@string/mw_shop_information_photo_attached" layout_weight="1" style="@style/2131821062"/>
+                    <ImageView id="@+id/iv_delete_icon" layout_width="48dp" layout_height="48dp" src="@drawable/ic_mw_delete" scaleType="center"/>
+                </LinearLayout>
+                <View style="@style/2131821259"/>
+            </LinearLayout>
+            <LinearLayout gravity="center" orientation="vertical" id="@+id/ll_add_shop_photo_container" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <ImageView id="@+id/iv_add_shop_cover" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_shop_add_cover"/>
+                <TextView gravity="center" id="@+id/tv_upload_photo_error" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="16dp" text="@string/mw_shop_information_photo_attached_error_inline" style="@style/2131820866"/>
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+                    <Button id="@+id/btn_choose_photo" layout_width="0dp" layout_height="wrap_content" text="@string/mw_shop_information_upload_photo" layout_weight="1" style="@style/2131820806"/>
+                    <Button id="@+id/btn_take_photo" layout_width="0dp" layout_height="wrap_content" text="@string/mw_shop_information_take_photo" layout_weight="1" layout_marginStart="16dp" style="@style/2131820806"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View style="@style/2131821259"/>
+            <TextView id="@+id/tv_kym_notice" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" text="@string/mw_shop_information_notice_condition" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820879"/>
+            <TextView id="@+id/tv_personal_information_1" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/mw_shop_information_personal_information" paddingStart="16dp" paddingEnd="16dp" style="@style/2131821062"/>
+            <View style="@style/2131821259"/>
+            <TextView id="@+id/tv_name_label" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/mw_shop_information_name" paddingStart="16dp" style="@style/2131821015"/>
+            <TextView id="@+id/tv_name_value" layout_width="match_parent" layout_height="wrap_content" text="Ratchaneeporn Manee Thaipanich" paddingStart="16dp" style="@style/2131821062"/>
+            <com.scb.phone.view.custom.common.EditTextDecorator id="@+id/etd_line_id" padding="16dp" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1f="@string/mw_shop_information_validate_line_id_wrong_format" NOT_FOUND_0x20="@string/mw_shop_information_line_id">
+                <EditText id="@+id/et_line_id" layout_width="match_parent" layout_height="match_parent" hint="@string/mw_shop_information_line_id_hint" maxLines="1" maxLength="50" inputType="text" imeOptions="actionNext" style="@style/2131820810"/>
+            </com.scb.phone.view.custom.common.EditTextDecorator>
+            <View style="@style/2131821259"/>
+            <TextView id="@+id/tv_business_information" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/mw_shop_information_upper" paddingStart="16dp" paddingEnd="16dp" style="@style/2131821062"/>
+            <View style="@style/2131821259"/>
+            <com.scb.phone.view.custom.common.EditTextDecorator id="@+id/etd_thai_shop_name" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x1f="@string/mw_shop_information_validate_shop_name_wrong_format" NOT_FOUND_0x20="@string/mw_shop_information_shop_name_in_thai">
+                <EditText id="@+id/et_thai_shop_name" layout_width="match_parent" layout_height="match_parent" hint="@string/mw_shop_information_shop_name_in_thai_hint" maxLines="1" maxLength="200" inputType="text" imeOptions="actionNext" style="@style/2131820810"/>
+            </com.scb.phone.view.custom.common.EditTextDecorator>
+            <com.scb.phone.view.custom.common.EditTextDecorator id="@+id/etd_english_shop_name" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x1f="@string/mw_shop_information_validate_shop_name_en_wrong_format" NOT_FOUND_0x20="@string/mw_shop_information_shop_name_in_english">
+                <EditText id="@+id/et_english_shop_name" layout_width="match_parent" layout_height="match_parent" hint="@string/mw_shop_information_shop_name_in_english_hint" maxLines="1" maxLength="200" inputType="text" imeOptions="actionNext" style="@style/2131820810"/>
+            </com.scb.phone.view.custom.common.EditTextDecorator>
+            <com.scb.phone.view.custom.common.EditTextDecorator id="@+id/etd_shop_phone_number" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x1f="@string/mw_shop_information_validate_shop_phone_number_wrong_format" NOT_FOUND_0x20="@string/mw_shop_information_shop_phone_number">
+                <EditText id="@+id/et_shop_phone_number" layout_width="match_parent" layout_height="match_parent" hint="@string/mw_shop_information_shop_phone_number_hint" maxLines="1" inputType="numberDecimal" imeOptions="actionNext" style="@style/2131820810"/>
+            </com.scb.phone.view.custom.common.EditTextDecorator>
+            <com.scb.phone.view.custom.common.EditTextDecorator id="@+id/etd_shop_email" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x1f="@string/mw_shop_information_validate_shop_email_wrong_format" NOT_FOUND_0x20="@string/mw_shop_information_shop_email">
+                <EditText id="@+id/et_shop_email" layout_width="match_parent" layout_height="match_parent" hint="@string/mw_shop_information_shop_email_hint" maxLines="1" inputType="textEmailAddress" imeOptions="actionNext" style="@style/2131820810"/>
+            </com.scb.phone.view.custom.common.EditTextDecorator>
+            <TextView id="@+id/tv_shop_category_label" background="#ffffff" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/mw_shop_information_business_type" paddingStart="16dp" paddingEnd="16dp" style="@style/2131821015"/>
+            <Spinner id="@+id/spinner_category" background="@drawable/bg_spinner_with_icon" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" minHeight="40dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+            <TextView id="@+id/tv_shop_sub_category_label" background="#ffffff" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/mw_shop_information_good_and_service_type" paddingStart="16dp" paddingEnd="16dp" style="@style/2131821015"/>
+            <Spinner id="@+id/spinner_sub_category" background="@drawable/bg_spinner_with_icon" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" minHeight="40dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+            <TextView id="@+id/tv_shop_estimated_sales_label" background="#ffffff" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/mw_shop_information_month_sale" paddingStart="16dp" paddingEnd="16dp" style="@style/2131821015"/>
+            <Spinner id="@+id/spinner_estimated_sales" background="@drawable/bg_spinner_with_icon" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="16dp" minHeight="40dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+            <TextView id="@+id/tv_personal_information_2" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/mw_shop_information_select_more_options" paddingStart="16dp" paddingEnd="16dp" style="@style/2131821062"/>
+            <View style="@style/2131821259"/>
+            <com.scb.phone.view.custom.common.EditTextDecorator id="@+id/etd_referral_code" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x1f="@string/mw_shop_information_validate_ref_wrong_format" NOT_FOUND_0x20="@string/mw_shop_information_ref_code" NOT_FOUND_0x21="10">
+                <EditText id="@+id/et_referral_code" layout_width="match_parent" layout_height="match_parent" hint="@string/mw_shop_information_ref_code_hint" maxLines="1" maxLength="10" imeOptions="actionDone" style="@style/2131820810"/>
+            </com.scb.phone.view.custom.common.EditTextDecorator>
+            <View style="@style/2131821259"/>
+            <FrameLayout background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+                <Button id="@+id/btn_next" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="24dp" text="@string/mw_shop_information_next" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820837"/>
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

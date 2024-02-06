@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x10="4dp" NOT_FOUND_0x11="4dp">
+    <LinearLayout orientation="vertical" id="@+id/empty_container_relative_layout" layout_width="match_parent" layout_height="wrap_content">
+        <ImageView id="@+id/image_account_type" layout_width="match_parent" layout_height="wrap_content" scaleType="centerCrop" adjustViewBounds="true" minHeight="100dp"/>
+        <LinearLayout orientation="vertical" paddingTop="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+            <TextView id="@+id/text_account_type" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821101"/>
+            <TextView id="@+id/text_account_description" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821062"/>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+            <Button id="@+id/btn_detail" layout_width="0dp" text="@string/etb_select_account_read" layout_weight="1" style="@style/2131820806"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <RelativeLayout layout_width="match_parent" layout_height="match_parent">
+        <com.google.android.gms.maps.MapView id="@+id/map_view" layout_width="match_parent" layout_height="match_parent" apiKey="AIzaSyB2WfsSEZ7IJ31aTGHJL7QezLCUzROZakc"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton id="@+id/my_location_floating_button" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="@dimen/2131165558" src="@drawable/ic_gps_24dp" scaleType="center" tint="#7631c1" layout_alignParentRight="true" layout_alignParentBottom="true" layout_marginEnd="@dimen/2131165559" layout_alignParentEnd="true" NOT_FOUND_0x25="0"/>
+        <LinearLayout orientation="horizontal" id="@+id/layout_edit_location" background="#ffffff" padding="16dp" paddingTop="24dp" paddingBottom="24dp" visibility="gone" clickable="true" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true" paddingEnd="16dp">
+            <Button textSize="22sp" id="@+id/btn_delete_pin_location" padding="8dp" layout_width="0dp" layout_height="wrap_content" text="@string/mw_delete" layout_weight="1" layout_marginEnd="8dp" style="@style/2131820806"/>
+            <Button textSize="22sp" id="@+id/btn_edit_pin_location" padding="4dp" layout_width="0dp" layout_height="wrap_content" text="@string/mw_edit" layout_weight="1" layout_marginStart="8dp" style="@style/2131820837"/>
+        </LinearLayout>
+        <LinearLayout orientation="vertical" id="@+id/layout_pin_location" background="#ffffff" padding="16dp" visibility="visible" clickable="true" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+            <ImageView layout_gravity="right" id="@+id/btn_close_pin_location" layout_width="24dp" layout_height="24dp" NOT_FOUND_0x26="@drawable/ic_close"/>
+            <TextView ellipsize="end" id="@+id/tv_name_pin_location" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" style="@style/2131821015"/>
+            <TextView ellipsize="end" id="@+id/tv_address_pin_location" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" maxLines="2" style="@style/2131820998"/>
+            <Button textSize="22sp" id="@+id/btn_pin_location" layout_width="match_parent" layout_height="wrap_content" text="@string/mw_pin_location" style="@style/2131820837"/>
+        </LinearLayout>
+        <LinearLayout orientation="vertical" id="@+id/layout_shop_location" background="#ffffff" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="4dp" text="@string/mw_search_shop_location" style="@style/2131821015"/>
+                <RelativeLayout id="@+id/layout_search_edit_text" background="@drawable/shape_gray_rounded_rectangle" padding="4dp" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content">
+                    <ImageView id="@+id/ic_search" padding="4dp" layout_width="24dp" layout_height="24dp" src="@drawable/ic_search_gray" layout_centerVertical="true" layout_marginStart="4dp"/>
+                    <EditText id="@+id/auto_complete_edit_text" background="@null" padding="4dp" layout_width="match_parent" layout_height="wrap_content" hint="@string/mw_search_hint" maxLines="1" layout_centerVertical="true" inputType="text" imeOptions="actionDone" layout_toStartOf="@+id/ic_delete" layout_toEndOf="@+id/ic_search" style="@style/2131821015"/>
+                    <ImageView id="@+id/ic_delete" visibility="gone" layout_width="24dp" layout_height="24dp" src="@drawable/ic_close_circle_gray600_24dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="8dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp"/>
+            <RelativeLayout layout_width="wrap_content" layout_height="wrap_content">
+                <TextView id="@+id/tv_description" background="#ffffff" paddingTop="8dp" paddingBottom="8dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/mw_long_press_hint" paddingStart="16dp" paddingEnd="16dp" style="@style/2131821062"/>
+                <RelativeLayout id="@+id/layout_search_result" background="@android:color/white" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+                    <androidx.recyclerview.widget.RecyclerView id="@+id/rv_item_search_result" visibility="visible" layout_width="match_parent" layout_height="match_parent"/>
+                    <LinearLayout gravity="center_horizontal" orientation="vertical" id="@+id/layout_no_result" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp">
+                        <ImageView layout_width="48dp" layout_height="48dp" layout_marginBottom="16dp" src="@drawable/thumb_empty_state"/>
+                        <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" text="@string/mw_no_results_found" style="@style/2131821015"/>
+                        <TextView gravity="center" layout_width="wrap_content" layout_height="wrap_content" text="@string/mw_no_results_desc" paddingStart="32dp" paddingEnd="32dp" style="@style/2131820863"/>
+                    </LinearLayout>
+                    <include background="#ffffff" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout="@layout/2131493674"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

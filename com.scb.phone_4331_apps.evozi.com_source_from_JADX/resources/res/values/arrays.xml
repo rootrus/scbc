@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="2130903040">
+        <item>@string/sunday</item>
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+    </array>
+    <array name="2130903041">
+        <item>@string/easycash_title_card_information</item>
+        <item>@string/easycash_title_occupation_information</item>
+        <item>@string/easycash_title_contact_information</item>
+        <item>@string/easycash_title_review_information</item>
+    </array>
+    <array name="2130903042">
+        <item>@string/easycash_title_loan_information</item>
+        <item>@string/easycash_title_occupation_information</item>
+        <item>@string/easycash_title_contact_information</item>
+        <item>@string/easycash_title_review_information</item>
+    </array>
+    <array name="2130903043">
+        <item>dev110</item>
+        <item>dev120</item>
+        <item>dev130</item>
+        <item>dev100</item>
+        <item>qa</item>
+        <item>sit</item>
+        <item>uat</item>
+        <item>perf</item>
+    </array>
+    <array name="2130903044">
+        <item>http://apigw.easy2easiest.com:18889/portalserver/content/bbp/repositories/contentRepository?path=</item>
+        <item>http://apigw.easy2easiest.com:18886/portalserver/content/bbp/repositories/contentRepository?path=</item>
+        <item>http://apigw.easy2easiest.com:18887/portalserver/content/bbp/repositories/contentRepository?path=</item>
+        <item>http://apigw.easy2easiest.com:18888/portalserver/content/bbp/repositories/contentRepository?path=</item>
+        <item>http://extapigw-sit.scbeasy.com:8888/portalserver/content/bbp/repositories/contentRepository?path=</item>
+        <item>http://extapigw-sit.scbeasy.com:8888/portalserver/content/bbp/repositories/contentRepository?path=</item>
+        <item>https://extapigw-uat.scbeasy.com:8888/portalserver/content/bbp/repositories/contentRepository?path=</item>
+        <item>https://extapigw-ps.scbeasy.com:8888/portalserver/content/bbp/repositories/contentRepository?path=</item>
+    </array>
+    <array name="2130903045">
+        <item>http://apigw.easy2easiest.com:18889/</item>
+        <item>http://apigw.easy2easiest.com:18886/</item>
+        <item>http://apigw.easy2easiest.com:18887/</item>
+        <item>http://apigw.easy2easiest.com:18888/</item>
+        <item>http://extapigw-sit.scbeasy.com:8888/</item>
+        <item>http://extapigw-sit.scbeasy.com:8888/</item>
+        <item>https://extapigw-uat.scbeasy.com:8888/</item>
+        <item>https://extapigw-ps.scbeasy.com:8888/</item>
+    </array>
+    <array name="2130903046">
+        <item>http://apigw.easy2easiest.com:18473/</item>
+        <item>http://apigw.easy2easiest.com:18433/</item>
+        <item>http://apigw.easy2easiest.com:18453/</item>
+        <item>http://apigw.easy2easiest.com:18463/</item>
+        <item>http://extapigw-sit.scbeasy.com:8080/</item>
+        <item>http://extapigw-sit.scbeasy.com:8443/</item>
+        <item>https://extapigw-uat.scbeasy.com:8443/</item>
+        <item>https://extapigw-ps.scbeasy.com:8443/</item>
+    </array>
+    <array name="2130903047">
+        <item>@string/etb_title_select_account</item>
+        <item>@string/etb_title_check_identity</item>
+        <item>@string/etb_title_answer_fatca</item>
+        <item>@string/etb_title_fill_in_information</item>
+    </array>
+    <array name="2130903048">
+        <item>@string/hml_personal_info_title_breadcrumb_1</item>
+        <item>@string/hml_personal_info_title_breadcrumb_2</item>
+        <item>@string/hml_personal_info_title_breadcrumb_3_step1</item>
+        <item>@string/hml_personal_info_title_breadcrumb_4</item>
+    </array>
+    <array name="2130903049">
+        <item>@string/hml_personal_info_title_breadcrumb_1</item>
+        <item>@string/hml_personal_info_title_breadcrumb_2</item>
+        <item>@string/hml_personal_info_title_breadcrumb_3</item>
+        <item>@string/hml_personal_info_title_breadcrumb_4</item>
+    </array>
+    <array name="2130903050">
+        <item>@drawable/hml_business_owner_tutorial_1</item>
+        <item>@drawable/hml_business_owner_tutorial_2</item>
+        <item>@drawable/hml_business_owner_tutorial_3</item>
+        <item>@drawable/hml_business_owner_tutorial_4</item>
+    </array>
+    <array name="2130903051">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </array>
+    <array name="2130903052">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50 and above</item>
+    </array>
+    <array name="2130903053">
+        <item>@drawable/hml_tutorial_1</item>
+        <item>@drawable/hml_tutorial_2</item>
+        <item>@drawable/hml_tutorial_3</item>
+        <item>@drawable/hml_tutorial_4</item>
+    </array>
+    <array name="2130903054">
+        <item>@string/mf_onboarding_investment_experience_none</item>
+        <item>@string/mf_onboarding_investment_experience_1_3_years</item>
+        <item>@string/mf_onboarding_investment_experience_more_3_years</item>
+    </array>
+    <array name="2130903055">
+        <item>@string/mf_onboarding_investment_experience_deduct</item>
+        <item>@string/mf_onboarding_investment_experience_not_deduct</item>
+    </array>
+    <array name="2130903056">
+        <item>@color/2131099789</item>
+        <item>@color/2131099790</item>
+        <item>@color/2131099788</item>
+    </array>
+    <array name="2130903057">
+        <item>@color/2131099792</item>
+        <item>@color/2131099793</item>
+        <item>@color/2131099791</item>
+    </array>
+    <array name="2130903058">
+        <item>@drawable/icon_cheque_status</item>
+        <item>@drawable/icon_order_cheque</item>
+        <item>@drawable/icon_activate_cheque</item>
+        <item>@drawable/icon_stop_cheque</item>
+    </array>
+    <array name="2130903059">
+        <item>@string/cheque_status</item>
+        <item>@string/order_cheque</item>
+        <item>@string/activate_cheque</item>
+        <item>@string/stop_cheque</item>
+    </array>
+    <array name="2130903060">
+        <item>@string/mf_onboarding_marital_status_grid_single</item>
+        <item>@string/mf_onboarding_marital_status_grid_married</item>
+        <item>@string/mf_onboarding_marital_status_grid_divorced</item>
+        <item>@string/mf_onboarding_marital_status_grid_widowed</item>
+    </array>
+    <array name="2130903061">
+        <item>MM</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </array>
+    <array name="2130903062">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </array>
+    <array name="2130903063">
+        <item>@string/mf_onboarding_state_personal_information</item>
+        <item>@string/mf_onboarding_state_investment_information</item>
+        <item>@string/mf_onboarding_state_select_account</item>
+        <item>@string/mf_onboarding_state_review_information</item>
+    </array>
+    <array name="2130903065">
+        <item>@string/submit_ekyc_title_breadcrumb</item>
+        <item>@string/fatca_question_title_breadcrumb</item>
+        <item>@string/select_account_title_breadcrumb</item>
+        <item>@string/fill_information_title_breadcrumb</item>
+    </array>
+    <array name="2130903066">
+        <item>@drawable/white_tutorial_step_1</item>
+        <item>@drawable/white_tutorial_step_2</item>
+        <item>@drawable/white_tutorial_step_3</item>
+        <item>@drawable/white_tutorial_step_4</item>
+        <item>@drawable/white_tutorial_step_5</item>
+    </array>
+    <array name="2130903067">
+        <item>@string/white_tutorial_step_1</item>
+        <item>@string/white_tutorial_step_2</item>
+        <item>@string/white_tutorial_step_3</item>
+        <item>@string/white_tutorial_step_4</item>
+        <item>@string/white_tutorial_step_5</item>
+    </array>
+    <array name="2130903068">
+        <item>@string/white_tutorial_step_thai_1</item>
+        <item>@string/white_tutorial_step_thai_2</item>
+        <item>@string/white_tutorial_step_thai_3</item>
+        <item>@string/white_tutorial_step_thai_4</item>
+        <item>@string/white_tutorial_step_thai_5</item>
+    </array>
+    <array name="2130903069">
+        <item>@string/credit_limit_deduct</item>
+        <item>@string/credit_limit_no_deduct</item>
+    </array>
+</resources>

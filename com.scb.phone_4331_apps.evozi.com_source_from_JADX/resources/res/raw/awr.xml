@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/view_group_root" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <include layout_width="match_parent" layout_height="match_parent" layout="@layout/2131493668"/>
+    <androidx.core.widget.NestedScrollView id="@+id/loan_detail_scrollview" background="#f5f3f6" paddingBottom="20dp" visibility="gone" scrollbars="none" layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" id="@+id/limit_layout" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+            <TextView background="#eae7ec" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/limit_transfer_header" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+            <androidx.recyclerview.widget.RecyclerView id="@+id/recycler_view_transfer" background="#ffffff" scrollbars="vertical" layout_width="match_parent" layout_height="wrap_content"/>
+            <TextView background="#eae7ec" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/limit_bill_payment_header" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+            <LinearLayout orientation="vertical" id="@+id/bill_payment_layout" background="#ffffff" padding="20dp" layout_width="match_parent" layout_height="wrap_content">
+                <TextView gravity="start" layout_width="wrap_content" layout_height="wrap_content" text="@string/limit_bill_payment_label" style="@style/2131821015"/>
+                <TextView gravity="start" id="@+id/bill_payment_limit_value" layout_width="wrap_content" layout_height="wrap_content" text="@string/limit_sample_value" style="@style/2131821098"/>
+            </LinearLayout>
+            <TextView background="#eae7ec" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/limit_top_up_header" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+            <LinearLayout orientation="vertical" id="@+id/top_up_layout" background="#ffffff" padding="20dp" layout_width="match_parent" layout_height="wrap_content">
+                <TextView gravity="start" layout_width="wrap_content" layout_height="wrap_content" text="@string/limit_top_up_label" style="@style/2131821015"/>
+                <TextView gravity="start" id="@+id/top_up_limit_value" layout_width="wrap_content" layout_height="wrap_content" text="@string/limit_sample_value" style="@style/2131821098"/>
+            </LinearLayout>
+            <TextView id="@+id/prepaid_title" background="#eae7ec" paddingTop="16dp" paddingBottom="8dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" text="@string/limit_prepaid_header" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+            <LinearLayout orientation="vertical" id="@+id/prepaid_layout" background="#ffffff" padding="20dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+                <TextView gravity="start" layout_width="wrap_content" layout_height="wrap_content" text="@string/limit_top_up_label" style="@style/2131821015"/>
+                <TextView gravity="start" id="@+id/prepaid_limit_value" layout_width="wrap_content" layout_height="wrap_content" text="@string/limit_sample_value" style="@style/2131821098"/>
+            </LinearLayout>
+            <TextView id="@+id/cardless_title" background="#eae7ec" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/limit_cardless_header" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+            <LinearLayout orientation="vertical" id="@+id/layout_cardless" layout_width="match_parent" layout_height="wrap_content" divider="@drawable/divider_line" showDividers="middle" dividerPadding="1dp">
+                <LinearLayout orientation="vertical" id="@+id/layout_cardless_deposits" background="#ffffff" padding="20dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView gravity="start" layout_width="wrap_content" layout_height="wrap_content" text="@string/limit_cardless_label" style="@style/2131821015"/>
+                    <TextView gravity="start" id="@+id/cardless_limit_value" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821098"/>
+                </LinearLayout>
+                <LinearLayout orientation="vertical" id="@+id/layout_cardless_credit_card" background="#ffffff" padding="20dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView gravity="start" layout_width="wrap_content" layout_height="wrap_content" text="@string/limit_cardless_credit_card_label" style="@style/2131821015"/>
+                    <TextView gravity="start" id="@+id/cardless_credit_card_limit_value" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821098"/>
+                </LinearLayout>
+                <LinearLayout orientation="vertical" id="@+id/layout_cardless_speedy_cash" background="#ffffff" padding="20dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView gravity="start" layout_width="wrap_content" layout_height="wrap_content" text="@string/limit_cardless_speedy_cash_label" style="@style/2131821015"/>
+                    <TextView gravity="start" id="@+id/cardless_speedy_cash_limit_value" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821098"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/layout_debit_card" layout_width="match_parent" layout_height="wrap_content">
+                <TextView background="#eae7ec" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/debit_atm_personal_limit_title" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+                <androidx.recyclerview.widget.RecyclerView id="@+id/recycler_view_debits" background="#ffffff" scrollbars="vertical" layout_width="match_parent" layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/layout_remittance" layout_width="match_parent" layout_height="wrap_content">
+                <TextView background="#eae7ec" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/limit_international_remittance_title" textAllCaps="true" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+                <androidx.recyclerview.widget.RecyclerView id="@+id/recycler_view_remittance" background="#ffffff" scrollbars="vertical" layout_width="match_parent" layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

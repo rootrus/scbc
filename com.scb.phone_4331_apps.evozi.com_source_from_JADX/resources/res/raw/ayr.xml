@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" id="@+id/layout_sme_loan_bill_to_pay" layout_width="match_parent" layout_height="wrap_content">
+        <TextView gravity="top|left|center_vertical|center_horizontal|center|start" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="8dp" text="@string/bills_to_pay_label" textAllCaps="true" paddingStart="20dp" paddingEnd="20dp" style="@style/2131821066"/>
+        <com.scb.phone.view.custom.common.CustomBillsToPay id="@+id/custom_bills_to_pay" background="@drawable/bg_white_rounded" paddingTop="20dp" paddingBottom="20dp" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="4dp" paddingStart="16dp" paddingEnd="16dp" layout_marginStart="20dp" layout_marginEnd="20dp" elevation="2dp"/>
+    </LinearLayout>
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content">
+        <TextView gravity="top|left|center_vertical|center_horizontal|center|start" id="@+id/text_sme_loan_detail_label" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="8dp" text="@string/sme_loan_detail_label" textAllCaps="true" paddingStart="20dp" paddingEnd="20dp" style="@style/2131821066"/>
+        <TextView gravity="top|right|center_vertical|center_horizontal|center|end" id="@+id/text_sme_loan_detail_total_label" layout_width="match_parent" layout_height="wrap_content" text="@string/sme_loan_detail_total_label" layout_alignTop="@+id/text_sme_loan_detail_label" textAllCaps="true" paddingStart="20dp" paddingEnd="20dp" style="@style/2131821066"/>
+        <LinearLayout orientation="vertical" id="@+id/layout_sme_loan_detail_empty_state" background="#ffffff" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/text_sme_loan_detail_label">
+            <View style="@style/2131821259"/>
+            <ImageView layout_gravity="center" padding="4dp" layout_width="48dp" layout_height="48dp" layout_marginTop="16dp" src="@drawable/ic_sme_loan_empty" adjustViewBounds="true"/>
+            <TextView textColor="#454249" gravity="center" layout_gravity="center" id="@+id/text_sme_loan_detail_empty_state_message" paddingTop="8dp" paddingBottom="16dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/sme_loan_detail_empty_note_state_message" style="@style/2131821015"/>
+            <View style="@style/2131821259"/>
+        </LinearLayout>
+        <LinearLayout orientation="vertical" id="@+id/layout_sme_loan_detail_list" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/text_sme_loan_detail_label">
+            <androidx.recyclerview.widget.RecyclerView id="@+id/recycler_view_sme_loan_detail" layout_width="match_parent" layout_height="wrap_content"/>
+            <View style="@style/2131821259"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

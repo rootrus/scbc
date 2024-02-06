@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/toolbar" layout="@layout/2131494467"/>
+    <LinearLayout orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+        <Spinner id="@+id/spinner_category" background="@drawable/bg_spinner_with_icon" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" minWidth="48dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+            <EditText ellipsize="end" id="@+id/et_search" layout_width="match_parent" layout_height="wrap_content" hint="@string/ccr_search_hint" maxLines="1" singleLine="true" drawablePadding="8dp" imeOptions="actionSearch" drawableStart="@drawable/ic_search_gray" paddingEnd="32dp" style="@style/2131820812"/>
+            <ImageButton id="@+id/bt_clear" background="?attr/selectableItemBackgroundBorderless" padding="8dp" visibility="gone" layout_width="32dp" layout_height="32dp" src="@drawable/ic_cross_circle" adjustViewBounds="true" layout_alignTop="@+id/edit_text" layout_alignRight="@+id/edit_text" layout_alignBottom="@+id/edit_text" layout_alignEnd="@+id/edit_text" NOT_FOUND_0x21="0" NOT_FOUND_0x22="@+id/et_search" NOT_FOUND_0x23="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout orientation="vertical" id="@+id/ll_history" visibility="gone" layout_width="match_parent" layout_height="match_parent" divider="@drawable/divider_line" showDividers="none|middle|end" dividerPadding="1dp">
+            <TextView id="@+id/tv_label_search_history" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="8dp" text="@string/ccr_search_history_title" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821014"/>
+            <androidx.recyclerview.widget.RecyclerView scrollbarSize="3dp" scrollbarThumbVertical="@color/2131099796" id="@+id/rv_history" scrollbars="vertical" layout_width="match_parent" layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout orientation="vertical" id="@+id/ll_suggestion" visibility="gone" layout_width="match_parent" layout_height="match_parent" divider="@drawable/divider_line" showDividers="none|beginning|end" dividerPadding="1dp">
+            <androidx.recyclerview.widget.RecyclerView scrollbarSize="3dp" scrollbarThumbVertical="@color/2131099796" id="@+id/rv_suggestion" scrollbars="vertical" layout_width="match_parent" layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

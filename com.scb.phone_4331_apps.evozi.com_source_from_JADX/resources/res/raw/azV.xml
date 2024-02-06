@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="wrap_content" foreground="?android:attr/selectableItemBackground" paddingStart="16dp">
+    <TextView id="@+id/tv_place" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="4dp" style="@style/2131820985"/>
+    <TextView ellipsize="end" id="@+id/tv_address" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="8dp" maxLines="1" style="@style/2131821054"/>
+    <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp"/>
+</LinearLayout>

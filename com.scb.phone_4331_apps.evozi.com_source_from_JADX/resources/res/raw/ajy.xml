@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="wrap_content">
+    <TextView id="@+id/title" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" textAllCaps="true" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xb="@+id/subtitle" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/arrow" NOT_FOUND_0xf="0" style="@style/2131820996"/>
+    <TextView id="@+id/subtitle" layout_width="0dp" layout_height="wrap_content" layout_marginTop="4dp" NOT_FOUND_0xb="@+id/description" NOT_FOUND_0xc="@+id/title" NOT_FOUND_0xe="@+id/title" NOT_FOUND_0x10="@dimen/2131165407" style="@style/2131821013"/>
+    <TextView id="@+id/description" visibility="gone" layout_width="0dp" layout_height="wrap_content" layout_marginTop="4dp" layout_marginBottom="16dp" NOT_FOUND_0xb="@+id/divider" NOT_FOUND_0xc="@+id/title" NOT_FOUND_0xe="@+id/title" style="@style/2131821060"/>
+    <View id="@+id/divider" visibility="gone" layout_width="0dp" layout_height="1dp" NOT_FOUND_0xa="0" NOT_FOUND_0xc="@+id/title" NOT_FOUND_0xe="0" style="@style/2131821259"/>
+    <ImageView id="@+id/arrow" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/black_arrow" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xa="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0"/>
+</merge>

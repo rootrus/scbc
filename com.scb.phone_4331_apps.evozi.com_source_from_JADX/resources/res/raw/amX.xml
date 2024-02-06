@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <TextView id="@+id/item_text" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp" style="@style/2131821015"/>
+    <View id="@+id/footer_divider_view" background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_below="@+id/group_name"/>
+</LinearLayout>

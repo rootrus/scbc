@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/select_fund_container" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <View id="@+id/top_divider" background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" paddingStart="16dp" layout_marginEnd="32dp">
+            <TextView ellipsize="end" id="@+id/select_fund_title_label" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821058"/>
+            <TextView ellipsize="end" id="@+id/select_fund_subtitle" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5dp" style="@style/2131821013"/>
+            <TextView ellipsize="end" id="@+id/select_fund_description" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" style="@style/2131821010"/>
+            <LinearLayout orientation="horizontal" id="@+id/select_fund_info" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="10dp" layout_marginEnd="16dp">
+                <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="5dp">
+                    <TextView gravity="left" layout_width="wrap_content" layout_height="wrap_content" text="@string/fund_available_amount" style="@style/2131821058"/>
+                    <TextView gravity="left" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" text="@string/fund_available_units" style="@style/2131821058"/>
+                </LinearLayout>
+                <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView layout_gravity="right" id="@+id/select_fund_available_amount" layout_width="wrap_content" layout_height="wrap_content" text="123123.12" style="@style/2131821010"/>
+                    <TextView layout_gravity="right" id="@+id/select_fund_available_units" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" text="123123.1212" style="@style/2131821010"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+    </LinearLayout>
+    <ImageView id="@+id/icon_select_fund" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="36dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="16dp" NOT_FOUND_0x11="@drawable/black_arrow"/>
+</RelativeLayout>

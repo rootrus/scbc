@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item drawable="@drawable/ic_face_recognition" right="16dp"/>
+    <item id="@+id/item_chevron">
+        <bitmap gravity="right" src="@drawable/chevron_right" tint="#959199"/>
+    </item>
+</layer-list>

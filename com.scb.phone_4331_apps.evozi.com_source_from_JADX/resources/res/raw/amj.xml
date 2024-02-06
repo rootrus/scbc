@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#ffffff" paddingTop="16dp" visibility="visible" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+    <TextView layout_gravity="center" id="@+id/qr_reference_id_text" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" style="@style/2131821101"/>
+    <TextView layout_gravity="center" id="@+id/qr_code_description" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" style="@style/2131821058"/>
+    <TextView textColor="#000000" id="@+id/qr_code_description_text" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" text="@string/successful_qr_code_transfer_description" layout_alignTop="@+id/qr_code_image" layout_alignBottom="@+id/qr_code_image" layout_marginEnd="16dp" layout_toStartOf="@+id/qr_code_image" style="@style/2131821015"/>
+    <ImageView id="@+id/qr_code_image" layout_width="88dp" layout_height="88dp" scaleType="fitXY" layout_alignParentRight="true" contentDescription="@null" layout_alignParentEnd="true"/>
+</RelativeLayout>

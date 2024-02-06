@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" paddingBottom="20dp" layout_width="match_parent" layout_height="match_parent">
+    <TextView id="@+id/title_text" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/easycash_personal_details_email" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+    <com.scb.phone.view.custom.common.CustomEditText textColorHint="#959199" id="@+id/email" background="@drawable/shape_gray_rounded_rectangle" layout_width="match_parent" layout_height="40dp" layout_marginTop="8dp" hint="@string/easycash_personal_details_input_email" maxLength="100" layout_below="@+id/title_text" inputType="textNoSuggestions" paddingStart="16dp" paddingEnd="32dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+    <TextView id="@+id/error_text_view" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" text="@string/incomplete_information" layout_below="@+id/email" layout_alignLeft="@+id/email" layout_alignRight="@+id/email" layout_marginStart="16dp" layout_alignStart="@+id/email" layout_alignEnd="@+id/email"/>
+</merge>

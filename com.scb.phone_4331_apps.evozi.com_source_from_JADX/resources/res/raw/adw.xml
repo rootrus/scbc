@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/view_group_root" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <com.scb.phone.view.custom.common.CustomTabLayout id="@+id/custom_tab" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x5="@color/2131099711" NOT_FOUND_0x6="@dimen/2131165675" NOT_FOUND_0x7="@color/2131099711" NOT_FOUND_0x8="@style/2131820554" NOT_FOUND_0x9="@color/2131099773"/>
+    <View style="@style/2131821259"/>
+    <com.scb.phone.view.custom.common.NonSwipeableViewPager id="@+id/e_coupon_view_pager" layout_width="match_parent" layout_height="match_parent"/>
+</LinearLayout>

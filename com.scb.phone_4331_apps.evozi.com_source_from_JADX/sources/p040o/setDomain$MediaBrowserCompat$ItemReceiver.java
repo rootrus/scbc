@@ -1,0 +1,28 @@
+package p040o;
+
+/* renamed from: o.setDomain$MediaBrowserCompat$ItemReceiver */
+public enum setDomain$MediaBrowserCompat$ItemReceiver {
+    APPROVE("APPROVE"),
+    REJECT("REJECT"),
+    ACCEPT("ACCEPT"),
+    PENDING("PENDING"),
+    SUCCESS("SUCCESS"),
+    PROGRESS("PROGRESS"),
+    VERIFY_KYC("VERIFY_KYC"),
+    PENDING_OCR_RESUBMIT("PENDING_OCR_RESUBMIT"),
+    PENDING_LEADS_RESUBMIT("PENDING_LEADS_RESUBMIT"),
+    PROGRESS_BUSINESS_HOUR("PROGRESS_BUSINESS_HOUR"),
+    PROGRESS_OFF_HOUR("PROGRESS_OFF_HOUR"),
+    PENDING_PERSONAL_INFO("PENDING_PERSONAL_INFO"),
+    PENDING_BUSINESS_INFO("PENDING_BUSINESS_INFO"),
+    PENDING_DOC_UPLOAD("PENDING_DOC_UPLOAD"),
+    PENDING_NCB_CONSENT("PENDING_NCB_CONSENT"),
+    PENDING_SUBMISSION("PENDING_SUBMISSION"),
+    PENDING_WITH_AIP("PENDING_WITH_AIP");
+    
+    public final String type;
+
+    private setDomain$MediaBrowserCompat$ItemReceiver(String str) {
+        this.type = str;
+    }
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#ffffff" layout_width="match_parent" layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView id="@+id/root_view" visibility="gone" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <ImageView layout_gravity="center_horizontal" layout_width="160dp" layout_height="160dp" layout_marginTop="32dp" src="@drawable/ic_remittance_landing"/>
+            <LinearLayout orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+                <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_remittance_head_line" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/remittance_landing_head_line" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821019"/>
+                <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_remittance_head_description" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" text="@string/remittance_landing_head_description" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820869"/>
+                <View background="#c9c6cd" layout_marginTop="16dp" style="@style/2131821259"/>
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" paddingStart="16dp" paddingEnd="16dp">
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_remittance_topic_remittance" layout_width="wrap_content" layout_height="wrap_content" text="@string/remittance_landing_topic" includeFontPadding="false" style="@style/2131821019"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" paddingStart="16dp" paddingEnd="16dp">
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_dot_description_1" layout_width="wrap_content" layout_height="wrap_content" text="@string/etb_dot" includeFontPadding="false" layout_marginEnd="5dp" style="@style/2131820869"/>
+                    <com.scb.phone.view.custom.common.ThaiTextView textColor="#736e78" id="@+id/tv_remittance_description_1" layout_width="wrap_content" layout_height="wrap_content" text="@string/remittance_landing_description_1" includeFontPadding="false" layout_marginStart="8dp" style="@style/2131820869"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_dot_description_2" layout_width="wrap_content" layout_height="wrap_content" text="@string/etb_dot" includeFontPadding="false" layout_marginEnd="5dp" style="@style/2131820869"/>
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_remittance_description_2" layout_width="wrap_content" layout_height="wrap_content" text="@string/remittance_landing_description_2" includeFontPadding="false" layout_marginStart="8dp" style="@style/2131820869"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_dot_description_3" layout_width="wrap_content" layout_height="wrap_content" text="@string/etb_dot" includeFontPadding="false" layout_marginEnd="5dp" style="@style/2131820869"/>
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_remittance_description_3" layout_width="wrap_content" layout_height="wrap_content" text="@string/remittance_landing_description_3" includeFontPadding="false" layout_marginStart="8dp" style="@style/2131820869"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_dot_description_4" layout_width="wrap_content" layout_height="wrap_content" text="@string/etb_dot" includeFontPadding="false" layout_marginEnd="5dp" style="@style/2131820869"/>
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_remittance_description_4" layout_width="wrap_content" layout_height="wrap_content" text="@string/remittance_landing_description_4" includeFontPadding="false" layout_marginStart="8dp" style="@style/2131820869"/>
+                </LinearLayout>
+                <View background="#c9c6cd" layout_marginTop="16dp" style="@style/2131821259"/>
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" paddingStart="16dp" paddingEnd="16dp">
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_paynow_topic_remittance" layout_width="wrap_content" layout_height="wrap_content" text="@string/paynow_landing_topic" includeFontPadding="false" style="@style/2131821019"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" paddingStart="16dp" paddingEnd="16dp">
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_paynow_dot_description_1" layout_width="wrap_content" layout_height="wrap_content" text="@string/etb_dot" includeFontPadding="false" layout_marginEnd="5dp" style="@style/2131820869"/>
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_paynow_description_1" layout_width="wrap_content" layout_height="wrap_content" text="@string/paynow_landing_description_1" includeFontPadding="false" layout_marginStart="8dp" style="@style/2131820869"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_paynow_dot_description_2" layout_width="wrap_content" layout_height="wrap_content" text="@string/etb_dot" includeFontPadding="false" layout_marginEnd="5dp" style="@style/2131820869"/>
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_paynow_remittance_description_2" layout_width="wrap_content" layout_height="wrap_content" text="@string/paynow_landing_description_2" includeFontPadding="false" layout_marginStart="8dp" style="@style/2131820869"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_paynow_dot_description_3" layout_width="wrap_content" layout_height="wrap_content" text="@string/etb_dot" includeFontPadding="false" layout_marginEnd="5dp" style="@style/2131820869"/>
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_paynow_description_3" layout_width="wrap_content" layout_height="wrap_content" text="@string/paynow_landing_description_3" includeFontPadding="false" layout_marginStart="8dp" style="@style/2131820869"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_paynow_dot_description_4" layout_width="wrap_content" layout_height="wrap_content" text="@string/etb_dot" includeFontPadding="false" layout_marginEnd="5dp" style="@style/2131820869"/>
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_paynow_description_4" layout_width="wrap_content" layout_height="wrap_content" text="@string/paynow_landing_description_4" includeFontPadding="false" layout_marginStart="8dp" style="@style/2131820869"/>
+                </LinearLayout>
+                <View background="#c9c6cd" layout_marginTop="16dp" style="@style/2131821259"/>
+                <com.scb.phone.view.custom.common.ThaiTextView id="@+id/good_to_know_text" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/remittance_landing_good_to_know_title" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821019"/>
+                <LinearLayout orientation="horizontal" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" paddingStart="16dp" paddingEnd="16dp">
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_good_to_know_description_dot_1" layout_width="wrap_content" layout_height="wrap_content" text="@string/etb_dot" includeFontPadding="false" layout_marginEnd="5dp" style="@style/2131820869"/>
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_remittance_good_to_know_description_1" layout_width="wrap_content" layout_height="wrap_content" text="@string/remittance_landing_good_to_know_description_1" includeFontPadding="false" layout_marginStart="8dp" style="@style/2131820869"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_good_to_know_description_dot_2" layout_width="wrap_content" layout_height="wrap_content" text="@string/etb_dot" includeFontPadding="false" layout_marginEnd="5dp" style="@style/2131820869"/>
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_remittance_good_to_know_description_2" layout_width="wrap_content" layout_height="wrap_content" text="@string/remittance_landing_good_to_know_description_2" includeFontPadding="false" layout_marginStart="8dp" style="@style/2131820869"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_good_to_know_description_dot_3" layout_width="wrap_content" layout_height="wrap_content" text="@string/etb_dot" includeFontPadding="false" layout_marginEnd="5dp" style="@style/2131820869"/>
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_remittance_good_to_know_description_3" layout_width="wrap_content" layout_height="wrap_content" text="@string/remittance_landing_good_to_know_description_3" includeFontPadding="false" layout_marginStart="8dp" style="@style/2131820869"/>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_good_to_know_description_dot_4" layout_width="wrap_content" layout_height="wrap_content" text="@string/etb_dot" includeFontPadding="false" layout_marginEnd="5dp" style="@style/2131820869"/>
+                    <com.scb.phone.view.custom.common.ThaiTextView id="@+id/tv_remittance_good_to_know_description_4" layout_width="wrap_content" layout_height="wrap_content" text="@string/remittance_landing_good_to_know_description_4" includeFontPadding="false" layout_marginStart="8dp" style="@style/2131820869"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout gravity="bottom" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+                <Button gravity="center" id="@+id/button_get_started" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/remittance_landing_get_started" style="@style/2131820837"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <TextView id="@+id/tv_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" textAllCaps="true" layout_marginStart="16dp" style="@style/2131820996"/>
+    <include id="@+id/vw_favourite_empty" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" layout_below="@+id/tv_title" layout="@layout/2131494370"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/rv_favourite" background="#ffffff" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="4dp" layout_above="@+id/button_add" layout_below="@+id/tv_title"/>
+    <View layout_marginTop="4dp" layout_below="@+id/tv_title" style="@style/2131821259"/>
+    <com.scb.phone.view.custom.common.DefaultButton layout_gravity="bottom" id="@+id/button_add" background="@drawable/bg_button" layout_width="match_parent" layout_height="50dp" layout_marginTop="26dp" layout_marginBottom="16dp" layout_alignParentBottom="true" layout_marginStart="20dp" layout_marginEnd="16dp" NOT_FOUND_0xf="false" NOT_FOUND_0x10="@drawable/ripple_rounded_dark_purple" NOT_FOUND_0x11="@string/add_recipient" NOT_FOUND_0x12="@color/2131099768"/>
+</RelativeLayout>

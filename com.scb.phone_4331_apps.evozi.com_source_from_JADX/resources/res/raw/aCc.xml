@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout gravity="center_horizontal" orientation="vertical" background="#4f2a81" layout_width="match_parent" layout_height="wrap_content">
+        <ImageView id="@+id/image_slip_header" layout_width="match_parent" layout_height="wrap_content" src="@drawable/theme_slip_default_header" scaleType="fitXY" adjustViewBounds="true" contentDescription="@null"/>
+        <LinearLayout orientation="vertical" id="@+id/content" background="#ffffff" layout_width="match_parent" layout_height="0dp" layout_margin="16dp" layout_weight="1">
+            <LinearLayout orientation="vertical" background="@drawable/slip_bg" layout_width="match_parent" layout_height="match_parent">
+                <RelativeLayout layout_gravity="center" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                    <ImageView id="@+id/iv_onboarding_slip_icon" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/success" layout_alignParentTop="true" layout_centerHorizontal="true"/>
+                    <TextView layout_gravity="center" id="@+id/tv_onboarding_slip_message" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/onboarding_success_successful_registration" layout_below="@+id/iv_onboarding_slip_icon" textAlignment="center" style="@style/2131821072"/>
+                    <TextView id="@+id/tv_onboarding_slip_date" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" text="Date" layout_below="@+id/tv_onboarding_slip_message" textAlignment="center" style="@style/2131821060"/>
+                </RelativeLayout>
+                <View padding="16dp" visibility="visible" style="@style/2131821259"/>
+                <RelativeLayout layout_gravity="center" paddingTop="24dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <TextView textSize="24sp" layout_gravity="left" id="@+id/tv_onboarding_slip_name_field" layout_width="wrap_content" layout_height="wrap_content" text="@string/onboarding_success_name" layout_alignParentLeft="true" textAllCaps="true" textAlignment="center" layout_alignParentStart="true" style="@style/2131821012"/>
+                    <TextView textSize="24sp" gravity="right" id="@+id/tv_onboarding_slip_name" layout_width="match_parent" layout_height="wrap_content" layout_alignParentRight="true" layout_marginStart="16dp" layout_toEndOf="@+id/tv_onboarding_slip_name_field" layout_alignParentEnd="true" style="@style/2131821015"/>
+                </RelativeLayout>
+                <View padding="16dp" visibility="visible" style="@style/2131821259"/>
+                <RelativeLayout layout_gravity="center" orientation="vertical" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView textSize="24sp" id="@+id/tv_onboarding_slip_investment_field" layout_width="wrap_content" layout_height="wrap_content" text="@string/onboarding_success_investment_account_no" textAllCaps="true" style="@style/2131821012"/>
+                    <TextView textSize="24sp" gravity="right" id="@+id/tv_onboarding_slip_investment" layout_width="match_parent" layout_height="wrap_content" text="@string/onboarding_success_in_process" layout_alignParentRight="true" layout_marginStart="16dp" layout_toEndOf="@+id/tv_onboarding_slip_investment_field" layout_alignParentEnd="true" style="@style/2131821015"/>
+                </RelativeLayout>
+                <View padding="16dp" visibility="visible" style="@style/2131821259"/>
+                <RelativeLayout layout_gravity="center" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView textSize="24sp" layout_gravity="left" id="@+id/tv_onboarding_slip_account_field" layout_width="wrap_content" layout_height="wrap_content" text="@string/onboarding_success_account_no" layout_alignParentLeft="true" textAllCaps="true" textAlignment="center" layout_alignParentStart="true" style="@style/2131821012"/>
+                    <TextView textSize="24sp" gravity="right" id="@+id/tv_onboarding_slip_account" layout_width="match_parent" layout_height="wrap_content" layout_alignParentRight="true" layout_marginStart="16dp" layout_toEndOf="@+id/tv_onboarding_slip_account_field" layout_alignParentEnd="true" style="@style/2131821015"/>
+                    <TextView gravity="right" id="@+id/tv_onboarding_slip_account_number" layout_width="match_parent" layout_height="wrap_content" text="Account no." layout_below="@+id/tv_onboarding_slip_account" layout_alignRight="@+id/tv_onboarding_slip_account" layout_toEndOf="@+id/tv_onboarding_slip_account_field" layout_alignEnd="@+id/tv_onboarding_slip_account" style="@style/2131821060"/>
+                </RelativeLayout>
+                <View padding="16dp" visibility="visible" style="@style/2131821259"/>
+                <RelativeLayout layout_gravity="center" orientation="vertical" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView textSize="24sp" layout_gravity="start" id="@+id/tv_onboarding_slip_email_field" layout_width="wrap_content" layout_height="wrap_content" text="@string/onboarding_success_email" textAllCaps="true" textAlignment="center" style="@style/2131821012"/>
+                    <TextView textSize="24sp" gravity="right" id="@+id/tv_onboarding_slip_email" layout_width="match_parent" layout_height="wrap_content" text="Email address" layout_marginStart="16dp" layout_toEndOf="@+id/tv_onboarding_slip_email_field" style="@style/2131821015"/>
+                </RelativeLayout>
+                <View padding="16dp" visibility="visible" style="@style/2131821259"/>
+                <LinearLayout layout_gravity="center" orientation="vertical" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView textSize="24sp" layout_gravity="start" id="@+id/tv_onboarding_slip_remark_field" layout_width="wrap_content" layout_height="wrap_content" text="@string/onboarding_success_remark" textAllCaps="true" textAlignment="center" style="@style/2131821012"/>
+                    <TextView id="@+id/tv_onboarding_slip_remark" layout_width="wrap_content" layout_height="wrap_content" text="@string/onboarding_success_scbs_will_send" style="@style/2131821058"/>
+                </LinearLayout>
+                <View padding="16dp" visibility="visible" style="@style/2131821259"/>
+                <ImageView id="@+id/end_slip" background="#00000000" layout_width="match_parent" layout_height="wrap_content" src="@drawable/slip_curly" scaleType="fitXY" tint="#4f2a81" contentDescription="@null" NOT_FOUND_0x24="0" NOT_FOUND_0x25="0" NOT_FOUND_0x26="0"/>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+            <ImageView id="@+id/image_slip_bottom" layout_width="match_parent" layout_height="wrap_content" src="@drawable/theme_slip_default_bottom" scaleType="fitXY" adjustViewBounds="true"/>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

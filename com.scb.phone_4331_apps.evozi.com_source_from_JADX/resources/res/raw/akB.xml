@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" padding="24dp" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" id="@+id/view_group_txn_description" layout_width="match_parent" layout_height="wrap_content">
+        <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_txn_description" style="@style/2131821256"/>
+        <TextView id="@+id/text_txn_description" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821257"/>
+        <TextView gravity="top" id="@+id/text_add_note" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/deposit_detail_add_note" drawableStart="@drawable/ic_add_purple" layout_marginStart="-4dp" style="@style/2131821098"/>
+        <LinearLayout orientation="horizontal" id="@+id/ll_note_edit" paddingTop="8dp" paddingBottom="4dp" layout_width="match_parent" layout_height="wrap_content">
+            <com.scb.phone.view.custom.common.NoteEditTextWithButton id="@+id/note_edit_text" paddingBottom="8dp" layout_width="0dp" layout_height="wrap_content" layout_weight="1" NOT_FOUND_0x14="@string/deposit_detail_note_hint" NOT_FOUND_0x15="@color/2131099773" NOT_FOUND_0x16="@dimen/2131165353"/>
+        </LinearLayout>
+        <LinearLayout orientation="vertical" id="@+id/ll_note_view" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content">
+            <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/note" textAllCaps="true" style="@style/2131821256"/>
+            <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+                <TextView ellipsize="end" gravity="top|left|center_vertical|center_horizontal|center" id="@+id/tv_note" layout_width="0dp" layout_height="wrap_content" maxLines="2" layout_weight="1" style="@style/2131821257"/>
+                <ImageView layout_gravity="top" id="@+id/iv_edit" padding="4dp" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_edit" layout_marginStart="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/view_group_txn_fixed" layout_width="match_parent" layout_height="wrap_content">
+        <RelativeLayout layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+                <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_txn_deposit_date" style="@style/2131821256"/>
+                <TextView id="@+id/text_txn_deposit_date" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821257"/>
+            </LinearLayout>
+            <LinearLayout gravity="end" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" layout_alignParentEnd="true">
+                <TextView id="@+id/text_txn_tenor_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_txn_tenor" style="@style/2131821256"/>
+                <TextView id="@+id/text_txn_tenor" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821257"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+            <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+                <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_txn_interest_rate" style="@style/2131821256"/>
+                <TextView id="@+id/text_txn_interest_rate" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821257"/>
+            </LinearLayout>
+            <LinearLayout gravity="end" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" layout_alignParentEnd="true">
+                <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/deposit_detail_txn_interest" style="@style/2131821256"/>
+                <TextView id="@+id/text_txn_interest" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821257"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

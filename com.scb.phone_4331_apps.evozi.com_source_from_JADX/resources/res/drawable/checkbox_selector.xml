@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_checked="false" drawable="@drawable/check_box_circular_shape"/>
+    <item state_checked="true" drawable="@drawable/ic_check_circle_purple_20dp">
+        <size height="20dp" width="20dp"/>
+    </item>
+</selector>

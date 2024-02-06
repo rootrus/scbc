@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout id="@+id/input" paddingTop="12dp" paddingBottom="12dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+        <com.scb.phone.view.custom.common.CustomNoteEditText textColorHint="#959199" id="@+id/input_text" background="#00000000" layout_width="match_parent" layout_height="wrap_content" maxLines="1" layout_below="@+id/title_text" inputType="text" imeOptions="actionNext" paddingEnd="28dp" style="@style/2131821117"/>
+        <ImageButton id="@+id/edit_clear" background="#00000000" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_cross_circle" adjustViewBounds="true" layout_alignRight="@+id/input_text" layout_centerVertical="true" layout_alignEnd="@+id/input_text"/>
+    </RelativeLayout>
+    <TextView id="@+id/error_text_view" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_below="@+id/input" layout_alignLeft="@+id/input" layout_alignStart="@+id/input" style="@style/2131821002"/>
+</merge>

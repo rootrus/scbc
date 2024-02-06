@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item state_enabled="false" color="@color/2131100009"/>
+    <item state_pressed="true" color="@color/2131100010"/>
+    <item color="@color/2131100005"/>
+</selector>

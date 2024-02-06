@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/topLayout" layout_width="match_parent" layout_height="match_parent" keepScreenOn="true">
+    <RelativeLayout id="@+id/previewOCR_container" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+        <p039io.beid.beidk.p058ui.camera.CameraSourcePreview layout_gravity="center" id="@+id/previewOCR" visibility="visible" layout_width="match_parent" layout_height="match_parent"/>
+        <p039io.beid.beidk.view.JHSquareMaskView id="@+id/squareOverlayView" padding="15dp" layout_width="match_parent" layout_height="match_parent" alpha="0.85" NOT_FOUND_0x19="#353239"/>
+        <p039io.beid.beidk.p058ui.camera.GraphicOverlay id="@+id/graphicOverlay" layout_width="match_parent" layout_height="match_parent"/>
+        <TextView textSize="16dp" textColor="@android:color/white" id="@+id/textView2" paddingLeft="30dp" paddingRight="30dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="50dp" text="@string/passport_scan_suggest" layout_alignParentBottom="false" textAlignment="center" NOT_FOUND_0x17="30dp"/>
+    </RelativeLayout>
+    <LinearLayout orientation="vertical" id="@+id/epassport_container" background="#f5f3f6" visibility="visible" layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="241dp">
+            <ImageView visibility="visible" layout_width="match_parent" layout_height="match_parent" layout_margin="30dp" NOT_FOUND_0x1a="@drawable/nfc"/>
+        </LinearLayout>
+        <LinearLayout orientation="vertical" id="@+id/view_progress" paddingLeft="30dp" paddingTop="15dp" paddingRight="30dp" paddingBottom="15dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x17="30dp" NOT_FOUND_0x18="15dp">
+            <ProgressBar id="@+id/progressBar" layout_width="match_parent" layout_height="wrap_content" progress="0" style="@style/Widget.Holo.ProgressBar.Horizontal"/>
+            <TextView textSize="15dp" textColor="#353239" id="@+id/textView" paddingTop="5dp" paddingBottom="5dp" layout_width="match_parent" layout_height="wrap_content" text="@string/epassport_scan_progress" textAlignment="center" NOT_FOUND_0x18="5dp"/>
+        </LinearLayout>
+        <LinearLayout orientation="vertical" id="@+id/view_suggest" layout_width="match_parent" layout_height="match_parent">
+            <TextView textSize="18sp" textColor="#353239" gravity="center" id="@+id/tvNFCInfo" paddingLeft="15dp" paddingRight="15dp" visibility="visible" layout_width="match_parent" layout_height="59dp" text="@string/passport_place_text1" NOT_FOUND_0x17="15dp"/>
+            <TextView textColor="#736e78" gravity="top|center_vertical|center_horizontal|center" id="@+id/tvNFCInfo2" paddingLeft="15dp" paddingTop="15dp" paddingRight="15dp" visibility="visible" layout_width="match_parent" layout_height="103dp" text="@string/passport_place_text2" NOT_FOUND_0x17="15dp"/>
+            <TextView textSize="16sp" textColor="#353239" gravity="bottom|center_vertical|center_horizontal|center" id="@+id/text_blink" layout_width="match_parent" layout_height="83dp" text="@string/detecting"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

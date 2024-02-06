@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView id="@+id/hml_documents_rv" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x15="@+id/hml_documents_max_files_reached" NOT_FOUND_0x18="@+id/hml_documents_resubmit_reason_ll"/>
+    <LinearLayout orientation="horizontal" id="@+id/hml_documents_empty_ll" background="#ffffff" padding="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="0">
+        <ImageView id="@+id/hml_documents_empty_list_iv" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/info_grey" layout_marginStart="4dp" layout_marginEnd="16dp"/>
+        <TextView textColor="#959199" layout_gravity="center" id="@+id/hml_documents_empty_list_tv" layout_width="wrap_content" layout_height="wrap_content" text="@string/hml_document_list_empty_text"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" id="@+id/hml_documents_resubmit_reason_ll" background="#ffffff" padding="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x18="@+id/hml_documents_empty_ll">
+        <ImageView layout_gravity="center_vertical" id="@+id/hml_documents_resubmit_reason_iv" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_warning" layout_marginStart="4dp" layout_marginEnd="16dp"/>
+        <TextView textSize="22sp" textColor="#959199" layout_gravity="center" id="@+id/hml_documents_resubmit_reason_tv" layout_width="wrap_content" layout_height="wrap_content" text="@string/hml_document_list_resubmission_subtitle"/>
+    </LinearLayout>
+    <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" NOT_FOUND_0x15="@+id/hml_documents_rv"/>
+    <TextView textSize="16sp" textColor="#959199" gravity="center" id="@+id/hml_documents_max_files_reached" background="#f5f3f6" paddingBottom="8dp" visibility="gone" layout_width="0dp" layout_height="wrap_content" layout_marginBottom="10dp" text="@string/hml_document_list_max_reached" textAlignment="center" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0x15="@+id/hml_documents_list_add_btn" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0"/>
+    <Button id="@+id/hml_documents_list_add_btn" clickable="false" layout_width="match_parent" layout_height="wrap_content" layout_margin="20dp" text="@string/hml_document_list_add_button" NOT_FOUND_0x14="0" style="@style/2131820806"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" theme="@style/2131821249" orientation="vertical" layout_width="match_parent" layout_height="240dp">
+    <include layout="@layout/2131494510"/>
+</LinearLayout>

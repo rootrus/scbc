@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <com.scb.phone.view.custom.transferandpay.CustomTransferAndPaySource id="@+id/remittance_review_source" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayTarget id="@+id/remittance_review_target" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayItem id="@+id/remittance_conversion_rate" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xe="@string/remittance_review_conversion_rate_title"/>
+    <LinearLayout orientation="vertical" id="@+id/remittance_amount_to_send" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+        <com.google.android.flexbox.FlexboxLayout padding="16dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="1" NOT_FOUND_0x10="3">
+            <TextView gravity="center" id="@+id/tv_remittance_amount_to_send_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/remittance_review_amount_to_send" textAllCaps="true" style="@style/2131821012"/>
+            <TextView gravity="end" id="@+id/tv_remittance_amount_to_send_value" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="8dp" NOT_FOUND_0x11="@integer/2131361864" style="@style/2131821020"/>
+        </com.google.android.flexbox.FlexboxLayout>
+        <View id="@+id/separator_remittance_amount_to_send" layout_marginStart="16dp" style="@style/2131821259"/>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/remittance_amount_to_get" paddingTop="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+        <com.google.android.flexbox.FlexboxLayout paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0xf="1" NOT_FOUND_0x10="3">
+            <TextView gravity="center" id="@+id/tv_remittance_amount_to_get_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/remittance_review_amount_recipient_gets" textAllCaps="true" style="@style/2131821012"/>
+            <TextView gravity="end" id="@+id/tv_remittance_amount_to_get_value" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="8dp" NOT_FOUND_0x11="@integer/2131361864" style="@style/2131821020"/>
+        </com.google.android.flexbox.FlexboxLayout>
+        <View id="@+id/separator_remittance_amount_to_get" layout_marginStart="16dp" style="@style/2131821259"/>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/remittance_fee" paddingTop="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+        <com.google.android.flexbox.FlexboxLayout paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0xf="1" NOT_FOUND_0x10="3">
+            <TextView gravity="center" id="@+id/tv_remittance_fee_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/review_fees" textAllCaps="true" style="@style/2131821012"/>
+            <TextView gravity="end" id="@+id/tv_remittance_fee_value" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="8dp" NOT_FOUND_0x11="@integer/2131361864" style="@style/2131821020"/>
+        </com.google.android.flexbox.FlexboxLayout>
+    </LinearLayout>
+    <LinearLayout layout_width="match_parent" layout_height="wrap_content">
+        <View id="@+id/remittance_recipient_amounts_separator_space" layout_width="16dp" layout_height="1dp"/>
+        <View style="@style/2131821259"/>
+    </LinearLayout>
+    <com.scb.phone.view.custom.transferandpay.CustomNoteItem id="@+id/remittance_recipient_personal_details" visibility="gone" layout_width="match_parent" layout_height="wrap_content" text="@string/remittance_review_recipient_personal_detail" textAllCaps="true"/>
+    <com.scb.phone.view.custom.transferandpay.CustomNoteItem id="@+id/remittance_recipient_address" visibility="gone" layout_width="match_parent" layout_height="wrap_content" text="@string/remittance_review_recipient_address" textAllCaps="true"/>
+    <com.scb.phone.view.custom.transferandpay.CustomNoteItem id="@+id/remittance_recipient_contact_details" visibility="gone" layout_width="match_parent" layout_height="wrap_content" text="@string/remittance_review_recipient_contact_details" textAllCaps="true"/>
+    <com.scb.phone.view.custom.transferandpay.CustomNoteItem id="@+id/remittance_transaction_details" visibility="gone" layout_width="match_parent" layout_height="wrap_content" text="@string/remittance_recipient_purpose_input_title" textAllCaps="true"/>
+    <com.scb.phone.view.custom.transferandpay.CustomNoteItem id="@+id/remittance_note" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+</LinearLayout>

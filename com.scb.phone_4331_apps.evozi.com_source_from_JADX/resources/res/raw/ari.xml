@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/cheque_status_fragment" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView id="@+id/scroll_view" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+            <TextView textStyle="bold" id="@+id/tv_top_account_lbl" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/cheque_lbl_to" layout_centerVertical="true" layout_marginStart="16dp" style="@style/2131820996"/>
+            <LinearLayout orientation="vertical" id="@+id/error_no_account" background="#ffffff" padding="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+                <TextView gravity="center" id="@+id/tv_cheque_no_account_title" layout_width="match_parent" layout_height="wrap_content" text="@string/error_deposit_cheque_no_account" style="@style/2131820994"/>
+                <TextView gravity="center" id="@+id/tv_cheque_no_account_detail" layout_width="match_parent" layout_height="wrap_content" text="@string/error_deposit_cheque_no_account_detail" style="@style/2131821054"/>
+            </LinearLayout>
+            <FrameLayout id="@+id/fragment_account_source_select" tag="@string/cheque_status_title" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content"/>
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+                <RelativeLayout layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <TextView textStyle="bold" id="@+id/tv_down_account_lbl" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/cheque_lbl_from" layout_centerVertical="true" style="@style/2131820996"/>
+                    <Spinner id="@+id/cheque_sp_filter" background="@drawable/bg_dropdown" layout_width="120dp" layout_height="wrap_content" layout_alignParentTop="true" layout_alignParentRight="true" dropDownVerticalOffset="40dp" spinnerMode="dropdown" layout_alignParentEnd="true"/>
+                </RelativeLayout>
+                <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp"/>
+                <RelativeLayout background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView id="@+id/tv_lbl_total" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="18dp" text="@string/cheque_lbl_total" layout_marginStart="16dp" style="@style/2131821062"/>
+                    <RelativeLayout orientation="horizontal" id="@+id/view_cheque_summary_info" padding="16dp" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/tv_lbl_total">
+                        <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" text="@string/cheque_lbl_number_of_cheque" layout_centerVertical="true" style="@style/2131821013"/>
+                        <TextView id="@+id/tv_cheque_amount" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" text="0" layout_centerVertical="true" layout_marginEnd="2dp" layout_toStartOf="@+id/expand_icon_image_view" style="@style/2131821015"/>
+                        <ImageView id="@+id/expand_icon_image_view" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_alignParentRight="true" layout_centerVertical="true" contentDescription="@null"/>
+                    </RelativeLayout>
+                    <View layout_height="1dp" layout_below="@+id/view_cheque_summary_info" style="@style/2131821259"/>
+                    <LinearLayout orientation="vertical" id="@+id/view_cheque_summary_detail" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/view_cheque_summary_info">
+                        <include id="@+id/view_pending" layout_width="match_parent" layout_height="65dp" layout_marginStart="16dp" layout_marginEnd="16dp" layout="@layout/2131493354"/>
+                        <View layout_height="1dp" layout_marginStart="16dp" style="@style/2131821259"/>
+                        <include id="@+id/view_return" layout_width="match_parent" layout_height="65dp" layout_marginStart="16dp" layout_marginEnd="16dp" layout="@layout/2131493354"/>
+                        <View layout_height="1dp" layout_marginStart="16dp" style="@style/2131821259"/>
+                        <include id="@+id/view_paid" layout_width="match_parent" layout_height="65dp" layout_marginStart="16dp" layout_marginEnd="16dp" layout="@layout/2131493354"/>
+                    </LinearLayout>
+                </RelativeLayout>
+                <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp"/>
+                <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp" layout_marginTop="20dp"/>
+                <androidx.recyclerview.widget.RecyclerView id="@+id/lv_cheque_detail" background="#f5f3f6" focusable="false" visibility="gone" scrollbars="none" layout_width="match_parent" layout_height="wrap_content" overScrollMode="never"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/view_root" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/tv_no_cheque" background="#ffffff" padding="24dp" visibility="visible" layout_width="match_parent" layout_height="wrap_content" text="@string/cheque_no_list" style="@style/2131821060"/>
+                <include id="@+id/error_list" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout="@layout/2131493408"/>
+                <include layout="@layout/2131493269"/>
+            </LinearLayout>
+            <include layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" layout="@layout/2131493668"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

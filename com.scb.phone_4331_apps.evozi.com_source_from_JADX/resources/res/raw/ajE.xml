@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout gravity="center_vertical" orientation="vertical" id="@+id/account_source_linear_layout" background="@drawable/bg_white_rounded" clickable="true" layout_width="@dimen/2131166024" layout_height="100dp" layout_margin="5dp" foreground="@drawable/ripple_rounded_4_purple" layout_centerInParent="true" elevation="2dp">
+        <TextView ellipsize="end" id="@+id/account_source_name_text_view" layout_width="match_parent" layout_height="wrap_content" lines="1" paddingStart="20dp" paddingEnd="20dp" style="@style/2131821062"/>
+        <TextView id="@+id/account_source_funds_text_view" layout_width="match_parent" layout_height="wrap_content" paddingStart="20dp" paddingEnd="20dp" style="@style/2131821062"/>
+    </LinearLayout>
+</RelativeLayout>

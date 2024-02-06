@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <View id="@+id/v_top_divider" background="#c9c6cd" layout_width="0dp" layout_height="1dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xe="0"/>
+    <com.scb.phone.view.custom.ImageTextView id="@+id/itv_loan_name" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/v_top_divider" style="@style/2131821020"/>
+    <TextView textColor="#7631c1" gravity="center" id="@+id/tv_credit_amount" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="40dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/itv_loan_name" style="@style/2131821104"/>
+    <View id="@+id/v_divider_credit_amount" background="#c9c6cd" layout_width="0dp" layout_height="1dp" layout_marginTop="16dp" layout_marginStart="16dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/tv_credit_amount"/>
+    <com.scb.phone.view.custom.easycash.CustomSeparatedViews id="@+id/csv_details" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/v_divider_credit_amount"/>
+    <View id="@+id/v_divider_details" background="#c9c6cd" layout_width="0dp" layout_height="1dp" layout_marginStart="16dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/csv_details"/>
+    <Button id="@+id/bt_apply_now" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" text="@string/credit_power_loan_apply_button" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/v_divider_details" style="@style/2131820837"/>
+    <View id="@+id/v_bottom_divider" background="#c9c6cd" layout_width="0dp" layout_height="1dp" layout_marginTop="16dp" NOT_FOUND_0xa="0" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/bt_apply_now" NOT_FOUND_0xf="0"/>
+</merge>

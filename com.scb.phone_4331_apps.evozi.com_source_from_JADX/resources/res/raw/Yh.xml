@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" gravity="center" orientation="vertical" id="@+id/view_predictive_tiles_group_progress" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+    <TextView textColor="#353239" gravity="center_horizontal" id="@+id/loading_text_view" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="-40dp" text="@string/landing_page_predictive_tiles_loading" style="@style/2131820887"/>
+    <com.scb.phone.view.custom.common.CustomViewInlineProgressAnimation layout_width="match_parent" layout_height="80dp"/>
+</LinearLayout>

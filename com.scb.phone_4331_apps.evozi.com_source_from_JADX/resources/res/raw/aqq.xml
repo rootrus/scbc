@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/bill_payment_tab_nested_scrollview" paddingBottom="1dp" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <fragment name="com.scb.phone.view.fragment.transferandpay.BillPaymentFavouriteTargetFragment" id="@+id/fragment_favourite_bill_payment_target" layout_width="match_parent" layout_height="wrap_content"/>
+        <TextView gravity="center" id="@+id/banner_text_view" background="#4a90e2" visibility="gone" layout_width="match_parent" layout_height="64dp" style="@style/2131821116"/>
+        <FrameLayout id="@+id/fragment_account_source_select" layout_width="match_parent" layout_height="wrap_content"/>
+        <FrameLayout id="@+id/fragment_container_bill_payment_tabs" layout_width="match_parent" layout_height="wrap_content"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

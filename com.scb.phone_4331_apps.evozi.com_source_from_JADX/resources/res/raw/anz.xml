@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout layout_gravity="center" orientation="horizontal" id="@+id/own_scb_account_layout" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="20dp" paddingEnd="20dp">
+        <ImageView id="@+id/image_group_arrow" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/black_arrow" layout_alignParentRight="true" layout_centerVertical="true"/>
+        <TextView id="@+id/total_amount" layout_width="wrap_content" layout_height="wrap_content" layout_centerVertical="true" layout_marginEnd="16dp" layout_toStartOf="@+id/image_group_arrow" style="@style/2131820985"/>
+        <ImageView id="@+id/logo_image_view" layout_width="50dp" layout_height="50dp" layout_alignParentLeft="true" layout_centerVertical="true"/>
+        <RelativeLayout layout_width="wrap_content" layout_height="wrap_content" layout_centerVertical="true" layout_marginStart="16dp" layout_marginEnd="16dp" layout_toEndOf="@+id/logo_image_view">
+            <TextView id="@+id/recipient_name" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131820985"/>
+            <TextView id="@+id/recipient_number" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" layout_below="@+id/recipient_name" style="@style/2131821058"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View id="@+id/footer_divider_view" background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_marginTop="5dp"/>
+</LinearLayout>

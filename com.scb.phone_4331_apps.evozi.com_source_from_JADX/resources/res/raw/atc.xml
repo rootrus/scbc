@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/fragment_new_payment_linear_layout" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+    <include layout="@layout/2131493768"/>
+    <TextView id="@+id/recommended_billers_text_view" paddingTop="8dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" text="@string/recommended_billers" textAllCaps="true" paddingStart="16dp" paddingEnd="0dp" style="@style/2131821057"/>
+    <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+        <include layout_width="match_parent" layout_height="wrap_content" layout="@layout/2131493801"/>
+        <TextView gravity="center" id="@+id/view_biller_not_found" background="#ffffff" visibility="gone" layout_width="match_parent" layout_height="150dp" text="@string/biller_not_found" style="@style/2131821013"/>
+    </FrameLayout>
+    <include layout_width="match_parent" layout_height="75dp" layout="@layout/2131493406"/>
+</LinearLayout>

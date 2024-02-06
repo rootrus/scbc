@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" id="@+id/bill_layout" layout_width="match_parent" layout_height="wrap_content" layout_alignParentLeft="true" layout_alignParentTop="true" layout_alignParentStart="true">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+        <ImageView id="@+id/success_icon" layout_width="24dp" layout_height="24dp" src="@drawable/ic_check_circle_black_48dp" contentDescription="@null" layout_marginEnd="8dp" NOT_FOUND_0x17="@+id/text_title" NOT_FOUND_0x18="@+id/text_title" NOT_FOUND_0x1b="0"/>
+        <TextView id="@+id/text_title" layout_width="wrap_content" layout_height="wrap_content" text="@string/review_success_transfer" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" style="@style/2131821072"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView layout_gravity="center" id="@+id/text_date_time" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" style="@style/2131820863"/>
+    <TextView layout_gravity="center" id="@+id/text_reference_id" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131820863"/>
+    <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_marginTop="16dp"/>
+    <include layout="@layout/2131493300"/>
+    <RelativeLayout id="@+id/slip_qr_section" background="#ffffff" paddingTop="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+        <TextView id="@+id/slip_qr_code_description_text_view" layout_width="match_parent" layout_height="wrap_content" text="@string/successful_qr_code_transfer_description" layout_marginEnd="16dp" layout_toStartOf="@+id/slip_qr_code_image" style="@style/2131820860"/>
+        <ImageView layout_gravity="center" id="@+id/slip_qr_code_image" layout_width="88dp" layout_height="88dp" scaleType="fitXY" layout_alignParentRight="true" contentDescription="@null" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <com.scb.phone.view.custom.transferandpay.CustomPhotoLeftDetails id="@+id/gift_details" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1c="true"/>
+    <com.scb.phone.view.custom.transferandpay.CustomNoteItem id="@+id/message_note" visibility="gone" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821010"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/additional_recycler_view" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+</LinearLayout>

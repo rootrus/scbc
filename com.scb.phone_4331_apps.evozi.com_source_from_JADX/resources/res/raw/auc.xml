@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <TextView id="@+id/money_present_text" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/choose_money_text" layout_alignParentTop="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820994"/>
+    <LinearLayout orientation="vertical" id="@+id/error_layout" background="#ffffff" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_below="@+id/money_present_text">
+        <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" text="@string/ltf_divided_empty_title" textAlignment="center" style="@style/2131820992"/>
+        <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="24dp" text="@string/ltf_divided_empty_description" textAlignment="center" style="@style/2131820992"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/money_present_rv" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_below="@+id/money_present_text" layout_alignLeft="@+id/money_present_text" layout_alignRight="@+id/money_present_text" layout_alignStart="@+id/money_present_text" layout_alignEnd="@+id/money_present_text"/>
+</RelativeLayout>

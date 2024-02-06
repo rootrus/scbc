@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/overview_item" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp">
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/left_right_layout" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+        <TextView id="@+id/overview_item_left" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginEnd="16dp" style="@style/2131821012"/>
+        <TextView gravity="right" id="@+id/overview_item_right" layout_width="wrap_content" layout_height="wrap_content" minWidth="100dp" layout_marginStart="16dp" style="@style/2131821020"/>
+    </LinearLayout>
+    <TextView gravity="end" id="@+id/overview_item_bottom" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_below="@+id/left_right_layout" layout_marginStart="16dp" layout_alignParentEnd="true" style="@style/2131821054"/>
+    <LinearLayout orientation="vertical" id="@+id/info_details" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="2dp" layout_below="@+id/overview_item_bottom"/>
+</RelativeLayout>

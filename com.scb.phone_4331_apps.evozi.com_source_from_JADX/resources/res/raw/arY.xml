@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/layout_save_slip_root" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0">
+    <ImageView id="@+id/imv_bg_slip" layout_width="0dp" layout_height="0dp" src="@drawable/slip_bg" scaleType="fitXY" contentDescription="@null" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0"/>
+    <include id="@+id/layout_deejung_top_view" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0" layout="@layout/2131494358"/>
+    <include id="@+id/layout_deejung_header_view" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/layout_deejung_top_view" layout="@layout/2131494359"/>
+    <LinearLayout orientation="vertical" id="@+id/layout_payment_details_view" background="#00000000" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/layout_deejung_header_view"/>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/payment_detail" background="#00000000" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x13="@+id/layout_payment_details_view">
+        <View id="@+id/divider7" background="#eae7ec" layout_width="0dp" layout_height="1dp" layout_marginTop="16dp" layout_marginStart="16dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/payment_detail"/>
+        <TextView id="@+id/monthly_payment_detail_label" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="8dp" text="@string/monthly_payment_detail" layout_marginStart="16dp" NOT_FOUND_0x11="0" NOT_FOUND_0x13="@+id/divider7" style="@style/2131821057"/>
+        <View id="@+id/divider8" background="#eae7ec" layout_width="0dp" layout_height="1dp" layout_marginTop="8dp" layout_marginStart="16dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/monthly_payment_detail_label"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include id="@+id/layout_deejung_summary" visibility="gone" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/payment_detail" layout="@layout/2131494361"/>
+    <androidx.constraintlayout.widget.Barrier id="@+id/barrier" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xd="3" NOT_FOUND_0xe="payment_detail, layout_deejung_summary"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

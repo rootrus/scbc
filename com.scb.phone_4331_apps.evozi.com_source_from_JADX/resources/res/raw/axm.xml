@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <ImageView id="@+id/image" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="40dp" layout_marginBottom="32dp" src="@drawable/push_registration_alert" adjustViewBounds="true" layout_above="@+id/header" layout_alignParentTop="true" layout_centerHorizontal="true"/>
+    <TextView id="@+id/header" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="24dp" text="@string/onboarding_registration_push_title" layout_above="@+id/subheader" layout_centerHorizontal="true" textAlignment="center" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821027"/>
+    <TextView id="@+id/subheader" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="32dp" text="@string/onboarding_registration_push_sub_title" layout_above="@+id/buttons" layout_centerHorizontal="true" textAlignment="center" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821062"/>
+    <LinearLayout orientation="horizontal" id="@+id/buttons" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="24dp" layout_alignParentBottom="true" layout_centerHorizontal="true">
+        <Button id="@+id/button_cancel" layout_width="0dp" text="@string/onboarding_registration_button_cancel" layout_weight="0.5" layout_marginStart="16dp" layout_marginEnd="8dp" style="@style/2131820806"/>
+        <Button id="@+id/button_ok" layout_width="0dp" text="@string/onboarding_registration_push_button_ok" layout_weight="0.5" layout_marginStart="8dp" layout_marginEnd="16dp" style="@style/2131820837"/>
+    </LinearLayout>
+</RelativeLayout>

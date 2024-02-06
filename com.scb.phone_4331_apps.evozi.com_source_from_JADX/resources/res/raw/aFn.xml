@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <shortcut icon="@drawable/shortcut_scan" enabled="true" NOT_FOUND_0x4="Scan" NOT_FOUND_0x5="@string/auto_shortcut_scan" NOT_FOUND_0x6="@string/auto_shortcut_scan" NOT_FOUND_0x7="@string/auto_shortcut_scan">
+        <intent action="android.intent.action.VIEW" data="scbeasy://scan/camera"/>
+    </shortcut>
+    <shortcut icon="@drawable/shortcut_cardlessatm" enabled="true" NOT_FOUND_0x4="cardlessATM" NOT_FOUND_0x5="@string/auto_shortcut_cardlessatm" NOT_FOUND_0x6="@string/auto_shortcut_cardlessatm" NOT_FOUND_0x7="@string/auto_shortcut_cardlessatm">
+        <intent action="android.intent.action.VIEW" data="scbeasy://cardlessatm"/>
+    </shortcut>
+    <shortcut icon="@drawable/shortcut_transfer" enabled="true" NOT_FOUND_0x4="transfer" NOT_FOUND_0x5="@string/auto_shortcut_transfer" NOT_FOUND_0x6="@string/auto_shortcut_transfer" NOT_FOUND_0x7="@string/auto_shortcut_transfer">
+        <intent action="android.intent.action.VIEW" data="scbeasy://transfer"/>
+    </shortcut>
+    <shortcut icon="@drawable/shortcut_topup" enabled="true" NOT_FOUND_0x4="topup" NOT_FOUND_0x5="@string/auto_shortcut_topup" NOT_FOUND_0x6="@string/auto_shortcut_topup" NOT_FOUND_0x7="@string/auto_shortcut_topup">
+        <intent action="android.intent.action.VIEW" data="scbeasy://topup"/>
+    </shortcut>
+</shortcuts>

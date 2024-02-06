@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <ScrollView layout_width="match_parent" layout_height="0dp" layout_marginBottom="16dp" layout_above="@+id/next_button" NOT_FOUND_0xe="@+id/next_button" NOT_FOUND_0x14="0">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="wrap_content">
+            <ImageView id="@+id/image" layout_width="0dp" layout_height="wrap_content" layout_marginTop="40dp" src="@drawable/pp_virgins" adjustViewBounds="true" layout_marginStart="40dp" layout_marginEnd="40dp" NOT_FOUND_0xf="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0"/>
+            <TextView id="@+id/header" layout_width="0dp" layout_height="wrap_content" layout_marginTop="28dp" text="@string/promptpay_terms_header" textAlignment="center" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/image" style="@style/2131821023"/>
+            <TextView id="@+id/body" layout_width="0dp" layout_height="wrap_content" layout_marginTop="32dp" text="@string/promptpay_terms_body" textAlignment="center" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xf="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/header" style="@style/2131821060"/>
+            <CheckBox id="@+id/agree_terms_conditions_checkbox" layout_width="0dp" layout_height="wrap_content" layout_marginTop="40dp" NOT_FOUND_0x12="@+id/body" NOT_FOUND_0x13="@+id/body"/>
+            <TextView id="@+id/agree_terms_conditions_text" layout_width="0dp" layout_height="wrap_content" text="@string/agree_to_label" layout_marginStart="8dp" NOT_FOUND_0xd="@+id/agree_terms_conditions_checkbox" NOT_FOUND_0xf="@+id/body" NOT_FOUND_0x11="@+id/agree_terms_conditions_checkbox" NOT_FOUND_0x14="@+id/agree_terms_conditions_checkbox" style="@style/2131821060"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <Button enabled="false" id="@+id/next_button" layout_width="0dp" layout_height="wrap_content" layout_marginBottom="24dp" text="@string/button_label_next" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x12="0" style="@style/2131820837"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

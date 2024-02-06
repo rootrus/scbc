@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout id="@+id/bottom_panel" background="#f5f3f6" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content">
+        <Button id="@+id/done_button" layout_width="match_parent" layout_height="50dp" layout_marginTop="40dp" text="@string/account_add_bottom_button" layout_centerHorizontal="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820837"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/toolbar" layout="@layout/2131493731"/>
+    <ScrollView layout_width="match_parent" layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="wrap_content">
+            <ImageView id="@+id/iv_background" background="#ffffff" layout_width="match_parent" layout_height="150dp" scaleType="centerCrop" NOT_FOUND_0x17="0"/>
+            <View background="@drawable/shape_shadow" layout_width="match_parent" layout_height="2dp" NOT_FOUND_0x16="@+id/iv_background"/>
+            <androidx.cardview.widget.CardView layout_width="match_parent" layout_height="wrap_content" layout_margin="24dp" NOT_FOUND_0x10="0" NOT_FOUND_0x17="0">
+                <androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp">
+                    <TextView id="@+id/tv_amount_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20dp" text="@string/hml_offer_review_loan_amount_title" textAlignment="center" NOT_FOUND_0x11="0" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0" style="@style/2131820994"/>
+                    <TextView textSize="48sp" textColor="#353239" id="@+id/tv_amount" layout_width="wrap_content" layout_height="wrap_content" textAlignment="center" NOT_FOUND_0x12="@+id/tv_currency" NOT_FOUND_0x13="2" NOT_FOUND_0x15="0" NOT_FOUND_0x16="@+id/tv_amount_title"/>
+                    <TextView id="@+id/tv_currency" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="8dp" text="@string/hml_baht_curreny" layout_marginStart="4dp" NOT_FOUND_0x10="@+id/tv_amount" NOT_FOUND_0x11="0" NOT_FOUND_0x14="@+id/tv_amount" style="@style/2131820983"/>
+                    <TextView id="@+id/tv_repayment_title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="18dp" text="@string/hml_offer_review_repayment_amount_title" textAlignment="center" NOT_FOUND_0x11="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="@+id/tv_amount" style="@style/2131820994"/>
+                    <TextView id="@+id/tv_repayment_amount" layout_width="wrap_content" layout_height="wrap_content" textAlignment="center" NOT_FOUND_0x11="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="@+id/tv_repayment_title" style="@style/2131821019"/>
+                    <LinearLayout orientation="vertical" id="@+id/ll_layout_details_container" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" NOT_FOUND_0x16="@+id/tv_repayment_amount"/>
+                    <Button enabled="true" id="@+id/button_continue" layout_width="match_parent" layout_height="50dp" layout_marginTop="26dp" layout_marginBottom="8dp" text="@string/hml_consent_confirm_accept_ncb_consent_positive" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x10="0" NOT_FOUND_0x16="@+id/ll_layout_details_container" style="@style/2131820837"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

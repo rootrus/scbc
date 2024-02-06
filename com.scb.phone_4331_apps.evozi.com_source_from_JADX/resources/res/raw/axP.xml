@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+    <LinearLayout orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content">
+        <com.scb.phone.view.custom.investment.onboarding.CustomImageTitleHeader background="#837e87" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x20="@string/career_info_icon_title" NOT_FOUND_0x21="@drawable/ic_occupation">
+            <requestFocus/>
+        </com.scb.phone.view.custom.investment.onboarding.CustomImageTitleHeader>
+        <LinearLayout orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+            <TextView textColor="#000000" id="@+id/tv_occupationText" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/career_info_occupation_title" layout_marginStart="16dp" style="@style/2131821015"/>
+            <RelativeLayout layout_gravity="start" id="@+id/rl_layout_occupation" background="@drawable/bg_spinner" padding="5dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+                <TextView gravity="left|center_vertical|center_horizontal|center|start" id="@+id/tv_occupation_career_info" layout_width="match_parent" layout_height="wrap_content" minHeight="40dp" hint="@string/career_info_occupation_hint" lines="1" layout_alignTop="@+id/image_arrow_occupation" layout_marginStart="16dp" layout_marginEnd="16dp" layout_toStartOf="@+id/image_arrow_occupation" style="@style/2131821015"/>
+                <ImageView id="@+id/image_arrow_occupation" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_centerVertical="true" contentDescription="@null" rotation="-90" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+            </RelativeLayout>
+            <TextView textColor="#000000" id="@+id/tv_businessText" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/career_info_type_business_title" layout_marginStart="16dp" style="@style/2131821015"/>
+            <RelativeLayout layout_gravity="start" id="@+id/rl_layout_business" background="@drawable/bg_spinner" padding="5dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+                <TextView gravity="left|center_vertical|center_horizontal|center|start" id="@+id/tv_business_career_info" layout_width="match_parent" layout_height="wrap_content" minHeight="40dp" hint="@string/career_info_type_business_hint" lines="1" layout_alignTop="@+id/iv_image_arrow_business" layout_marginStart="16dp" layout_marginEnd="16dp" layout_toStartOf="@+id/iv_image_arrow_business" style="@style/2131821015"/>
+                <ImageView id="@+id/iv_image_arrow_business" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_centerVertical="true" contentDescription="@null" rotation="-90" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+            </RelativeLayout>
+            <com.scb.phone.view.custom.common.CommonInputViewGroup id="@+id/ivg_text_workplace" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1c="29" NOT_FOUND_0x1d="@string/career_info_company_name_hint" NOT_FOUND_0x1e="5" NOT_FOUND_0x1f="@string/career_info_company_name_title"/>
+            <com.scb.phone.view.custom.common.CommonInputViewGroup id="@+id/ivg_text_position" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1c="29" NOT_FOUND_0x1d="@string/career_info_position_hint" NOT_FOUND_0x1e="5" NOT_FOUND_0x1f="@string/career_info_position_title"/>
+            <com.scb.phone.view.custom.investment.onboarding.CustomSpinnerWithTitle id="@+id/swt_monthly_salary_spinner" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x22="@string/career_info_salary_hint" NOT_FOUND_0x23="@string/career_info_salary_title"/>
+            <Space layout_width="wrap_content" layout_height="16dp"/>
+        </LinearLayout>
+        <Button textColor="#ffffff" id="@+id/bt_next_career_info" layout_width="match_parent" layout_height="50dp" layout_marginTop="18dp" layout_marginBottom="18dp" text="@string/career_info_button" layout_marginStart="20dp" layout_marginEnd="20dp" style="@style/2131820837"/>
+    </LinearLayout>
+</ScrollView>

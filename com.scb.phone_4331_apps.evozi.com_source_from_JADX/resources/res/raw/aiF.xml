@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout gravity="center_vertical" id="@+id/container" background="@drawable/bg_white_with_border" paddingTop="24dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content">
+        <RelativeLayout id="@+id/custom_input_header" layout_width="wrap_content" layout_height="wrap_content" layout_centerHorizontal="true" layout_marginStart="16dp" layout_marginEnd="16dp">
+            <androidx.appcompat.widget.AppCompatImageButton id="@+id/button_decrease" background="@android:color/transparent" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_minus" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true" NOT_FOUND_0x1a="@drawable/color_enable_selector"/>
+            <androidx.appcompat.widget.AppCompatImageButton id="@+id/button_increase" background="@android:color/transparent" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_plus" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true" NOT_FOUND_0x1a="@drawable/color_enable_selector"/>
+            <com.scb.phone.view.custom.common.AmountEditText textColorHint="#c9c6cd" gravity="center" id="@+id/custom_input_value" layout_width="match_parent" layout_height="wrap_content" layout_centerInParent="true" layout_centerHorizontal="true" inputType="numberDecimal" layout_toStartOf="@+id/button_increase" layout_toEndOf="@+id/button_decrease" NOT_FOUND_0x19="@integer/2131361809" style="@style/2131821025"/>
+        </RelativeLayout>
+        <TextView gravity="center" id="@+id/custom_error_message" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/custom_input_header" fontPath="fonts/PSL001Pro.ttf" style="@style/2131821108"/>
+        <TextView gravity="end" id="@+id/custom_limit_message" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="2dp" layout_below="@+id/custom_error_message" layout_marginStart="20dp" layout_marginEnd="20dp" style="@style/2131821058"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <LinearLayout orientation="vertical" background="#ffffff" layout_width="wrap_content" layout_height="wrap_content">
+        <TextView gravity="center_vertical" id="@+id/btnRequestPrepaidCard" padding="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/prepaid_card_request" drawablePadding="24dp" drawableStart="@drawable/ic_request_debit_card" drawableEnd="@drawable/black_arrow" style="@style/2131820985"/>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp" layout_marginStart="16dp"/>
+        <TextView gravity="center_vertical" id="@+id/btnActivatePrepaidCard" padding="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/prepaid_card_activate" drawablePadding="24dp" drawableStart="@drawable/ic_activate_debit_card" drawableEnd="@drawable/black_arrow" style="@style/2131820985"/>
+        <View background="#eae7ec" layout_width="match_parent" layout_height="1dp"/>
+    </LinearLayout>
+</LinearLayout>

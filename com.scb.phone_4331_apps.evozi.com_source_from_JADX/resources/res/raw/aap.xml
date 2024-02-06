@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar id="@+id/toolbar" background="?attr/colorPrimary" layout_width="match_parent" layout_height="?attr/actionBarSize" elevation="2dp" NOT_FOUND_0x1b="0dp">
+        <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="match_parent">
+            <TextView textColor="#7631c1" ellipsize="end" id="@+id/title_text_view" layout_width="0dp" layout_height="wrap_content" text="@string/deejung_installment_plan" maxLines="1" layout_weight="1" style="@style/2131821118"/>
+            <ImageView id="@+id/imv_deejung_about" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_question_mark" layout_marginEnd="16dp"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.core.widget.NestedScrollView id="@+id/nested_scrollview" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <fragment name="com.scb.phone.view.fragment.cardmanagement.CreditCardDisplayFragment" id="@+id/fragment_credit_card_display" tag="CreditCardDisplayFragment" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x20="@+id/toolbar"/>
+            <TextView textColor="#736e78" id="@+id/txv_card_info" padding="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/purchases_for_installment" NOT_FOUND_0x20="@+id/divider1" style="@style/2131821058"/>
+            <View id="@+id/divider2" NOT_FOUND_0x20="@+id/txv_card_info" style="@style/2131821259"/>
+            <androidx.constraintlayout.widget.ConstraintLayout id="@+id/layout_installment_plan" background="#ffffff" focusable="true" visibility="visible" clickable="true" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x20="@+id/divider2">
+                <ImageView id="@+id/imv_installment_plan" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" src="@drawable/ic_bill_credit_card" contentDescription="@null" layout_marginStart="16dp" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x21="0"/>
+                <androidx.constraintlayout.widget.ConstraintLayout id="@+id/layout_total_amount_container" background="#ffffff" layout_width="wrap_content" layout_height="54dp" layout_marginStart="16dp" NOT_FOUND_0x1c="0" NOT_FOUND_0x1e="@+id/imv_installment_plan" NOT_FOUND_0x21="0">
+                    <TextView id="@+id/txv_total_amount" layout_width="wrap_content" layout_height="28dp" NOT_FOUND_0x1d="0" NOT_FOUND_0x21="0" style="@style/2131821015"/>
+                    <TextView id="@+id/txv_count_of_purchases" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1d="0" NOT_FOUND_0x20="@+id/txv_total_amount" style="@style/2131820815"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <ImageView id="@+id/ivm_edit_selected_purchases" layout_width="wrap_content" layout_height="wrap_content" layout_margin="16dp" src="@drawable/ic_edit" NOT_FOUND_0x1c="0" NOT_FOUND_0x1f="0" NOT_FOUND_0x21="0"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <View id="@+id/divider_cost_overview" style="@style/2131821259"/>
+            <TextView textColor="#736e78" id="@+id/label_above_plans" padding="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/cost_overview" style="@style/2131821058"/>
+            <FrameLayout id="@+id/fragment_container" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

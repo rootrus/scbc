@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="horizontal" id="@+id/search_bar_layout" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout layout_width="0dp" layout_height="wrap_content" layout_weight="7">
+        <EditText theme="@style/2131820780" id="@+id/search_edit_text" background="@drawable/bg_search_input_light_gray" padding="8dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" maxLines="1" drawablePadding="8dp" layout_centerVertical="true" inputType="text" imeOptions="actionSearch" drawableStart="@drawable/ic_search_gray" layout_marginStart="16dp" NOT_FOUND_0x16="@color/2131099796"/>
+        <ImageButton id="@+id/search_edit_clear" background="@drawable/ic_cross_circle" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="8dp"/>
+    </RelativeLayout>
+    <Button gravity="center" layout_gravity="center_vertical" id="@+id/bt_search" layout_width="0dp" layout_height="45dp" text="@string/search" layout_weight="2" style="@style/2131821255"/>
+</LinearLayout>

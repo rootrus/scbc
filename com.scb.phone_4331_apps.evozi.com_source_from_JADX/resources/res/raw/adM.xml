@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/toolbar" layout="@layout/2131493731"/>
+    <androidx.core.widget.NestedScrollView id="@+id/view_group_root" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent" fillViewport="true">
+        <LinearLayout orientation="vertical" descendantFocusability="blocksDescendants" layout_width="match_parent" layout_height="wrap_content">
+            <TextView id="@+id/tv_title" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/offshore_currency_cash_label" textAllCaps="true" paddingStart="20dp" paddingEnd="20dp" style="@style/2131820863"/>
+            <androidx.recyclerview.widget.RecyclerView id="@+id/recycler_view" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0x13="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="@+id/title_text_view"/>
+            <androidx.legacy.widget.Space id="@+id/space" background="#f5f3f6" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+            <TextView textColor="#959199" id="@+id/tv_source" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="24dp" textAlignment="center" paddingStart="54dp" paddingEnd="54dp" NOT_FOUND_0x12="@+id/bt_trade_now" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" style="@style/2131820859"/>
+            <Button textColor="#7631c1" id="@+id/bt_trade_now" background="@drawable/bg_button_transparent" layout_width="match_parent" layout_height="50dp" layout_marginTop="18dp" layout_marginBottom="18dp" text="@string/trade_now" layout_marginStart="20dp" layout_marginEnd="20dp" style="@style/2131820806"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/find_us_container_view" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/fragment_select_province_district_container" layout_width="match_parent" layout_height="match_parent"/>
+</RelativeLayout>

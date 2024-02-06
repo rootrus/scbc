@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/view_group_root" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <include id="@+id/toolbar" layout="@layout/2131493731"/>
+        <com.scb.phone.view.custom.common.CustomTabLayout id="@+id/gifts_selection_tabs" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x15="@color/2131099711" NOT_FOUND_0x16="@color/2131099711" NOT_FOUND_0x17="@style/2131820554" NOT_FOUND_0x18="@color/2131099773"/>
+        <androidx.viewpager.widget.ViewPager id="@+id/gifts_selection_viewpager" layout_width="match_parent" layout_height="match_parent"/>
+    </LinearLayout>
+    <ImageView id="@+id/blur_background_image_view" background="#ffffff" visibility="gone" layout_width="match_parent" layout_height="match_parent" contentDescription="@null"/>
+    <LinearLayout orientation="vertical" id="@+id/gift_tutorial_container" visibility="gone" layout_width="match_parent" layout_height="match_parent" elevation="100dp">
+        <ImageView layout_gravity="right" id="@+id/skip_gift_tutorial_image_view" paddingTop="8dp" paddingBottom="24dp" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/tutorial_cross" contentDescription="@null" paddingStart="24dp" paddingEnd="24dp"/>
+        <RelativeLayout layout_width="match_parent" layout_height="match_parent">
+            <androidx.viewpager.widget.ViewPager id="@+id/gift_tutorial_view_pager" layout_width="match_parent" layout_height="match_parent" layout_alignParentLeft="true" layout_alignParentTop="true" layout_alignParentStart="true"/>
+            <p059me.relex.circleindicator.CircleIndicator id="@+id/gift_tutorial_indicator" layout_width="match_parent" layout_height="12dp" layout_marginBottom="20dp" layout_alignParentBottom="true" NOT_FOUND_0x13="@drawable/white_tutorial_select_indicator_radius" NOT_FOUND_0x14="@drawable/white_tutorial_unselect_indicator_radius"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

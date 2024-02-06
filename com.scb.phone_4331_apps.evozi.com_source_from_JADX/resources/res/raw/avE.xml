@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" focusable="true" clickable="true" layout_width="match_parent" layout_height="match_parent">
+    <ImageView id="@+id/image_logo" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" src="@drawable/ic_sof" layout_alignParentTop="true" layout_marginStart="16dp"/>
+    <TextView id="@+id/text_description" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/mf_onboarding_source_description_1" layout_below="@+id/image_logo" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821014"/>
+    <LinearLayout background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_below="@+id/text_description">
+        <RelativeLayout layout_gravity="left" id="@+id/layout_source" background="@drawable/bg_spinner" padding="5dp" layout_width="match_parent" layout_height="wrap_content">
+            <TextView gravity="left|center_vertical|center_horizontal|center" id="@+id/text_source" layout_width="match_parent" layout_height="wrap_content" minHeight="40dp" hint="@string/mf_onboarding_select_one_hint" maxLines="4" minLines="1" layout_alignTop="@+id/image_arrow" layout_marginStart="16dp" layout_marginEnd="16dp" layout_toStartOf="@+id/image_arrow" style="@style/2131821015"/>
+            <ImageView id="@+id/image_arrow" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_alignParentRight="true" layout_centerVertical="true" contentDescription="@null" rotation="-90" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" id="@+id/layout_bottom" background="#f5f3f6" padding="16dp" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+        <Button id="@+id/button_next" layout_width="match_parent" layout_height="wrap_content" text="@string/next" style="@style/2131820837"/>
+    </LinearLayout>
+</RelativeLayout>

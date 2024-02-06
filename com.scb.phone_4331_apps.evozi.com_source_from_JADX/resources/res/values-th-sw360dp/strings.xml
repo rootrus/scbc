@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banking_actions_bulk_transfer">โอนหลายรายการ</string>
+    <string name="banking_actions_remittance">โอนเงินต่างประเทศ</string>
+</resources>

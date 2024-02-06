@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <TextView id="@+id/selected_date_text_view" background="#7631c1" paddingTop="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" style="@style/2131821037"/>
+    <include layout_width="match_parent" layout_height="match_parent" layout_below="@+id/selected_date_text_view" layout_centerInParent="true" layout="@layout/2131493674"/>
+    <LinearLayout orientation="vertical" id="@+id/schedule_list_container" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/selected_date_text_view">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/scheduled_transactions_recycler_view" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp"/>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/empty_list_message_container" padding="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/selected_date_text_view">
+        <TextView gravity="center_horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="5dp" text="@string/schedule_landing_002" style="@style/2131820996"/>
+        <TextView gravity="center_horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="5dp" text="@string/schedule_landing_003" style="@style/2131821082"/>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/error_message_container" paddingTop="16dp" paddingBottom="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/selected_date_text_view">
+        <RelativeLayout gravity="center_vertical" background="@drawable/bg_white_rounded" paddingTop="20dp" paddingBottom="20dp" layout_width="match_parent" layout_height="match_parent" paddingStart="20dp" paddingEnd="20dp">
+            <TextView id="@+id/error_title" layout_width="match_parent" layout_height="wrap_content" text="@string/custom_error_title" layout_alignParentLeft="true" paddingStart="20dp" paddingEnd="20dp" layout_alignParentStart="true" style="@style/2131820996"/>
+            <TextView gravity="left" id="@+id/error_description" layout_width="match_parent" layout_height="wrap_content" text="@string/custom_error_description" layout_below="@+id/error_title" paddingStart="20dp" paddingEnd="20dp" style="@style/2131821054"/>
+            <ImageView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" src="@drawable/ic_reload_empty_item" layout_alignParentRight="true" contentDescription="@null" layout_alignParentEnd="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

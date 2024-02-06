@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <com.scb.phone.view.custom.easycash.CustomEasyCashSectionLabel id="@+id/occupation_area" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x2d="@string/contact_info_header"/>
+        <LinearLayout orientation="vertical" background="@drawable/bg_white_with_border" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/title_name_text" layout_width="match_parent" layout_height="wrap_content" text="@string/etb_personal_info_name" style="@style/2131821015"/>
+                <TextView id="@+id/name_text" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821062"/>
+            </LinearLayout>
+            <include layout="@layout/2131493700"/>
+            <LinearLayout orientation="vertical" id="@+id/english_name" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+                <com.scb.phone.view.custom.common.CommonInputViewGroup id="@+id/custom_input_first_name" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" NOT_FOUND_0x26="true" NOT_FOUND_0x27="@integer/2131361855" NOT_FOUND_0x28="@string/contact_info_eng_first_name_placeholder" NOT_FOUND_0x29="5" NOT_FOUND_0x2a="@string/contact_info_eng_first_name_header"/>
+                <include layout="@layout/2131493700"/>
+                <com.scb.phone.view.custom.common.CommonInputViewGroup id="@+id/custom_input_last_name" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" NOT_FOUND_0x26="true" NOT_FOUND_0x27="@integer/2131361855" NOT_FOUND_0x28="@string/contact_info_eng_last_name_placeholder" NOT_FOUND_0x29="5" NOT_FOUND_0x2a="@string/contact_info_eng_last_name_header"/>
+                <include layout="@layout/2131493700"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                <TextView id="@+id/label_mailing_address" layout_width="match_parent" layout_height="wrap_content" text="@string/contact_info_mailing_address" style="@style/2131821015"/>
+                <RelativeLayout id="@+id/layout_mailing_address" background="@drawable/bg_spinner" padding="4dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp">
+                    <TextView gravity="left|center_vertical|center_horizontal|center" id="@+id/text_mailing_address" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" layout_marginBottom="4dp" minHeight="40dp" hint="@string/enter_contact_address" minLines="1" layout_alignTop="@+id/image_arrow_current" layout_marginStart="16dp" layout_toStartOf="@+id/image_arrow_current" style="@style/2131821015"/>
+                    <ImageView id="@+id/image_arrow_current" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_alignParentRight="true" layout_centerVertical="true" contentDescription="@null" rotation="-2" layout_marginEnd="8dp" layout_alignParentEnd="true"/>
+                </RelativeLayout>
+                <TextView id="@+id/text_mailing_address_error" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" text="@string/address_required_field" layout_marginStart="16dp" style="@style/2131821002"/>
+            </LinearLayout>
+            <include layout="@layout/2131493700"/>
+            <com.scb.phone.view.custom.easycash.CustomPhone id="@+id/phone_edit_text" layout_width="match_parent" layout_height="wrap_content" imeOptions="actionNext" NOT_FOUND_0x2b="@string/contact_info_mobile_number_placeholder" NOT_FOUND_0x2e="@string/contact_info_mobile_number"/>
+            <include layout="@layout/2131493700"/>
+            <LinearLayout orientation="vertical" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/title_email_text" layout_width="match_parent" layout_height="wrap_content" text="@string/etb_personal_info_email" style="@style/2131821015"/>
+                <TextView id="@+id/email_text" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821062"/>
+            </LinearLayout>
+        </LinearLayout>
+        <com.scb.phone.view.custom.easycash.CustomSeparatedViews id="@+id/custom_overview" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.scb.phone.view.custom.easycash.CustomEasyCashSectionLabel layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x2c="true" NOT_FOUND_0x2d="@string/terms_and_conditions_header"/>
+        <LinearLayout orientation="horizontal" background="#ffffff" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="20dp" paddingEnd="16dp">
+            <CheckBox id="@+id/agree_terms_conditions_checkbox" layout_width="wrap_content" layout_height="wrap_content"/>
+            <TextView textColor="#000000" id="@+id/agree_terms_conditions_text" layout_width="wrap_content" layout_height="wrap_content" text="@string/agree_to_label" style="@style/2131820985"/>
+        </LinearLayout>
+        <com.scb.phone.view.custom.easycash.CustomEasyCashSectionLabel id="@+id/label_consent_section" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x2d="@string/consent_to_use_information"/>
+        <LinearLayout orientation="vertical" id="@+id/layout_consent_content" background="@drawable/bg_white_with_border" layout_width="match_parent" layout_height="wrap_content">
+            <TextView paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/contact_info_consent_instruction" lineSpacingExtra="4sp" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820873"/>
+            <include layout="@layout/2131493700"/>
+            <com.scb.phone.view.custom.easycash.CustomSeparatedViews id="@+id/consent_list" layout_width="match_parent" layout_height="wrap_content"/>
+        </LinearLayout>
+        <com.scb.phone.view.custom.easycash.CustomEasyCashSectionLabel layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x2d="@string/reference_code_label"/>
+        <LinearLayout orientation="horizontal" id="@+id/ref_code_collapse_view" background="#ffffff" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+            <TextView layout_width="0dp" layout_height="wrap_content" text="@string/reference_code_title" layout_weight="1" style="@style/2131821015"/>
+            <ImageView layout_gravity="center_vertical" id="@+id/expand_icon_image_view" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" tint="#959199" contentDescription="@null"/>
+        </LinearLayout>
+        <LinearLayout orientation="vertical" id="@+id/ref_code_expand_view" background="#ffffff" paddingBottom="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+            <include layout="@layout/2131493700"/>
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp">
+                <com.scb.phone.view.custom.common.CommonInputViewGroup id="@+id/ref_code_1" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x27="@integer/2131361858" NOT_FOUND_0x28="@string/reference_code_hint_1" NOT_FOUND_0x29="5" NOT_FOUND_0x2a="@string/reference_code_header_1"/>
+            </LinearLayout>
+            <include layout="@layout/2131493699"/>
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+                <com.scb.phone.view.custom.common.CommonInputViewGroup id="@+id/ref_code_2" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x27="@integer/2131361857" NOT_FOUND_0x28="@string/reference_code_hint_2" NOT_FOUND_0x29="6" NOT_FOUND_0x2a="@string/reference_code_header_2"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" id="@+id/layout_bottom" padding="8dp" layout_width="match_parent" layout_height="wrap_content">
+            <Button enabled="false" id="@+id/button_next" layout_width="0dp" layout_height="wrap_content" layout_margin="8dp" text="@string/next" layout_weight="1" style="@style/2131820837"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

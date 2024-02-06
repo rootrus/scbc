@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/rv_loans" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0" NOT_FOUND_0x9="0"/>
+        <Button id="@+id/bt_exit" layout_width="0dp" layout_height="wrap_content" layout_margin="16dp" text="@string/credit_power_summary_exit_button" NOT_FOUND_0x5="0" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0" NOT_FOUND_0x8="@+id/rv_loans" NOT_FOUND_0xa="0" style="@style/2131820806"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

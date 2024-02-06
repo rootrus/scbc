@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <androidx.core.widget.NestedScrollView id="@+id/fund_purchase_landing_scroll_view" background="#ffffff" layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" background="#ffffff" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content">
+            <com.scb.phone.view.custom.transferandpay.CustomTransferAndPayItem id="@+id/tv_transaction_date" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x12="@string/review_transaction_date"/>
+            <include layout="@layout/2131493287"/>
+            <LinearLayout orientation="vertical" id="@+id/request_hold_by_linear_layout" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp">
+                <TextView paddingTop="20dp" paddingBottom="5dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/holding_by_post" style="@style/2131821009"/>
+                <TextView paddingTop="10dp" paddingBottom="10dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/holding_by_post_disclaimer" style="@style/2131821057"/>
+                <LinearLayout orientation="horizontal" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+                    <RadioGroup orientation="horizontal" id="@+id/holding_radio_group" paddingTop="5dp" paddingBottom="5dp" layout_width="match_parent" layout_height="wrap_content">
+                        <androidx.appcompat.widget.AppCompatRadioButton id="@+id/rb_holding_yes" layout_width="wrap_content" layout_height="wrap_content" text="@string/yes" paddingEnd="20dp" NOT_FOUND_0x11="@drawable/radio_button_tint_selector" style="@style/2131821015"/>
+                        <androidx.appcompat.widget.AppCompatRadioButton id="@+id/rb_holding_no" layout_width="wrap_content" layout_height="wrap_content" text="@string/no" NOT_FOUND_0x11="@drawable/radio_button_tint_selector" style="@style/2131821015"/>
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+            <View background="#c9c6cd" layout_width="match_parent" layout_height="1dp" layout_marginTop="16dp" layout_marginStart="16dp"/>
+            <com.scb.phone.view.custom.common.DefaultButton layout_gravity="bottom" id="@+id/button_continue" background="@drawable/bg_button" layout_width="match_parent" layout_height="50dp" layout_marginTop="26dp" layout_marginBottom="16dp" layout_alignParentBottom="true" layout_marginStart="20dp" layout_marginEnd="16dp" NOT_FOUND_0x13="true" NOT_FOUND_0x14="@drawable/ripple_rounded_dark_purple" NOT_FOUND_0x15="@string/confirm" NOT_FOUND_0x16="@color/2131099768"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

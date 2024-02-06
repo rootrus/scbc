@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" color="#af252e">
+    <item id="@android:id/mask" drawable="@drawable/bg_button"/>
+    <item>
+        <selector>
+            <item state_enabled="false">
+                <shape shape="rectangle">
+                    <solid color="#33f05f61"/>
+                    <corners radius="4dp"/>
+                </shape>
+            </item>
+            <item>
+                <shape shape="rectangle">
+                    <solid color="#f15353"/>
+                    <corners radius="4dp"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

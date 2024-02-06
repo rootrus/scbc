@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <ImageView id="@+id/easycash_empty_icon" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="32dp" src="@drawable/icon_easycash_empty" layout_centerHorizontal="true"/>
+    <TextView id="@+id/easycash_empty_text" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp" layout_below="@+id/easycash_empty_icon" layout_centerHorizontal="true" style="@style/2131820983"/>
+    <TextView id="@+id/easycash_empty_description" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_below="@+id/easycash_empty_text" layout_centerHorizontal="true" style="@style/2131821058"/>
+</RelativeLayout>

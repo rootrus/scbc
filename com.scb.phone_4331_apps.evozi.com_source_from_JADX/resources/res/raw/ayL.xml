@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="match_parent" fillViewport="true" layout_above="@+id/layout_button">
+        <LinearLayout gravity="center" orientation="vertical" id="@+id/layout_partner_consent_content" layout_width="match_parent" layout_height="match_parent" layout_centerInParent="true">
+            <ImageView id="@+id/image_consent_icon" visibility="gone" layout_width="58dp" layout_height="58dp" layout_marginTop="8dp" layout_marginBottom="16dp" adjustViewBounds="true"/>
+            <TextView gravity="center_horizontal" id="@+id/tv_consent_detail" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="45dp" layout_marginEnd="45dp" style="@style/2131821015"/>
+            <WebView id="@+id/wv_consent_detail" visibility="gone" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821015"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout orientation="horizontal" id="@+id/layout_button" background="#f5f3f6" paddingTop="24sp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content" weightSum="2" layout_alignParentBottom="true" paddingStart="16dp" paddingEnd="16dp">
+        <Button id="@+id/button_deny" layout_width="0dp" layout_height="wrap_content" text="@string/partner_consent_deny_button" layout_weight="1" layout_marginEnd="8dp" style="@style/2131820806"/>
+        <Button id="@+id/button_allow" layout_width="0dp" layout_height="wrap_content" text="@string/partner_consent_allow_button" layout_weight="1" layout_marginStart="8dp" style="@style/2131820837"/>
+    </LinearLayout>
+    <View id="@+id/fragment_partner_consent_placeholder" background="#ffffff" layout_width="match_parent" layout_height="match_parent"/>
+</RelativeLayout>

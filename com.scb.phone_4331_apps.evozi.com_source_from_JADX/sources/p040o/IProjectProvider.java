@@ -1,0 +1,8 @@
+package p040o;
+
+import p040o.AutoCrashlyticsReportEncoder;
+
+/* renamed from: o.IProjectProvider */
+public interface IProjectProvider extends CheckCaptureModule_GetICheckDeserializerRttiFactory {
+    void MediaBrowserCompat$CustomActionResultReceiver(AutoCrashlyticsReportEncoder.CrashlyticsReportSessionEventApplicationExecutionThreadEncoder crashlyticsReportSessionEventApplicationExecutionThreadEncoder);
+}

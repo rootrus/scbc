@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/toolbar" layout="@layout/2131493731"/>
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <TextView id="@+id/tv_select_theme" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="13dp" text="@string/transfer_gifting_select_theme" layout_marginStart="16dp" style="@style/2131821081"/>
+            <FrameLayout id="@+id/fm_layout_card_selection" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12dp"/>
+            <LinearLayout orientation="vertical" id="@+id/ll_layout_note" background="#ffffff" paddingTop="8dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <com.scb.phone.view.custom.common.NoteEditText id="@+id/note_edit_text" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xd="@string/transfer_gifting_note_description" NOT_FOUND_0xe="@integer/2131361844" NOT_FOUND_0xf="@integer/2131361820" NOT_FOUND_0x10="@string/transfer_gifting_note_title"/>
+            </LinearLayout>
+            <Button id="@+id/bt_gift_input_preview" layout_width="match_parent" layout_height="50dp" layout_marginTop="24dp" text="@string/preview_gift_button_text" layout_marginStart="20dp" layout_marginEnd="20dp" style="@style/2131820806"/>
+            <Button id="@+id/bt_send_gift" layout_width="match_parent" layout_height="50dp" layout_marginTop="18dp" layout_marginBottom="18dp" text="@string/send_gift_money_button_text" layout_marginStart="20dp" layout_marginEnd="20dp" style="@style/2131820837"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

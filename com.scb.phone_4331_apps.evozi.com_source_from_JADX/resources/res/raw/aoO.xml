@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <com.google.android.gms.maps.MapView id="@+id/map_view" layout_width="match_parent" layout_height="match_parent" apiKey="@string/google_map_key"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton id="@+id/my_location_floating_button" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="@dimen/2131165558" src="@drawable/ic_gps_24dp" scaleType="center" tint="#7631c1" layout_above="@+id/search_floating_button" layout_alignParentRight="true" layout_marginEnd="@dimen/2131165559" layout_alignParentEnd="true" backgroundTint="#ffffff" NOT_FOUND_0x11="0"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton id="@+id/search_floating_button" clickable="true" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="@dimen/2131165559" src="@drawable/ic_search_24dp" scaleType="center" tint="#7631c1" layout_alignParentRight="true" layout_alignParentBottom="true" layout_marginEnd="@dimen/2131165559" layout_alignParentEnd="true" backgroundTint="#ffffff" NOT_FOUND_0x11="0"/>
+    <include id="@+id/search_layout" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true" layout="@layout/2131493723"/>
+    <include id="@+id/info_layout" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true" layout="@layout/2131493722"/>
+    <include layout_width="match_parent" layout_height="match_parent" layout="@layout/2131493669"/>
+</RelativeLayout>

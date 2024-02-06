@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" id="@+id/view_group_root_test" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <com.scb.phone.view.custom.common.CustomTabLayout id="@+id/request_money_tab_layout" background="#ffffff" layout_width="match_parent" layout_height="40dp" NOT_FOUND_0x14="@color/2131099711" NOT_FOUND_0x15="2dp" NOT_FOUND_0x16="@color/2131099711" NOT_FOUND_0x17="@style/2131820554" NOT_FOUND_0x18="@color/2131099773"/>
+    <androidx.viewpager.widget.ViewPager id="@+id/request_money_view_pager" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/request_money_tab_layout" overScrollMode="never"/>
+    <ImageView id="@+id/overlay_request_money_tutorial_image_view" visibility="gone" layout_width="match_parent" layout_height="match_parent" scaleType="fitXY" contentDescription="@null" elevation="9dp"/>
+    <RelativeLayout orientation="vertical" id="@+id/request_money_tutorial_relative_layout" clickable="true" layout_width="match_parent" layout_height="match_parent" elevation="9dp">
+        <ImageView id="@+id/ic_arrow_right_coachmark" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp" src="@drawable/ic_arrow_right_coachmark" layout_alignParentRight="true" contentDescription="@null" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+        <TextView gravity="center" id="@+id/tv_request_to_pay_tutorial" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/request_to_pay_tutorial" layout_below="@+id/ic_arrow_right_coachmark" layout_centerHorizontal="true" style="@style/2131821039"/>
+    </RelativeLayout>
+</RelativeLayout>

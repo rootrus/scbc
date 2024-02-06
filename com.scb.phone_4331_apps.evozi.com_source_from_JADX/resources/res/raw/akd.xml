@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" layout_width="match_parent" layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" id="@+id/card_container" background="@drawable/bg_white_rounded" paddingTop="16dp" paddingBottom="16dp" layout_width="@dimen/2131166024" layout_height="wrap_content" layout_margin="5dp" foreground="@drawable/ripple_rounded_4_purple" layout_centerInParent="true" layout_marginStart="16dp" layout_marginEnd="16dp" elevation="2dp">
+        <RelativeLayout id="@+id/layout_card" layout_width="92dp" layout_height="80dp" layout_marginStart="1dp" NOT_FOUND_0x24="0" NOT_FOUND_0x29="0">
+            <com.scb.phone.view.custom.common.ImageViewCropStart id="@+id/image_card_art" layout_width="match_parent" layout_height="match_parent" scaleType="matrix"/>
+            <LinearLayout orientation="horizontal" id="@+id/credit_card_dots_linear_layout" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentLeft="true" layout_alignParentBottom="true" layout_marginStart="1dp" layout_alignParentStart="true">
+                <View background="@drawable/shape_credit_card_dot" layout_width="5dp" layout_height="5dp" layout_marginBottom="30dp" layout_marginEnd="5dp"/>
+                <View background="@drawable/shape_credit_card_dot" layout_width="5dp" layout_height="5dp" layout_marginEnd="2dp"/>
+                <View background="@drawable/shape_credit_card_dot" layout_width="5dp" layout_height="5dp" layout_marginEnd="2dp"/>
+                <View background="@drawable/shape_credit_card_dot" layout_width="5dp" layout_height="5dp" layout_marginEnd="2dp"/>
+                <View background="@drawable/shape_credit_card_dot" layout_width="5dp" layout_height="5dp"/>
+            </LinearLayout>
+            <TextView id="@+id/tv_card_last_number" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="23dp" maxLines="1" lines="1" shadowColor="#353239" shadowDx="2" shadowDy="2" shadowRadius="2" layout_alignParentBottom="true" layout_marginStart="8dp" layout_toEndOf="@+id/credit_card_dots_linear_layout" style="@style/2131821038"/>
+        </RelativeLayout>
+        <TextView ellipsize="end" gravity="end" id="@+id/tv_card_reference_name" layout_width="0dp" layout_height="wrap_content" maxLines="1" lines="1" paddingStart="8dp" paddingEnd="16dp" NOT_FOUND_0x23="0" NOT_FOUND_0x25="@+id/layout_card" NOT_FOUND_0x27="@+id/layout_card" NOT_FOUND_0x29="0" style="@style/2131821015"/>
+        <TextView ellipsize="end" gravity="end" id="@+id/tv_card_available_label" layout_width="0dp" layout_height="wrap_content" layout_marginTop="8dp" text="@string/cardless_atm_credit_card_available_lable" maxLines="1" layout_below="@+id/tv_card_reference_name" paddingStart="8dp" paddingEnd="16dp" NOT_FOUND_0x24="@+id/tv_card_reference_name" NOT_FOUND_0x26="@+id/tv_card_reference_name" NOT_FOUND_0x28="@+id/tv_card_reference_name" style="@style/2131821062"/>
+        <androidx.appcompat.widget.AppCompatTextView gravity="end" id="@+id/tv_card_available_credit" layout_width="0dp" layout_height="wrap_content" maxLines="1" lines="1" layout_below="@+id/tv_card_available_label" paddingStart="8dp" paddingEnd="16dp" NOT_FOUND_0x20="22sp" NOT_FOUND_0x21="1sp" NOT_FOUND_0x22="1" NOT_FOUND_0x24="@+id/tv_card_reference_name" NOT_FOUND_0x26="@+id/tv_card_reference_name" NOT_FOUND_0x28="@+id/tv_card_available_label" style="@style/2131821062"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

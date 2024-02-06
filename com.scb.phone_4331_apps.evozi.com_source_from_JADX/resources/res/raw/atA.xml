@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" background="#f5f3f6" clickable="true" layout_width="match_parent" layout_height="match_parent">
+    <ScrollView layout_width="match_parent" layout_height="match_parent" layout_alignParentTop="true">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <TextView id="@+id/label_personal_information" background="#f5f3f6" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/ntb_fillinformation_contact_info" paddingStart="16dp" paddingEnd="16dp" style="@style/2131820996"/>
+            <LinearLayout orientation="vertical" background="#ffffff" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <com.scb.phone.view.custom.common.CommonInputViewGroup id="@+id/email_edit_text" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x21="100" NOT_FOUND_0x22="@string/ntb_fillinformation_contact_info_email_hint" NOT_FOUND_0x23="5" NOT_FOUND_0x24="@string/ntb_fillinformation_contact_info_email"/>
+                <com.scb.phone.view.custom.common.CommonInputViewGroup id="@+id/mobile" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x21="10" NOT_FOUND_0x22="@string/ntb_fillinformation_contact_info_mobile_hint" NOT_FOUND_0x24="@string/ntb_fillinformation_contact_info_mobile"/>
+                <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/ntb_fillinformation_contact_info_mobile_otp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821058"/>
+                <TextView id="@+id/label_home_address" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/ntb_fillinformation_contact_info_home_address" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+                <RelativeLayout layout_gravity="left" id="@+id/layout_home_address" background="@drawable/bg_spinner" padding="4dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+                    <TextView gravity="left|center_vertical|center_horizontal|center" id="@+id/text_home_address" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" layout_marginBottom="4dp" minHeight="40dp" hint="@string/ntb_fillinformation_contact_info_home_address_hint" minLines="1" layout_alignTop="@+id/iv_arrow" layout_marginStart="16dp" layout_marginEnd="16dp" layout_toStartOf="@+id/iv_arrow" style="@style/2131821015"/>
+                    <ImageView id="@+id/iv_arrow" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_alignParentRight="true" layout_centerVertical="true" contentDescription="@null" rotation="-90" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+                </RelativeLayout>
+                <TextView id="@+id/label_current_address" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/ntb_fillinformation_contact_info_current_address" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+                <RelativeLayout layout_gravity="left" id="@+id/layout_current_address" background="@drawable/bg_spinner" padding="4dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+                    <TextView gravity="left|center_vertical|center_horizontal|center" id="@+id/text_current_address" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" layout_marginBottom="4dp" minHeight="40dp" hint="@string/ntb_fillinformation_contact_info_current_address_hint" minLines="1" layout_alignTop="@+id/image_arrow_current" layout_marginStart="16dp" layout_marginEnd="16dp" layout_toStartOf="@+id/image_arrow_current" style="@style/2131821015"/>
+                    <ImageView id="@+id/image_arrow_current" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/ic_expand_more_black_24dp" layout_alignParentRight="true" layout_centerVertical="true" contentDescription="@null" rotation="-90" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+                </RelativeLayout>
+                <CheckBox id="@+id/checkbox_same_address" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" button="@drawable/terms_checkbox_selector" text="@string/ntb_fillinformation_contact_info_current_home_address_mark" paddingStart="6dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/layout_bottom" background="#f5f3f6" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+                <Button id="@+id/button_next" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" text="@string/next" style="@style/2131820837"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+package p040o;
+
+import java.util.Map;
+import java.util.Queue;
+import org.apache.http.auth.MalformedChallengeException;
+
+/* renamed from: o.RegistrationNoDataActivity */
+public interface RegistrationNoDataActivity {
+    void IconCompatParcelizer(PrivacyManagementLandingViewHolder privacyManagementLandingViewHolder, ManagePromptpayLandingActivity managePromptpayLandingActivity, CreditCardBilledDetailAdapter$ParentViewHolder creditCardBilledDetailAdapter$ParentViewHolder);
+
+    boolean IconCompatParcelizer(PrivacyManagementLandingViewHolder privacyManagementLandingViewHolder, ScbPrivacyPolicyActivity scbPrivacyPolicyActivity, CreditCardBilledDetailAdapter$ParentViewHolder creditCardBilledDetailAdapter$ParentViewHolder);
+
+    Queue<VerifyIdentityTipsActivity> read(Map<String, PrepaidRequestMarketConductActivity> map, PrivacyManagementLandingViewHolder privacyManagementLandingViewHolder, ScbPrivacyPolicyActivity scbPrivacyPolicyActivity, CreditCardBilledDetailAdapter$ParentViewHolder creditCardBilledDetailAdapter$ParentViewHolder) throws MalformedChallengeException;
+
+    Map<String, PrepaidRequestMarketConductActivity> write(PrivacyManagementLandingViewHolder privacyManagementLandingViewHolder, ScbPrivacyPolicyActivity scbPrivacyPolicyActivity, CreditCardBilledDetailAdapter$ParentViewHolder creditCardBilledDetailAdapter$ParentViewHolder) throws MalformedChallengeException;
+
+    void write(PrivacyManagementLandingViewHolder privacyManagementLandingViewHolder, ManagePromptpayLandingActivity managePromptpayLandingActivity, CreditCardBilledDetailAdapter$ParentViewHolder creditCardBilledDetailAdapter$ParentViewHolder);
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout background="#ffffff" layout_width="match_parent" layout_height="80dp">
+        <ImageView id="@+id/image_icon" layout_width="50dp" layout_height="50dp" layout_centerVertical="true" contentDescription="@null" layout_marginStart="16dp"/>
+        <ImageView id="@+id/view_edit" background="?attr/selectableItemBackgroundBorderless" layout_width="48dp" layout_height="48dp" src="@drawable/ic_close_24dp" scaleType="center" tint="#7631c1" layout_alignParentRight="true" layout_centerVertical="true" contentDescription="@string/cancel" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+        <RelativeLayout layout_width="match_parent" layout_height="wrap_content" layout_centerVertical="true" layout_marginStart="16dp" layout_toStartOf="@+id/view_edit" layout_toEndOf="@+id/image_icon">
+            <TextView id="@+id/text_title" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821015"/>
+            <TextView id="@+id/text_account_number" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/text_title" layout_alignLeft="@+id/text_title" layout_alignStart="@+id/text_title" style="@style/2131821062"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View style="@style/2131821259"/>
+    <LinearLayout orientation="vertical" id="@+id/view_group_account_number" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+        <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/transfer_to_account_number" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+        <EditText textColorHint="#c9c6cd" id="@+id/edit_account_number" background="@drawable/shape_gray_rounded_rectangle" layout_width="match_parent" layout_height="40dp" layout_marginTop="8dp" hint="@string/transfer_to_account_number_hint" inputType="number" imeOptions="actionNext" paddingStart="16dp" paddingEnd="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131821015"/>
+        <View layout_marginTop="24dp" style="@style/2131821259"/>
+    </LinearLayout>
+    <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/review_amount" textAllCaps="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820996"/>
+    <View layout_marginTop="8dp" style="@style/2131821259"/>
+    <LinearLayout orientation="vertical" background="#ffffff" paddingTop="16dp" layout_width="match_parent" layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout id="@+id/text_error_input_layout" background="#ffffff" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x21="false" NOT_FOUND_0x22="@style/2131821003" NOT_FOUND_0x23="false">
+            <com.scb.phone.view.custom.common.AmountEditText gravity="end" id="@+id/edit_amount" layout_width="match_parent" layout_height="wrap_content" hint="@string/transfer_to_account_amount_hint" inputType="numberDecimal" imeOptions="actionDone" style="@style/2131821029"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <View layout_marginTop="16dp" style="@style/2131821259"/>
+    </LinearLayout>
+    <include layout_width="match_parent" layout_height="26dp" layout_marginTop="16dp" layout_marginEnd="16dp" layout="@layout/2131493668"/>
+    <include layout="@layout/2131493633"/>
+    <TextView layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/note_more_options" textAllCaps="true" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/2131820996"/>
+    <View layout_marginTop="8dp" style="@style/2131821259"/>
+    <LinearLayout orientation="vertical" id="@+id/note_layout" background="#ffffff" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+        <com.scb.phone.view.custom.common.NoteEditText id="@+id/note_edit_text" layout_width="match_parent" layout_height="wrap_content"/>
+    </LinearLayout>
+    <View id="@+id/vw_schedule_line" style="@style/2131821259"/>
+    <LinearLayout orientation="vertical" background="#ffffff" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+        <com.scb.phone.view.custom.common.CustomScheduleView id="@+id/schedule_view" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x20="true"/>
+    </LinearLayout>
+    <View style="@style/2131821259"/>
+    <LinearLayout orientation="vertical" id="@+id/ll_gift_layout" background="#ffffff" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+        <com.scb.phone.view.custom.common.CustomGiftingView id="@+id/custom_gifting_view" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="12dp" layout_marginEnd="16dp" NOT_FOUND_0x20="true"/>
+    </LinearLayout>
+    <com.scb.phone.view.custom.common.DefaultButton id="@+id/button_review" background="@drawable/bg_button" layout_width="match_parent" layout_height="48dp" layout_marginTop="24dp" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x24="@drawable/ripple_rounded_dark_purple" NOT_FOUND_0x25="@string/review" NOT_FOUND_0x26="@color/2131100257"/>
+</LinearLayout>

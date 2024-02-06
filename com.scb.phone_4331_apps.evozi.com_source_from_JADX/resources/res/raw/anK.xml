@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <TextView id="@+id/tv_mobile_number_picker_title" padding="16dp" layout_width="match_parent" layout_height="wrap_content" style="@style/2131821098"/>
+    <View background="#7631c1" layout_width="match_parent" layout_height="1dp"/>
+    <com.scb.phone.view.custom.ColorChangeableNumberPicker id="@+id/mobile_number_picker" descendantFocusability="blocksDescendants" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" NOT_FOUND_0xc="@color/2131099881"/>
+    <View background="#959199" layout_width="match_parent" layout_height="1dp" layout_marginTop="16dp"/>
+    <Button gravity="center" layout_gravity="center_horizontal" id="@+id/bt_done" background="@null" padding="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/done" style="@style/2131821013"/>
+</LinearLayout>

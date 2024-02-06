@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#f5f3f6" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/2131493731"/>
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="wrap_content" fillViewport="true">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <LinearLayout orientation="vertical" id="@+id/linear_layout_from_account" visibility="invisible" layout_width="match_parent" layout_height="wrap_content">
+                <TextView id="@+id/from_text_view" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/from" layout_marginStart="20dp" layout_marginEnd="20dp" style="@style/2131820996"/>
+                <com.scb.phone.view.custom.common.NoSwipeViewPager id="@+id/account_select_view_pager" layout_width="match_parent" layout_height="120dp"/>
+                <TextView id="@+id/to_text_view" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" text="@string/to" layout_marginStart="20dp" style="@style/2131820996"/>
+                <View id="@+id/bottom_divider" style="@style/2131821259"/>
+            </LinearLayout>
+            <LinearLayout gravity="center_vertical" orientation="vertical" id="@+id/to_account_error_layout" background="@drawable/bg_white_rounded" padding="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_margin="4dp" elevation="2dp">
+                <TextView textColor="#454249" gravity="center" layout_width="match_parent" layout_height="wrap_content" text="@string/not_eligible_account_error_title" layout_below="@+id/icon" layout_centerHorizontal="true" style="@style/2131820985"/>
+                <TextView gravity="center" layout_width="match_parent" layout_height="wrap_content" text="@string/not_eligible_account_error_description" layout_below="@+id/error_title" style="@style/2131821060"/>
+            </LinearLayout>
+            <FrameLayout id="@+id/cash_out_fragment_container" layout_width="match_parent" layout_height="wrap_content"/>
+            <FrameLayout id="@+id/cash_out_input_fragment_container" layout_width="match_parent" layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

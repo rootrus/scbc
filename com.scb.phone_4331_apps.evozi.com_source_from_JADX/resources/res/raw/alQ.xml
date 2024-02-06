@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" orientation="vertical" background="#ffffff" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" paddingTop="20dp" paddingBottom="20dp" layout_width="match_parent" layout_height="wrap_content">
+        <RelativeLayout layout_width="match_parent" layout_height="wrap_content">
+            <ImageView id="@+id/icon_promptpay" padding="2dp" layout_width="32dp" layout_height="32dp" tint="#d8353239" layout_marginStart="16dp"/>
+            <TextView id="@+id/promptpay_id" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" layout_alignTop="@+id/icon_promptpay" layout_marginStart="8dp" layout_marginEnd="8dp" layout_toStartOf="@+id/icon_arrow" layout_toEndOf="@+id/icon_promptpay" style="@style/2131821015"/>
+            <ImageView id="@+id/icon_arrow" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" src="@drawable/black_arrow" tint="#000000" layout_alignTop="@+id/icon_promptpay" layout_alignParentRight="true" layout_marginEnd="16dp"/>
+        </RelativeLayout>
+        <RelativeLayout id="@+id/relative_account" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+            <ImageView id="@+id/icon_green_arrow" padding="2dp" layout_width="32dp" layout_height="32dp" src="@drawable/link_icon" layout_marginStart="16dp"/>
+            <ImageView id="@+id/icon_account" padding="2dp" layout_width="32dp" layout_height="32dp" src="@drawable/account_black_icon" layout_below="@+id/icon_green_arrow" layout_marginStart="16dp"/>
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_alignTop="@+id/icon_account" layout_marginStart="8dp" layout_marginEnd="16dp" layout_toEndOf="@+id/icon_account">
+                <TextView id="@+id/account" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" style="@style/2131821015"/>
+                <TextView id="@+id/type_account" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821015"/>
+                <TextView id="@+id/nickname" layout_width="wrap_content" layout_height="wrap_content" style="@style/2131821062"/>
+                <LinearLayout orientation="horizontal" id="@+id/linear_request_money" layout_width="match_parent" layout_height="wrap_content">
+                    <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/manage_promptpay_request_money" style="@style/2131821058"/>
+                    <ImageView layout_width="16dp" layout_height="16dp" src="@drawable/ic_gift_background_check" layout_marginStart="8dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View id="@+id/separator_view" layout_marginStart="16dp" style="@style/2131821259"/>
+</LinearLayout>
